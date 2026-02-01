@@ -104,7 +104,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <div class="grid gap-6 md:grid-cols-3">
         <figure class="rounded-3xl border border-emerald-100 bg-white p-4 shadow-soft">
           <img
-            src="/screenshots/step-1-categories.png"
+            src={`${import.meta.env.BASE_URL}screenshots/step-1-categories.png`}
             alt="Category selection showing Nonfiction, Professional, and Fiction topics"
             class="w-full rounded-2xl"
             loading="lazy"
@@ -115,7 +115,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         </figure>
         <figure class="rounded-3xl border border-emerald-100 bg-white p-4 shadow-soft">
           <img
-            src="/screenshots/step-2-reading.png"
+            src={`${import.meta.env.BASE_URL}screenshots/step-2-reading.png`}
             alt="Reading view with word popup showing translation and example"
             class="w-full rounded-2xl"
             loading="lazy"
@@ -126,7 +126,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
         </figure>
         <figure class="rounded-3xl border border-emerald-100 bg-white p-4 shadow-soft">
           <img
-            src="/screenshots/step-3-practice.png"
+            src={`${import.meta.env.BASE_URL}screenshots/step-3-practice.png`}
             alt="Practice flashcard with spaced repetition buttons"
             class="w-full rounded-2xl"
             loading="lazy"
