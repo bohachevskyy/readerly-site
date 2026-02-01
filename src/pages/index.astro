@@ -1,5 +1,9 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+import step1Categories from "../assets/screenshots/step-1-categories.png";
+import step2Reading from "../assets/screenshots/step-2-reading.png";
+import step3Practice from "../assets/screenshots/step-3-practice.png";
 ---
 <BaseLayout
   title="Readerly — Learn words in context"
@@ -103,33 +107,39 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       </div>
       <div class="grid gap-6 md:grid-cols-3">
         <figure class="rounded-3xl border border-emerald-100 bg-white p-4 shadow-soft">
-          <img
-            src={`${import.meta.env.BASE_URL}screenshots/step-1-categories.png`}
+          <Image
+            src={step1Categories}
             alt="Category selection showing Nonfiction, Professional, and Fiction topics"
+            width={600}
             class="w-full rounded-2xl"
             loading="lazy"
+            decoding="async"
           />
           <figcaption class="mt-3 text-sm text-muted">
             <strong class="text-ink">Pick a topic</strong> — Choose from nonfiction, professional, or fiction stories.
           </figcaption>
         </figure>
         <figure class="rounded-3xl border border-emerald-100 bg-white p-4 shadow-soft">
-          <img
-            src={`${import.meta.env.BASE_URL}screenshots/step-2-reading.png`}
+          <Image
+            src={step2Reading}
             alt="Reading view with word popup showing translation and example"
+            width={600}
             class="w-full rounded-2xl"
             loading="lazy"
+            decoding="async"
           />
           <figcaption class="mt-3 text-sm text-muted">
             <strong class="text-ink">Read and tap</strong> — Tap words for instant translations and examples.
           </figcaption>
         </figure>
         <figure class="rounded-3xl border border-emerald-100 bg-white p-4 shadow-soft">
-          <img
-            src={`${import.meta.env.BASE_URL}screenshots/step-3-practice.png`}
+          <Image
+            src={step3Practice}
             alt="Practice flashcard with spaced repetition buttons"
+            width={600}
             class="w-full rounded-2xl"
             loading="lazy"
+            decoding="async"
           />
           <figcaption class="mt-3 text-sm text-muted">
             <strong class="text-ink">Smart review</strong> — The system adapts to your memory and schedules practice at the right time.
