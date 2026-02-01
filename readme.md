@@ -9,7 +9,6 @@ This is the marketing one‑pager for Readerly.
 
 ## Local Development
 ```bash
-cd www
 npm install
 npm run dev
 ```
@@ -18,7 +17,6 @@ Astro will print a local URL (usually http://localhost:4321).
 
 ## Build
 ```bash
-cd www
 npm run build
 ```
 
