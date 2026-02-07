@@ -54,11 +54,32 @@ const paragraphs = tokenize(story.text);
 function normalize(word: string): string {
   return word.toLowerCase().replace(/[^a-zA-Z'-]/g, "");
 }
+
+const siteUrl = Astro.site?.toString() ?? "https://readerly.ai";
+const pageUrl = new URL(Astro.url.pathname, siteUrl).toString();
+
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: story.title,
+  description: story.description,
+  url: pageUrl,
+  inLanguage: "en",
+  publisher: {
+    "@type": "Organization",
+    name: "Readerly",
+    url: siteUrl,
+  },
+  isAccessibleForFree: true,
+  educationalLevel: story.level,
+};
 ---
 
 <BaseLayout
   title={`${story.title} — Read on Readerly`}
   description={story.description}
+  ogType="article"
+  jsonLdOverride={articleJsonLd}
 >
   <!-- Header -->
   <header class="border-b border-emerald-100 bg-white">

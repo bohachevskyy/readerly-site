@@ -4,12 +4,14 @@ import "../styles/global.css";
 const {
   title = "Readerly — Free English Learning | Beginners and Advanced Learners & Professionals",
   description = "Learn English vocabulary through reading stories. Free for all levels - from beginners to professionals. Master business, career, and everyday vocabulary with spaced repetition.",
+  ogType = "website",
+  jsonLdOverride,
 } = Astro.props;
 
 const siteUrl = Astro.site?.toString() ?? "https://readerly.ai";
 const canonicalUrl = new URL(Astro.url.pathname, siteUrl).toString();
 const ogImage = `${siteUrl}og.svg`;
-const jsonLd = {
+const jsonLd = jsonLdOverride ?? {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   name: "Readerly",
@@ -37,7 +39,7 @@ const jsonLd = {
 
     <title>{title}</title>
 
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalUrl} />
@@ -50,9 +52,7 @@ const jsonLd = {
 
     <link rel="icon" href={`${import.meta.env.BASE_URL}favicon.svg`} type="image/svg+xml" />
     <link rel="apple-touch-icon" href={`${import.meta.env.BASE_URL}favicon.svg`} />
-    <script type="application/ld+json">
-      {JSON.stringify(jsonLd)}
-    </script>
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   </head>
   <body>
     <slot />
