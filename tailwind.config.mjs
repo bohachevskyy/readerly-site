@@ -12,6 +12,7 @@ export default {
       },
       fontFamily: {
         sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+        serif: ["Lora", "Georgia", "Cambria", "serif"],
       },
       boxShadow: {
         soft: "0 12px 40px -24px rgba(15, 23, 42, 0.35)",
