@@ -147,15 +147,79 @@ function normalize(word: string): string {
       </div>
     </article>
 
-    <!-- Tooltip (hidden by default) -->
+    <!-- Word popup (hidden by default) -->
     <div
       id="tooltip"
       class="pointer-events-none fixed z-50 opacity-0 transition-opacity duration-150"
       style="top:0;left:0"
     >
-      <div class="rounded-xl border border-emerald-200 bg-white px-4 py-3 shadow-lg max-w-[240px]">
-        <p id="tooltip-original" class="text-xs font-medium uppercase tracking-wider text-muted"></p>
-        <p id="tooltip-translation" class="mt-1 text-base font-semibold text-ink"></p>
+      <div class="rounded-2xl border border-emerald-200 bg-white shadow-lg w-[320px]">
+        <!-- Header: word + speak + close -->
+        <div class="flex items-start justify-between gap-2 px-5 pt-4 pb-2">
+          <div class="flex items-center gap-2">
+            <p id="tooltip-word" class="text-xl font-bold text-ink"></p>
+            <button
+              id="tooltip-speak"
+              type="button"
+              title="Pronounce word"
+              class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-muted transition hover:bg-emerald-100 hover:text-ink"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072M17.95 6.05a8 8 0 010 11.9M11 5L6 9H2v6h4l5 4V5z" />
+              </svg>
+            </button>
+          </div>
+          <button
+            id="tooltip-close"
+            type="button"
+            title="Close"
+            class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-muted transition hover:bg-emerald-100 hover:text-ink"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Part of speech -->
+        <p id="tooltip-pos" class="px-5 text-sm italic text-muted"></p>
+
+        <!-- Sections -->
+        <div class="mt-3 space-y-3 px-5 pb-2">
+          <!-- Translation -->
+          <div id="tooltip-translation-section">
+            <p class="text-xs font-medium text-muted">Translation</p>
+            <p id="tooltip-translation" class="mt-0.5 text-base font-semibold text-ink"></p>
+          </div>
+
+          <!-- Sentence context -->
+          <div id="tooltip-sentence-section">
+            <p class="text-xs font-medium text-muted">Sentence</p>
+            <p id="tooltip-sentence" class="mt-0.5 text-sm leading-relaxed text-ink/80"></p>
+          </div>
+
+          <!-- Example -->
+          <div id="tooltip-example-section">
+            <p class="text-xs font-medium text-muted">Example</p>
+            <p id="tooltip-example" class="mt-0.5 text-sm italic leading-relaxed text-ink/70"></p>
+          </div>
+        </div>
+
+        <!-- Save word CTA -->
+        <div class="px-5 pb-4 pt-2">
+          <a
+            href={story.appUrl || "https://app.readerly.ai"}
+            target="_blank"
+            rel="noopener"
+            class="flex w-full items-center justify-center gap-2 rounded-xl bg-emerald-400 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-500"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+            </svg>
+            Save to my dictionary
+          </a>
+          <p class="mt-1.5 text-center text-[11px] text-muted">Free account required</p>
+        </div>
       </div>
     </div>
   </main>
@@ -170,15 +234,51 @@ function normalize(word: string): string {
     </div>
   </footer>
 
-  <script define:vars={{ translations: story.translations, languages }}>
+  <script define:vars={{ translations: story.translations, words: story.words || {}, languages, storyText: story.text }}>
     // --- State ---
     let currentLang = localStorage.getItem("readerly-lang") || languages[0];
     if (!languages.includes(currentLang)) currentLang = languages[0];
 
     const tooltip = document.getElementById("tooltip");
-    const tooltipOriginal = document.getElementById("tooltip-original");
-    const tooltipTranslation = document.getElementById("tooltip-translation");
+    const elWord = document.getElementById("tooltip-word");
+    const elPos = document.getElementById("tooltip-pos");
+    const elTranslation = document.getElementById("tooltip-translation");
+    const elSentence = document.getElementById("tooltip-sentence");
+    const elSentenceSection = document.getElementById("tooltip-sentence-section");
+    const elExample = document.getElementById("tooltip-example");
+    const elExampleSection = document.getElementById("tooltip-example-section");
     let activeWord = null;
+
+    // --- Sentence extraction ---
+    const sentences = storyText.split(/(?<=[.!?])\s+/);
+
+    function findSentence(word) {
+      const pattern = new RegExp("\\b" + word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i");
+      return sentences.find((s) => pattern.test(s)) || null;
+    }
+
+    // --- Speech synthesis ---
+    const speakBtn = document.getElementById("tooltip-speak");
+
+    function speakWord(word) {
+      if (!("speechSynthesis" in window)) return;
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = "en-US";
+      utterance.rate = 0.9;
+      window.speechSynthesis.speak(utterance);
+    }
+
+    speakBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      if (activeWord) speakWord(activeWord.dataset.word);
+    });
+
+    // --- Close button ---
+    document.getElementById("tooltip-close").addEventListener("click", (e) => {
+      e.stopPropagation();
+      hideTooltip();
+    });
 
     // --- Language switcher ---
     const langSelect = document.getElementById("lang-select");
@@ -187,13 +287,9 @@ function normalize(word: string): string {
       currentLang = lang;
       localStorage.setItem("readerly-lang", lang);
       langSelect.value = lang;
-      // Update tooltip if open
-      if (activeWord) {
-        showTooltipForWord(activeWord);
-      }
+      if (activeWord) showTooltipForWord(activeWord);
     }
 
-    // Restore saved language on load
     setActiveLang(currentLang);
 
     langSelect.addEventListener("change", () => {
@@ -205,16 +301,42 @@ function normalize(word: string): string {
       const word = span.dataset.word;
       const dict = translations[currentLang] || {};
       const translation = dict[word];
+      const wordInfo = words[word];
 
-      tooltipOriginal.textContent = word;
-      if (translation) {
-        tooltipTranslation.textContent = translation;
-        tooltipTranslation.classList.remove("text-muted", "text-sm");
-        tooltipTranslation.classList.add("text-ink", "text-base");
+      // Word
+      elWord.textContent = word;
+
+      // Part of speech
+      if (wordInfo && wordInfo.pos) {
+        elPos.textContent = wordInfo.pos;
+        elPos.style.display = "";
       } else {
-        tooltipTranslation.textContent = "no translation available";
-        tooltipTranslation.classList.remove("text-ink", "text-base");
-        tooltipTranslation.classList.add("text-muted", "text-sm");
+        elPos.style.display = "none";
+      }
+
+      // Translation
+      if (translation) {
+        elTranslation.textContent = translation;
+      } else {
+        elTranslation.textContent = "—";
+      }
+
+      // Sentence context from story
+      const sentence = findSentence(word);
+      if (sentence) {
+        const boldPattern = new RegExp("(\\b" + word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b)", "i");
+        elSentence.innerHTML = sentence.trim().replace(boldPattern, '<strong class="font-semibold">$1</strong>');
+        elSentenceSection.style.display = "";
+      } else {
+        elSentenceSection.style.display = "none";
+      }
+
+      // Example
+      if (wordInfo && wordInfo.example) {
+        elExample.textContent = wordInfo.example;
+        elExampleSection.style.display = "";
+      } else {
+        elExampleSection.style.display = "none";
       }
 
       // Position tooltip
@@ -223,7 +345,7 @@ function normalize(word: string): string {
       tooltip.style.opacity = "1";
       tooltip.classList.remove("pointer-events-none");
 
-      // Temporarily show to measure
+      // Measure
       tooltip.style.left = "0px";
       tooltip.style.top = "0px";
       const tRect = tooltipEl.getBoundingClientRect();
@@ -235,9 +357,7 @@ function normalize(word: string): string {
       if (left < 8) left = 8;
       if (left + tRect.width > window.innerWidth - 8)
         left = window.innerWidth - tRect.width - 8;
-      if (top < 8) {
-        top = rect.bottom + 8;
-      }
+      if (top < 8) top = rect.bottom + 8;
 
       tooltip.style.left = left + "px";
       tooltip.style.top = top + "px";
@@ -259,36 +379,27 @@ function normalize(word: string): string {
         hideTooltip();
         return;
       }
-
-      // If clicking the same word, toggle off
       if (activeWord === span) {
         hideTooltip();
         return;
       }
-
-      // Deactivate previous
-      if (activeWord) {
-        activeWord.classList.remove("bg-emerald-200");
-      }
+      if (activeWord) activeWord.classList.remove("bg-emerald-200");
 
       activeWord = span;
       span.classList.add("bg-emerald-200");
       showTooltipForWord(span);
     });
 
-    // Close on click outside
     document.addEventListener("click", (e) => {
       if (!e.target.closest(".word") && !e.target.closest("#tooltip")) {
         hideTooltip();
       }
     });
 
-    // Close on Escape
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") hideTooltip();
     });
 
-    // Reposition on scroll/resize
     function repositionTooltip() {
       if (activeWord) showTooltipForWord(activeWord);
     }

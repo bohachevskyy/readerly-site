@@ -1,9 +1,16 @@
+export interface WordInfo {
+  pos?: string;
+  example?: string;
+}
+
 export interface Story {
   title: string;
   slug: string;
   description: string;
   level: string;
+  appUrl?: string;
   text: string;
+  words?: Record<string, WordInfo>;
   translations: Record<string, Record<string, string>>;
 }
 
