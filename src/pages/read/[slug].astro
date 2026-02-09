@@ -255,10 +255,34 @@ const articleJsonLd = {
     </div>
   </footer>
 
-  <script define:vars={{ translations: story.translations, words: story.words || {}, languages, storyText: story.text }}>
+  <script define:vars={{ slug: story.slug, languages, storyText: story.text }}>
     // --- State ---
     let currentLang = localStorage.getItem("readerly-lang") || languages[0];
     if (!languages.includes(currentLang)) currentLang = languages[0];
+
+    // --- Lazy-loaded translations and words ---
+    let translations = {};
+    let words = {};
+    let isLoading = true;
+    let loadError = false;
+
+    // Fetch translations on page load
+    (async function loadTranslations() {
+      try {
+        const res = await fetch(`/api/stories/${slug}/translations.json`);
+        if (!res.ok) throw new Error("Failed to load translations");
+        const data = await res.json();
+        translations = data.translations || {};
+        words = data.words || {};
+        isLoading = false;
+        // If tooltip is open, refresh it with loaded data
+        if (activeWord) showTooltipForWord(activeWord);
+      } catch (err) {
+        console.error("Error loading translations:", err);
+        isLoading = false;
+        loadError = true;
+      }
+    })();
 
     const tooltip = document.getElementById("tooltip");
     const elWord = document.getElementById("tooltip-word");
@@ -320,44 +344,58 @@ const articleJsonLd = {
     // --- Tooltip logic ---
     function showTooltipForWord(span) {
       const word = span.dataset.word;
-      const dict = translations[currentLang] || {};
-      const translation = dict[word];
-      const wordInfo = words[word];
 
       // Word
       elWord.textContent = word;
 
-      // Part of speech
-      if (wordInfo && wordInfo.pos) {
-        elPos.textContent = wordInfo.pos;
-        elPos.style.display = "";
-      } else {
+      // Handle loading state
+      if (isLoading) {
         elPos.style.display = "none";
-      }
-
-      // Translation
-      if (translation) {
-        elTranslation.textContent = translation;
-      } else {
-        elTranslation.textContent = "—";
-      }
-
-      // Sentence context from story
-      const sentence = findSentence(word);
-      if (sentence) {
-        const boldPattern = new RegExp("(\\b" + word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b)", "i");
-        elSentence.innerHTML = sentence.trim().replace(boldPattern, '<strong class="font-semibold">$1</strong>');
-        elSentenceSection.style.display = "";
-      } else {
+        elTranslation.textContent = "Loading...";
         elSentenceSection.style.display = "none";
-      }
-
-      // Example
-      if (wordInfo && wordInfo.example) {
-        elExample.textContent = wordInfo.example;
-        elExampleSection.style.display = "";
-      } else {
         elExampleSection.style.display = "none";
+      } else if (loadError) {
+        elPos.style.display = "none";
+        elTranslation.textContent = "Failed to load";
+        elSentenceSection.style.display = "none";
+        elExampleSection.style.display = "none";
+      } else {
+        const dict = translations[currentLang] || {};
+        const translation = dict[word];
+        const wordInfo = words[word];
+
+        // Part of speech
+        if (wordInfo && wordInfo.pos) {
+          elPos.textContent = wordInfo.pos;
+          elPos.style.display = "";
+        } else {
+          elPos.style.display = "none";
+        }
+
+        // Translation
+        if (translation) {
+          elTranslation.textContent = translation;
+        } else {
+          elTranslation.textContent = "—";
+        }
+
+        // Sentence context from story
+        const sentence = findSentence(word);
+        if (sentence) {
+          const boldPattern = new RegExp("(\\b" + word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b)", "i");
+          elSentence.innerHTML = sentence.trim().replace(boldPattern, '<strong class="font-semibold">$1</strong>');
+          elSentenceSection.style.display = "";
+        } else {
+          elSentenceSection.style.display = "none";
+        }
+
+        // Example
+        if (wordInfo && wordInfo.example) {
+          elExample.textContent = wordInfo.example;
+          elExampleSection.style.display = "";
+        } else {
+          elExampleSection.style.display = "none";
+        }
       }
 
       // Position tooltip
