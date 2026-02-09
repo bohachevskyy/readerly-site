@@ -1,0 +1,1966 @@
+{
+  "title": "How to Make Your LinkedIn Profile Sound Natural in English",
+  "slug": "linkedin-profile-natural-english",
+  "description": "Learn how to fix translated English on your LinkedIn profile. Get practical tips for writing a natural headline, About section, and experience bullets that attract recruiters.",
+  "level": "B2",
+  "appUrl": "https://app.readerly.ai",
+  "text": "A LinkedIn profile sounds natural in English when it uses clear role nouns, direct verbs, and specific proof, not word-for-word translations from another language. This matters because recruiters often scan profiles for 10–30 seconds, and the first lines of your headline and About section decide whether they keep reading.\n\nThe first place translation shows is the headline, because many learners translate a job title plus a long description. In English, a strong headline usually contains your role, your specialty, and one concrete focus. “Engineer with experience in many areas” is vague, while “Mechanical Engineer | HVAC design | Energy efficiency” tells the reader what you do. Avoid empty intensifiers such as “hard-working,” “responsible,” or “dynamic,” because they do not separate you from others. Replace them with information that can be checked, such as tools (Python, SolidWorks), domains (fintech, supply chain), or outcomes (cost reduction, safety compliance). This matters because LinkedIn search also relies on keywords, and clear terms help you appear in the right searches.\n\nThe About section becomes more natural when you write in a simple first-person professional voice, with short sentences and strong verbs. A common translated pattern is “I have the honor to…” or “I am passionate about everything related to…”. In English business writing, these sound formal or unfocused. Use verbs like “build,” “analyze,” “design,” “lead,” “ship,” “improve,” and add the object: “I analyze customer data to reduce churn” is clearer than “I am responsible for analysis.” Also avoid long sentences with many commas, which often come from direct translation. Break them into two sentences, and keep the subject clear. This matters because clarity increases trust: readers feel they understand your work quickly.\n\nSpecific evidence is what makes your English sound original rather than copied. Many translated profiles describe duties but not results, using phrases like “in charge of” or “responsible for.” Instead, add measurable outcomes and scope: team size, budget size, number of users, or time saved. If you cannot share confidential numbers, you can still be concrete: “reduced manual reporting time by automating weekly dashboards” or “supported audits under ISO 9001 procedures.” Mention recognizable methods or standards only if you used them in real work. This matters because English-language hiring culture often treats outcomes as the strongest signal of competence.\n\nYour Experience bullets (and also your project descriptions) sound natural when they start with a past-tense action verb and avoid heavy noun phrases. Translated text often becomes a chain of nouns, like “implementation of the optimization of the process of…” In English, turn nouns back into verbs: “optimized the process” or “implemented a faster review workflow.” Another translation issue is overusing “the” and “of,” which makes sentences slow. “Built onboarding materials for new analysts” reads cleaner than “Built the materials of onboarding for the new analysts.” This matters because simple grammar reduces cognitive load and keeps attention on your achievements.\n\nWord choice and tone are where “translated English” is easiest to notice. Avoid false friends and overly formal phrases common in templates: “Dear network,” “kindly,” “esteemed,” “with great interest,” or “I am open to any opportunity.” English LinkedIn writing is polite but straightforward. Say what you want: “I’m open to data analyst roles in Berlin” or “I’m interested in backend engineering positions focused on distributed systems.” Use “I” when describing your work; using “we” for everything can hide your contribution, but using “I” for team results can sound inaccurate. A balanced approach is: “Led X” for your leadership and “Worked with a cross-functional team to Y” for shared outcomes. This matters because the right tone signals confidence without sounding aggressive.\n\nFinally, make your profile read like your real speaking voice by revising for rhythm and checking it with reading aloud. If a sentence feels hard to say, it often reads like translation. Keep a small set of repeatable phrases that are normal in English: “I work on…,” “I help…,” “My focus is…,” “Recently, I…,” “I’m looking for…”. Ask one fluent speaker to mark sentences that feel unnatural, then replace them with simpler structures, not more complex vocabulary. This matters because natural English is not about advanced words; it is about predictable patterns that readers recognize immediately.\n\nLinkedIn profiles increasingly get read by both humans and automated systems, so natural English and clear keywords work together. When you use direct verbs, concrete proof, and a clean structure, your profile stops sounding translated and starts sounding like a professional document written for an English-speaking audience today.",
+  "words": {
+    "LinkedIn": {
+      "pos": "proper noun",
+      "example": ""
+    },
+    "profile": {
+      "pos": "singular noun",
+      "example": "She updated her profile yesterday."
+    },
+    "sound": {
+      "pos": "present simple verb",
+      "example": "Speeches sound better with practice."
+    },
+    "natural": {
+      "pos": "adjective",
+      "example": "The park looks natural and green."
+    },
+    "in": {
+      "pos": "",
+      "example": ""
+    },
+    "English": {
+      "pos": "proper noun",
+      "example": ""
+    },
+    "when": {
+      "pos": "",
+      "example": ""
+    },
+    "it": {
+      "pos": "",
+      "example": ""
+    },
+    "use": {
+      "pos": "third person singular verb",
+      "example": "I use a phone every day."
+    },
+    "clear": {
+      "pos": "adjective",
+      "example": "She gave a clear answer."
+    },
+    "role": {
+      "pos": "singular noun",
+      "example": "He plays a key role in the team."
+    },
+    "noun": {
+      "pos": "plural noun",
+      "example": "Cats and dogs are nouns."
+    },
+    "direct": {
+      "pos": "adjective",
+      "example": "She gave a direct answer."
+    },
+    "verb": {
+      "pos": "plural noun",
+      "example": "Run is a common verb."
+    },
+    "and": {
+      "pos": "",
+      "example": ""
+    },
+    "specific": {
+      "pos": "adjective",
+      "example": "We need specific details."
+    },
+    "proof": {
+      "pos": "singular noun",
+      "example": "Show proof of payment."
+    },
+    "not": {
+      "pos": "",
+      "example": ""
+    },
+    "word-for-word": {
+      "pos": "compound adjective",
+      "example": "He gave a word-for-word translation."
+    },
+    "translation": {
+      "pos": "plural noun",
+      "example": "He reads English translations."
+    },
+    "from": {
+      "pos": "",
+      "example": ""
+    },
+    "another": {
+      "pos": "adjective",
+      "example": "I want another chance."
+    },
+    "language": {
+      "pos": "singular noun",
+      "example": "She speaks one language."
+    },
+    "matter": {
+      "pos": "present tense verb",
+      "example": "It matters to finish work on time."
+    },
+    "recruiter": {
+      "pos": "plural noun",
+      "example": "A recruiter called me yesterday."
+    },
+    "often": {
+      "pos": "adverb",
+      "example": "I often read books at night."
+    },
+    "scan": {
+      "pos": "present tense verb",
+      "example": "Please scan the document quickly."
+    },
+    "second": {
+      "pos": "plural noun",
+      "example": "Wait for ten seconds please."
+    },
+    "first": {
+      "pos": "adjective",
+      "example": "She was the first to arrive."
+    },
+    "first line": {
+      "pos": "compound noun",
+      "example": "Read the first line carefully."
+    },
+    "line": {
+      "pos": "plural noun",
+      "example": "Write a line of text."
+    },
+    "headline": {
+      "pos": "noun",
+      "example": "The headline caught my attention."
+    },
+    "About": {
+      "pos": "proper noun",
+      "example": ""
+    },
+    "section": {
+      "pos": "noun",
+      "example": "Read the next section carefully."
+    },
+    "decide": {
+      "pos": "present tense verb",
+      "example": "I decide what to eat."
+    },
+    "keep": {
+      "pos": "present tense verb",
+      "example": "I keep my promises."
+    },
+    "read": {
+      "pos": "gerund verb",
+      "example": "I read every day."
+    },
+    "place": {
+      "pos": "singular noun",
+      "example": "This is a nice place."
+    },
+    "show": {
+      "pos": "present tense verb",
+      "example": "They show new movies every week."
+    },
+    "because": {
+      "pos": "conjunction",
+      "example": "I study because I want to learn."
+    },
+    "many": {
+      "pos": "quantifier adjective",
+      "example": "Many people came."
+    },
+    "learner": {
+      "pos": "plural noun",
+      "example": "Learners practice daily."
+    },
+    "translate": {
+      "pos": "infinitive verb",
+      "example": "I translate documents."
+    },
+    "job": {
+      "pos": "singular noun",
+      "example": "He has a new job."
+    },
+    "title": {
+      "pos": "singular noun",
+      "example": "The book has a title."
+    },
+    "plus": {
+      "pos": "adverb",
+      "example": "I have two plus one apples."
+    },
+    "long": {
+      "pos": "adjective",
+      "example": "It is a long road."
+    },
+    "description": {
+      "pos": "singular noun",
+      "example": "The description is helpful."
+    },
+    "strong": {
+      "pos": "adjective",
+      "example": "She has strong muscles."
+    },
+    "usually": {
+      "pos": "adverb",
+      "example": "I usually eat breakfast early."
+    },
+    "contain": {
+      "pos": "present tense verb",
+      "example": "The box contains books."
+    },
+    "your": {
+      "pos": "possessive pronoun",
+      "example": ""
+    },
+    "specialty": {
+      "pos": "singular noun",
+      "example": "His specialty is cooking."
+    },
+    "one": {
+      "pos": "numeral",
+      "example": "I have one apple."
+    },
+    "concrete": {
+      "pos": "adjective",
+      "example": "We need concrete evidence."
+    },
+    "focus": {
+      "pos": "singular noun",
+      "example": "Focus on your studies."
+    },
+    "engineer": {
+      "pos": "singular noun",
+      "example": "The engineer fixed the machine."
+    },
+    "experience": {
+      "pos": "noun, singular",
+      "example": "She has experience in sales."
+    },
+    "area": {
+      "pos": "plural noun",
+      "example": "The city has many areas."
+    },
+    "vague": {
+      "pos": "adjective",
+      "example": "His answer was vague."
+    },
+    "mechanical": {
+      "pos": "adjective",
+      "example": "He studied mechanical systems."
+    },
+    "HVAC": {
+      "pos": "noun (acronym)",
+      "example": ""
+    },
+    "design": {
+      "pos": "noun",
+      "example": "He showed the building design."
+    },
+    "energy": {
+      "pos": "noun",
+      "example": "Solar energy is renewable."
+    },
+    "efficiency": {
+      "pos": "singular noun",
+      "example": "Efficiency is important."
+    },
+    "tell": {
+      "pos": "present tense verb",
+      "example": "I tell the truth."
+    },
+    "reader": {
+      "pos": "noun, singular",
+      "example": "The reader enjoys books."
+    },
+    "what": {
+      "pos": "pronoun",
+      "example": "What is your name?"
+    },
+    "you": {
+      "pos": "pronoun",
+      "example": "You are kind."
+    },
+    "do": {
+      "pos": "verb",
+      "example": "I do my homework."
+    },
+    "avoid": {
+      "pos": "base form verb",
+      "example": "I avoid eating junk food."
+    },
+    "empty": {
+      "pos": "adjective",
+      "example": "The box is empty now."
+    },
+    "intensifier": {
+      "pos": "plural noun",
+      "example": "He used an intensifier to emphasize."
+    },
+    "hard-working": {
+      "pos": "compound adjective",
+      "example": "She is a hard-working student."
+    },
+    "responsible": {
+      "pos": "adjective",
+      "example": "He is responsible for the project."
+    },
+    "dynamic": {
+      "pos": "adjective",
+      "example": "She has a dynamic personality."
+    },
+    "they": {
+      "pos": "pronoun",
+      "example": "They are my friends."
+    },
+    "separate": {
+      "pos": "base form verb",
+      "example": "We separate recyclables from trash."
+    },
+    "other": {
+      "pos": "plural noun",
+      "example": "Other people are waiting."
+    },
+    "replace": {
+      "pos": "base form verb",
+      "example": "I replace old parts regularly."
+    },
+    "information": {
+      "pos": "noun singular",
+      "example": "We need more information."
+    },
+    "that": {
+      "pos": "relative pronoun",
+      "example": "The book that I read was good."
+    },
+    "check": {
+      "pos": "past participle verb",
+      "example": "I check the report daily."
+    },
+    "tool": {
+      "pos": "plural noun",
+      "example": "This tool is useful."
+    },
+    "Python": {
+      "pos": "proper noun",
+      "example": ""
+    },
+    "SolidWorks": {
+      "pos": "proper noun",
+      "example": ""
+    },
+    "domain": {
+      "pos": "plural noun",
+      "example": "The domain is large."
+    },
+    "fintech": {
+      "pos": "noun",
+      "example": "Fintech is growing quickly."
+    },
+    "supply chain": {
+      "pos": "compound noun",
+      "example": "The supply chain is complex."
+    },
+    "outcome": {
+      "pos": "plural noun",
+      "example": "The outcome was unexpected."
+    },
+    "cost reduction": {
+      "pos": "compound noun",
+      "example": "Cost reduction improves profit."
+    },
+    "safety compliance": {
+      "pos": "compound noun",
+      "example": "Safety compliance is mandatory."
+    },
+    "search": {
+      "pos": "noun",
+      "example": "The search took many hours."
+    },
+    "rely": {
+      "pos": "present tense verb",
+      "example": "I rely on you."
+    },
+    "keyword": {
+      "pos": "plural noun",
+      "example": "Use the right keyword in searches."
+    },
+    "term": {
+      "pos": "plural noun",
+      "example": "The terms are difficult."
+    },
+    "help": {
+      "pos": "verb",
+      "example": "I help my family."
+    },
+    "appear": {
+      "pos": "infinitive verb",
+      "example": "Stars appear at night."
+    },
+    "right": {
+      "pos": "adjective",
+      "example": "Choose the right answer."
+    },
+    "about section": {
+      "pos": "compound noun",
+      "example": "The About section explains the website."
+    },
+    "become": {
+      "pos": "present tense verb",
+      "example": "Leaves become red in fall."
+    },
+    "more": {
+      "pos": "adverb of degree",
+      "example": "I want more water."
+    },
+    "write": {
+      "pos": "base form verb",
+      "example": "I write letters every day."
+    },
+    "a": {
+      "pos": "article (excluded)",
+      "example": ""
+    },
+    "simple": {
+      "pos": "adjective",
+      "example": "This problem is simple."
+    },
+    "first-person": {
+      "pos": "compound adjective",
+      "example": "Write the story in first-person."
+    },
+    "professional": {
+      "pos": "adjective",
+      "example": "He is a professional player."
+    },
+    "voice": {
+      "pos": "singular noun",
+      "example": "His voice is very clear."
+    },
+    "with": {
+      "pos": "preposition (excluded)",
+      "example": ""
+    },
+    "short": {
+      "pos": "adjective",
+      "example": "I have a short break."
+    },
+    "sentence": {
+      "pos": "plural noun",
+      "example": "I read the sentence aloud."
+    },
+    "common": {
+      "pos": "adjective",
+      "example": "This is a common problem."
+    },
+    "pattern": {
+      "pos": "noun, singular",
+      "example": "The pattern repeats every hour."
+    },
+    "I": {
+      "pos": "pronoun",
+      "example": ""
+    },
+    "have": {
+      "pos": "present tense verb",
+      "example": "I have a cat."
+    },
+    "the": {
+      "pos": "article",
+      "example": ""
+    },
+    "honor": {
+      "pos": "singular noun",
+      "example": "It is an honor to help you."
+    },
+    "be": {
+      "pos": "present tense verb",
+      "example": "I am happy today."
+    },
+    "passionate": {
+      "pos": "adjective",
+      "example": "She is passionate about music."
+    },
+    "everything": {
+      "pos": "pronoun",
+      "example": "Everything is ready."
+    },
+    "relate": {
+      "pos": "past participle verb",
+      "example": "The topics are related."
+    },
+    "business": {
+      "pos": "noun",
+      "example": "He studies business at university."
+    },
+    "writing": {
+      "pos": "noun",
+      "example": "My writing has improved."
+    },
+    "these": {
+      "pos": "demonstrative pronoun",
+      "example": "These books are old."
+    },
+    "formal": {
+      "pos": "adjective",
+      "example": "She wore a formal dress."
+    },
+    "unfocused": {
+      "pos": "adjective",
+      "example": "His explanation was unfocused."
+    },
+    "like": {
+      "pos": "preposition (content use)",
+      "example": "I like apples."
+    },
+    "build": {
+      "pos": "base form verb",
+      "example": "They build houses quickly."
+    },
+    "analyze": {
+      "pos": "base form verb",
+      "example": "We analyze the data."
+    },
+    "lead": {
+      "pos": "base form verb",
+      "example": "She leads the team."
+    },
+    "ship": {
+      "pos": "base form verb",
+      "example": "They ship products worldwide."
+    },
+    "improve": {
+      "pos": "base form verb",
+      "example": "We improve our skills constantly."
+    },
+    "add": {
+      "pos": "base form verb",
+      "example": "Please add sugar."
+    },
+    "object": {
+      "pos": "singular noun",
+      "example": "The verb needs an object."
+    },
+    "customer": {
+      "pos": "singular noun",
+      "example": "The customer is very happy."
+    },
+    "data": {
+      "pos": "plural noun",
+      "example": "The data is important."
+    },
+    "reduce": {
+      "pos": "base form verb",
+      "example": "We reduce waste."
+    },
+    "churn": {
+      "pos": "singular noun",
+      "example": "Churn affects many businesses."
+    },
+    "analysis": {
+      "pos": "singular noun",
+      "example": "The analysis is thorough."
+    },
+    "break": {
+      "pos": "base form verb",
+      "example": "Please break the chocolate into pieces."
+    },
+    "two": {
+      "pos": "number adjective",
+      "example": "I have two books."
+    },
+    "subject": {
+      "pos": "singular noun",
+      "example": "The subject is interesting."
+    },
+    "clarity": {
+      "pos": "noun",
+      "example": "Clarity helps readers understand texts."
+    },
+    "increase": {
+      "pos": "present tense verb",
+      "example": "They increase their profits every year."
+    },
+    "trust": {
+      "pos": "noun",
+      "example": "Trust is important in relationships."
+    },
+    "feel": {
+      "pos": "present tense verb",
+      "example": "I feel happy today."
+    },
+    "understand": {
+      "pos": "infinitive verb",
+      "example": "I understand your problem."
+    },
+    "work": {
+      "pos": "noun",
+      "example": "His work is excellent."
+    },
+    "quickly": {
+      "pos": "adverb",
+      "example": "He runs quickly."
+    },
+    "evidence": {
+      "pos": "noun, singular",
+      "example": "There is strong evidence here."
+    },
+    "make": {
+      "pos": "present tense verb",
+      "example": "They make toys every day."
+    },
+    "original": {
+      "pos": "adjective",
+      "example": "She has original ideas."
+    },
+    "copy": {
+      "pos": "past participle verb",
+      "example": "I copy notes every day."
+    },
+    "describe": {
+      "pos": "base form verb",
+      "example": "Please describe your job."
+    },
+    "duty": {
+      "pos": "plural noun",
+      "example": "It is my duty to help."
+    },
+    "result": {
+      "pos": "plural noun",
+      "example": "The result is clear."
+    },
+    "phrase": {
+      "pos": "plural noun",
+      "example": "The phrase is easy to remember."
+    },
+    "like “in charge of”": {
+      "pos": "expression + idiom",
+      "example": "She is in charge of sales."
+    },
+    "in charge of": {
+      "pos": "idiomatic phrase",
+      "example": "She is in charge of the team."
+    },
+    "responsible for": {
+      "pos": "idiomatic phrase",
+      "example": "He is responsible for tasks."
+    },
+    "cannot": {
+      "pos": "modal verb + negation",
+      "example": "I cannot come today."
+    },
+    "share": {
+      "pos": "base form verb",
+      "example": "I share my books with friends."
+    },
+    "confidential": {
+      "pos": "adjective",
+      "example": "This is confidential information."
+    },
+    "number": {
+      "pos": "plural noun",
+      "example": "Call me at this number."
+    },
+    "still": {
+      "pos": "adverb",
+      "example": "He still works here."
+    },
+    "reduce manual": {
+      "pos": "past tense verb + adjective",
+      "example": "We reduce manual errors."
+    },
+    "manual": {
+      "pos": "adjective",
+      "example": "She prefers manual controls."
+    },
+    "manual reporting time": {
+      "pos": "compound noun phrase",
+      "example": "Manual reporting time is long."
+    },
+    "report": {
+      "pos": "gerund verb/noun",
+      "example": "He is reporting the results."
+    },
+    "time": {
+      "pos": "noun",
+      "example": "Time flies quickly."
+    },
+    "automate": {
+      "pos": "gerund verb",
+      "example": "They automate factory processes."
+    },
+    "weekly": {
+      "pos": "adjective",
+      "example": "We have weekly meetings."
+    },
+    "dashboard": {
+      "pos": "plural noun",
+      "example": "Dashboards show data visually."
+    },
+    "support": {
+      "pos": "past tense verb",
+      "example": "They support local teams."
+    },
+    "audit": {
+      "pos": "plural noun",
+      "example": "The audit was successful."
+    },
+    "under": {
+      "pos": "preposition",
+      "example": "He works under pressure."
+    },
+    "ISO 9001": {
+      "pos": "proper noun",
+      "example": ""
+    },
+    "ISO": {
+      "pos": "proper noun",
+      "example": ""
+    },
+    "9001": {
+      "pos": "number",
+      "example": ""
+    },
+    "procedure": {
+      "pos": "plural noun",
+      "example": "Follow the safety procedures."
+    },
+    "English-language": {
+      "pos": "compound adjective",
+      "example": ""
+    },
+    "hire": {
+      "pos": "present participle noun",
+      "example": "We hire new employees every year."
+    },
+    "culture": {
+      "pos": "singular noun",
+      "example": "Work culture affects productivity."
+    },
+    "treat": {
+      "pos": "third person singular verb",
+      "example": "They treat guests well."
+    },
+    "signal": {
+      "pos": "singular noun",
+      "example": "The signal is weak."
+    },
+    "competence": {
+      "pos": "singular noun",
+      "example": "Her competence is impressive."
+    },
+    "bullet": {
+      "pos": "plural noun",
+      "example": "Use bullets to list items."
+    },
+    "project": {
+      "pos": "noun",
+      "example": "I started a new project."
+    },
+    "start": {
+      "pos": "base form verb",
+      "example": "They start their work early."
+    },
+    "past-tense": {
+      "pos": "adjective",
+      "example": "Use the past-tense verb."
+    },
+    "action": {
+      "pos": "noun",
+      "example": "Action speaks louder than words."
+    },
+    "heavy": {
+      "pos": "adjective",
+      "example": "The box is heavy."
+    },
+    "noun phrase": {
+      "pos": "compound noun",
+      "example": "Noun phrases are important in grammar."
+    },
+    "text": {
+      "pos": "singular noun",
+      "example": "This text is clear."
+    },
+    "chain": {
+      "pos": "singular noun",
+      "example": "He wore a gold chain."
+    },
+    "implementation": {
+      "pos": "noun",
+      "example": "The implementation took months."
+    },
+    "optimization": {
+      "pos": "singular noun",
+      "example": "Optimization improves performance."
+    },
+    "process": {
+      "pos": "singular noun",
+      "example": "This process is complicated."
+    },
+    "turn": {
+      "pos": "base form verb",
+      "example": "Please turn the page."
+    },
+    "back": {
+      "pos": "adverb",
+      "example": "She came back home."
+    },
+    "into": {
+      "pos": "preposition",
+      "example": "She turned into a leader."
+    },
+    "optimize": {
+      "pos": "past tense verb",
+      "example": "They optimize their work daily."
+    },
+    "implement": {
+      "pos": "past tense verb",
+      "example": "They implement new policies."
+    },
+    "fast": {
+      "pos": "comparative adjective",
+      "example": "She runs faster than me."
+    },
+    "review": {
+      "pos": "singular noun",
+      "example": "I gave a review yesterday."
+    },
+    "workflow": {
+      "pos": "compound noun",
+      "example": "The workflow is efficient."
+    },
+    "onboarding": {
+      "pos": "noun",
+      "example": "Onboarding helps new employees."
+    },
+    "material": {
+      "pos": "plural noun",
+      "example": "I bought new study materials."
+    },
+    "new": {
+      "pos": "adjective",
+      "example": "I bought a new book."
+    },
+    "analyst": {
+      "pos": "plural noun",
+      "example": "The analyst reviewed data."
+    },
+    "clean": {
+      "pos": "comparative adjective",
+      "example": "This text is cleaner than before."
+    },
+    "than": {
+      "pos": "conjunction (comparison)",
+      "example": ""
+    },
+    "word": {
+      "pos": "singular noun",
+      "example": "I learn a new word daily."
+    },
+    "choice": {
+      "pos": "singular noun",
+      "example": "I have a choice to make."
+    },
+    "tone": {
+      "pos": "singular noun",
+      "example": "Her tone is friendly."
+    },
+    "easy": {
+      "pos": "superlative adjective",
+      "example": "Math is easy for me."
+    },
+    "notice": {
+      "pos": "infinitive verb",
+      "example": "Please notice the difference."
+    },
+    "false": {
+      "pos": "adjective",
+      "example": "The document contains false information."
+    },
+    "friend": {
+      "pos": "plural noun",
+      "example": "He is my best friend."
+    },
+    "overly": {
+      "pos": "adverb",
+      "example": "He is overly confident."
+    },
+    "template": {
+      "pos": "plural noun",
+      "example": "Use templates for documents."
+    },
+    "dear": {
+      "pos": "adjective",
+      "example": "Dear friend, how are you?"
+    },
+    "network": {
+      "pos": "singular noun",
+      "example": "The network is fast."
+    },
+    "kindly": {
+      "pos": "adverb",
+      "example": "Kindly send the report."
+    },
+    "esteemed": {
+      "pos": "adjective",
+      "example": "Esteemed guests have arrived."
+    },
+    "with great interest": {
+      "pos": "idiomatic phrase",
+      "example": "He listened with great interest."
+    },
+    "open": {
+      "pos": "adjective",
+      "example": "The door is open."
+    },
+    "to": {
+      "pos": "preposition",
+      "example": ""
+    },
+    "any": {
+      "pos": "adjective",
+      "example": "Any person can join."
+    },
+    "opportunity": {
+      "pos": "noun",
+      "example": "This is a good opportunity."
+    },
+    "say": {
+      "pos": "base verb",
+      "example": "I say hello every day."
+    },
+    "want": {
+      "pos": "base verb",
+      "example": "I want a new book."
+    },
+    "I am": {
+      "pos": "contraction of 'I am'",
+      "example": "I am happy today."
+    },
+    "be (am)": {
+      "pos": "contracted present verb",
+      "example": "I am happy."
+    },
+    "Berlin": {
+      "pos": "proper noun",
+      "example": ""
+    },
+    "interested": {
+      "pos": "adjective",
+      "example": "She is interested in music."
+    },
+    "backend": {
+      "pos": "adjective",
+      "example": "He works on backend development."
+    },
+    "engineering": {
+      "pos": "noun",
+      "example": "Engineering solves problems."
+    },
+    "position": {
+      "pos": "plural noun",
+      "example": "There are many positions."
+    },
+    "distribute": {
+      "pos": "past participle adjective",
+      "example": "They distribute the tasks."
+    },
+    "distributed": {
+      "pos": "past participle adjective",
+      "example": "We use distributed systems."
+    },
+    "system": {
+      "pos": "plural noun",
+      "example": "The system works well."
+    },
+    "balanced": {
+      "pos": "adjective",
+      "example": "We need a balanced diet."
+    },
+    "approach": {
+      "pos": "noun, singular",
+      "example": "We need a new approach."
+    },
+    "leadership": {
+      "pos": "noun",
+      "example": "She shows good leadership."
+    },
+    "cross-functional": {
+      "pos": "adjective",
+      "example": "We have a cross-functional team."
+    },
+    "cross-functional team": {
+      "pos": "compound noun",
+      "example": "A cross-functional team solves problems."
+    },
+    "team": {
+      "pos": "noun, singular",
+      "example": "She joined the team."
+    },
+    "Y": {
+      "pos": "noun",
+      "example": ""
+    },
+    "shared": {
+      "pos": "adjective",
+      "example": "They shared the report."
+    },
+    "confidence": {
+      "pos": "noun",
+      "example": "She has confidence in herself."
+    },
+    "without": {
+      "pos": "preposition",
+      "example": "I went without you."
+    },
+    "aggressive": {
+      "pos": "adjective",
+      "example": "He was aggressive."
+    },
+    "real": {
+      "pos": "adjective",
+      "example": "This is a real diamond."
+    },
+    "speak": {
+      "pos": "present participle verb as adjective",
+      "example": "She is speaking now."
+    },
+    "revise": {
+      "pos": "gerund verb",
+      "example": "I revise my notes before exams."
+    },
+    "rhythm": {
+      "pos": "singular noun",
+      "example": "Music has a strong rhythm."
+    },
+    "read aloud": {
+      "pos": "phrasal verb",
+      "example": "Please read aloud the text."
+    },
+    "aloud": {
+      "pos": "adverb",
+      "example": "She reads aloud every night."
+    },
+    "hard": {
+      "pos": "adjective",
+      "example": "This exam is hard."
+    },
+    "small": {
+      "pos": "adjective",
+      "example": "She has a small dog."
+    },
+    "set": {
+      "pos": "singular noun",
+      "example": "He bought a set of tools."
+    },
+    "repeatable": {
+      "pos": "adjective",
+      "example": "This test is repeatable."
+    },
+    "normal": {
+      "pos": "adjective",
+      "example": "It is normal to feel tired."
+    },
+    "recently": {
+      "pos": "adverb",
+      "example": "I recently saw a movie."
+    },
+    "look for": {
+      "pos": "phrasal verb",
+      "example": "I look for my keys."
+    },
+    "look": {
+      "pos": "present participle verb",
+      "example": "I look for my keys."
+    },
+    "for": {
+      "pos": "preposition",
+      "example": ""
+    },
+    "ask": {
+      "pos": "base form verb",
+      "example": "I ask questions every day."
+    },
+    "fluent": {
+      "pos": "adjective",
+      "example": "She is fluent in Spanish."
+    },
+    "speaker": {
+      "pos": "singular noun",
+      "example": "He is a native speaker."
+    },
+    "mark": {
+      "pos": "base form verb",
+      "example": "Please mark your answers."
+    },
+    "unnatural": {
+      "pos": "adjective",
+      "example": "That sounds unnatural."
+    },
+    "them": {
+      "pos": "pronoun",
+      "example": "I saw them yesterday."
+    },
+    "structure": {
+      "pos": "plural noun",
+      "example": "The sentence has correct structure."
+    },
+    "complex": {
+      "pos": "adjective",
+      "example": "This problem is complex."
+    },
+    "vocabulary": {
+      "pos": "singular noun",
+      "example": "I learned new vocabulary."
+    },
+    "advanced": {
+      "pos": "adjective",
+      "example": "She took an advanced course in math."
+    },
+    "predictable": {
+      "pos": "adjective",
+      "example": "The results were predictable."
+    },
+    "recognize": {
+      "pos": "infinitive verb",
+      "example": "I recognize that face."
+    },
+    "immediately": {
+      "pos": "adverb",
+      "example": "She answered immediately."
+    },
+    "increasingly": {
+      "pos": "adverb",
+      "example": "She increasingly improves her skills."
+    },
+    "get": {
+      "pos": "verb",
+      "example": "They get the message quickly."
+    },
+    "human": {
+      "pos": "plural noun",
+      "example": "Humans live on Earth."
+    },
+    "automated": {
+      "pos": "adjective",
+      "example": "The process is automated now."
+    },
+    "together": {
+      "pos": "adverb",
+      "example": "We work together on projects."
+    },
+    "direct verb": {
+      "pos": "compound noun",
+      "example": "Use direct verbs in your writing."
+    },
+    "concrete proof": {
+      "pos": "compound noun",
+      "example": "She showed concrete proof of the claim."
+    },
+    "clean structure": {
+      "pos": "compound noun",
+      "example": "A clean structure makes reading easy."
+    },
+    "stop": {
+      "pos": "present tense verb",
+      "example": "They stop when it rains."
+    },
+    "document": {
+      "pos": "singular noun",
+      "example": "This document is important."
+    },
+    "English-speaking": {
+      "pos": "compound adjective",
+      "example": "He is an English-speaking person."
+    },
+    "audience": {
+      "pos": "singular noun",
+      "example": "The audience clapped loudly."
+    },
+    "today": {
+      "pos": "adverb",
+      "example": "I am busy today."
+    }
+  },
+  "translations": {
+    "pt": {
+      "LinkedIn": "LinkedIn",
+      "profile": "perfil",
+      "sound": "soar",
+      "natural": "natural",
+      "in": "em",
+      "English": "inglês",
+      "use": "usar",
+      "clear": "claro",
+      "role": "cargo",
+      "noun": "substantivo",
+      "direct": "direto",
+      "verb": "verbo",
+      "specific": "específico",
+      "proof": "prova",
+      "word-for-word": "literalmente",
+      "translation": "tradução",
+      "another": "outra",
+      "language": "língua",
+      "matter": "importar",
+      "recruiter": "recrutador",
+      "often": "frequentemente",
+      "scan": "examinar",
+      "second": "segundo",
+      "first": "primeiro",
+      "line": "linha",
+      "headline": "título",
+      "About": "Sobre",
+      "section": "seção",
+      "decide": "decidir",
+      "keep": "continuar",
+      "read": "ler",
+      "place": "lugar",
+      "show": "mostrar",
+      "because": "porque",
+      "many": "muitos",
+      "learner": "aprendiz",
+      "translate": "traduzir",
+      "job": "trabalho",
+      "title": "título",
+      "long": "longo",
+      "description": "descrição",
+      "strong": "forte",
+      "usually": "geralmente",
+      "contain": "contém",
+      "your": "seu",
+      "specialty": "especialidade",
+      "concrete": "concreto",
+      "focus": "foco",
+      "engineer": "engenheiro",
+      "experience": "experiência",
+      "area": "área",
+      "vague": "vago",
+      "mechanical": "mecânico",
+      "HVAC": "AVAC",
+      "design": "projeto",
+      "energy": "energia",
+      "efficiency": "eficiência",
+      "tell": "diz",
+      "reader": "leitor",
+      "what": "o que",
+      "you": "você",
+      "do": "faz",
+      "avoid": "evitar",
+      "empty": "vazio",
+      "intensifier": "intensificador",
+      "hard-working": "dedicado",
+      "responsible": "responsável",
+      "dynamic": "dinâmico",
+      "not": "não",
+      "separate": "diferenciar",
+      "other": "outro",
+      "replace": "substituir",
+      "information": "informação",
+      "check": "verificar",
+      "tool": "ferramenta",
+      "Python": "Python",
+      "SolidWorks": "SolidWorks",
+      "domain": "domínio",
+      "fintech": "fintech",
+      "supply chain": "cadeia de suprimentos",
+      "outcome": "resultado",
+      "cost reduction": "redução de custos",
+      "safety compliance": "conformidade de segurança",
+      "search": "pesquisa",
+      "rely": "confiar, depender",
+      "keyword": "palavra-chave",
+      "term": "termo, expressão",
+      "help": "ajudar",
+      "appear": "aparecer",
+      "become": "torna",
+      "write": "escreve",
+      "first-person": "primeira pessoa",
+      "professional": "profissional",
+      "voice": "voz",
+      "short": "curtas",
+      "sentence": "sentenças",
+      "common": "comum",
+      "pattern": "padrão",
+      "I": "eu",
+      "have": "ter",
+      "the": "",
+      "honor": "honra",
+      "be": "ser/estar",
+      "passionate": "apaixonado",
+      "about": "sobre",
+      "everything": "tudo",
+      "relate": "relacionar",
+      "business": "comercial",
+      "formal": "formal",
+      "unfocused": "pouco focado",
+      "build": "construir",
+      "analyze": "analisar",
+      "lead": "liderar",
+      "ship": "enviar",
+      "improve": "melhorar",
+      "object": "objeto",
+      "customer": "cliente",
+      "data": "dados",
+      "reduce": "reduzir",
+      "churn": "evasão",
+      "analysis": "análise",
+      "break": "dividir",
+      "two": "duas",
+      "subject": "sujeito",
+      "clarity": "clareza",
+      "increase": "aumentar",
+      "trust": "confiança",
+      "feel": "sentir",
+      "understand": "entender",
+      "work": "trabalho",
+      "quickly": "rapidamente",
+      "evidence": "evidência",
+      "make": "fazer",
+      "original": "original",
+      "copy": "copiar",
+      "describe": "descrever",
+      "duty": "dever",
+      "result": "resultado",
+      "phrase": "frase",
+      "like": "como",
+      "in charge of": "responsável por",
+      "responsible for": "responsável por",
+      "cannot": "não poder",
+      "share": "compartilhar",
+      "confidential": "confidencial",
+      "number": "número",
+      "still": "ainda",
+      "manual reporting time": "tempo de relatório manual",
+      "automate": "automatizando",
+      "weekly": "semanal",
+      "dashboard": "dashboard",
+      "support": "suportou",
+      "audit": "auditoria",
+      "under": "sob",
+      "ISO 9001": "ISO 9001",
+      "procedure": "procedimento",
+      "English-language": "idioma inglês",
+      "hire": "contratação",
+      "culture": "cultura",
+      "treat": "considera",
+      "signal": "sinal",
+      "competence": "competência",
+      "bullet": "marcador",
+      "project": "projeto",
+      "start": "começar",
+      "past-tense": "passado",
+      "action": "ação",
+      "heavy": "pesado",
+      "noun phrase": "frase nominal",
+      "text": "texto",
+      "chain": "cadeia",
+      "implementation": "implementação",
+      "optimization": "otimização",
+      "process": "processo",
+      "turn": "transformar",
+      "back": "de volta",
+      "optimize": "otimizar",
+      "implement": "implementar",
+      "fast": "mais rápido",
+      "review": "revisão",
+      "workflow": "fluxo de trabalho",
+      "onboarding": "integração",
+      "material": "material",
+      "new": "novo",
+      "analyst": "analista",
+      "clean": "mais claro, limpo",
+      "word": "palavra",
+      "choice": "escolha",
+      "tone": "tom",
+      "easy": "mais fácil",
+      "notice": "notar",
+      "false": "falso",
+      "friend": "amigo",
+      "overly": "excessivamente",
+      "template": "modelo",
+      "dear": "prezado(a)",
+      "network": "rede",
+      "kindly": "gentilmente",
+      "esteemed": "estimado(a)",
+      "with great interest": "com grande interesse",
+      "open": "aberto(a)",
+      "opportunity": "oportunidade",
+      "say": "dizer",
+      "want": "querer",
+      "be (am)": "estou",
+      "Berlin": "Berlim",
+      "interested": "interessado",
+      "backend": "backend",
+      "engineering": "engenharia",
+      "position": "posições",
+      "distribute": "distribuídos",
+      "system": "sistemas",
+      "balanced": "equilibrado",
+      "approach": "abordagem",
+      "leadership": "liderança",
+      "cross-functional team": "equipe multifuncional",
+      "Y": "Y",
+      "shared": "compartilhado",
+      "right": "certo",
+      "confidence": "confiança",
+      "without": "sem",
+      "aggressive": "agressivo",
+      "real": "real",
+      "speak": "fala",
+      "revise": "revisando",
+      "rhythm": "ritmo",
+      "aloud": "em voz alta",
+      "hard": "difícil",
+      "to": "",
+      "small": "pequeno",
+      "set": "conjunto",
+      "repeatable": "repetível",
+      "normal": "normal",
+      "recently": "recentemente",
+      "look": "procurar",
+      "for": "para",
+      "advanced": "avançado",
+      "predictable": "previsível",
+      "recognize": "reconhecer",
+      "immediately": "imediatamente",
+      "increasingly": "cada vez mais",
+      "get": "ser",
+      "human": "humano",
+      "automated": "automatizado",
+      "together": "juntos",
+      "structure": "estrutura",
+      "stop": "parar",
+      "document": "documento",
+      "English-speaking": "que fala inglês",
+      "audience": "público",
+      "today": "hoje"
+    },
+    "ja": {
+      "LinkedIn": "LinkedIn",
+      "profile": "プロフィール",
+      "sound": "聞こえる",
+      "natural": "自然な",
+      "in": "",
+      "English": "英語",
+      "when": "",
+      "it": "",
+      "use": "使う",
+      "clear": "明確な",
+      "role": "役割",
+      "noun": "名詞",
+      "direct": "直接的な",
+      "verb": "動詞",
+      "and": "",
+      "specific": "具体的な",
+      "proof": "証拠",
+      "not": "",
+      "word-for-word": "逐語的な",
+      "translation": "翻訳",
+      "from": "",
+      "another": "別の",
+      "language": "言語",
+      "matter": "重要である",
+      "recruiter": "採用担当者",
+      "often": "しばしば",
+      "scan": "ざっと調べる",
+      "second": "秒",
+      "first line": "最初の行",
+      "headline": "見出し",
+      "About": "「概要」",
+      "section": "セクション",
+      "decide": "決める",
+      "keep": "続ける",
+      "read": "読むこと",
+      "first": "最初の",
+      "place": "場所",
+      "show": "示す",
+      "learner": "学習者",
+      "translate": "翻訳する",
+      "job": "職",
+      "title": "タイトル",
+      "plus": "および",
+      "long": "長い",
+      "description": "説明",
+      "strong": "強い",
+      "usually": "通常",
+      "contain": "含む",
+      "your": "あなたの",
+      "specialty": "専門分野",
+      "one": "一つの",
+      "concrete": "具体的な",
+      "focus": "焦点",
+      "engineer": "エンジニア",
+      "experience": "経験",
+      "many": "多くの",
+      "area": "分野",
+      "vague": "曖昧な",
+      "mechanical": "機械の",
+      "HVAC": "空調",
+      "design": "設計",
+      "energy": "エネルギー",
+      "efficiency": "効率",
+      "tell": "伝える",
+      "reader": "読者",
+      "what": "何を",
+      "you": "あなた",
+      "do": "する",
+      "avoid": "避ける",
+      "empty": "空の",
+      "intensifier": "強調語",
+      "hard-working": "熱心な",
+      "responsible": "責任感のある",
+      "dynamic": "動的な",
+      "because": "なぜなら",
+      "they": "彼らは",
+      "separate": "分ける",
+      "other": "他の人",
+      "replace": "置き換える",
+      "information": "情報",
+      "check": "検査する",
+      "tool": "ツール",
+      "Python": "パイソン",
+      "SolidWorks": "ソリッドワークス",
+      "domain": "領域",
+      "fintech": "フィンテック",
+      "supply chain": "サプライチェーン",
+      "outcome": "成果",
+      "cost reduction": "コスト削減",
+      "safety compliance": "安全性の遵守",
+      "search": "検索",
+      "rely": "依存する",
+      "keyword": "キーワード",
+      "term": "用語",
+      "help": "助ける",
+      "appear": "現れる",
+      "right": "適切な",
+      "become": "なる",
+      "more": "より",
+      "write": "書く",
+      "a": "一つの（冠詞 - excluded）",
+      "simple": "簡単な",
+      "first-person": "一人称の",
+      "professional": "プロの、専門的な",
+      "voice": "声、語り口",
+      "with": "〜とともに（前置詞 - excluded）",
+      "short": "短い",
+      "sentence": "文",
+      "common": "一般的な",
+      "pattern": "パターン",
+      "I": "私",
+      "have": "持つ",
+      "honor": "栄誉",
+      "be": "です",
+      "passionate": "情熱的な",
+      "everything": "すべて",
+      "relate": "関連する",
+      "business": "ビジネス",
+      "these": "これら",
+      "formal": "正式な",
+      "unfocused": "焦点が定まっていない",
+      "build": "建てる",
+      "analyze": "分析する",
+      "lead": "導く",
+      "ship": "出荷する",
+      "improve": "改善する",
+      "object": "目的語",
+      "customer": "顧客",
+      "data": "データ",
+      "reduce": "減らす",
+      "churn": "離反率",
+      "analysis": "分析",
+      "break": "分ける",
+      "two": "２つの",
+      "subject": "主語",
+      "clarity": "明確さ",
+      "increase": "増加させる",
+      "trust": "信頼",
+      "feel": "感じる",
+      "understand": "理解する",
+      "work": "仕事",
+      "quickly": "速く",
+      "evidence": "証拠",
+      "make": "作る",
+      "original": "オリジナルの",
+      "copy": "コピーされた",
+      "describe": "説明する",
+      "duty": "職務",
+      "result": "結果",
+      "phrase": "フレーズ",
+      "like “in charge of”": "「〜の担当」のような",
+      "responsible for": "「〜に責任がある」",
+      "share": "共有する",
+      "confidential": "機密の",
+      "number": "番号",
+      "manual": "手動の",
+      "report": "報告",
+      "time": "時間",
+      "automate": "自動化する",
+      "weekly": "週次の",
+      "dashboard": "ダッシュボード",
+      "support": "支援する",
+      "audit": "監査",
+      "ISO": "国際標準化機構",
+      "9001": "9001",
+      "procedure": "手順",
+      "English-language": "英語圏の",
+      "hire": "採用",
+      "culture": "文化",
+      "treat": "扱う",
+      "signal": "シグナル",
+      "competence": "能力",
+      "bullet": "箇条書き",
+      "project": "プロジェクト",
+      "start": "始める",
+      "past-tense": "過去形の",
+      "action": "動作",
+      "heavy": "重い",
+      "noun phrase": "名詞句",
+      "text": "文章",
+      "chain": "連鎖",
+      "implementation": "実装",
+      "optimization": "最適化",
+      "process": "プロセス",
+      "turn": "変える",
+      "back": "元に戻す",
+      "into": "に（変える）",
+      "optimize": "最適化する",
+      "implement": "実装する",
+      "fast": "より速い",
+      "review": "レビュー",
+      "workflow": "ワークフロー",
+      "onboarding": "オンボーディング",
+      "material": "資料",
+      "new": "新しい",
+      "analyst": "アナリスト",
+      "clean": "より分かりやすい",
+      "word": "単語",
+      "choice": "選択",
+      "tone": "トーン",
+      "easy": "最も簡単な",
+      "notice": "気づく",
+      "false": "偽の",
+      "friend": "友人",
+      "overly": "過度に",
+      "template": "テンプレート",
+      "dear": "親愛なる",
+      "network": "ネットワーク",
+      "kindly": "ご親切に",
+      "esteemed": "尊敬された",
+      "with great interest": "大いなる関心を込めて",
+      "open": "開かれている",
+      "to": "〜に",
+      "any": "どんな",
+      "opportunity": "機会",
+      "say": "言う",
+      "want": "欲しい",
+      "I am": "私は〜です",
+      "Berlin": "ベルリン",
+      "interested": "興味がある",
+      "backend": "バックエンド（後端）",
+      "engineering": "工学、エンジニアリング",
+      "position": "職、地位",
+      "distribute": "分散した",
+      "system": "システム",
+      "confidence": "自信",
+      "without": "〜なしで",
+      "aggressive": "攻撃的な",
+      "real": "本当の",
+      "speak": "話す",
+      "revise": "見直す",
+      "rhythm": "リズム",
+      "read aloud": "声に出して読む",
+      "hard": "難しい",
+      "like": "のように",
+      "small": "小さな",
+      "set": "セット",
+      "repeatable": "繰り返し可能な",
+      "normal": "普通の",
+      "recently": "最近",
+      "look for": "探す",
+      "ask": "尋ねる",
+      "fluent": "流暢な",
+      "speaker": "話者",
+      "mark": "印をつける",
+      "unnatural": "不自然な",
+      "structure": "構造",
+      "complex": "複雑な",
+      "vocabulary": "語彙",
+      "advanced": "高度な",
+      "predictable": "予測可能な",
+      "recognize": "認識する",
+      "immediately": "すぐに",
+      "increasingly": "ますます",
+      "get": "〜される（受動態）",
+      "human": "人間",
+      "automated": "自動化された",
+      "together": "一緒に",
+      "direct verb": "直接の動詞",
+      "concrete proof": "具体的な証拠",
+      "clean structure": "明確な構造",
+      "stop": "やめる",
+      "document": "文書",
+      "English-speaking": "英語を話す",
+      "audience": "聴衆",
+      "today": "今日"
+    },
+    "es": {
+      "LinkedIn": "LinkedIn",
+      "profile": "perfil",
+      "sound": "sonar",
+      "natural": "natural",
+      "English": "inglés",
+      "use": "usar",
+      "clear": "claro",
+      "role": "rol",
+      "noun": "sustantivo",
+      "direct": "directo",
+      "verb": "verbo",
+      "specific": "específico",
+      "proof": "prueba",
+      "word-for-word": "literalmente",
+      "translation": "traducción",
+      "another": "otro",
+      "language": "idioma",
+      "matter": "importar",
+      "recruiter": "reclutador",
+      "often": "a menudo",
+      "scan": "escanear",
+      "second": "segundo",
+      "first": "primer",
+      "line": "línea",
+      "headline": "titular",
+      "About": "Acerca de",
+      "section": "sección",
+      "decide": "decidir",
+      "keep": "seguir",
+      "read": "leer",
+      "place": "lugar",
+      "show": "mostrar",
+      "learner": "estudiante",
+      "translate": "traducir",
+      "job": "trabajo",
+      "title": "título",
+      "plus": "más",
+      "long": "largo",
+      "description": "descripción",
+      "strong": "fuerte",
+      "usually": "generalmente",
+      "contain": "contener",
+      "your": "tu",
+      "specialty": "especialidad",
+      "one": "un",
+      "concrete": "concreto",
+      "focus": "enfoque",
+      "engineer": "ingeniero",
+      "experience": "experiencia",
+      "many": "muchas",
+      "area": "área",
+      "vague": "vago",
+      "mechanical": "mecánico",
+      "HVAC": "HVAC",
+      "design": "diseño",
+      "energy": "energía",
+      "efficiency": "eficiencia",
+      "tell": "decir",
+      "reader": "lector",
+      "what": "lo que",
+      "you": "tú",
+      "do": "hacer",
+      "avoid": "evitar",
+      "empty": "vacío",
+      "intensifier": "intensificador",
+      "hard-working": "trabajador",
+      "responsible": "responsable",
+      "dynamic": "dinámico",
+      "separate": "separar",
+      "other": "otros",
+      "replace": "reemplazar",
+      "information": "información",
+      "that": "que",
+      "check": "verificar",
+      "tool": "herramienta",
+      "Python": "Python",
+      "SolidWorks": "SolidWorks",
+      "domain": "dominio",
+      "fintech": "fintech",
+      "supply chain": "cadena de suministro",
+      "outcome": "resultado",
+      "cost reduction": "reducción de costos",
+      "safety compliance": "cumplimiento de seguridad",
+      "search": "búsqueda",
+      "rely": "basarse en",
+      "keyword": "palabra clave",
+      "term": "término",
+      "help": "ayudar",
+      "appear": "aparecer",
+      "right": "correcto",
+      "about section": "sección Acerca de",
+      "become": "volverse",
+      "more": "más",
+      "write": "escribir",
+      "simple": "sencillo",
+      "first-person": "primera persona",
+      "professional": "profesional",
+      "voice": "voz",
+      "short": "corto",
+      "sentence": "oración",
+      "common": "común",
+      "pattern": "patrón",
+      "honor": "honor",
+      "passionate": "apasionado",
+      "everything": "todo",
+      "relate": "relacionado",
+      "business": "empresarial",
+      "writing": "escritura",
+      "formal": "formales",
+      "unfocused": "poco enfocados",
+      "like": "como",
+      "build": "construir",
+      "analyze": "analizar",
+      "lead": "liderar",
+      "ship": "enviar",
+      "improve": "mejorar",
+      "add": "añadir",
+      "object": "objeto",
+      "customer": "cliente",
+      "data": "datos",
+      "reduce": "reducir",
+      "churn": "pérdida (de clientes)",
+      "analysis": "análisis",
+      "break": "dividir",
+      "two": "dos",
+      "subject": "sujeto",
+      "clarity": "claridad",
+      "increase": "aumentar",
+      "trust": "confianza",
+      "feel": "sentir",
+      "understand": "entender, comprender",
+      "work": "trabajo",
+      "quickly": "rápidamente",
+      "evidence": "evidencia",
+      "make": "hacer",
+      "original": "original",
+      "copy": "copiar",
+      "describe": "describir",
+      "duty": "deber",
+      "result": "resultado",
+      "phrase": "frase",
+      "in charge of": "a cargo de",
+      "responsible for": "responsable de",
+      "cannot": "no poder",
+      "share": "compartir",
+      "confidential": "confidencial",
+      "number": "número",
+      "reduce manual": "redujo manual",
+      "report": "informe",
+      "time": "tiempo",
+      "automate": "automatizando",
+      "weekly": "semanal",
+      "dashboard": "panel",
+      "support": "apoyó",
+      "audit": "auditoría",
+      "under": "bajo",
+      "ISO 9001": "ISO 9001",
+      "procedure": "procedimiento",
+      "English-language": "de lengua inglesa",
+      "hire": "contratar",
+      "culture": "cultura",
+      "treat": "tratar",
+      "signal": "señal",
+      "competence": "competencia",
+      "bullet": "viñeta",
+      "project": "proyecto",
+      "start": "comenzar",
+      "past-tense": "en pasado",
+      "action": "acción",
+      "heavy": "pesado",
+      "text": "texto",
+      "chain": "cadena",
+      "implementation": "implementación",
+      "optimization": "optimización",
+      "process": "proceso",
+      "turn": "convertir",
+      "back": "de nuevo",
+      "optimize": "optimizar",
+      "implement": "implementar",
+      "fast": "más rápido",
+      "review": "revisión",
+      "workflow": "flujo de trabajo",
+      "onboarding": "incorporación",
+      "material": "material",
+      "new": "nuevo",
+      "analyst": "analista",
+      "clean": "más claro",
+      "than": "que",
+      "word": "palabra",
+      "choice": "elección",
+      "tone": "tono",
+      "easy": "más fácil",
+      "notice": "notar",
+      "false": "falso",
+      "friend": "amigo",
+      "overly": "demasiado",
+      "template": "plantilla",
+      "dear": "querida",
+      "network": "red",
+      "kindly": "amablemente",
+      "esteemed": "estimado",
+      "with great interest": "con gran interés",
+      "I": "yo",
+      "be": "estoy",
+      "open": "abierto",
+      "opportunity": "oportunidad",
+      "say": "decir",
+      "want": "querer",
+      "to": "a",
+      "Berlin": "Berlín",
+      "interested": "interesado",
+      "backend": "backend",
+      "engineering": "ingeniería",
+      "position": "puestos",
+      "distributed": "distribuidos",
+      "system": "sistemas",
+      "balanced": "equilibrado",
+      "approach": "enfoque",
+      "cross-functional": "multifuncional",
+      "team": "equipo",
+      "shared": "compartidos",
+      "confidence": "confianza",
+      "without": "sin",
+      "aggressive": "agresivo",
+      "hard": "difícil",
+      "small": "pequeño",
+      "set": "conjunto",
+      "repeatable": "repetible",
+      "normal": "normal",
+      "recently": "recientemente",
+      "look": "buscar",
+      "for": "para",
+      "ask": "pedir",
+      "fluent": "fluido",
+      "speaker": "hablante",
+      "mark": "marcar",
+      "unnatural": "poco natural",
+      "them": "ellas",
+      "structure": "estructuras",
+      "complex": "complejo",
+      "vocabulary": "vocabulario",
+      "advanced": "avanzado",
+      "predictable": "predecible",
+      "recognize": "reconocer",
+      "immediately": "inmediatamente",
+      "increasingly": "cada vez más",
+      "get": "ser",
+      "human": "humano",
+      "automated": "automatizado",
+      "together": "juntos",
+      "stop": "dejar de",
+      "document": "documento",
+      "English-speaking": "de habla inglesa",
+      "audience": "audiencia",
+      "today": "hoy"
+    }
+  }
+}
