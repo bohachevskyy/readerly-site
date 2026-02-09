@@ -245,6 +245,34 @@ const articleJsonLd = {
     </div>
   </main>
 
+  <!-- CTA Section -->
+  <section class="bg-emerald-50 border-t border-emerald-100">
+    <div class="container py-12 text-center">
+      <h2 class="text-2xl font-semibold text-ink">
+        Want to save words and practice them?
+      </h2>
+      <p class="mt-3 text-muted max-w-lg mx-auto">
+        Open Readerly to build your personal vocabulary with spaced repetition — completely free.
+      </p>
+      <div class="mt-6 flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="/read/"
+          class="inline-flex items-center justify-center rounded-full border border-emerald-200 bg-white px-6 py-3 text-sm font-semibold text-ink transition hover:border-emerald-400"
+        >
+          Browse More Stories
+        </a>
+        <a
+          href={story.appUrl || "https://app.readerly.ai"}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center justify-center rounded-full bg-emerald-500 px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:bg-emerald-600"
+        >
+          Open Readerly App
+        </a>
+      </div>
+    </div>
+  </section>
+
   <footer class="border-t border-emerald-100 bg-white">
     <div class="container flex flex-col items-start justify-between gap-4 py-8 text-sm text-muted sm:flex-row sm:items-center">
       <p>&copy; {new Date().getFullYear()} Readerly</p>
