@@ -1,4 +1,5 @@
 export interface WordInfo {
+  word: string;
   pos?: string;
   example?: string;
 }

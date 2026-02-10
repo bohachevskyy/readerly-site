@@ -39,21 +39,39 @@ function getLanguageLabel(code: string): string {
   return LANGUAGE_LABELS[code] ?? code.toUpperCase();
 }
 
-// Split text into paragraphs and then words, preserving punctuation visually
-function tokenize(text: string) {
-  const paragraphs = text.split("\n\n");
-  return paragraphs.map((p) => {
-    // Split on whitespace, keeping each token
-    return p.split(/\s+/).filter((w) => w.length > 0);
-  });
+// Tokenize text into paragraphs of words, tracking each word's character offset
+// in the original text. The offset is used as the word's unique ID to match the
+// position-indexed keys in the JSON data.
+interface Token {
+  word: string;
+  offset: number;
 }
 
-const paragraphs = tokenize(story.text);
+function tokenizeWithOffsets(text: string): Token[][] {
+  const paragraphs: Token[][] = [];
+  const rawParagraphs = text.split("\n\n");
+  let charPos = 0;
 
-// Normalize a display word for dictionary lookup: lowercase, strip punctuation
-function normalize(word: string): string {
-  return word.toLowerCase().replace(/[^a-zA-Z'-]/g, "");
+  for (let pIdx = 0; pIdx < rawParagraphs.length; pIdx++) {
+    const p = rawParagraphs[pIdx];
+    const tokens: Token[] = [];
+    const re = /\S+/g;
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(p)) !== null) {
+      tokens.push({ word: m[0], offset: charPos + m.index });
+    }
+    paragraphs.push(tokens);
+    charPos += p.length;
+    // Account for the "\n\n" separator between paragraphs
+    if (pIdx < rawParagraphs.length - 1) {
+      charPos += 2;
+    }
+  }
+
+  return paragraphs;
 }
+
+const paragraphs = tokenizeWithOffsets(story.text);
 
 const siteUrl = Astro.site?.toString() ?? "https://readerly.ai";
 const pageUrl = new URL(Astro.url.pathname, siteUrl).toString();
@@ -153,14 +171,14 @@ const articleJsonLd = {
     <!-- Story text -->
     <article class="container py-10">
       <div id="story-content" class="story-text mx-auto max-w-[680px] font-serif text-lg leading-[1.9] text-ink">
-        {paragraphs.map((words) => (
+        {paragraphs.map((tokens) => (
           <p class="mb-6">
-            {words.map((word, i) => (
+            {tokens.map((token, i) => (
               <>
                 <span
                   class="word cursor-pointer rounded px-[1px] transition-colors duration-150 hover:bg-emerald-100"
-                  data-word={normalize(word)}
-                >{word}</span>{i < words.length - 1 ? " " : ""}
+                  data-word-id={String(token.offset)}
+                >{token.word}</span>{i < tokens.length - 1 ? " " : ""}
               </>
             ))}
           </p>
@@ -211,12 +229,6 @@ const articleJsonLd = {
           <div id="tooltip-translation-section">
             <p class="text-xs font-medium text-muted">Translation</p>
             <p id="tooltip-translation" class="mt-0.5 text-base font-semibold text-ink"></p>
-          </div>
-
-          <!-- Sentence context -->
-          <div id="tooltip-sentence-section">
-            <p class="text-xs font-medium text-muted">Sentence</p>
-            <p id="tooltip-sentence" class="mt-0.5 text-sm leading-relaxed text-ink/80"></p>
           </div>
 
           <!-- Example -->
@@ -283,7 +295,7 @@ const articleJsonLd = {
     </div>
   </footer>
 
-  <script define:vars={{ slug: story.slug, languages, storyText: story.text }}>
+  <script define:vars={{ slug: story.slug, languages }}>
     // --- State ---
     let currentLang = localStorage.getItem("readerly-lang") || languages[0];
     if (!languages.includes(currentLang)) currentLang = languages[0];
@@ -316,19 +328,9 @@ const articleJsonLd = {
     const elWord = document.getElementById("tooltip-word");
     const elPos = document.getElementById("tooltip-pos");
     const elTranslation = document.getElementById("tooltip-translation");
-    const elSentence = document.getElementById("tooltip-sentence");
-    const elSentenceSection = document.getElementById("tooltip-sentence-section");
     const elExample = document.getElementById("tooltip-example");
     const elExampleSection = document.getElementById("tooltip-example-section");
     let activeWord = null;
-
-    // --- Sentence extraction ---
-    const sentences = storyText.split(/(?<=[.!?])\s+/);
-
-    function findSentence(word) {
-      const pattern = new RegExp("\\b" + word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "i");
-      return sentences.find((s) => pattern.test(s)) || null;
-    }
 
     // --- Speech synthesis ---
     const speakBtn = document.getElementById("tooltip-speak");
@@ -344,7 +346,11 @@ const articleJsonLd = {
 
     speakBtn.addEventListener("click", (e) => {
       e.stopPropagation();
-      if (activeWord) speakWord(activeWord.dataset.word);
+      if (activeWord) {
+        const id = activeWord.dataset.wordId;
+        const info = words[id];
+        speakWord(info?.word || activeWord.textContent);
+      }
     });
 
     // --- Close button ---
@@ -371,26 +377,27 @@ const articleJsonLd = {
 
     // --- Tooltip logic ---
     function showTooltipForWord(span) {
-      const word = span.dataset.word;
-
-      // Word
-      elWord.textContent = word;
+      const wordId = span.dataset.wordId;
+      const displayText = span.textContent;
 
       // Handle loading state
       if (isLoading) {
+        elWord.textContent = displayText.toLowerCase();
         elPos.style.display = "none";
         elTranslation.textContent = "Loading...";
-        elSentenceSection.style.display = "none";
         elExampleSection.style.display = "none";
       } else if (loadError) {
+        elWord.textContent = displayText.toLowerCase();
         elPos.style.display = "none";
         elTranslation.textContent = "Failed to load";
-        elSentenceSection.style.display = "none";
         elExampleSection.style.display = "none";
       } else {
         const dict = translations[currentLang] || {};
-        const translation = dict[word];
-        const wordInfo = words[word];
+        const translation = dict[wordId];
+        const wordInfo = words[wordId];
+
+        // Word (use base form from dictionary, fall back to display text)
+        elWord.textContent = wordInfo?.word || displayText.toLowerCase();
 
         // Part of speech
         if (wordInfo && wordInfo.pos) {
@@ -405,16 +412,6 @@ const articleJsonLd = {
           elTranslation.textContent = translation;
         } else {
           elTranslation.textContent = "—";
-        }
-
-        // Sentence context from story
-        const sentence = findSentence(word);
-        if (sentence) {
-          const boldPattern = new RegExp("(\\b" + word.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b)", "i");
-          elSentence.innerHTML = sentence.trim().replace(boldPattern, '<strong class="font-semibold">$1</strong>');
-          elSentenceSection.style.display = "";
-        } else {
-          elSentenceSection.style.display = "none";
         }
 
         // Example

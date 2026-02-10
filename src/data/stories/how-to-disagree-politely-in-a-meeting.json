@@ -1,1619 +1,2630 @@
 {
-  "title": "How to Disagree Politely in a Meeting – Professional Phrases and Examples",
+  "title": "Title: How to Disagree Politely in a Meeting – Professional Phrases and Examples",
   "slug": "how-to-disagree-politely-in-a-meeting",
   "description": "Learn professional phrases to disagree politely in meetings without damaging relationships. Includes ready-to-use expressions for challenging ideas, asking for evidence, and proposing alternatives at work.",
   "level": "B2",
   "appUrl": "https://app.readerly.ai?utm_campaign=disagree-politely-meeting",
   "text": "Polite disagreement in meetings protects working relationships while improving decisions. It matters because teams make fewer errors when people can challenge ideas without attacking the person, and research on group decision-making shows that unchallenged consensus can lead to poor outcomes.\n\nStart by signaling respect and shared goals before you disagree. Phrases like “I see your point,” “That’s a helpful suggestion,” and “I understand the goal you’re aiming for” reduce defensiveness because they confirm you listened. You can then add a soft transition such as “At the same time,” or “My concern is,” which prepares the group for a different view without sounding abrupt. This matters because tone often decides whether the discussion stays focused on the work.\n\nUse language that separates the idea from the person. “I disagree with that approach,” is safer than “You’re wrong,” because it targets the plan, not the colleague. In the same way, “I’m not convinced this will meet the deadline,” focuses on evidence and constraints. If you need to be more direct, “I don’t think this is the best option for us,” stays firm but avoids blame. This matters because people keep contributing when they feel respected, even during conflict.\n\nAsk questions to disagree indirectly and invite evidence. “What data are we using for that estimate?” and “Can you walk me through the assumption behind this number?” allow you to challenge a claim while giving the speaker a chance to explain. If you suspect a risk, “What could go wrong if we choose this?” or “How will this affect customers in the first month?” shifts the discussion to testing the idea. This matters because good meetings are built on reasons and checks, not on confidence alone.\n\nOffer an alternative instead of only pointing out problems. After stating a concern, add “Could we consider a different option?” or “What if we try a smaller pilot first?” In project work, “I’d suggest we split this into two phases,” shows a path forward. When you want to keep part of the original idea, “I like the direction, but I’d change the timing,” communicates collaboration. This matters because disagreement is more useful when it leads to a workable next step.\n\nUse calibrated language to match how sure you are. If you have partial confidence, “I’m not sure we have enough information yet,” or “I think we should verify this before deciding,” signals caution without shutting the idea down. If you are confident because of clear constraints, “We can’t do that under the current contract,” or “That would violate our security policy,” is appropriately firm. This matters because the team needs to know whether you are raising a question, a risk, or a hard limit.\n\nWhen disagreement becomes tense, use phrases that protect the relationship and the meeting time. “Let’s pause and define the decision we’re making,” reduces emotional back-and-forth. “I think we’re talking about two different goals,” can reset the discussion to clarify priorities. If you need time, “Can we park this and come back with numbers?” prevents rushed choices. This matters because meetings succeed when they stay structured, even under pressure.\n\nIn modern workplaces, teams often collaborate across cultures and online tools where tone is easier to misread. Using respectful disagreement phrases, asking for evidence, and proposing alternatives helps decisions stay transparent and reduces conflict that continues after the meeting. These skills matter because clear, polite challenge is a practical form of leadership, even when you are not the manager.",
   "words": {
-    "polite": {
+    "0": {
+      "word": "polite",
       "pos": "adjective",
       "example": "She is always polite to others."
     },
-    "disagreement": {
+    "7": {
+      "word": "disagreement",
       "pos": "noun",
       "example": "They had a disagreement about money."
     },
-    "meeting": {
+    "23": {
+      "word": "meeting",
       "pos": "plural noun",
       "example": "We have meetings every Monday."
     },
-    "protect": {
+    "32": {
+      "word": "protect",
       "pos": "third person singular verb",
       "example": "They protect the environment."
     },
-    "working relationship": {
+    "41": {
+      "word": "working relationship",
       "pos": "compound noun",
       "example": "They have a good working relationship."
     },
-    "working": {
-      "pos": "adjective",
-      "example": "He has good working conditions."
-    },
-    "relationship": {
+    "49": {
+      "word": "relationship",
       "pos": "plural noun",
       "example": "They have a good relationship."
     },
-    "while": {
+    "63": {
+      "word": "while",
       "pos": "conjunction",
       "example": "She sings while cooking."
     },
-    "improve": {
+    "69": {
+      "word": "improve",
       "pos": "gerund verb",
       "example": "We try to improve every day."
     },
-    "decision": {
+    "79": {
+      "word": "decision",
       "pos": "plural noun",
       "example": "Good decisions bring success."
     },
-    "matter": {
+    "93": {
+      "word": "matter",
       "pos": "present tense verb",
       "example": "Problems matter to everyone."
     },
-    "team": {
+    "109": {
+      "word": "team",
       "pos": "plural noun",
       "example": "A team works well together."
     },
-    "make": {
+    "115": {
+      "word": "make",
       "pos": "base form verb",
       "example": "They make mistakes often."
     },
-    "few": {
+    "120": {
+      "word": "few",
       "pos": "comparative adjective",
       "example": "We have fewer tasks today."
     },
-    "error": {
+    "126": {
+      "word": "error",
       "pos": "plural noun",
       "example": "An error happened in the test."
     },
-    "person": {
+    "138": {
+      "word": "person",
       "pos": "plural noun",
       "example": "People like to learn."
     },
-    "challenge": {
+    "149": {
+      "word": "challenge",
       "pos": "present tense verb",
       "example": "I challenge you to a race."
     },
-    "idea": {
+    "159": {
+      "word": "idea",
       "pos": "plural noun",
       "example": "She has a good idea."
     },
-    "attack": {
+    "173": {
+      "word": "attack",
       "pos": "present participle verb",
       "example": "They attack the problem."
     },
-    "research": {
+    "187": {
+      "word": "person",
+      "pos": "singular noun",
+      "example": "A person is here."
+    },
+    "199": {
+      "word": "research",
       "pos": "noun",
       "example": "Research helps solve problems."
     },
-    "group decision-making": {
+    "211": {
+      "word": "group decision-making",
       "pos": "compound noun",
       "example": "Group decision-making improves results."
     },
-    "group": {
-      "pos": "noun",
-      "example": "The group talks daily."
-    },
-    "decision-making": {
+    "217": {
+      "word": "decision-making",
       "pos": "compound noun",
       "example": "Decision-making is important."
     },
-    "show": {
+    "233": {
+      "word": "show",
       "pos": "present tense verb",
       "example": "They show the results."
     },
-    "unchallenged": {
+    "244": {
+      "word": "unchallenged",
       "pos": "adjective",
       "example": "His opinion is unchallenged."
     },
-    "consensus": {
+    "257": {
+      "word": "consensus",
       "pos": "noun",
       "example": "We reached consensus quickly."
     },
-    "lead": {
+    "271": {
+      "word": "lead",
       "pos": "base form verb",
       "example": "This can lead to problems."
     },
-    "poor": {
+    "279": {
+      "word": "poor",
       "pos": "adjective",
       "example": "Poor results are disappointing."
     },
-    "outcome": {
+    "284": {
+      "word": "outcome",
       "pos": "plural noun",
       "example": "The outcome was positive."
     },
-    "start": {
+    "295": {
+      "word": "start",
       "pos": "base form verb",
       "example": "I start work at nine."
     },
-    "signal": {
+    "304": {
+      "word": "signal",
       "pos": "present participle verb",
       "example": "They signal when it is safe."
     },
-    "respect": {
+    "314": {
+      "word": "respect",
       "pos": "noun",
       "example": "Respect is important in life."
     },
-    "share": {
+    "326": {
+      "word": "share",
       "pos": "past participle adjective",
       "example": "We share ideas daily."
     },
-    "goal": {
+    "333": {
+      "word": "goal",
       "pos": "plural noun",
       "example": "My goal is to learn English."
     },
-    "disagree": {
+    "350": {
+      "word": "disagree",
       "pos": "base form verb",
       "example": "They disagree about politics."
     },
-    "phrase": {
+    "360": {
+      "word": "phrase",
       "pos": "plural noun",
       "example": "This phrase is easy to remember."
     },
-    "like": {
+    "368": {
+      "word": "like",
       "pos": "preposition used in comparison",
       "example": "I like apples."
     },
-    "I see": {
+    "373": {
+      "word": "I see",
       "pos": "fixed phrase, verb phrase",
       "example": "I see what you mean."
     },
-    "see": {
+    "374": {
+      "word": "see",
       "pos": "present tense verb",
       "example": "I see the problem clearly."
     },
-    "your": {
+    "380": {
+      "word": "your",
       "pos": "possessive determiner",
       "example": "This is your book."
     },
-    "point": {
+    "385": {
+      "word": "point",
       "pos": "singular noun",
-      "example": "You made a good point."
+      "example": "He made a good point."
     },
-    "that is": {
+    "394": {
+      "word": "that is",
       "pos": "contraction verb phrase",
       "example": "That is true."
     },
-    "": {
+    "401": {
+      "word": "",
       "pos": "",
       "example": ""
     },
-    "helpful": {
+    "403": {
+      "word": "helpful",
       "pos": "adjective",
       "example": "She gave helpful advice."
     },
-    "suggestion": {
+    "411": {
+      "word": "suggestion",
       "pos": "singular noun",
       "example": "I have a suggestion for you."
     },
-    "I": {
+    "429": {
+      "word": "I",
       "pos": "personal pronoun",
       "example": "I like music."
     },
-    "understand": {
+    "431": {
+      "word": "understand",
       "pos": "base form verb",
       "example": "I understand the problem."
     },
-    "the": {
+    "442": {
+      "word": "the",
       "pos": "article",
       "example": ""
     },
-    "you": {
+    "446": {
+      "word": "goal",
+      "pos": "singular noun",
+      "example": "She reached her goal."
+    },
+    "451": {
+      "word": "you",
       "pos": "pronoun",
       "example": ""
     },
-    "be aiming": {
+    "454": {
+      "word": "be aiming",
       "pos": "present continuous verb",
       "example": "They are aiming for success."
     },
-    "aim": {
+    "458": {
+      "word": "aim",
       "pos": "present participle verb",
       "example": "They aim to win."
     },
-    "for": {
+    "465": {
+      "word": "for",
       "pos": "preposition",
       "example": "This is for you."
     },
-    "reduce": {
+    "470": {
+      "word": "reduce",
       "pos": "base form verb",
       "example": "We reduce waste every day."
     },
-    "defensiveness": {
+    "477": {
+      "word": "defensiveness",
       "pos": "singular noun",
       "example": "Defensiveness can block communication."
     },
-    "because": {
+    "491": {
+      "word": "because",
       "pos": "conjunction",
       "example": ""
     },
-    "they": {
+    "499": {
+      "word": "they",
       "pos": "personal pronoun",
       "example": "They are coming soon."
     },
-    "confirm": {
+    "504": {
+      "word": "confirm",
       "pos": "present tense verb",
       "example": "Please confirm your appointment."
     },
-    "listen": {
+    "512": {
+      "word": "you",
+      "pos": "pronoun",
+      "example": ""
+    },
+    "516": {
+      "word": "listen",
       "pos": "past tense verb",
       "example": "I listen to music every day."
     },
-    "can": {
+    "530": {
+      "word": "can",
       "pos": "modal verb",
       "example": "I can swim well."
     },
-    "add": {
+    "539": {
+      "word": "add",
       "pos": "base form verb",
       "example": "Please add sugar to the tea."
     },
-    "soft": {
+    "545": {
+      "word": "soft",
       "pos": "adjective",
       "example": "The pillow is soft."
     },
-    "transition": {
+    "550": {
+      "word": "transition",
       "pos": "singular noun",
       "example": "The transition was smooth."
     },
-    "at the same time": {
+    "570": {
+      "word": "at the same time",
       "pos": "idiomatic phrase",
       "example": "They arrived at the same time."
     },
-    "at": {
-      "pos": "preposition",
-      "example": "She is at home."
+    "573": {
+      "word": "the",
+      "pos": "article",
+      "example": "The cat is black."
     },
-    "same": {
+    "577": {
+      "word": "same",
       "pos": "adjective",
       "example": "We have the same shirt."
     },
-    "time": {
+    "582": {
+      "word": "time",
       "pos": "noun",
       "example": "Time flies fast."
     },
-    "my": {
+    "593": {
+      "word": "my",
       "pos": "possessive adjective",
       "example": "My book is new."
     },
-    "my concern is": {
-      "pos": "fixed phrase",
-      "example": "My concern is the price."
-    },
-    "concern": {
+    "596": {
+      "word": "concern",
       "pos": "noun",
       "example": "His main concern is health."
     },
-    "prepare": {
+    "615": {
+      "word": "prepare",
       "pos": "present tense verb",
       "example": "They prepare food daily."
     },
-    "different": {
+    "628": {
+      "word": "group",
+      "pos": "noun",
+      "example": "The group is large."
+    },
+    "640": {
+      "word": "different",
       "pos": "adjective",
       "example": "This is a different idea."
     },
-    "view": {
+    "650": {
+      "word": "view",
       "pos": "singular noun",
       "example": "He shared his view."
     },
-    "sound": {
+    "663": {
+      "word": "sound",
       "pos": "present participle verb",
       "example": "The bell sounds loud."
     },
-    "abrupt": {
+    "672": {
+      "word": "abrupt",
       "pos": "adjective",
       "example": "His departure was abrupt."
     },
-    "tone": {
+    "685": {
+      "word": "matter",
+      "pos": "present tense verb",
+      "example": "Issues matter in every project."
+    },
+    "701": {
+      "word": "tone",
       "pos": "singular noun",
       "example": "The tone of voice is important."
     },
-    "often": {
+    "706": {
+      "word": "often",
       "pos": "adverb",
       "example": "She often goes to the gym."
     },
-    "decide": {
+    "712": {
+      "word": "decide",
       "pos": "present tense verb",
       "example": "They decide the winner."
     },
-    "discussion": {
+    "732": {
+      "word": "discussion",
       "pos": "singular noun",
       "example": "The discussion was lively."
     },
-    "stay": {
+    "743": {
+      "word": "stay",
       "pos": "present tense verb",
       "example": "I stay here every day."
     },
-    "focus": {
+    "749": {
+      "word": "focus",
       "pos": "past participle adjective",
       "example": "They focus on study."
     },
-    "work": {
+    "764": {
+      "word": "work",
       "pos": "singular noun",
       "example": "He goes to work."
     },
-    "use": {
+    "771": {
+      "word": "use",
       "pos": "base form verb",
       "example": "I use a pen to write."
     },
-    "language": {
+    "775": {
+      "word": "language",
       "pos": "singular noun",
       "example": "Language is important for communication."
     },
-    "separate": {
+    "789": {
+      "word": "separate",
       "pos": "present tense verb",
       "example": "They separate the trash."
     },
-    "approach": {
+    "803": {
+      "word": "idea",
+      "pos": "singular noun",
+      "example": "She has a good idea."
+    },
+    "817": {
+      "word": "person",
+      "pos": "singular noun",
+      "example": "That person is kind."
+    },
+    "828": {
+      "word": "disagree",
+      "pos": "base form verb",
+      "example": "I disagree with that opinion."
+    },
+    "847": {
+      "word": "approach",
       "pos": "singular noun",
       "example": "The approach is effective."
     },
-    "safe": {
+    "861": {
+      "word": "safe",
       "pos": "comparative adjective",
       "example": "This place is safe."
     },
-    "you are wrong": {
+    "873": {
+      "word": "you are wrong",
       "pos": "idiomatic phrase",
       "example": "You are wrong about that."
     },
-    "be wrong": {
-      "pos": "idiomatic phrase",
-      "example": "You are wrong about that fact."
-    },
-    "wrong": {
+    "880": {
+      "word": "wrong",
       "pos": "adjective",
       "example": "You are wrong about that."
     },
-    "target": {
+    "888": {
+      "word": "because",
+      "pos": "conjunction",
+      "example": ""
+    },
+    "899": {
+      "word": "target",
       "pos": "present tense verb",
       "example": "We target young customers."
     },
-    "plan": {
+    "911": {
+      "word": "plan",
       "pos": "singular noun",
       "example": "We need a new plan."
     },
-    "colleague": {
+    "925": {
+      "word": "colleague",
       "pos": "singular noun",
       "example": "My colleague helped me."
     },
-    "way": {
+    "943": {
+      "word": "same",
+      "pos": "adjective",
+      "example": "We have the same book."
+    },
+    "948": {
+      "word": "way",
       "pos": "noun, singular",
       "example": "Find a better way home."
     },
-    "be": {
+    "954": {
+      "word": "be",
       "pos": "contraction of 'I am', present tense verb",
       "example": "I am happy today."
     },
-    "I am": {
-      "pos": "contraction of 'I am'",
-      "example": "I am happy today."
-    },
-    "not": {
+    "958": {
+      "word": "not",
       "pos": "adverb",
       "example": "I am not tired."
     },
-    "convince": {
+    "962": {
+      "word": "convince",
       "pos": "past participle adjective",
       "example": "She is convinced about the facts."
     },
-    "this": {
+    "972": {
+      "word": "this",
       "pos": "demonstrative pronoun",
       "example": "This is my book."
     },
-    "will": {
+    "977": {
+      "word": "will",
       "pos": "modal verb",
       "example": "She will arrive soon."
     },
-    "meet": {
+    "982": {
+      "word": "meet",
       "pos": "base verb",
       "example": "We meet every week."
     },
-    "deadline": {
+    "991": {
+      "word": "deadline",
       "pos": "noun, singular",
       "example": "The deadline is tomorrow."
     },
-    "evidence": {
+    "1002": {
+      "word": "focus",
+      "pos": "present tense verb",
+      "example": "I focus on my studies."
+    },
+    "1013": {
+      "word": "evidence",
       "pos": "singular noun",
       "example": "The evidence is clear."
     },
-    "constraint": {
+    "1026": {
+      "word": "constraint",
       "pos": "plural noun",
       "example": "There are many constraints to consider."
     },
-    "need": {
+    "1046": {
+      "word": "need",
       "pos": "base verb",
       "example": "I need help with my homework."
     },
-    "more": {
+    "1054": {
+      "word": "be",
+      "pos": "base verb",
+      "example": "I want to be happy."
+    },
+    "1057": {
+      "word": "more",
       "pos": "adverb",
       "example": "I want more coffee."
     },
-    "direct": {
+    "1062": {
+      "word": "direct",
       "pos": "adjective",
       "example": "He gave a direct answer."
     },
-    "“I don’t think this is the best option for us,”": {
+    "1070": {
+      "word": "“I don’t think this is the best option for us,”",
       "pos": "quoted phrase",
       "example": ""
     },
-    "do not": {
+    "1071": {
+      "word": "I",
+      "pos": "personal pronoun",
+      "example": ""
+    },
+    "1073": {
+      "word": "do not",
       "pos": "negative auxiliary verb",
       "example": "I do not like apples."
     },
-    "think": {
+    "1079": {
+      "word": "think",
       "pos": "base verb",
       "example": "I think it's a good idea."
     },
-    "best": {
+    "1085": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is my book."
+    },
+    "1097": {
+      "word": "best",
       "pos": "adjective (superlative)",
       "example": "This is the best choice."
     },
-    "option": {
+    "1102": {
+      "word": "option",
       "pos": "singular noun",
       "example": "Choose an option carefully."
     },
-    "we": {
+    "1113": {
+      "word": "we",
       "pos": "object pronoun",
       "example": "He gave us a gift."
     },
-    "firm": {
+    "1118": {
+      "word": "stay",
+      "pos": "present tense verb",
+      "example": "I stay at home on Sundays."
+    },
+    "1124": {
+      "word": "firm",
       "pos": "adjective",
       "example": "He gave a firm handshake."
     },
-    "but": {
+    "1129": {
+      "word": "but",
       "pos": "conjunction",
       "example": ""
     },
-    "avoid": {
+    "1133": {
+      "word": "avoid",
       "pos": "present simple verb",
       "example": "We avoid noise at night."
     },
-    "blame": {
+    "1140": {
+      "word": "blame",
       "pos": "noun",
       "example": "He takes blame for errors."
     },
-    "people": {
+    "1152": {
+      "word": "matter",
+      "pos": "present tense verb",
+      "example": "It matters to me."
+    },
+    "1168": {
+      "word": "people",
       "pos": "plural noun",
       "example": "People like to travel."
     },
-    "keep": {
+    "1175": {
+      "word": "keep",
       "pos": "present tense verb",
       "example": "Please keep quiet."
     },
-    "contribute": {
+    "1180": {
+      "word": "contribute",
       "pos": "present participle verb",
       "example": "We contribute to the project."
     },
-    "feel": {
+    "1203": {
+      "word": "feel",
       "pos": "present tense verb",
       "example": "I feel happy today."
     },
-    "conflict": {
+    "1208": {
+      "word": "respect",
+      "pos": "past participle adjective",
+      "example": "She is respected by all."
+    },
+    "1231": {
+      "word": "conflict",
       "pos": "singular noun",
       "example": "The conflict was resolved."
     },
-    "ask": {
+    "1242": {
+      "word": "ask",
       "pos": "base form verb",
       "example": "I ask questions in class."
     },
-    "question": {
+    "1246": {
+      "word": "question",
       "pos": "plural noun",
       "example": "She answers difficult questions."
     },
-    "indirectly": {
+    "1259": {
+      "word": "disagree",
+      "pos": "base form verb",
+      "example": "They disagree with the plan."
+    },
+    "1268": {
+      "word": "indirectly",
       "pos": "adverb",
       "example": "She spoke indirectly about the issue."
     },
-    "invite": {
+    "1283": {
+      "word": "invite",
       "pos": "verb",
       "example": "We invite friends to our parties."
     },
-    "data": {
+    "1290": {
+      "word": "evidence",
+      "pos": "singular noun",
+      "example": "The evidence is clear."
+    },
+    "1306": {
+      "word": "data",
       "pos": "plural noun",
       "example": "The data show a clear trend."
     },
-    "datum": {
-      "pos": "plural noun",
-      "example": "The data shows clear results."
+    "1311": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "They are happy today."
     },
-    "estimate": {
+    "1318": {
+      "word": "use",
+      "pos": "present participle verb",
+      "example": "I use a pen to write."
+    },
+    "1333": {
+      "word": "estimate",
       "pos": "noun",
       "example": "We need an estimate of the costs."
     },
-    "suspect": {
+    "1489": {
+      "word": "you",
+      "pos": "pronoun",
+      "example": "You are my friend."
+    },
+    "1493": {
+      "word": "suspect",
       "pos": "base form verb",
       "example": "I suspect he is right."
     },
-    "risk": {
+    "1503": {
+      "word": "risk",
       "pos": "singular noun",
       "example": "There is a risk of rain."
     },
-    "what": {
+    "1510": {
+      "word": "what",
       "pos": "pronoun",
       "example": "What do you want?"
     },
-    "could": {
+    "1515": {
+      "word": "could",
       "pos": "modal verb",
       "example": "I could help you."
     },
-    "go": {
+    "1521": {
+      "word": "go",
       "pos": "base form verb",
       "example": "Things can go wrong."
     },
-    "if": {
+    "1524": {
+      "word": "wrong",
+      "pos": "adjective",
+      "example": "Something is wrong here."
+    },
+    "1530": {
+      "word": "if",
       "pos": "conjunction",
       "example": "If it rains, stay home."
     },
-    "choose": {
+    "1533": {
+      "word": "we",
+      "pos": "pronoun",
+      "example": "We are happy."
+    },
+    "1536": {
+      "word": "choose",
       "pos": "base form verb",
       "example": "I choose blue color."
     },
-    "good": {
+    "1543": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is my book."
+    },
+    "1654": {
+      "word": "matter",
+      "pos": "present tense verb",
+      "example": "Problems matter to everyone."
+    },
+    "1670": {
+      "word": "good",
       "pos": "adjective",
       "example": "She has a good idea."
     },
-    "build": {
+    "1675": {
+      "word": "meeting",
+      "pos": "plural noun",
+      "example": "We attend meetings every week."
+    },
+    "1688": {
+      "word": "build",
       "pos": "past participle verb",
       "example": "They build houses quickly."
     },
-    "reason": {
+    "1697": {
+      "word": "reason",
       "pos": "plural noun",
       "example": "There is a reason for that."
     },
-    "check": {
+    "1709": {
+      "word": "check",
       "pos": "plural noun",
       "example": "He did a check of the work."
     },
-    "confidence": {
+    "1724": {
+      "word": "confidence",
       "pos": "noun",
       "example": "She has confidence in herself."
     },
-    "alone": {
+    "1735": {
+      "word": "alone",
       "pos": "adverb",
       "example": "He went alone."
     },
-    "offer": {
+    "1743": {
+      "word": "offer",
       "pos": "base form verb",
       "example": "I offer help to my friends."
     },
-    "alternative": {
+    "1752": {
+      "word": "alternative",
       "pos": "noun singular",
       "example": "We need an alternative solution."
     },
-    "point out": {
-      "pos": "phrasal verb",
-      "example": "She pointed out the mistake."
+    "1780": {
+      "word": "point",
+      "pos": "present participle verb",
+      "example": "Please point to the map."
     },
-    "problem": {
+    "1789": {
+      "word": "point out",
+      "pos": "phrasal verb",
+      "example": "I will point out the mistakes."
+    },
+    "1793": {
+      "word": "problem",
       "pos": "plural noun",
       "example": "We need to solve the problem."
     },
-    "state": {
+    "1809": {
+      "word": "state",
       "pos": "gerund verb",
       "example": "I state my opinion clearly."
     },
-    "could consider": {
+    "1819": {
+      "word": "concern",
+      "pos": "singular noun",
+      "example": "She has a concern about safety."
+    },
+    "1828": {
+      "word": "add",
+      "pos": "base form verb",
+      "example": "Please add sugar to the tea."
+    },
+    "1832": {
+      "word": "could consider",
       "pos": "modal verb + base verb",
       "example": "We could consider other ideas."
     },
-    "consider": {
+    "1833": {
+      "word": "can",
+      "pos": "modal verb past form",
+      "example": "Could you help me?"
+    },
+    "1839": {
+      "word": "we",
+      "pos": "pronoun",
+      "example": "We study together."
+    },
+    "1842": {
+      "word": "consider",
       "pos": "base form verb",
       "example": "Consider all your options."
     },
-    "a": {
+    "1851": {
+      "word": "a",
       "pos": "article",
       "example": ""
     },
-    "want": {
+    "1853": {
+      "word": "different",
+      "pos": "adjective",
+      "example": "That is a different idea."
+    },
+    "1863": {
+      "word": "option",
+      "pos": "singular noun",
+      "example": "This is a good option."
+    },
+    "2008": {
+      "word": "want",
       "pos": "present tense verb",
       "example": "I want a new book."
     },
-    "part": {
+    "2016": {
+      "word": "keep",
+      "pos": "base form verb",
+      "example": "Please keep the room clean."
+    },
+    "2021": {
+      "word": "part",
       "pos": "singular noun",
       "example": "I read part of the book."
     },
-    "original": {
+    "2033": {
+      "word": "original",
       "pos": "adjective",
       "example": "This is the original version."
     },
-    "I like": {
+    "2042": {
+      "word": "idea",
+      "pos": "noun",
+      "example": "She had a great idea."
+    },
+    "2047": {
+      "word": "",
+      "pos": "",
+      "example": ""
+    },
+    "2048": {
+      "word": "I like",
       "pos": "phrase (subject + verb)",
       "example": "I like ice cream."
     },
-    "direction": {
+    "2049": {
+      "word": "I",
+      "pos": "pronoun",
+      "example": ""
+    },
+    "2051": {
+      "word": "like",
+      "pos": "base form verb",
+      "example": "I like chocolate."
+    },
+    "2060": {
+      "word": "direction",
       "pos": "singular noun",
       "example": "Follow the right direction."
     },
-    "would": {
+    "2076": {
+      "word": "would",
       "pos": "modal verb contraction",
       "example": "I would go now."
     },
-    "change": {
+    "2079": {
+      "word": "change",
       "pos": "base form verb",
       "example": "We change plans often."
     },
-    "timing": {
+    "2086": {
+      "word": "the",
+      "pos": "",
+      "example": ""
+    },
+    "2090": {
+      "word": "timing",
       "pos": "singular noun",
       "example": "Timing is very important."
     },
-    "communicate": {
+    "2099": {
+      "word": "communicate",
       "pos": "present tense verb",
       "example": "They communicate every day."
     },
-    "collaboration": {
+    "2112": {
+      "word": "collaboration",
       "pos": "singular noun",
       "example": "Collaboration improves work."
     },
-    "useful": {
+    "2132": {
+      "word": "matter",
+      "pos": "present tense verb",
+      "example": "Ideas matter in decisions."
+    },
+    "2148": {
+      "word": "disagreement",
+      "pos": "singular noun",
+      "example": "Disagreement can lead to better solutions."
+    },
+    "2164": {
+      "word": "more",
+      "pos": "adverb",
+      "example": "I want more food."
+    },
+    "2169": {
+      "word": "useful",
       "pos": "adjective",
       "example": "Books are useful for learning."
     },
-    "workable": {
+    "2184": {
+      "word": "lead",
+      "pos": "present tense verb",
+      "example": "Good plans lead to success."
+    },
+    "2195": {
+      "word": "workable",
       "pos": "adjective",
       "example": "We need a workable plan."
     },
-    "next": {
+    "2204": {
+      "word": "next",
       "pos": "adjective",
       "example": "She took the next train."
     },
-    "step": {
+    "2209": {
+      "word": "step",
       "pos": "singular noun",
       "example": "Take one step at a time."
     },
-    "calibrate": {
+    "2216": {
+      "word": "use",
+      "pos": "base form verb",
+      "example": "I use a computer every day."
+    },
+    "2220": {
+      "word": "calibrate",
       "pos": "past participle adjective",
       "example": "We calibrate the machine weekly."
     },
-    "calibrated": {
-      "pos": "past participle adjective",
-      "example": "The tool is calibrated correctly."
+    "2231": {
+      "word": "language",
+      "pos": "singular noun",
+      "example": "I speak two languages."
     },
-    "match": {
+    "2243": {
+      "word": "match",
       "pos": "base form verb",
       "example": "Please match these colors."
     },
-    "how": {
+    "2249": {
+      "word": "how",
       "pos": "adverb",
       "example": "How do you do that?"
     },
-    "sure": {
+    "2253": {
+      "word": "sure",
       "pos": "adjective",
       "example": "I am sure of this."
     },
-    "have": {
+    "2258": {
+      "word": "you",
+      "pos": "pronoun",
+      "example": "You are kind."
+    },
+    "2262": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "You are happy."
+    },
+    "2274": {
+      "word": "have",
       "pos": "base verb",
       "example": "I have a book."
     },
-    "partial": {
+    "2279": {
+      "word": "partial",
       "pos": "adjective",
       "example": "She showed partial interest."
     },
-    "enough": {
+    "2287": {
+      "word": "confidence",
+      "pos": "noun",
+      "example": "He has confidence in her skills."
+    },
+    "2308": {
+      "word": "sure",
+      "pos": "adjective",
+      "example": "I am sure about this."
+    },
+    "2316": {
+      "word": "have",
+      "pos": "base verb",
+      "example": "They have time now."
+    },
+    "2321": {
+      "word": "enough",
       "pos": "adjective",
       "example": "She has enough money."
     },
-    "information": {
+    "2328": {
+      "word": "information",
       "pos": "noun",
       "example": "I need more information."
     },
-    "yet": {
+    "2340": {
+      "word": "yet",
       "pos": "adverb",
       "example": "He hasn't arrived yet."
     },
-    "should": {
+    "2352": {
+      "word": "think",
+      "pos": "base form verb",
+      "example": "I think it will rain today."
+    },
+    "2361": {
+      "word": "should",
       "pos": "modal verb",
       "example": "You should study more."
     },
-    "verify": {
+    "2368": {
+      "word": "verify",
       "pos": "base form verb",
       "example": "Please verify the results."
     },
-    "caution": {
+    "2375": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "Look at this picture."
+    },
+    "2387": {
+      "word": "decide",
+      "pos": "gerund verb",
+      "example": "We decide together."
+    },
+    "2398": {
+      "word": "signal",
+      "pos": "present tense verb",
+      "example": "The bell signals lunch."
+    },
+    "2406": {
+      "word": "caution",
       "pos": "noun",
       "example": "Use caution when crossing."
     },
-    "without": {
+    "2414": {
+      "word": "without",
       "pos": "preposition",
       "example": "She left without warning."
     },
-    "shut": {
+    "2422": {
+      "word": "shut",
       "pos": "gerund verb",
       "example": "Please shut the door."
     },
-    "down": {
+    "2431": {
+      "word": "",
+      "pos": "",
+      "example": ""
+    },
+    "2435": {
+      "word": "idea",
+      "pos": "noun",
+      "example": "That is a good idea."
+    },
+    "2440": {
+      "word": "down",
       "pos": "adverb",
       "example": "Please sit down."
     },
-    "confident": {
+    "2453": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "They be happy today."
+    },
+    "2457": {
+      "word": "confident",
       "pos": "adjective",
       "example": "She feels confident about the test."
     },
-    "clear": {
+    "2478": {
+      "word": "clear",
       "pos": "adjective",
       "example": "The instructions are clear."
     },
-    "We can’t do that under the current contract": {
+    "2484": {
+      "word": "constraint",
+      "pos": "plural noun",
+      "example": "We face many constraint in time."
+    },
+    "2498": {
+      "word": "We can’t do that under the current contract",
       "pos": "quoted phrase",
       "example": ""
     },
-    "cannot": {
+    "2501": {
+      "word": "cannot",
       "pos": "modal verb contraction",
       "example": "I cannot go today."
     },
-    "do": {
+    "2507": {
+      "word": "do",
       "pos": "base form verb",
       "example": "I do my work every day."
     },
-    "that": {
+    "2510": {
+      "word": "that",
       "pos": "demonstrative pronoun",
       "example": "I like that book."
     },
-    "current": {
+    "2525": {
+      "word": "current",
       "pos": "adjective",
       "example": "The current issue is important."
     },
-    "contract": {
+    "2533": {
+      "word": "contract",
       "pos": "noun",
       "example": "I signed a new contract."
     },
-    "That would violate our security policy": {
-      "pos": "quoted phrase",
-      "example": ""
+    "2548": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is my favorite song."
     },
-    "violate": {
+    "2553": {
+      "word": "would",
+      "pos": "modal verb",
+      "example": "I would go if I could."
+    },
+    "2559": {
+      "word": "violate",
       "pos": "verb",
       "example": "Do not violate the rules."
     },
-    "our": {
+    "2567": {
+      "word": "our",
       "pos": "possessive pronoun",
       "example": "Our house is big."
     },
-    "security": {
+    "2571": {
+      "word": "security",
       "pos": "noun",
       "example": "Security is important here."
     },
-    "policy": {
+    "2580": {
+      "word": "policy",
       "pos": "singular noun",
       "example": "The policy is strict."
     },
-    "appropriately": {
+    "2592": {
+      "word": "appropriately",
       "pos": "adverb",
       "example": "Dress appropriately for the event."
     },
-    "know": {
+    "2606": {
+      "word": "firm",
+      "pos": "adjective",
+      "example": "Be firm in your decision."
+    },
+    "2617": {
+      "word": "matter",
+      "pos": "present tense verb",
+      "example": "Small errors do not matter."
+    },
+    "2637": {
+      "word": "team",
+      "pos": "singular noun",
+      "example": "The team won the match."
+    },
+    "2642": {
+      "word": "need",
+      "pos": "present tense verb",
+      "example": "I need a new phone."
+    },
+    "2651": {
+      "word": "know",
       "pos": "base form verb",
       "example": "I know the answer."
     },
-    "whether": {
+    "2656": {
+      "word": "whether",
       "pos": "conjunction (meaning 'if')",
       "example": "I don’t know whether he will come."
     },
-    "raise": {
+    "2672": {
+      "word": "raise",
       "pos": "present participle verb",
       "example": "Please raise your hand."
     },
-    "hard limit": {
+    "2682": {
+      "word": "question",
+      "pos": "singular noun",
+      "example": "I have a question."
+    },
+    "2694": {
+      "word": "risk",
+      "pos": "singular noun",
+      "example": "There is a risk of rain."
+    },
+    "2705": {
+      "word": "hard limit",
       "pos": "compound noun",
       "example": "We must respect the hard limit."
     },
-    "become": {
+    "2723": {
+      "word": "disagreement",
+      "pos": "singular noun",
+      "example": "Disagreement can lead to new ideas."
+    },
+    "2736": {
+      "word": "become",
       "pos": "present tense verb",
       "example": "Plants become green in spring."
     },
-    "tense": {
+    "2744": {
+      "word": "tense",
       "pos": "adjective",
       "example": "The situation feels tense."
     },
-    "meeting time": {
-      "pos": "compound noun",
-      "example": "The meeting time is at noon."
+    "2751": {
+      "word": "use",
+      "pos": "imperative verb",
+      "example": "Use a pen to write."
     },
-    "let us": {
+    "2755": {
+      "word": "phrase",
+      "pos": "plural noun",
+      "example": "She knows many useful phrases."
+    },
+    "2768": {
+      "word": "protect",
+      "pos": "base form verb",
+      "example": "We protect the environment."
+    },
+    "2780": {
+      "word": "relationship",
+      "pos": "singular noun",
+      "example": "They have a good relationship."
+    },
+    "2801": {
+      "word": "meeting",
+      "pos": "singular noun",
+      "example": "The meeting starts at nine."
+    },
+    "2809": {
+      "word": "time",
+      "pos": "singular noun",
+      "example": "I have no time to wait."
+    },
+    "2816": {
+      "word": "let us",
       "pos": "contraction, modal phrase",
       "example": "Let’s go to the park."
     },
-    "pause": {
+    "2822": {
+      "word": "pause",
       "pos": "verb",
       "example": "We pause the movie."
     },
-    "define": {
+    "2832": {
+      "word": "define",
       "pos": "verb",
       "example": "Please define this term."
     },
-    "we are": {
+    "2843": {
+      "word": "decision",
+      "pos": "noun",
+      "example": "The decision was final."
+    },
+    "2852": {
+      "word": "we are",
       "pos": "contraction verb",
       "example": "We are learning English."
     },
-    "emotional": {
+    "2854": {
+      "word": "be",
+      "pos": "verb contraction",
+      "example": "They are happy."
+    },
+    "2858": {
+      "word": "make",
+      "pos": "present participle verb",
+      "example": "They make plans every weekend."
+    },
+    "2867": {
+      "word": "reduce",
+      "pos": "present tense verb",
+      "example": "We reduce waste."
+    },
+    "2875": {
+      "word": "emotional",
       "pos": "adjective",
       "example": "She feels emotional today."
     },
-    "back-and-forth": {
+    "2885": {
+      "word": "back-and-forth",
       "pos": "compound noun",
       "example": "We had back-and-forth talks."
     },
-    "we be": {
+    "2904": {
+      "word": "think",
+      "pos": "base form verb",
+      "example": "I think this is correct."
+    },
+    "2910": {
+      "word": "we be",
       "pos": "contraction of 'we are'",
       "example": "We are happy today."
     },
-    "talk": {
+    "2916": {
+      "word": "talk",
       "pos": "present participle verb",
       "example": "We talk every day."
     },
-    "about": {
+    "2924": {
+      "word": "about",
       "pos": "preposition",
       "example": "She talks about books."
     },
-    "two": {
+    "2930": {
+      "word": "two",
       "pos": "numeral adjective",
       "example": "I have two cats."
     },
-    "reset": {
+    "2934": {
+      "word": "different",
+      "pos": "adjective",
+      "example": "We have different ideas."
+    },
+    "2944": {
+      "word": "goal",
+      "pos": "plural noun",
+      "example": "My goal is to learn."
+    },
+    "2956": {
+      "word": "reset",
       "pos": "base form verb",
       "example": "Please reset the password."
     },
-    "clarify": {
+    "2966": {
+      "word": "discussion",
+      "pos": "noun",
+      "example": "The discussion was long."
+    },
+    "2980": {
+      "word": "clarify",
       "pos": "base form verb",
       "example": "Let me clarify the rules."
     },
-    "priority": {
+    "2988": {
+      "word": "priority",
       "pos": "plural noun",
       "example": "Set your priorities first."
     },
-    "park": {
+    "3007": {
+      "word": "need",
+      "pos": "base form verb",
+      "example": "I need help with homework."
+    },
+    "3012": {
+      "word": "time",
+      "pos": "singular noun",
+      "example": "He has no time to play."
+    },
+    "3026": {
+      "word": "park",
       "pos": "base form verb",
       "example": "I park my car every day."
     },
-    "come": {
+    "3040": {
+      "word": "come",
       "pos": "base form verb",
       "example": "Please come to my house."
     },
-    "come back": {
-      "pos": "phrasal verb",
-      "example": "I will come back later."
-    },
-    "back": {
+    "3045": {
+      "word": "back",
       "pos": "adverb",
       "example": "Please come back tomorrow."
     },
-    "number": {
+    "3055": {
+      "word": "number",
       "pos": "plural noun",
       "example": "The numbers are on the board."
     },
-    "succeed": {
+    "3095": {
+      "word": "matter",
+      "pos": "third person singular verb",
+      "example": "Small issues often matter."
+    },
+    "3111": {
+      "word": "meeting",
+      "pos": "plural noun",
+      "example": "I attend meetings every week."
+    },
+    "3120": {
+      "word": "succeed",
       "pos": "verb infinitive",
       "example": "They want to succeed."
     },
-    "structured": {
+    "3138": {
+      "word": "stay",
+      "pos": "base form verb",
+      "example": "Please stay here a moment."
+    },
+    "3143": {
+      "word": "structured",
       "pos": "adjective past participle",
       "example": "A structured plan is helpful."
     },
-    "pressure": {
+    "3166": {
+      "word": "pressure",
       "pos": "noun singular",
       "example": "He feels pressure at work."
     },
-    "modern": {
+    "3180": {
+      "word": "modern",
       "pos": "adjective",
       "example": "Modern technology changes fast."
     },
-    "workplace": {
+    "3187": {
+      "word": "workplace",
       "pos": "plural noun",
       "example": "The workplace can be stressful."
     },
-    "collaborate": {
+    "3199": {
+      "word": "team",
+      "pos": "plural noun",
+      "example": "Teams work well together."
+    },
+    "3205": {
+      "word": "often",
+      "pos": "adverb",
+      "example": "I often read books."
+    },
+    "3211": {
+      "word": "collaborate",
       "pos": "verb",
       "example": "We collaborate on many projects."
     },
-    "across": {
+    "3223": {
+      "word": "across",
       "pos": "preposition",
       "example": "They walked across the street."
     },
-    "culture": {
+    "3230": {
+      "word": "culture",
       "pos": "plural noun",
       "example": "Different cultures have traditions."
     },
-    "online tool": {
+    "3243": {
+      "word": "online tool",
       "pos": "compound noun",
       "example": "We use online tools daily."
     },
-    "where": {
+    "3256": {
+      "word": "where",
       "pos": "adverb",
       "example": "This is where I live."
     },
-    "easy": {
+    "3262": {
+      "word": "tone",
+      "pos": "noun",
+      "example": "The tone of voice matters."
+    },
+    "3270": {
+      "word": "easy",
       "pos": "comparative adjective",
       "example": "This test is easy."
     },
-    "misread": {
+    "3280": {
+      "word": "misread",
       "pos": "verb",
       "example": "I often misread signs."
     },
-    "respectful": {
+    "3289": {
+      "word": "use",
+      "pos": "gerund verb",
+      "example": "I use a pen to write."
+    },
+    "3295": {
+      "word": "respectful",
       "pos": "adjective",
       "example": "She is respectful to teachers."
     },
-    "and": {
+    "3306": {
+      "word": "disagreement",
+      "pos": "noun",
+      "example": "They had a disagreement about plans."
+    },
+    "3319": {
+      "word": "phrase",
+      "pos": "noun, plural",
+      "example": "She uses nice phrases."
+    },
+    "3328": {
+      "word": "ask",
+      "pos": "gerund verb",
+      "example": "I ask for help when needed."
+    },
+    "3335": {
+      "word": "for",
       "pos": "",
       "example": ""
     },
-    "propose": {
+    "3339": {
+      "word": "evidence",
+      "pos": "noun, singular",
+      "example": "The police found evidence."
+    },
+    "3349": {
+      "word": "and",
+      "pos": "",
+      "example": ""
+    },
+    "3353": {
+      "word": "propose",
       "pos": "present participle verb",
       "example": "I propose a new plan."
     },
-    "help": {
+    "3363": {
+      "word": "alternative",
+      "pos": "plural noun",
+      "example": "We considered several alternative options."
+    },
+    "3376": {
+      "word": "help",
       "pos": "present tense verb",
       "example": "They help me every day."
     },
-    "transparent": {
+    "3382": {
+      "word": "decision",
+      "pos": "plural noun",
+      "example": "Her decisions are wise."
+    },
+    "3392": {
+      "word": "stay",
+      "pos": "base form verb",
+      "example": "I stay at home on weekends."
+    },
+    "3397": {
+      "word": "transparent",
       "pos": "adjective",
       "example": "The glass is transparent."
     },
-    "continue": {
+    "3413": {
+      "word": "reduce",
       "pos": "present tense verb",
-      "example": "The story continues tomorrow."
+      "example": "We reduce waste."
     },
-    "after": {
+    "3421": {
+      "word": "conflict",
+      "pos": "noun, singular",
+      "example": "They have a conflict."
+    },
+    "3430": {
+      "word": "that",
       "pos": "",
       "example": ""
     },
-    "skill": {
+    "3435": {
+      "word": "continue",
+      "pos": "present tense verb",
+      "example": "The story continues tomorrow."
+    },
+    "3445": {
+      "word": "after",
+      "pos": "",
+      "example": ""
+    },
+    "3455": {
+      "word": "meeting",
+      "pos": "noun",
+      "example": "We have a meeting at noon."
+    },
+    "3470": {
+      "word": "skill",
       "pos": "plural noun",
       "example": "She has many useful skills."
     },
-    "practical": {
+    "3477": {
+      "word": "matter",
+      "pos": "base form verb",
+      "example": "Ideas that matter change lives."
+    },
+    "3492": {
+      "word": "clear",
+      "pos": "adjective",
+      "example": "Please give clear instructions."
+    },
+    "3499": {
+      "word": "polite",
+      "pos": "adjective",
+      "example": "She is always polite to strangers."
+    },
+    "3506": {
+      "word": "challenge",
+      "pos": "singular noun",
+      "example": "This task is a big challenge."
+    },
+    "3516": {
+      "word": "be",
+      "pos": "present verb",
+      "example": "She is a teacher."
+    },
+    "3519": {
+      "word": "a",
+      "pos": "article",
+      "example": ""
+    },
+    "3521": {
+      "word": "practical",
       "pos": "adjective",
       "example": "This solution is practical."
     },
-    "form": {
+    "3531": {
+      "word": "form",
       "pos": "singular noun",
       "example": "Please fill out the form."
     },
-    "leadership": {
+    "3539": {
+      "word": "leadership",
       "pos": "singular noun",
       "example": "She showed strong leadership."
     },
-    "even": {
+    "3551": {
+      "word": "even",
       "pos": "adverb",
       "example": "Even children can understand."
     },
-    "when": {
+    "3556": {
+      "word": "when",
       "pos": "conjunction",
       "example": ""
     },
-    "manager": {
+    "3561": {
+      "word": "you",
+      "pos": "pronoun",
+      "example": ""
+    },
+    "3565": {
+      "word": "be",
+      "pos": "present verb",
+      "example": "They are happy today."
+    },
+    "3569": {
+      "word": "not",
+      "pos": "adverb",
+      "example": "I am not ready."
+    },
+    "3577": {
+      "word": "manager",
       "pos": "singular noun",
       "example": "The manager held a meeting."
     }
   },
   "translations": {
     "ja": {
-      "polite": "礼儀正しい",
-      "disagreement": "異議申し立て",
-      "meeting": "会議",
-      "protect": "守る",
-      "working relationship": "仕事上の関係",
-      "improve": "改善する",
-      "decision": "意思決定",
-      "matter": "重要である",
-      "team": "チーム",
-      "make": "作る、犯す",
-      "few": "より少ない",
-      "error": "誤り",
-      "person": "人々",
-      "challenge": "異議を唱える",
-      "idea": "アイデア",
-      "attack": "攻撃する",
-      "research": "研究",
-      "group": "グループ",
-      "decision-making": "意思決定",
-      "show": "示す",
-      "unchallenged": "異議のない",
-      "consensus": "合意",
-      "lead": "もたらす",
-      "poor": "悪い",
-      "outcome": "結果",
-      "start": "始める",
-      "signal": "合図する",
-      "respect": "尊敬",
-      "share": "共有された",
-      "goal": "目標",
-      "disagree": "意見が合わない",
-      "phrase": "フレーズ",
-      "see": "わかる",
-      "point": "意見",
-      "that is": "それは",
-      "helpful": "役立つ",
-      "suggestion": "提案",
-      "I": "私",
-      "understand": "理解する",
-      "you": "あなた",
-      "be aiming": "目指している",
-      "for": "〜のために",
-      "reduce": "減らす",
-      "defensiveness": "防御的態度",
-      "they": "それら",
-      "confirm": "確認する",
-      "listen": "聞く",
-      "add": "加える",
-      "soft": "柔らかい",
-      "transition": "移行",
-      "prepare": "準備させる",
-      "different": "異なる",
-      "view": "視点",
-      "sound": "聞こえる",
-      "abrupt": "突然の",
-      "tone": "トーン",
-      "decide": "決定する",
-      "discussion": "議論",
-      "stay": "とどまる",
-      "focus": "集中した",
-      "work": "仕事",
-      "use": "使う",
-      "language": "言葉",
-      "separate": "切り離す",
-      "approach": "アプローチ",
-      "safe": "より安全な",
-      "be wrong": "間違っている",
-      "because": "なぜなら",
-      "target": "対象にする",
-      "plan": "計画",
-      "colleague": "同僚",
-      "I am": "私は〜である",
-      "not": "〜でない",
-      "convince": "納得した",
-      "this": "これ",
-      "will": "〜だろう",
-      "meet": "満たす",
-      "deadline": "締め切り",
-      "evidence": "証拠",
-      "constraint": "制約",
-      "need": "必要とする",
-      "be": "である",
-      "more": "もっと",
-      "direct": "直接的な",
-      "“I don’t think this is the best option for us,”": "「これは私たちにとって最良の選択肢だとは思わない」",
-      "firm": "堅い",
-      "but": "",
-      "avoid": "避ける",
-      "blame": "非難",
-      "keep": "続ける",
-      "contribute": "貢献する",
-      "feel": "感じる",
-      "conflict": "紛争",
-      "ask": "尋ねる",
-      "question": "質問",
-      "indirectly": "間接的に",
-      "invite": "求める",
-      "data": "データ",
-      "estimate": "見積もり",
-      "suspect": "疑う",
-      "risk": "リスク",
-      "can": "〜かもしれない",
-      "go": "行く",
-      "wrong": "間違って",
-      "choose": "選ぶ",
-      "good": "良い",
-      "build": "築く",
-      "reason": "理由",
-      "check": "確認",
-      "confidence": "自信",
-      "alone": "だけ",
-      "offer": "提供する",
-      "alternative": "代替案",
-      "point out": "指摘する",
-      "problem": "問題",
-      "state": "述べる",
-      "concern": "懸念",
-      "we": "私たち",
-      "consider": "検討する",
-      "a": "",
-      "option": "選択肢",
-      "want": "望む",
-      "part": "部分",
-      "original": "元の",
-      "I like": "私は好む",
-      "direction": "方向",
-      "would": "〜だろう",
-      "change": "変える",
-      "the": "",
-      "timing": "タイミング",
-      "communicate": "伝える",
-      "collaboration": "協力",
-      "useful": "役に立つ",
-      "workable": "実行可能な",
-      "next": "次の",
-      "step": "一歩",
-      "calibrate": "校正された",
-      "match": "合わせる",
-      "how": "どれほど",
-      "sure": "確信している",
-      "partial": "部分的な",
-      "enough": "十分な",
-      "information": "情報",
-      "think": "考える",
-      "should": "〜すべき",
-      "verify": "確認する",
-      "caution": "注意",
-      "shut": "閉じる",
-      "down": "完全に否定する（ここはphrasal verbの一部ではない）",
-      "confident": "自信がある",
-      "clear": "明確な",
-      "We can’t do that under the current contract": "私たちは現在の契約の下ではそれを行うことはできません",
-      "That would violate our security policy": "それは私たちのセキュリティポリシーに違反します",
-      "appropriately": "適切に",
-      "know": "知る",
-      "whether": "かどうか",
-      "raise": "提起する",
-      "hard limit": "厳しい制限",
-      "tense": "緊張した",
-      "relationship": "関係",
-      "time": "時間",
-      "let us": "～しましょう",
-      "pause": "一時停止",
-      "define": "定義する",
-      "emotional": "感情的な",
-      "back-and-forth": "やり取り",
-      "talk": "話す",
-      "about": "について",
-      "two": "二つの",
-      "reset": "リセットする",
-      "clarify": "明確にする",
-      "priority": "優先事項",
-      "park": "置く",
-      "come": "来る",
-      "back": "戻る",
-      "number": "数字",
-      "succeed": "成功する",
-      "structured": "構造化された",
-      "pressure": "プレッシャー",
-      "modern": "現代の",
-      "workplace": "職場",
-      "often": "しばしば",
-      "collaborate": "協力する",
-      "across": "越えて",
-      "culture": "文化",
-      "online tool": "オンラインツール",
-      "easy": "より簡単な",
-      "misread": "誤解する",
-      "respectful": "敬意を持った",
-      "and": "",
-      "propose": "提案する",
-      "help": "助ける",
-      "transparent": "透明な",
-      "that": "",
-      "continue": "続く",
-      "after": "",
-      "skill": "スキル",
-      "practical": "実践的な",
-      "form": "形態",
-      "leadership": "リーダーシップ",
-      "manager": "マネージャー"
+      "0": "礼儀正しい",
+      "7": "異議申し立て",
+      "23": "会議",
+      "32": "守る",
+      "41": "仕事上の関係",
+      "69": "改善する",
+      "79": "意思決定",
+      "93": "重要である",
+      "109": "チーム",
+      "115": "作る、犯す",
+      "120": "より少ない",
+      "126": "誤り",
+      "138": "人々",
+      "149": "異議を唱える",
+      "159": "アイデア",
+      "173": "攻撃する",
+      "187": "人",
+      "199": "研究",
+      "211": "グループ",
+      "217": "意思決定",
+      "233": "示す",
+      "244": "異議のない",
+      "257": "合意",
+      "271": "もたらす",
+      "279": "悪い",
+      "284": "結果",
+      "295": "始める",
+      "304": "合図する",
+      "314": "尊敬",
+      "326": "共有された",
+      "333": "目標",
+      "350": "意見が合わない",
+      "360": "フレーズ",
+      "374": "わかる",
+      "380": "意見",
+      "394": "それは",
+      "403": "役立つ",
+      "411": "提案",
+      "429": "私",
+      "431": "理解する",
+      "446": "目標",
+      "451": "あなた",
+      "454": "目指している",
+      "465": "〜のために",
+      "470": "減らす",
+      "477": "防御的態度",
+      "499": "それら",
+      "504": "確認する",
+      "512": "あなた",
+      "516": "聞く",
+      "539": "加える",
+      "545": "柔らかい",
+      "550": "移行",
+      "615": "準備させる",
+      "628": "グループ",
+      "640": "異なる",
+      "650": "視点",
+      "663": "聞こえる",
+      "672": "突然の",
+      "685": "重要である",
+      "701": "トーン",
+      "712": "決定する",
+      "732": "議論",
+      "743": "とどまる",
+      "749": "集中した",
+      "764": "仕事",
+      "771": "使う",
+      "775": "言葉",
+      "789": "切り離す",
+      "803": "考え",
+      "817": "人",
+      "828": "反対する",
+      "847": "アプローチ",
+      "861": "より安全な",
+      "873": "間違っている",
+      "888": "なぜなら",
+      "899": "対象にする",
+      "911": "計画",
+      "925": "同僚",
+      "954": "私は〜である",
+      "958": "〜でない",
+      "962": "納得した",
+      "972": "これ",
+      "977": "〜だろう",
+      "982": "満たす",
+      "991": "締め切り",
+      "1002": "焦点を当てる",
+      "1013": "証拠",
+      "1026": "制約",
+      "1046": "必要とする",
+      "1054": "である",
+      "1057": "もっと",
+      "1062": "直接的な",
+      "1070": "「これは私たちにとって最良の選択肢だとは思わない」",
+      "1118": "維持する",
+      "1124": "堅い",
+      "1129": "",
+      "1133": "避ける",
+      "1140": "非難",
+      "1152": "重要である",
+      "1168": "人々",
+      "1175": "続ける",
+      "1180": "貢献する",
+      "1203": "感じる",
+      "1208": "尊敬される",
+      "1231": "紛争",
+      "1242": "尋ねる",
+      "1246": "質問",
+      "1259": "同意しない",
+      "1268": "間接的に",
+      "1283": "求める",
+      "1290": "証拠",
+      "1306": "データ",
+      "1318": "使う",
+      "1333": "見積もり",
+      "1493": "疑う",
+      "1503": "リスク",
+      "1515": "〜かもしれない",
+      "1521": "行く",
+      "1524": "間違って",
+      "1536": "選ぶ",
+      "1654": "重要である",
+      "1670": "良い",
+      "1675": "会議",
+      "1688": "築く",
+      "1697": "理由",
+      "1709": "確認",
+      "1724": "自信",
+      "1735": "だけ",
+      "1743": "提供する",
+      "1752": "代替案",
+      "1780": "指摘する",
+      "1793": "問題",
+      "1809": "述べる",
+      "1819": "懸念",
+      "1828": "加える",
+      "1833": "〜できますか",
+      "1839": "私たち",
+      "1842": "検討する",
+      "1851": "",
+      "1853": "異なる",
+      "1863": "選択肢",
+      "2008": "望む",
+      "2016": "保持する",
+      "2021": "部分",
+      "2033": "元の",
+      "2042": "アイデア",
+      "2048": "私は好む",
+      "2060": "方向",
+      "2076": "〜だろう",
+      "2079": "変える",
+      "2086": "",
+      "2090": "タイミング",
+      "2099": "伝える",
+      "2112": "協力",
+      "2132": "重要である",
+      "2148": "意見の不一致",
+      "2164": "より",
+      "2169": "役に立つ",
+      "2184": "導く",
+      "2195": "実行可能な",
+      "2204": "次の",
+      "2209": "一歩",
+      "2216": "使う",
+      "2220": "校正された",
+      "2231": "言葉",
+      "2243": "合わせる",
+      "2249": "どれほど",
+      "2253": "確信している",
+      "2258": "あなた",
+      "2262": "である",
+      "2279": "部分的な",
+      "2287": "自信",
+      "2321": "十分な",
+      "2328": "情報",
+      "2352": "考える",
+      "2361": "〜すべき",
+      "2368": "確認する",
+      "2387": "決定する",
+      "2398": "合図する",
+      "2406": "注意",
+      "2422": "閉じる",
+      "2435": "考え",
+      "2440": "完全に否定する（ここはphrasal verbの一部ではない）",
+      "2457": "自信がある",
+      "2478": "明確な",
+      "2484": "制約",
+      "2498": "私たちは現在の契約の下ではそれを行うことはできません",
+      "2548": "それは私たちのセキュリティポリシーに違反します",
+      "2592": "適切に",
+      "2606": "厳格な",
+      "2617": "重要である",
+      "2637": "チーム",
+      "2642": "必要とする",
+      "2651": "知る",
+      "2656": "かどうか",
+      "2672": "提起する",
+      "2682": "質問",
+      "2694": "リスク",
+      "2705": "厳しい制限",
+      "2723": "意見の不一致",
+      "2744": "緊張した",
+      "2751": "使う",
+      "2755": "フレーズ",
+      "2768": "守る",
+      "2780": "関係",
+      "2801": "会議",
+      "2809": "時間",
+      "2816": "～しましょう",
+      "2822": "一時停止",
+      "2832": "定義する",
+      "2843": "決定",
+      "2852": "私たち",
+      "2854": "いる",
+      "2858": "作る",
+      "2867": "減らす",
+      "2875": "感情的な",
+      "2885": "やり取り",
+      "2904": "考える",
+      "2916": "話す",
+      "2924": "について",
+      "2930": "二つの",
+      "2934": "異なる",
+      "2944": "目標",
+      "2956": "リセットする",
+      "2966": "議論",
+      "2980": "明確にする",
+      "2988": "優先事項",
+      "3007": "必要とする",
+      "3012": "時間",
+      "3026": "置く",
+      "3040": "来る",
+      "3045": "戻る",
+      "3055": "数字",
+      "3095": "重要である",
+      "3111": "会議",
+      "3120": "成功する",
+      "3138": "保つ",
+      "3143": "構造化された",
+      "3166": "プレッシャー",
+      "3180": "現代の",
+      "3187": "職場",
+      "3199": "チーム",
+      "3205": "しばしば",
+      "3211": "協力する",
+      "3223": "越えて",
+      "3230": "文化",
+      "3243": "オンラインツール",
+      "3262": "トーン",
+      "3270": "より簡単な",
+      "3280": "誤解する",
+      "3289": "使う",
+      "3295": "敬意を持った",
+      "3306": "異議",
+      "3319": "フレーズ",
+      "3328": "求める",
+      "3335": "",
+      "3339": "証拠",
+      "3349": "",
+      "3353": "提案する",
+      "3363": "代替案",
+      "3376": "助ける",
+      "3382": "意思決定",
+      "3392": "保つ",
+      "3397": "透明な",
+      "3413": "減らす",
+      "3421": "対立",
+      "3430": "",
+      "3435": "続く",
+      "3445": "",
+      "3455": "会議",
+      "3470": "スキル",
+      "3477": "重要である",
+      "3492": "明確な",
+      "3499": "礼儀正しい",
+      "3506": "挑戦",
+      "3521": "実践的な",
+      "3531": "形態",
+      "3539": "リーダーシップ",
+      "3577": "マネージャー"
     },
     "pt": {
-      "polite": "educado",
-      "disagreement": "discordância",
-      "meeting": "reunião",
-      "protect": "protege",
-      "working relationship": "relacionamento de trabalho",
-      "while": "enquanto",
-      "improve": "melhorando",
-      "decision": "decisão",
-      "matter": "importar",
-      "team": "equipe",
-      "make": "fazer",
-      "few": "menos",
-      "error": "erro",
-      "person": "pessoa",
-      "challenge": "desafiar",
-      "idea": "ideia",
-      "attack": "atacar",
-      "research": "pesquisa",
-      "group decision-making": "tomada de decisão em grupo",
-      "show": "mostrar",
-      "unchallenged": "não contestado",
-      "consensus": "consenso",
-      "lead": "levar",
-      "poor": "ruim",
-      "outcome": "resultado",
-      "start": "começar",
-      "signal": "sinalizar",
-      "respect": "respeito",
-      "share": "compartilhado",
-      "goal": "objetivo",
-      "disagree": "discordar",
-      "phrase": "frase",
-      "like": "como",
-      "see": "ver, compreender",
-      "your": "seu",
-      "point": "ponto, argumento",
-      "that is": "isso é",
-      "": "",
-      "helpful": "útil",
-      "suggestion": "sugestão",
-      "I": "eu",
-      "understand": "comprender",
-      "you": "você",
-      "aim": "mirar, buscar",
-      "for": "para",
-      "reduce": "reduzir",
-      "defensiveness": "defensividade",
-      "because": "porque",
-      "they": "eles",
-      "confirm": "confirmar",
-      "listen": "ouvir",
-      "can": "poder",
-      "add": "adicionar",
-      "soft": "suave",
-      "transition": "transição",
-      "at": "no",
-      "the": "o",
-      "same": "mesmo",
-      "time": "tempo",
-      "my": "meu",
-      "concern": "preocupação",
-      "prepare": "preparar",
-      "group": "grupo",
-      "different": "diferente",
-      "view": "visão",
-      "sound": "soar",
-      "abrupt": "abrupto",
-      "tone": "tom",
-      "often": "frequentemente",
-      "decide": "decidir",
-      "discussion": "discussão",
-      "stay": "permanecer",
-      "focus": "focado",
-      "work": "trabalho",
-      "use": "usar",
-      "language": "linguagem",
-      "separate": "separar",
-      "approach": "abordagem",
-      "safe": "mais seguro",
-      "wrong": "errado",
-      "target": "mirar",
-      "plan": "plano",
-      "colleague": "colega",
-      "be": "estou",
-      "not": "não",
-      "convince": "convencido",
-      "this": "isso",
-      "will": "irá",
-      "meet": "cumprir",
-      "deadline": "prazo",
-      "evidence": "evidência",
-      "constraint": "restrição",
-      "need": "precisar",
-      "more": "mais",
-      "direct": "direto",
-      "think": "achar",
-      "best": "melhor",
-      "option": "opção",
-      "we": "nós",
-      "firm": "firme",
-      "avoid": "evitar",
-      "blame": "culpa",
-      "people": "pessoa",
-      "keep": "continuar",
-      "contribute": "contribuir",
-      "feel": "sentir",
-      "conflict": "conflito",
-      "ask": "perguntar",
-      "question": "pergunta",
-      "indirectly": "indiretamente",
-      "invite": "convidar",
-      "data": "dados",
-      "estimate": "estimativa",
-      "suspect": "suspeitar",
-      "risk": "risco",
-      "what": "o que",
-      "go": "dar",
-      "if": "se",
-      "choose": "escolher",
-      "good": "bom",
-      "build": "construir",
-      "reason": "razão",
-      "check": "verificação",
-      "confidence": "confiança",
-      "alone": "sozinho",
-      "offer": "oferecer",
-      "alternative": "alternativa",
-      "problem": "problema",
-      "state": "afirmar",
-      "could consider": "poderíamos considerar",
-      "want": "querer",
-      "part": "parte",
-      "original": "original",
-      "direction": "direção",
-      "change": "mudar",
-      "timing": "tempo",
-      "communicate": "comunica",
-      "collaboration": "colaboração",
-      "useful": "útil",
-      "workable": "viável",
-      "next": "próximo",
-      "step": "passo",
-      "calibrate": "calibrar",
-      "match": "combinar",
-      "how": "quão",
-      "sure": "certo",
-      "have": "ter",
-      "partial": "parcial",
-      "enough": "suficiente",
-      "information": "informação",
-      "should": "deveria",
-      "verify": "verificar",
-      "caution": "cautela",
-      "without": "sem",
-      "shut": "fechar",
-      "down": "descartar",
-      "confident": "confiante",
-      "clear": "claro",
-      "cannot": "não pode",
-      "do": "fazer",
-      "that": "isso",
-      "current": "atual",
-      "contract": "contrato",
-      "would": "iria",
-      "violate": "violar",
-      "our": "nosso",
-      "security": "segurança",
-      "policy": "política",
-      "appropriately": "apropriadamente",
-      "know": "saber, conhecer",
-      "whether": "se (indica dúvida)",
-      "raise": "levantar, aumentar",
-      "hard limit": "limite rígido, limite severo",
-      "tense": "tenso",
-      "relationship": "relacionamento",
-      "let us": "vamos",
-      "pause": "pausar",
-      "define": "definir",
-      "emotional": "emocional",
-      "back-and-forth": "troca de ida e volta",
-      "talk": "falar",
-      "two": "dois",
-      "reset": "redefinir",
-      "clarify": "esclarecer",
-      "priority": "prioridade",
-      "park": "estacionar",
-      "come back": "voltar",
-      "number": "número",
-      "succeed": "ter sucesso",
-      "structured": "estruturado",
-      "pressure": "pressão",
-      "modern": "moderno",
-      "workplace": "local de trabalho",
-      "collaborate": "colaborar",
-      "across": "entre",
-      "culture": "cultura",
-      "online tool": "ferramentas online",
-      "easy": "mais fácil",
-      "misread": "interpretar mal",
-      "respectful": "respeitoso",
-      "propose": "propor",
-      "help": "ajudar",
-      "transparent": "transparente",
-      "continue": "continuar",
-      "skill": "habilidade",
-      "a": "",
-      "practical": "prático",
-      "form": "forma",
-      "leadership": "liderança",
-      "even": "mesmo",
-      "when": "quando",
-      "manager": "gerente"
+      "0": "educado",
+      "7": "discordância",
+      "23": "reunião",
+      "32": "protege",
+      "41": "relacionamento de trabalho",
+      "63": "enquanto",
+      "69": "melhorando",
+      "79": "decisão",
+      "93": "importar",
+      "109": "equipe",
+      "115": "fazer",
+      "120": "menos",
+      "126": "erro",
+      "138": "pessoa",
+      "149": "desafiar",
+      "159": "ideia",
+      "173": "atacar",
+      "187": "pessoa",
+      "199": "pesquisa",
+      "211": "tomada de decisão em grupo",
+      "233": "mostrar",
+      "244": "não contestado",
+      "257": "consenso",
+      "271": "levar",
+      "279": "ruim",
+      "284": "resultado",
+      "295": "começar",
+      "304": "sinalizar",
+      "314": "respeito",
+      "326": "compartilhado",
+      "333": "objetivo",
+      "350": "discordar",
+      "360": "frase",
+      "368": "como",
+      "373": "ver, compreender",
+      "380": "seu",
+      "385": "ponto, argumento",
+      "394": "isso é",
+      "401": "",
+      "403": "útil",
+      "411": "sugestão",
+      "429": "eu",
+      "431": "comprender",
+      "442": "",
+      "446": "objetivo, meta",
+      "451": "você",
+      "458": "mirar, buscar",
+      "465": "para",
+      "470": "reduzir",
+      "477": "defensividade",
+      "491": "porque",
+      "499": "eles",
+      "504": "confirmar",
+      "512": "você",
+      "516": "ouvir",
+      "530": "poder",
+      "539": "adicionar",
+      "545": "suave",
+      "550": "transição",
+      "570": "no",
+      "573": "o",
+      "577": "mesmo",
+      "582": "tempo",
+      "593": "meu",
+      "596": "preocupação",
+      "615": "preparar",
+      "628": "grupo",
+      "640": "diferente",
+      "650": "visão",
+      "663": "soar",
+      "672": "abrupto",
+      "685": "importar",
+      "701": "tom",
+      "706": "frequentemente",
+      "712": "decidir",
+      "732": "discussão",
+      "743": "permanecer",
+      "749": "focado",
+      "764": "trabalho",
+      "771": "usar",
+      "775": "linguagem",
+      "789": "separar",
+      "803": "ideia",
+      "817": "pessoa",
+      "828": "discordar",
+      "847": "abordagem",
+      "861": "mais seguro",
+      "880": "errado",
+      "888": "porque",
+      "899": "mirar",
+      "911": "plano",
+      "925": "colega",
+      "943": "mesmo",
+      "954": "estou",
+      "958": "não",
+      "962": "convencido",
+      "972": "isso",
+      "977": "irá",
+      "982": "cumprir",
+      "991": "prazo",
+      "1002": "foca",
+      "1013": "evidência",
+      "1026": "restrição",
+      "1046": "precisar",
+      "1054": "ser",
+      "1057": "mais",
+      "1062": "direto",
+      "1079": "achar",
+      "1097": "melhor",
+      "1102": "opção",
+      "1113": "nós",
+      "1118": "manter-se",
+      "1124": "firme",
+      "1133": "evitar",
+      "1140": "culpa",
+      "1152": "importar",
+      "1168": "pessoa",
+      "1175": "continuar",
+      "1180": "contribuir",
+      "1203": "sentir",
+      "1208": "respeitar",
+      "1231": "conflito",
+      "1242": "perguntar",
+      "1246": "pergunta",
+      "1259": "discordar",
+      "1268": "indiretamente",
+      "1283": "convidar",
+      "1290": "evidência",
+      "1306": "dados",
+      "1318": "usar",
+      "1333": "estimativa",
+      "1489": "você",
+      "1493": "suspeitar",
+      "1503": "risco",
+      "1510": "o que",
+      "1515": "poderia",
+      "1521": "dar",
+      "1524": "errado",
+      "1530": "se",
+      "1533": "nós",
+      "1536": "escolher",
+      "1543": "isto",
+      "1654": "importar",
+      "1670": "bom",
+      "1675": "reunião",
+      "1688": "construir",
+      "1697": "razão",
+      "1709": "verificação",
+      "1724": "confiança",
+      "1735": "sozinho",
+      "1743": "oferecer",
+      "1752": "alternativa",
+      "1780": "apontar",
+      "1793": "problema",
+      "1809": "afirmar",
+      "1819": "preocupação",
+      "1828": "adicione",
+      "1832": "poderíamos considerar",
+      "1853": "diferente",
+      "1863": "opção",
+      "2008": "querer",
+      "2016": "manter",
+      "2021": "parte",
+      "2033": "original",
+      "2042": "ideia",
+      "2047": "",
+      "2060": "direção",
+      "2079": "mudar",
+      "2090": "tempo",
+      "2099": "comunica",
+      "2112": "colaboração",
+      "2132": "importar",
+      "2148": "desacordo",
+      "2164": "mais",
+      "2169": "útil",
+      "2184": "levar",
+      "2195": "viável",
+      "2204": "próximo",
+      "2209": "passo",
+      "2216": "usar",
+      "2220": "calibrar",
+      "2231": "linguagem",
+      "2243": "combinar",
+      "2249": "quão",
+      "2253": "certo",
+      "2258": "você",
+      "2262": "está",
+      "2274": "ter",
+      "2279": "parcial",
+      "2287": "confiança",
+      "2308": "certo",
+      "2316": "ter",
+      "2321": "suficiente",
+      "2328": "informação",
+      "2352": "pensar",
+      "2361": "deveria",
+      "2368": "verificar",
+      "2375": "isto",
+      "2387": "decidir",
+      "2398": "indica",
+      "2406": "cautela",
+      "2414": "sem",
+      "2422": "fechar",
+      "2431": "",
+      "2435": "ideia",
+      "2440": "descartar",
+      "2453": "ser/estar",
+      "2457": "confiante",
+      "2478": "claro",
+      "2484": "restrição",
+      "2501": "não pode",
+      "2507": "fazer",
+      "2510": "isso",
+      "2525": "atual",
+      "2533": "contrato",
+      "2548": "isso",
+      "2553": "iria",
+      "2559": "violar",
+      "2567": "nosso",
+      "2571": "segurança",
+      "2580": "política",
+      "2592": "apropriadamente",
+      "2606": "firme",
+      "2617": "importar, ser importante",
+      "2637": "equipe, time",
+      "2642": "precisar",
+      "2651": "saber, conhecer",
+      "2656": "se (indica dúvida)",
+      "2672": "levantar, aumentar",
+      "2682": "questão, pergunta",
+      "2694": "risco",
+      "2705": "limite rígido, limite severo",
+      "2723": "desacordo",
+      "2744": "tenso",
+      "2751": "usar",
+      "2755": "frases",
+      "2768": "proteger",
+      "2780": "relacionamento",
+      "2801": "reunião",
+      "2809": "horário",
+      "2816": "vamos",
+      "2822": "pausar",
+      "2832": "definir",
+      "2843": "decisão",
+      "2858": "tomar",
+      "2867": "reduz",
+      "2875": "emocional",
+      "2885": "troca de ida e volta",
+      "2904": "achar",
+      "2916": "falar",
+      "2930": "dois",
+      "2934": "diferente",
+      "2944": "objetivo",
+      "2956": "redefinir",
+      "2966": "discussão",
+      "2980": "esclarecer",
+      "2988": "prioridade",
+      "3007": "precisar",
+      "3012": "tempo",
+      "3026": "estacionar",
+      "3040": "voltar",
+      "3055": "número",
+      "3095": "importar",
+      "3111": "reunião",
+      "3120": "ter sucesso",
+      "3138": "permanecer",
+      "3143": "estruturado",
+      "3166": "pressão",
+      "3180": "moderno",
+      "3187": "local de trabalho",
+      "3199": "equipe",
+      "3205": "frequentemente",
+      "3211": "colaborar",
+      "3223": "entre",
+      "3230": "cultura",
+      "3243": "ferramentas online",
+      "3262": "tom",
+      "3270": "mais fácil",
+      "3280": "interpretar mal",
+      "3289": "usar",
+      "3295": "respeitoso",
+      "3306": "desacordo",
+      "3319": "frase",
+      "3328": "pedir",
+      "3335": "",
+      "3339": "evidência",
+      "3353": "propor",
+      "3363": "alternativa",
+      "3376": "ajudar",
+      "3382": "decisão",
+      "3392": "permanecer",
+      "3397": "transparente",
+      "3413": "reduzir",
+      "3421": "conflito",
+      "3435": "continuar",
+      "3455": "reunião",
+      "3470": "habilidade",
+      "3477": "importar",
+      "3492": "claro",
+      "3499": "educado",
+      "3506": "desafio",
+      "3516": "é",
+      "3519": "",
+      "3521": "prático",
+      "3531": "forma",
+      "3539": "liderança",
+      "3551": "mesmo",
+      "3556": "quando",
+      "3561": "você",
+      "3565": "é/está",
+      "3577": "gerente"
     },
     "es": {
-      "polite": "educado",
-      "disagreement": "desacuerdo",
-      "meeting": "reunión",
-      "protect": "protege",
-      "working": "laboral",
-      "relationship": "relación",
-      "improve": "mejora",
-      "decision": "decisión",
-      "matter": "importar",
-      "team": "equipo",
-      "make": "hacer",
-      "few": "menos",
-      "error": "error",
-      "person": "persona",
-      "challenge": "cuestionar",
-      "idea": "idea",
-      "attack": "atacar",
-      "research": "investigación",
-      "group": "grupo",
-      "decision-making": "toma de decisiones",
-      "show": "mostrar",
-      "unchallenged": "no cuestionado",
-      "consensus": "consenso",
-      "lead": "llevar a",
-      "poor": "malos",
-      "outcome": "resultados",
-      "start": "comenzar",
-      "signal": "señalar",
-      "respect": "respeto",
-      "share": "compartido",
-      "goal": "objetivo",
-      "disagree": "no estar de acuerdo",
-      "phrase": "frase",
-      "I see": "yo veo",
-      "your": "tu",
-      "point": "punto",
-      "that is": "eso es",
-      "helpful": "útil",
-      "suggestion": "sugerencia",
-      "I": "yo",
-      "understand": "entender",
-      "the": "",
-      "you": "tú",
-      "be aiming": "estar apuntando",
-      "for": "",
-      "reduce": "reducir",
-      "defensiveness": "defensividad",
-      "because": "",
-      "they": "ellos",
-      "confirm": "confirmar",
-      "listen": "escuchar",
-      "can": "poder",
-      "add": "añadir",
-      "soft": "suave",
-      "transition": "transición",
-      "at the same time": "Al mismo tiempo",
-      "my concern is": "Mi preocupación es",
-      "prepare": "preparar",
-      "different": "diferente",
-      "view": "vista",
-      "sound": "sonar",
-      "abrupt": "abrupto",
-      "tone": "tono",
-      "often": "a menudo",
-      "decide": "decidir",
-      "discussion": "discusión",
-      "focus": "centrado",
-      "work": "trabajo",
-      "use": "usar",
-      "language": "lenguaje",
-      "separate": "separar",
-      "approach": "enfoque",
-      "safe": "más seguro",
-      "you are wrong": "estás equivocado",
-      "target": "dirigir",
-      "plan": "plan",
-      "colleague": "colega",
-      "same": "mismo",
-      "way": "manera",
-      "be": "estoy",
-      "convince": "convencido",
-      "will": "va a",
-      "meet": "cumplir",
-      "deadline": "fecha límite",
-      "evidence": "evidencia",
-      "constraint": "limitaciones",
-      "need": "necesitar",
-      "direct": "directo",
-      "do not": "no",
-      "think": "pensar",
-      "this": "esto",
-      "best": "mejor",
-      "option": "opción",
-      "we": "nosotros",
-      "stay": "permanecer",
-      "firm": "firme",
-      "avoid": "evitar",
-      "blame": "culpa",
-      "people": "gente",
-      "keep": "seguir",
-      "contribute": "contribuir",
-      "feel": "sentir",
-      "conflict": "conflicto",
-      "ask": "preguntar",
-      "question": "pregunta",
-      "indirectly": "indirectamente",
-      "invite": "invitar",
-      "datum": "dato",
-      "estimate": "estimación",
-      "suspect": "sospechar",
-      "risk": "riesgo",
-      "what": "qué",
-      "could": "podría",
-      "go": "salir",
-      "wrong": "mal",
-      "if": "si",
-      "choose": "elegir",
-      "good": "buen",
-      "build": "construir",
-      "reason": "razón",
-      "check": "verificación",
-      "confidence": "confianza",
-      "alone": "solo",
-      "offer": "ofrecer",
-      "alternative": "alternativa",
-      "point out": "señalar",
-      "problem": "problema",
-      "state": "expresar",
-      "concern": "preocupación",
-      "consider": "considerar",
-      "a": "",
-      "want": "querer",
-      "part": "parte",
-      "original": "original",
-      "like": "gustar",
-      "direction": "dirección",
-      "change": "cambiar",
-      "timing": "tiempo",
-      "communicate": "comunicar",
-      "collaboration": "colaboración",
-      "more": "más",
-      "useful": "útil",
-      "workable": "viable",
-      "next": "siguiente",
-      "step": "paso",
-      "calibrated": "calibrado",
-      "match": "coincidir",
-      "how": "cómo",
-      "sure": "seguro",
-      "have": "tener",
-      "partial": "parcial",
-      "enough": "suficiente",
-      "information": "información",
-      "yet": "todavía",
-      "caution": "precaución",
-      "shut": "cerrar",
-      "down": "abajo",
-      "confident": "seguro",
-      "contract": "contrato",
-      "would": "condicional auxiliar",
-      "violate": "violar",
-      "security": "seguridad",
-      "policy": "política",
-      "appropriately": "apropiadamente",
-      "know": "saber",
-      "whether": "si",
-      "raise": "plantear",
-      "hard limit": "límite estricto",
-      "become": "volver(se)",
-      "tense": "tenso",
-      "meeting time": "tiempo de la reunión",
-      "let us": "permítanos",
-      "pause": "pausar",
-      "define": "definir",
-      "we are": "nosotros estamos",
-      "emotional": "emocional",
-      "back-and-forth": "ir y venir",
-      "we be": "estamos",
-      "talk": "hablando",
-      "two": "dos",
-      "reset": "reiniciar",
-      "clarify": "aclarar",
-      "priority": "prioridad",
-      "time": "tiempo",
-      "park": "aparcar",
-      "come": "volver",
-      "back": "de nuevo",
-      "number": "números",
-      "succeed": "tener éxito",
-      "structured": "estructurado",
-      "pressure": "presión",
-      "modern": "moderno",
-      "workplace": "lugar de trabajo",
-      "collaborate": "colaborar",
-      "across": "a través de",
-      "culture": "cultura",
-      "online tool": "herramienta en línea",
-      "where": "donde",
-      "easy": "más fácil",
-      "misread": "malinterpretar",
-      "respectful": "respetuoso",
-      "propose": "proponer",
-      "help": "ayudar",
-      "transparent": "transparente",
-      "continue": "continuar",
-      "skill": "habilidad",
-      "clear": "claro",
-      "practical": "práctico",
-      "form": "forma",
-      "leadership": "liderazgo",
-      "not": "no",
-      "manager": "gerente"
+      "0": "educado",
+      "7": "desacuerdo",
+      "23": "reunión",
+      "32": "protege",
+      "41": "laboral",
+      "49": "relación",
+      "69": "mejora",
+      "79": "decisión",
+      "93": "importar",
+      "109": "equipo",
+      "115": "hacer",
+      "120": "menos",
+      "126": "error",
+      "138": "persona",
+      "149": "cuestionar",
+      "159": "idea",
+      "173": "atacar",
+      "187": "persona",
+      "199": "investigación",
+      "211": "grupo",
+      "217": "toma de decisiones",
+      "233": "mostrar",
+      "244": "no cuestionado",
+      "257": "consenso",
+      "271": "llevar a",
+      "279": "malos",
+      "284": "resultados",
+      "295": "comenzar",
+      "304": "señalar",
+      "314": "respeto",
+      "326": "compartido",
+      "333": "objetivo",
+      "350": "no estar de acuerdo",
+      "360": "frase",
+      "373": "yo veo",
+      "380": "tu",
+      "385": "punto",
+      "394": "eso es",
+      "403": "útil",
+      "411": "sugerencia",
+      "429": "yo",
+      "431": "entender",
+      "442": "",
+      "446": "objetivo",
+      "451": "tú",
+      "454": "estar apuntando",
+      "465": "",
+      "470": "reducir",
+      "477": "defensividad",
+      "491": "",
+      "499": "ellos",
+      "504": "confirmar",
+      "512": "tú",
+      "516": "escuchar",
+      "530": "poder",
+      "539": "añadir",
+      "545": "suave",
+      "550": "transición",
+      "570": "Al mismo tiempo",
+      "593": "Mi preocupación es",
+      "615": "preparar",
+      "628": "grupo",
+      "640": "diferente",
+      "650": "vista",
+      "663": "sonar",
+      "672": "abrupto",
+      "685": "importar",
+      "701": "tono",
+      "706": "a menudo",
+      "712": "decidir",
+      "732": "discusión",
+      "749": "centrado",
+      "764": "trabajo",
+      "771": "usar",
+      "775": "lenguaje",
+      "789": "separar",
+      "803": "idea",
+      "817": "persona",
+      "828": "no estar de acuerdo",
+      "847": "enfoque",
+      "861": "más seguro",
+      "873": "estás equivocado",
+      "899": "dirigir",
+      "911": "plan",
+      "925": "colega",
+      "943": "mismo",
+      "948": "manera",
+      "954": "estoy",
+      "962": "convencido",
+      "977": "va a",
+      "982": "cumplir",
+      "991": "fecha límite",
+      "1002": "se centra",
+      "1013": "evidencia",
+      "1026": "limitaciones",
+      "1046": "necesitar",
+      "1054": "ser, estar",
+      "1062": "directo",
+      "1071": "yo",
+      "1073": "no",
+      "1079": "pensar",
+      "1085": "esto",
+      "1097": "mejor",
+      "1102": "opción",
+      "1113": "nosotros",
+      "1118": "permanecer",
+      "1124": "firme",
+      "1133": "evitar",
+      "1140": "culpa",
+      "1152": "importar",
+      "1168": "gente",
+      "1175": "seguir",
+      "1180": "contribuir",
+      "1203": "sentir",
+      "1208": "respetar",
+      "1231": "conflicto",
+      "1242": "preguntar",
+      "1246": "pregunta",
+      "1259": "disentir",
+      "1268": "indirectamente",
+      "1283": "invitar",
+      "1290": "evidencia",
+      "1306": "dato",
+      "1311": "estar",
+      "1318": "usar",
+      "1333": "estimación",
+      "1493": "sospechar",
+      "1503": "riesgo",
+      "1510": "qué",
+      "1515": "podría",
+      "1521": "salir",
+      "1524": "mal",
+      "1530": "si",
+      "1533": "nosotros",
+      "1536": "elegir",
+      "1543": "esto",
+      "1654": "importar",
+      "1670": "buen",
+      "1675": "reunión",
+      "1688": "construir",
+      "1697": "razón",
+      "1709": "verificación",
+      "1724": "confianza",
+      "1735": "solo",
+      "1743": "ofrecer",
+      "1752": "alternativa",
+      "1780": "señalar",
+      "1789": "señalar",
+      "1793": "problema",
+      "1809": "expresar",
+      "1819": "preocupación",
+      "1828": "añadir",
+      "1833": "podríamos",
+      "1839": "nosotros",
+      "1842": "considerar",
+      "1851": "",
+      "1853": "diferente",
+      "1863": "opción",
+      "2008": "querer",
+      "2016": "conservar",
+      "2021": "parte",
+      "2033": "original",
+      "2042": "idea",
+      "2049": "yo",
+      "2051": "gustar",
+      "2060": "dirección",
+      "2079": "cambiar",
+      "2090": "tiempo",
+      "2099": "comunicar",
+      "2112": "colaboración",
+      "2132": "importar",
+      "2148": "desacuerdo",
+      "2164": "más",
+      "2169": "útil",
+      "2184": "conducir",
+      "2195": "viable",
+      "2204": "siguiente",
+      "2209": "paso",
+      "2216": "usar",
+      "2220": "calibrado",
+      "2231": "lenguaje",
+      "2243": "coincidir",
+      "2249": "cómo",
+      "2253": "seguro",
+      "2274": "tener",
+      "2279": "parcial",
+      "2287": "confianza",
+      "2321": "suficiente",
+      "2328": "información",
+      "2340": "todavía",
+      "2387": "decidir",
+      "2398": "indicar",
+      "2406": "precaución",
+      "2422": "cerrar",
+      "2435": "idea",
+      "2440": "abajo",
+      "2457": "seguro",
+      "2484": "restricción",
+      "2533": "contrato",
+      "2553": "condicional auxiliar",
+      "2559": "violar",
+      "2571": "seguridad",
+      "2580": "política",
+      "2592": "apropiadamente",
+      "2606": "firme",
+      "2617": "importar",
+      "2637": "equipo",
+      "2642": "necesitar",
+      "2651": "saber",
+      "2656": "si",
+      "2672": "plantear",
+      "2682": "pregunta",
+      "2694": "riesgo",
+      "2705": "límite estricto",
+      "2723": "desacuerdo",
+      "2736": "volver(se)",
+      "2744": "tenso",
+      "2751": "usar",
+      "2755": "frases",
+      "2768": "proteger",
+      "2780": "relación",
+      "2801": "tiempo de la reunión",
+      "2816": "permítanos",
+      "2822": "pausar",
+      "2832": "definir",
+      "2843": "decisión",
+      "2852": "nosotros estamos",
+      "2858": "hacer",
+      "2867": "reduce",
+      "2875": "emocional",
+      "2885": "ir y venir",
+      "2904": "creer",
+      "2910": "estamos",
+      "2916": "hablando",
+      "2930": "dos",
+      "2934": "diferente",
+      "2944": "objetivo",
+      "2956": "reiniciar",
+      "2966": "discusión",
+      "2980": "aclarar",
+      "2988": "prioridad",
+      "3007": "necesitar",
+      "3012": "tiempo",
+      "3026": "aparcar",
+      "3040": "volver",
+      "3045": "de nuevo",
+      "3055": "números",
+      "3095": "importar",
+      "3111": "reunión",
+      "3120": "tener éxito",
+      "3138": "mantenerse",
+      "3143": "estructurado",
+      "3166": "presión",
+      "3180": "moderno",
+      "3187": "lugar de trabajo",
+      "3199": "equipo",
+      "3205": "a menudo",
+      "3211": "colaborar",
+      "3223": "a través de",
+      "3230": "cultura",
+      "3243": "herramienta en línea",
+      "3256": "donde",
+      "3262": "tono",
+      "3270": "más fácil",
+      "3280": "malinterpretar",
+      "3289": "usar",
+      "3295": "respetuoso",
+      "3306": "desacuerdo",
+      "3319": "frase",
+      "3328": "pedir",
+      "3339": "evidencia",
+      "3353": "proponer",
+      "3363": "alternativa",
+      "3376": "ayudar",
+      "3382": "decisión",
+      "3392": "mantenerse",
+      "3397": "transparente",
+      "3413": "reducir",
+      "3421": "conflicto",
+      "3435": "continuar",
+      "3455": "reunión",
+      "3470": "habilidad",
+      "3477": "importar",
+      "3492": "claro",
+      "3499": "educado",
+      "3506": "desafío",
+      "3521": "práctico",
+      "3531": "forma",
+      "3539": "liderazgo",
+      "3569": "no",
+      "3577": "gerente"
     }
   }
 }
