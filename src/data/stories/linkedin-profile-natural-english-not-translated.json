@@ -6,6 +6,11 @@
   "appUrl": "https://app.readerly.ai?utm_campaign=linkedin-profile-natural-english",
   "text": "A LinkedIn profile sounds natural in English when it uses clear role nouns, direct verbs, and specific proof, not word-for-word translations from another language. This matters because recruiters often scan profiles for 10–30 seconds, and the first lines of your headline and About section decide whether they keep reading.\n\nThe first place translation shows is the headline, because many learners translate a job title plus a long description. In English, a strong headline usually contains your role, your specialty, and one concrete focus. “Engineer with experience in many areas” is vague, while “Mechanical Engineer | HVAC design | Energy efficiency” tells the reader what you do. Avoid empty intensifiers such as “hard-working,” “responsible,” or “dynamic,” because they do not separate you from others. Replace them with information that can be checked, such as tools (Python, SolidWorks), domains (fintech, supply chain), or outcomes (cost reduction, safety compliance). This matters because LinkedIn search also relies on keywords, and clear terms help you appear in the right searches.\n\nThe About section becomes more natural when you write in a simple first-person professional voice, with short sentences and strong verbs. A common translated pattern is “I have the honor to…” or “I am passionate about everything related to…”. In English business writing, these sound formal or unfocused. Use verbs like “build,” “analyze,” “design,” “lead,” “ship,” “improve,” and add the object: “I analyze customer data to reduce churn” is clearer than “I am responsible for analysis.” Also avoid long sentences with many commas, which often come from direct translation. Break them into two sentences, and keep the subject clear. This matters because clarity increases trust: readers feel they understand your work quickly.\n\nSpecific evidence is what makes your English sound original rather than copied. Many translated profiles describe duties but not results, using phrases like “in charge of” or “responsible for.” Instead, add measurable outcomes and scope: team size, budget size, number of users, or time saved. If you cannot share confidential numbers, you can still be concrete: “reduced manual reporting time by automating weekly dashboards” or “supported audits under ISO 9001 procedures.” Mention recognizable methods or standards only if you used them in real work. This matters because English-language hiring culture often treats outcomes as the strongest signal of competence.\n\nYour Experience bullets (and also your project descriptions) sound natural when they start with a past-tense action verb and avoid heavy noun phrases. Translated text often becomes a chain of nouns, like “implementation of the optimization of the process of…” In English, turn nouns back into verbs: “optimized the process” or “implemented a faster review workflow.” Another translation issue is overusing “the” and “of,” which makes sentences slow. “Built onboarding materials for new analysts” reads cleaner than “Built the materials of onboarding for the new analysts.” This matters because simple grammar reduces cognitive load and keeps attention on your achievements.\n\nWord choice and tone are where “translated English” is easiest to notice. Avoid false friends and overly formal phrases common in templates: “Dear network,” “kindly,” “esteemed,” “with great interest,” or “I am open to any opportunity.” English LinkedIn writing is polite but straightforward. Say what you want: “I’m open to data analyst roles in Berlin” or “I’m interested in backend engineering positions focused on distributed systems.” Use “I” when describing your work; using “we” for everything can hide your contribution, but using “I” for team results can sound inaccurate. A balanced approach is: “Led X” for your leadership and “Worked with a cross-functional team to Y” for shared outcomes. This matters because the right tone signals confidence without sounding aggressive.\n\nFinally, make your profile read like your real speaking voice by revising for rhythm and checking it with reading aloud. If a sentence feels hard to say, it often reads like translation. Keep a small set of repeatable phrases that are normal in English: “I work on…,” “I help…,” “My focus is…,” “Recently, I…,” “I’m looking for…”. Ask one fluent speaker to mark sentences that feel unnatural, then replace them with simpler structures, not more complex vocabulary. This matters because natural English is not about advanced words; it is about predictable patterns that readers recognize immediately.\n\nLinkedIn profiles increasingly get read by both humans and automated systems, so natural English and clear keywords work together. When you use direct verbs, concrete proof, and a clean structure, your profile stops sounding translated and starts sounding like a professional document written for an English-speaking audience today.",
   "words": {
+    "0": {
+      "word": "LinkedIn profile",
+      "pos": "singular noun phrase",
+      "example": "I updated my LinkedIn profile yesterday."
+    },
     "2": {
       "word": "LinkedIn",
       "pos": "proper noun",
@@ -14,22 +19,22 @@
     "11": {
       "word": "profile",
       "pos": "singular noun",
-      "example": "She created a professional profile."
+      "example": "I created a new profile online."
     },
     "19": {
       "word": "sound",
-      "pos": "present tense verb",
-      "example": "They sound happy today."
+      "pos": "present simple verb",
+      "example": "Speeches sound better with practice."
     },
     "26": {
       "word": "natural",
       "pos": "adjective",
-      "example": "The response was natural."
+      "example": "His reaction was natural."
     },
     "34": {
       "word": "in",
-      "pos": "preposition",
-      "example": "She lives in Brazil."
+      "pos": "",
+      "example": ""
     },
     "37": {
       "word": "English",
@@ -59,22 +64,22 @@
     "64": {
       "word": "role",
       "pos": "singular noun",
-      "example": "He played an important role."
+      "example": "He plays an important role."
     },
     "69": {
       "word": "noun",
       "pos": "plural noun",
-      "example": "Dog is a noun."
+      "example": "This noun is easy."
     },
     "76": {
       "word": "direct",
       "pos": "adjective",
-      "example": "She gave a direct answer."
+      "example": "She took a direct route."
     },
     "83": {
       "word": "verb",
       "pos": "plural noun",
-      "example": "Run and jump are verbs."
+      "example": "Run is a common verb."
     },
     "90": {
       "word": "and",
@@ -84,12 +89,12 @@
     "94": {
       "word": "specific",
       "pos": "adjective",
-      "example": "We need specific details."
+      "example": "I need a specific answer."
     },
     "103": {
       "word": "proof",
       "pos": "singular noun",
-      "example": "We need proof of payment."
+      "example": "She showed proof of payment."
     },
     "110": {
       "word": "not",
@@ -104,7 +109,7 @@
     "128": {
       "word": "translation",
       "pos": "plural noun",
-      "example": "Translations can vary in quality."
+      "example": "We need a good translation."
     },
     "141": {
       "word": "from",
@@ -113,13 +118,18 @@
     },
     "146": {
       "word": "another",
-      "pos": "adjective",
-      "example": "I need another try."
+      "pos": "determiner",
+      "example": "I want another chance."
     },
     "154": {
       "word": "language",
       "pos": "singular noun",
-      "example": "She speaks a new language."
+      "example": "She speaks one language."
+    },
+    "164": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is my favorite book."
     },
     "169": {
       "word": "matter",
@@ -129,22 +139,22 @@
     "185": {
       "word": "recruiter",
       "pos": "plural noun",
-      "example": "The recruiter called me for an interview."
+      "example": "A recruiter called me yesterday."
     },
     "196": {
       "word": "often",
       "pos": "adverb",
-      "example": "I often go to the gym."
+      "example": "I often read books at night."
     },
     "202": {
       "word": "scan",
       "pos": "present tense verb",
-      "example": "Please scan the document quickly."
+      "example": "I scan the document quickly."
     },
     "207": {
       "word": "profile",
       "pos": "plural noun",
-      "example": "He updated his profile online."
+      "example": "I updated my online profile."
     },
     "220": {
       "word": "10–30",
@@ -157,9 +167,9 @@
       "example": "Wait a few seconds."
     },
     "243": {
-      "word": "first line",
-      "pos": "compound noun",
-      "example": "Read the first line carefully."
+      "word": "first",
+      "pos": "adjective",
+      "example": "She was the first to arrive."
     },
     "249": {
       "word": "line",
@@ -168,8 +178,8 @@
     },
     "263": {
       "word": "headline",
-      "pos": "noun",
-      "example": "The headline caught my attention."
+      "pos": "noun, singular",
+      "example": "The headline is catchy."
     },
     "276": {
       "word": "About",
@@ -179,7 +189,7 @@
     "282": {
       "word": "section",
       "pos": "singular noun",
-      "example": "The book has a new section."
+      "example": "Read the next section carefully."
     },
     "290": {
       "word": "decide",
@@ -189,12 +199,12 @@
     "310": {
       "word": "keep",
       "pos": "present tense verb",
-      "example": "We keep the windows open."
+      "example": "You should keep trying."
     },
     "315": {
       "word": "read",
-      "pos": "verb, gerund",
-      "example": "I enjoy reading books."
+      "pos": "gerund verb",
+      "example": "I read every day."
     },
     "329": {
       "word": "first",
@@ -203,8 +213,8 @@
     },
     "335": {
       "word": "place",
-      "pos": "noun",
-      "example": "This is a quiet place."
+      "pos": "singular noun",
+      "example": "This is a nice place."
     },
     "341": {
       "word": "translation",
@@ -218,8 +228,8 @@
     },
     "366": {
       "word": "headline",
-      "pos": "noun",
-      "example": "The headline grabbed my attention."
+      "pos": "noun, singular",
+      "example": "The headline is interesting."
     },
     "376": {
       "word": "because",
@@ -234,12 +244,12 @@
     "389": {
       "word": "learner",
       "pos": "plural noun",
-      "example": "Learners practice daily."
+      "example": "The learner studies hard."
     },
     "398": {
       "word": "translate",
-      "pos": "base form verb",
-      "example": "I translate documents at work."
+      "pos": "infinitive verb",
+      "example": "I translate documents."
     },
     "400": {
       "word": "",
@@ -248,18 +258,18 @@
     },
     "410": {
       "word": "job",
-      "pos": "noun",
-      "example": "He found a new job."
+      "pos": "noun, singular",
+      "example": "He has a job now."
     },
     "414": {
       "word": "title",
-      "pos": "noun, singular",
-      "example": "The title is important."
+      "pos": "noun",
+      "example": "She has a long book title."
     },
     "420": {
       "word": "plus",
-      "pos": "adverb",
-      "example": "I have two plus one apples."
+      "pos": "conjunction",
+      "example": "Two plus two equals four."
     },
     "425": {
       "word": "long",
@@ -273,23 +283,23 @@
     },
     "432": {
       "word": "description",
-      "pos": "noun, singular",
+      "pos": "singular noun",
       "example": "The description is clear."
     },
     "459": {
       "word": "strong",
       "pos": "adjective",
-      "example": "He has a strong opinion."
+      "example": "This is a strong argument."
     },
     "466": {
       "word": "headline",
       "pos": "singular noun",
-      "example": "I read the headline of the newspaper."
+      "example": "The headline caught my attention."
     },
     "475": {
       "word": "usually",
       "pos": "adverb",
-      "example": "She usually arrives early."
+      "example": "I usually eat breakfast early."
     },
     "483": {
       "word": "contain",
@@ -298,8 +308,8 @@
     },
     "492": {
       "word": "your",
-      "pos": "possessive pronoun",
-      "example": "Is this your book?"
+      "pos": "possessive adjective",
+      "example": "Your book is on the table."
     },
     "497": {
       "word": "role",
@@ -324,12 +334,12 @@
     "527": {
       "word": "concrete",
       "pos": "adjective",
-      "example": "We need a concrete example."
+      "example": "She gave a concrete example."
     },
     "536": {
       "word": "focus",
-      "pos": "noun",
-      "example": "Her focus is the project."
+      "pos": "singular noun",
+      "example": "The focus is on reading."
     },
     "544": {
       "word": "engineer",
@@ -338,8 +348,8 @@
     },
     "558": {
       "word": "experience",
-      "pos": "noun, singular",
-      "example": "She has experience in sales."
+      "pos": "singular noun",
+      "example": "She has experience in marketing."
     },
     "572": {
       "word": "many",
@@ -349,7 +359,7 @@
     "577": {
       "word": "area",
       "pos": "plural noun",
-      "example": "The park has several areas."
+      "example": "This area is quiet."
     },
     "587": {
       "word": "vague",
@@ -359,11 +369,11 @@
     "601": {
       "word": "mechanical",
       "pos": "adjective",
-      "example": "The mechanical clock is old."
+      "example": "She studied mechanical engineering."
     },
     "612": {
       "word": "engineer",
-      "pos": "singular noun",
+      "pos": "noun, singular",
       "example": "The engineer fixed the machine."
     },
     "623": {
@@ -374,12 +384,12 @@
     "628": {
       "word": "design",
       "pos": "noun",
-      "example": "He showed the building design."
+      "example": "She studies design at school."
     },
     "637": {
       "word": "energy",
-      "pos": "noun",
-      "example": "Energy is essential for life."
+      "pos": "noun, singular",
+      "example": "Solar energy is renewable."
     },
     "644": {
       "word": "efficiency",
@@ -389,7 +399,7 @@
     "656": {
       "word": "tell",
       "pos": "present tense verb",
-      "example": "Please tell me the truth."
+      "example": "I tell the truth."
     },
     "666": {
       "word": "reader",
@@ -408,13 +418,13 @@
     },
     "682": {
       "word": "do",
-      "pos": "present tense verb",
+      "pos": "base form verb",
       "example": "I do my homework."
     },
     "686": {
       "word": "avoid",
       "pos": "base form verb",
-      "example": "I avoid eating junk food."
+      "example": "We avoid problems when possible."
     },
     "692": {
       "word": "empty",
@@ -424,22 +434,22 @@
     "698": {
       "word": "intensifier",
       "pos": "plural noun",
-      "example": "Use an intensifier to strengthen meaning."
+      "example": "He used an intensifier to emphasize."
     },
     "720": {
       "word": "hard-working",
-      "pos": "adjective",
+      "pos": "compound adjective",
       "example": "She is a hard-working student."
     },
     "736": {
       "word": "responsible",
       "pos": "adjective",
-      "example": "He is responsible for the project."
+      "example": "He is responsible for the task."
     },
     "754": {
       "word": "dynamic",
       "pos": "adjective",
-      "example": "He has a dynamic personality."
+      "example": "She has a dynamic personality."
     },
     "764": {
       "word": "because",
@@ -459,7 +469,7 @@
     "780": {
       "word": "not",
       "pos": "adverb",
-      "example": "I do not like apples."
+      "example": "She did not come to class."
     },
     "784": {
       "word": "separate",
@@ -479,7 +489,7 @@
     "802": {
       "word": "other",
       "pos": "plural noun",
-      "example": "Others like to read books."
+      "example": "Others like chocolate too."
     },
     "810": {
       "word": "replace",
@@ -488,8 +498,8 @@
     },
     "828": {
       "word": "information",
-      "pos": "singular noun",
-      "example": "Information is power."
+      "pos": "noun",
+      "example": "He gives useful information."
     },
     "840": {
       "word": "that",
@@ -499,12 +509,12 @@
     "852": {
       "word": "check",
       "pos": "past participle verb",
-      "example": "I check the report daily."
+      "example": "We check documents daily."
     },
     "869": {
       "word": "tool",
       "pos": "plural noun",
-      "example": "This tool is useful."
+      "example": "This tool helps with work."
     },
     "876": {
       "word": "Python",
@@ -519,12 +529,12 @@
     "897": {
       "word": "domain",
       "pos": "plural noun",
-      "example": "The domain is large."
+      "example": "The domain covers many topics."
     },
     "906": {
       "word": "fintech",
       "pos": "noun",
-      "example": "Fintech changes finance."
+      "example": "Fintech is growing quickly."
     },
     "915": {
       "word": "supply chain",
@@ -534,12 +544,12 @@
     "933": {
       "word": "outcome",
       "pos": "plural noun",
-      "example": "Results are good outcomes."
+      "example": "The outcome was unexpected."
     },
     "943": {
       "word": "cost reduction",
       "pos": "compound noun",
-      "example": "Cost reduction improves profit."
+      "example": "Cost reduction saves money."
     },
     "959": {
       "word": "safety compliance",
@@ -548,8 +558,8 @@
     },
     "984": {
       "word": "matter",
-      "pos": "third person singular verb",
-      "example": "It doesn't matter to me."
+      "pos": "present tense verb",
+      "example": "Small things matter a lot."
     },
     "1000": {
       "word": "LinkedIn",
@@ -558,8 +568,8 @@
     },
     "1009": {
       "word": "search",
-      "pos": "noun singular",
-      "example": "The search took all day."
+      "pos": "noun",
+      "example": "I do a search every day."
     },
     "1021": {
       "word": "rely",
@@ -569,17 +579,17 @@
     "1031": {
       "word": "keyword",
       "pos": "plural noun",
-      "example": "Use keywords in your text."
+      "example": "Use keywords to find answers."
     },
     "1045": {
       "word": "clear",
       "pos": "adjective",
-      "example": "She gave a clear answer."
+      "example": "Her instructions are clear."
     },
     "1051": {
       "word": "term",
       "pos": "plural noun",
-      "example": "Learn new terms."
+      "example": "The terms are in the contract."
     },
     "1057": {
       "word": "help",
@@ -614,7 +624,7 @@
     "1115": {
       "word": "become",
       "pos": "third person singular verb",
-      "example": "The day becomes brighter."
+      "example": "Flowers become beautiful in spring."
     },
     "1123": {
       "word": "more",
@@ -624,7 +634,7 @@
     "1128": {
       "word": "natural",
       "pos": "adjective",
-      "example": "Her smile looks natural."
+      "example": "The look is very natural."
     },
     "1136": {
       "word": "when",
@@ -638,8 +648,8 @@
     },
     "1145": {
       "word": "write",
-      "pos": "base form verb",
-      "example": "I write letters every day."
+      "pos": "present tense verb",
+      "example": "I write letters daily."
     },
     "1151": {
       "word": "in",
@@ -654,17 +664,17 @@
     "1156": {
       "word": "simple",
       "pos": "adjective",
-      "example": "This is a simple task."
+      "example": "This problem is simple."
     },
     "1163": {
       "word": "first-person",
       "pos": "compound adjective",
-      "example": "He told the story in first-person."
+      "example": "Write the story in first-person."
     },
     "1176": {
       "word": "professional",
       "pos": "adjective",
-      "example": "She is a professional teacher."
+      "example": "She is a professional writer."
     },
     "1189": {
       "word": "voice",
@@ -679,12 +689,12 @@
     "1201": {
       "word": "short",
       "pos": "adjective",
-      "example": "I have a short break."
+      "example": "She has short hair."
     },
     "1207": {
       "word": "sentence",
       "pos": "plural noun",
-      "example": "She wrote five sentences."
+      "example": "I read the sentence aloud."
     },
     "1217": {
       "word": "and",
@@ -694,27 +704,27 @@
     "1221": {
       "word": "strong",
       "pos": "adjective",
-      "example": "He has strong muscles."
+      "example": "She has strong opinions."
     },
     "1228": {
       "word": "verb",
       "pos": "plural noun",
-      "example": "She learns new verbs daily."
+      "example": "Action verbs are important."
     },
     "1237": {
       "word": "common",
       "pos": "adjective",
-      "example": "Common mistakes are easy to fix."
+      "example": "It is a common problem."
     },
     "1244": {
       "word": "translate",
       "pos": "past participle verb",
-      "example": "Books are translated into many languages."
+      "example": "I translate documents daily."
     },
     "1255": {
       "word": "pattern",
-      "pos": "singular noun",
-      "example": "She follows the same pattern every day."
+      "pos": "noun, singular",
+      "example": "The pattern repeats every hour."
     },
     "1267": {
       "word": "I",
@@ -724,7 +734,7 @@
     "1269": {
       "word": "have",
       "pos": "present tense verb",
-      "example": "I have a cat."
+      "example": "I have a book."
     },
     "1274": {
       "word": "the",
@@ -733,8 +743,8 @@
     },
     "1278": {
       "word": "honor",
-      "pos": "singular noun",
-      "example": "It is an honor to help you."
+      "pos": "noun, singular",
+      "example": "It is an honor to help."
     },
     "1293": {
       "word": "I",
@@ -744,7 +754,7 @@
     "1295": {
       "word": "be",
       "pos": "present tense verb",
-      "example": "I am happy today."
+      "example": "I am happy."
     },
     "1298": {
       "word": "passionate",
@@ -763,23 +773,23 @@
     },
     "1326": {
       "word": "relate",
-      "pos": "past participle verb",
-      "example": "The subjects relate to science."
+      "pos": "past participle adjective",
+      "example": "Topics related to science are interesting."
     },
     "1343": {
       "word": "English",
       "pos": "adjective",
-      "example": "English is an international language."
+      "example": "She speaks English fluently."
     },
     "1351": {
       "word": "business",
-      "pos": "noun",
-      "example": "He studies business at university."
+      "pos": "adjective",
+      "example": "She has a business meeting today."
     },
     "1360": {
       "word": "writing",
       "pos": "noun",
-      "example": "Writing improves with practice."
+      "example": "My writing has improved."
     },
     "1369": {
       "word": "these",
@@ -794,12 +804,12 @@
     "1381": {
       "word": "formal",
       "pos": "adjective",
-      "example": "She wore formal clothes."
+      "example": "The event was very formal."
     },
     "1391": {
       "word": "unfocused",
       "pos": "adjective",
-      "example": "His argument was unfocused."
+      "example": "His ideas seem unfocused."
     },
     "1402": {
       "word": "use",
@@ -809,7 +819,7 @@
     "1406": {
       "word": "verb",
       "pos": "plural noun",
-      "example": "Action verbs show movement."
+      "example": "English has many verb forms."
     },
     "1412": {
       "word": "like",
@@ -824,12 +834,12 @@
     "1427": {
       "word": "analyze",
       "pos": "base form verb",
-      "example": "Scientists analyze data carefully."
+      "example": "I analyze data every week."
     },
     "1438": {
       "word": "design",
       "pos": "base form verb",
-      "example": "He designs new software."
+      "example": "They design new products."
     },
     "1448": {
       "word": "lead",
@@ -839,12 +849,12 @@
     "1456": {
       "word": "ship",
       "pos": "base form verb",
-      "example": "They ship products worldwide."
+      "example": "They ship the products daily."
     },
     "1464": {
       "word": "improve",
       "pos": "base form verb",
-      "example": "We improve our skills constantly."
+      "example": "We improve our skills daily."
     },
     "1478": {
       "word": "add",
@@ -864,17 +874,17 @@
     "1497": {
       "word": "analyze",
       "pos": "base form verb",
-      "example": "Scientists analyze data carefully."
+      "example": "We analyze data daily."
     },
     "1505": {
       "word": "customer",
       "pos": "singular noun",
-      "example": "The customer is happy."
+      "example": "The customer is always right."
     },
     "1514": {
       "word": "data",
       "pos": "plural noun",
-      "example": "The data is important."
+      "example": "The data was collected."
     },
     "1522": {
       "word": "reduce",
@@ -889,27 +899,27 @@
     "1539": {
       "word": "clear",
       "pos": "comparative adjective",
-      "example": "The instructions are clear."
+      "example": "The message is clear."
     },
     "1555": {
       "word": "be",
       "pos": "present tense verb",
-      "example": "I am a student."
+      "example": "I am happy today."
     },
     "1558": {
       "word": "responsible",
       "pos": "adjective",
-      "example": "She is responsible for tasks."
+      "example": "He is responsible for tasks."
     },
     "1574": {
       "word": "analysis",
       "pos": "singular noun",
-      "example": "The analysis took hours."
+      "example": "This is a good analysis."
     },
     "1671": {
       "word": "break",
       "pos": "base form verb",
-      "example": "Please break the glass carefully."
+      "example": "Please break the chocolate into pieces."
     },
     "1677": {
       "word": "them",
@@ -919,37 +929,37 @@
     "1687": {
       "word": "two",
       "pos": "numeral adjective",
-      "example": "I have two apples."
+      "example": "I have two cats."
     },
     "1691": {
       "word": "sentence",
       "pos": "plural noun",
-      "example": "This is a short sentence."
+      "example": "This sentence is short."
     },
     "1706": {
       "word": "keep",
       "pos": "base form verb",
-      "example": "Keep your room clean."
+      "example": "Please keep your room clean."
     },
     "1715": {
       "word": "subject",
       "pos": "singular noun",
-      "example": "The subject is important."
+      "example": "The subject is interesting."
     },
     "1723": {
       "word": "clear",
       "pos": "adjective",
-      "example": "Her explanation was clear."
+      "example": "The instructions are clear."
     },
     "1735": {
       "word": "matter",
-      "pos": "present tense verb",
-      "example": "These rules matter to everyone."
+      "pos": "third person singular verb",
+      "example": "It matters to me."
     },
     "1751": {
       "word": "clarity",
       "pos": "noun",
-      "example": "Clarity helps in communication."
+      "example": "Clarity improves communication."
     },
     "1759": {
       "word": "increase",
@@ -958,13 +968,13 @@
     },
     "1769": {
       "word": "trust",
-      "pos": "noun",
-      "example": "Trust is important in relationships."
+      "pos": "noun singular",
+      "example": "Trust is important."
     },
     "1776": {
       "word": "reader",
       "pos": "plural noun",
-      "example": "Readers enjoy stories."
+      "example": "Readers enjoy good stories."
     },
     "1784": {
       "word": "feel",
@@ -978,23 +988,23 @@
     },
     "1794": {
       "word": "understand",
-      "pos": "base form verb",
-      "example": "I understand the instructions."
+      "pos": "infinitive verb",
+      "example": "She understands me well."
     },
     "1805": {
       "word": "your",
       "pos": "possessive pronoun",
-      "example": ""
+      "example": "Your car is red."
     },
     "1810": {
       "word": "work",
       "pos": "noun",
-      "example": "She loves her work."
+      "example": "His work is excellent."
     },
     "1815": {
       "word": "quickly",
       "pos": "adverb",
-      "example": "She runs quickly."
+      "example": "He runs quickly."
     },
     "1825": {
       "word": "specific",
@@ -1009,7 +1019,7 @@
     "1851": {
       "word": "make",
       "pos": "present tense verb",
-      "example": "They make good decisions."
+      "example": "They make good food."
     },
     "1857": {
       "word": "your",
@@ -1033,8 +1043,8 @@
     },
     "1897": {
       "word": "copy",
-      "pos": "past participle verb",
-      "example": "I copy texts for study."
+      "pos": "past participle adjective",
+      "example": "He copied the letter."
     },
     "1905": {
       "word": "many",
@@ -1044,17 +1054,17 @@
     "1910": {
       "word": "translate",
       "pos": "past participle verb",
-      "example": "I translate books every day."
+      "example": "I translate books into Portuguese."
     },
     "1921": {
       "word": "profile",
       "pos": "plural noun",
-      "example": "He updated his profile online."
+      "example": "The profile shows the user's details."
     },
     "1930": {
       "word": "describe",
       "pos": "base form verb",
-      "example": "Please describe your experience."
+      "example": "Please describe your problem."
     },
     "1939": {
       "word": "duty",
@@ -1074,12 +1084,12 @@
     "1969": {
       "word": "phrase",
       "pos": "plural noun",
-      "example": "Learn new phrases quickly."
+      "example": "This phrase is easy to say."
     },
     "1977": {
-      "word": "like “in charge of”",
-      "pos": "expression + idiom",
-      "example": "She is in charge of sales."
+      "word": "like",
+      "pos": "preposition/content word here",
+      "example": "I like chocolate ice cream."
     },
     "1982": {
       "word": "in charge of",
@@ -1089,7 +1099,7 @@
     "1983": {
       "word": "in charge of",
       "pos": "idiomatic phrase",
-      "example": "She is in charge of the team."
+      "example": "She is in charge of marketing."
     },
     "2000": {
       "word": "responsible for",
@@ -1098,28 +1108,28 @@
     },
     "2001": {
       "word": "responsible for",
-      "pos": "compound adjective + preposition",
-      "example": "He is responsible for safety."
+      "pos": "idiomatic phrase",
+      "example": "He is responsible for the report."
     },
     "2126": {
-      "word": "can not",
+      "word": "cannot",
       "pos": "modal verb + negation",
-      "example": "I can not come to the party."
+      "example": "I cannot come today."
     },
     "2133": {
       "word": "share",
-      "pos": "base form verb",
-      "example": "I share my books with friends."
+      "pos": "verb",
+      "example": "Please share your ideas."
     },
     "2139": {
       "word": "confidential",
       "pos": "adjective",
-      "example": "This is a confidential document."
+      "example": "This document is confidential."
     },
     "2152": {
       "word": "number",
       "pos": "plural noun",
-      "example": "Give me your phone number."
+      "example": "Call me at this number."
     },
     "2169": {
       "word": "still",
@@ -1149,27 +1159,27 @@
     "2214": {
       "word": "time",
       "pos": "noun",
-      "example": "Time flies quickly."
+      "example": "Time flies fast."
     },
     "2222": {
       "word": "automate",
       "pos": "gerund verb",
-      "example": "They automate factory processes."
+      "example": "We automate processes daily."
     },
     "2233": {
       "word": "weekly",
       "pos": "adjective",
-      "example": "We have weekly meetings."
+      "example": "He attends weekly meetings."
     },
     "2240": {
       "word": "dashboard",
       "pos": "plural noun",
-      "example": "Dashboards show data visually."
+      "example": "Dashboards show data clearly."
     },
     "2256": {
       "word": "support",
       "pos": "past tense verb",
-      "example": "I support my team."
+      "example": "They support local teams."
     },
     "2266": {
       "word": "audit",
@@ -1179,10 +1189,10 @@
     "2273": {
       "word": "under",
       "pos": "preposition",
-      "example": "He works under pressure."
+      "example": "The rules apply under law."
     },
     "2279": {
-      "word": "ISO 9001",
+      "word": "ISO",
       "pos": "proper noun",
       "example": ""
     },
@@ -1199,7 +1209,7 @@
     "2384": {
       "word": "matter",
       "pos": "present tense verb",
-      "example": "Problems matter in work."
+      "example": "Details matter in this task."
     },
     "2400": {
       "word": "English-language",
@@ -1209,42 +1219,42 @@
     "2417": {
       "word": "hire",
       "pos": "present participle verb",
-      "example": "They hire new employees yearly."
+      "example": "They hire new workers."
     },
     "2424": {
       "word": "culture",
       "pos": "singular noun",
-      "example": "Culture shapes society."
+      "example": "Work culture affects productivity."
     },
     "2432": {
       "word": "often",
-      "pos": "adverb",
+      "pos": "adverb of frequency",
       "example": "She often visits her family."
     },
     "2438": {
       "word": "treat",
       "pos": "present tense verb",
-      "example": "Doctors treat patients carefully."
+      "example": "Doctors treat patients."
     },
     "2445": {
       "word": "outcome",
       "pos": "plural noun",
-      "example": "Good outcomes are important."
+      "example": "Outcomes depend on effort."
     },
     "2461": {
       "word": "strong",
       "pos": "superlative adjective",
-      "example": "This is the strongest team."
+      "example": "He is the strongest player."
     },
     "2471": {
       "word": "signal",
       "pos": "singular noun",
-      "example": "The signal is clear."
+      "example": "The signal was clear."
     },
     "2481": {
       "word": "competence",
       "pos": "singular noun",
-      "example": "Competence is important at work."
+      "example": "Her competence is impressive."
     },
     "2494": {
       "word": "your",
@@ -1263,33 +1273,33 @@
     },
     "2533": {
       "word": "project",
-      "pos": "singular noun",
-      "example": "I finished a project."
+      "pos": "noun",
+      "example": "She completed a big project."
     },
     "2541": {
       "word": "description",
       "pos": "plural noun",
-      "example": "The description is very clear."
+      "example": "Read the product descriptions carefully."
     },
     "2555": {
       "word": "sound",
       "pos": "present tense verb",
-      "example": "The music sounds loud."
+      "example": "Your ideas sound good."
     },
     "2561": {
       "word": "natural",
       "pos": "adjective",
-      "example": "The response was very natural."
+      "example": "She speaks in a natural way."
     },
     "2579": {
       "word": "start",
-      "pos": "present tense verb",
-      "example": "They start work early."
+      "pos": "infinitive verb",
+      "example": "I start work at eight."
     },
     "2592": {
       "word": "past-tense",
-      "pos": "compound adjective",
-      "example": "Use past-tense verbs here."
+      "pos": "adjective",
+      "example": "Use the past-tense verb."
     },
     "2603": {
       "word": "action",
@@ -1298,8 +1308,8 @@
     },
     "2610": {
       "word": "verb",
-      "pos": "noun",
-      "example": "Run is a strong verb."
+      "pos": "singular noun",
+      "example": "Run is a verb."
     },
     "2619": {
       "word": "avoid",
@@ -1309,12 +1319,12 @@
     "2625": {
       "word": "heavy",
       "pos": "adjective",
-      "example": "This box is heavy."
+      "example": "The box is heavy."
     },
     "2631": {
-      "word": "noun",
-      "pos": "singular noun",
-      "example": "Apple is a noun."
+      "word": "noun phrase",
+      "pos": "compound noun",
+      "example": "Noun phrases are important in grammar."
     },
     "2636": {
       "word": "phrase",
@@ -1338,18 +1348,18 @@
     },
     "2667": {
       "word": "become",
-      "pos": "present tense verb",
-      "example": "They become friends quickly."
+      "pos": "third person singular verb",
+      "example": "She wants to become a doctor."
     },
     "2677": {
       "word": "chain",
-      "pos": "noun",
+      "pos": "singular noun",
       "example": "He wore a gold chain."
     },
     "2686": {
       "word": "noun",
       "pos": "plural noun",
-      "example": "Book and cat are nouns."
+      "example": "A noun names a person."
     },
     "2699": {
       "word": "implementation",
@@ -1358,12 +1368,12 @@
     },
     "2721": {
       "word": "optimization",
-      "pos": "singular noun",
-      "example": "Optimization improved the system."
+      "pos": "noun",
+      "example": "Optimization improves efficiency."
     },
     "2741": {
       "word": "process",
-      "pos": "noun",
+      "pos": "singular noun",
       "example": "The process is complicated."
     },
     "2757": {
@@ -1374,17 +1384,17 @@
     "2766": {
       "word": "turn",
       "pos": "base form verb",
-      "example": "Please turn the page."
+      "example": "Turn the page carefully."
     },
     "2771": {
       "word": "noun",
       "pos": "plural noun",
-      "example": "This book contains many nouns."
+      "example": "Nouns name people or places."
     },
     "2777": {
       "word": "back",
       "pos": "adverb",
-      "example": "She looked back quickly."
+      "example": "She came back home."
     },
     "2782": {
       "word": "into",
@@ -1394,22 +1404,22 @@
     "2787": {
       "word": "verb",
       "pos": "plural noun",
-      "example": "Run and jump are verbs."
+      "example": "A verb shows an action."
     },
     "2795": {
       "word": "optimize",
       "pos": "past tense verb",
-      "example": "They optimize the system daily."
+      "example": "We optimize our processes."
     },
     "2809": {
       "word": "process",
-      "pos": "singular noun",
+      "pos": "noun",
       "example": "The process is complicated."
     },
     "2822": {
       "word": "implement",
       "pos": "past tense verb",
-      "example": "They implement new policies."
+      "example": "We implement new rules."
     },
     "2834": {
       "word": "a",
@@ -1419,16 +1429,16 @@
     "2836": {
       "word": "fast",
       "pos": "comparative adjective",
-      "example": "She runs faster than me."
+      "example": "She runs fast."
     },
     "2843": {
       "word": "review",
-      "pos": "singular noun",
-      "example": "I gave a review yesterday."
+      "pos": "noun",
+      "example": "He gave a helpful review."
     },
     "2850": {
       "word": "workflow",
-      "pos": "singular noun compound",
+      "pos": "compound noun",
       "example": "The workflow is efficient."
     },
     "2945": {
@@ -1449,12 +1459,12 @@
     "2976": {
       "word": "new",
       "pos": "adjective",
-      "example": "I bought a new book."
+      "example": "He has a new car."
     },
     "2980": {
       "word": "analyst",
       "pos": "plural noun",
-      "example": "The analyst explained the data."
+      "example": "The analyst reviewed the data."
     },
     "2990": {
       "word": "read",
@@ -1464,7 +1474,7 @@
     "2996": {
       "word": "clean",
       "pos": "comparative adjective",
-      "example": "The room is clean."
+      "example": "This room is cleaner now."
     },
     "3004": {
       "word": "than",
@@ -1474,17 +1484,17 @@
     "3010": {
       "word": "build",
       "pos": "past tense verb",
-      "example": "They build houses every year."
+      "example": "They build houses quickly."
     },
     "3020": {
       "word": "material",
       "pos": "plural noun",
-      "example": "We need more material for class."
+      "example": "I bought new study materials."
     },
     "3033": {
       "word": "onboarding",
       "pos": "noun",
-      "example": "Onboarding helps new employees adjust."
+      "example": "Onboarding helps new employees."
     },
     "3052": {
       "word": "new",
@@ -1499,7 +1509,7 @@
     "3169": {
       "word": "word",
       "pos": "singular noun",
-      "example": "I learn a new word daily."
+      "example": "The word is simple."
     },
     "3174": {
       "word": "choice",
@@ -1509,12 +1519,12 @@
     "3185": {
       "word": "tone",
       "pos": "singular noun",
-      "example": "Her tone was friendly."
+      "example": "His tone was very serious."
     },
     "3201": {
       "word": "translate",
-      "pos": "past participle adjective",
-      "example": "The text is translated well."
+      "pos": "past participle verb",
+      "example": "Please translate this text."
     },
     "3212": {
       "word": "English",
@@ -1524,22 +1534,22 @@
     "3224": {
       "word": "easy",
       "pos": "superlative adjective",
-      "example": "Math is easy for me."
+      "example": "Math is easy for her."
     },
     "3235": {
       "word": "notice",
-      "pos": "infinitive verb",
-      "example": "Please notice the difference."
+      "pos": "base form verb",
+      "example": "I notice the difference."
     },
     "3243": {
       "word": "avoid",
       "pos": "base form verb",
-      "example": "I avoid eating junk food."
+      "example": "I avoid bad habits."
     },
     "3249": {
       "word": "false",
       "pos": "adjective",
-      "example": "This is a false alarm."
+      "example": "The document contains false information."
     },
     "3255": {
       "word": "friend",
@@ -1549,7 +1559,7 @@
     "3267": {
       "word": "overly",
       "pos": "adverb",
-      "example": "The task was overly difficult."
+      "example": "She was overly excited."
     },
     "3274": {
       "word": "formal",
@@ -1559,7 +1569,7 @@
     "3281": {
       "word": "phrase",
       "pos": "plural noun",
-      "example": "He uses many idiomatic phrases."
+      "example": "Learn useful phrases in English."
     },
     "3289": {
       "word": "common",
@@ -1569,17 +1579,17 @@
     "3299": {
       "word": "template",
       "pos": "plural noun",
-      "example": "I used a template."
+      "example": "The template is easy to use."
     },
     "3311": {
       "word": "dear",
       "pos": "adjective",
-      "example": "Dear friends, welcome!"
+      "example": "Dear friend, how are you?"
     },
     "3316": {
       "word": "network",
-      "pos": "singular noun",
-      "example": "The network is fast."
+      "pos": "noun",
+      "example": "She joined a professional network."
     },
     "3327": {
       "word": "kindly",
@@ -1589,12 +1599,12 @@
     "3337": {
       "word": "esteemed",
       "pos": "adjective",
-      "example": "Esteemed guests have arrived."
+      "example": "Esteemed guests are welcome."
     },
     "3349": {
       "word": "with great interest",
       "pos": "idiomatic phrase",
-      "example": "She listened with great interest."
+      "example": "I read the letter with great interest."
     },
     "3375": {
       "word": "I",
@@ -1604,7 +1614,7 @@
     "3377": {
       "word": "be",
       "pos": "present tense verb",
-      "example": "I am happy."
+      "example": "I am happy today."
     },
     "3380": {
       "word": "open",
@@ -1624,12 +1634,12 @@
     "3392": {
       "word": "opportunity",
       "pos": "singular noun",
-      "example": "I seized the opportunity."
+      "example": "This is a great opportunity."
     },
     "3462": {
       "word": "say",
-      "pos": "base verb",
-      "example": "I say hello every day."
+      "pos": "base form verb",
+      "example": "Please say your name."
     },
     "3466": {
       "word": "what",
@@ -1643,13 +1653,13 @@
     },
     "3475": {
       "word": "want",
-      "pos": "base form verb",
+      "pos": "base verb",
       "example": "I want a new book."
     },
     "3482": {
       "word": "I am",
-      "pos": "contraction of pronoun + verb",
-      "example": "I'm happy today."
+      "pos": "contraction of 'I am'",
+      "example": "I am happy today."
     },
     "3483": {
       "word": "be (am)",
@@ -1668,12 +1678,12 @@
     },
     "3494": {
       "word": "data",
-      "pos": "plural noun",
+      "pos": "noun",
       "example": "Data is important."
     },
     "3499": {
       "word": "analyst",
-      "pos": "singular noun",
+      "pos": "noun",
       "example": "She is an analyst."
     },
     "3507": {
@@ -1687,9 +1697,9 @@
       "example": ""
     },
     "3528": {
-      "word": "be",
-      "pos": "contraction of 'I am'",
-      "example": "I am happy today."
+      "word": "I am",
+      "pos": "contraction of pronoun + verb",
+      "example": "I'm happy today."
     },
     "3529": {
       "word": "be (am)",
@@ -1704,7 +1714,7 @@
     "3546": {
       "word": "backend",
       "pos": "adjective",
-      "example": "He works on backend development."
+      "example": "He works as a backend developer."
     },
     "3554": {
       "word": "engineering",
@@ -1714,32 +1724,32 @@
     "3566": {
       "word": "position",
       "pos": "plural noun",
-      "example": "He holds two positions."
+      "example": "He applied for positions."
     },
     "3576": {
       "word": "focus",
       "pos": "past participle adjective",
-      "example": "She focuses on studies."
+      "example": "She is focused on work."
     },
     "3587": {
       "word": "distribute",
       "pos": "past participle adjective",
-      "example": "They distribute goods."
+      "example": "Systems distribute data."
     },
     "3599": {
       "word": "system",
       "pos": "plural noun",
-      "example": "Systems improve efficiency."
+      "example": "The system works well."
     },
     "3753": {
       "word": "balanced",
       "pos": "adjective",
-      "example": "We need a balanced diet."
+      "example": "A balanced diet is healthy."
     },
     "3762": {
       "word": "approach",
       "pos": "noun",
-      "example": "He has a unique approach."
+      "example": "Try a new approach to learning."
     },
     "3776": {
       "word": "lead",
@@ -1749,12 +1759,12 @@
     "3792": {
       "word": "leadership",
       "pos": "noun",
-      "example": "She shows good leadership."
+      "example": "Good leadership inspires teams."
     },
     "3808": {
       "word": "work",
       "pos": "past tense verb",
-      "example": "They work every day."
+      "example": "They work hard every day."
     },
     "3815": {
       "word": "with",
@@ -1773,8 +1783,8 @@
     },
     "3839": {
       "word": "team",
-      "pos": "noun, singular",
-      "example": "She joined the team."
+      "pos": "noun",
+      "example": "The team won the game."
     },
     "3847": {
       "word": "Y",
@@ -1788,13 +1798,13 @@
     },
     "3861": {
       "word": "outcome",
-      "pos": "noun, plural",
-      "example": "The outcome was positive."
+      "pos": "plural noun",
+      "example": "We expect good outcomes."
     },
     "3876": {
       "word": "matter",
       "pos": "present tense verb",
-      "example": "It does not matter now."
+      "example": "It matters to me."
     },
     "3896": {
       "word": "right",
@@ -1804,7 +1814,7 @@
     "3902": {
       "word": "tone",
       "pos": "singular noun",
-      "example": "Her tone was friendly."
+      "example": "His tone was friendly."
     },
     "3907": {
       "word": "signal",
@@ -1814,7 +1824,7 @@
     "3915": {
       "word": "confidence",
       "pos": "singular noun",
-      "example": "She has confidence."
+      "example": "She spoke with confidence."
     },
     "3926": {
       "word": "without",
@@ -1829,7 +1839,7 @@
     "3943": {
       "word": "aggressive",
       "pos": "adjective",
-      "example": "He has an aggressive style."
+      "example": "He has an aggressive attitude."
     },
     "3965": {
       "word": "make",
@@ -1839,7 +1849,7 @@
     "3975": {
       "word": "profile",
       "pos": "singular noun",
-      "example": "I updated my profile yesterday."
+      "example": "She updated her profile online."
     },
     "3983": {
       "word": "read",
@@ -1854,7 +1864,7 @@
     "3998": {
       "word": "real",
       "pos": "adjective",
-      "example": "This is a real story."
+      "example": "This is a real diamond."
     },
     "4003": {
       "word": "speak",
@@ -1864,11 +1874,11 @@
     "4012": {
       "word": "voice",
       "pos": "singular noun",
-      "example": "Her voice is very clear."
+      "example": "He has a loud voice."
     },
     "4021": {
       "word": "revise",
-      "pos": "gerund verb",
+      "pos": "present participle verb",
       "example": "I revise my notes before exams."
     },
     "4034": {
@@ -1878,18 +1888,18 @@
     },
     "4045": {
       "word": "check",
-      "pos": "present participle verb",
-      "example": "I check my answers carefully."
+      "pos": "gerund verb",
+      "example": "I check my work carefully."
     },
     "4062": {
-      "word": "read aloud",
-      "pos": "phrasal verb",
-      "example": "Please read aloud the text."
+      "word": "read",
+      "pos": "gerund noun",
+      "example": "Reading helps improve vocabulary."
     },
     "4070": {
       "word": "aloud",
       "pos": "adverb",
-      "example": "She reads aloud every night."
+      "example": "She read the story aloud."
     },
     "4082": {
       "word": "sentence",
@@ -1913,8 +1923,8 @@
     },
     "4105": {
       "word": "say",
-      "pos": "infinitive verb",
-      "example": "Please say your name."
+      "pos": "base form verb",
+      "example": "I say hello every morning."
     },
     "4113": {
       "word": "often",
@@ -1928,8 +1938,8 @@
     },
     "4125": {
       "word": "like",
-      "pos": "preposition",
-      "example": "He looks like his father."
+      "pos": "preposition (not included as content word - excluded)",
+      "example": ""
     },
     "4130": {
       "word": "translation",
@@ -1939,12 +1949,12 @@
     "4143": {
       "word": "keep",
       "pos": "base form verb",
-      "example": "I keep my room clean."
+      "example": "Keep your promises every time."
     },
     "4150": {
       "word": "small",
       "pos": "adjective",
-      "example": "She has a small dog."
+      "example": "We have a small dog."
     },
     "4156": {
       "word": "set",
@@ -1959,12 +1969,12 @@
     "4174": {
       "word": "phrase",
       "pos": "plural noun",
-      "example": "Learn new phrases every day."
+      "example": "I learned new phrases."
     },
     "4191": {
       "word": "normal",
       "pos": "adjective",
-      "example": "It is normal to talk a lot."
+      "example": "This is a normal situation."
     },
     "4201": {
       "word": "English",
@@ -1983,8 +1993,8 @@
     },
     "4239": {
       "word": "focus",
-      "pos": "singular noun",
-      "example": "My focus is reading."
+      "pos": "noun",
+      "example": "My focus is learning."
     },
     "4245": {
       "word": "be",
@@ -1994,7 +2004,7 @@
     "4252": {
       "word": "recently",
       "pos": "adverb",
-      "example": "I saw him recently."
+      "example": "I saw her recently."
     },
     "4268": {
       "word": "I",
@@ -2024,22 +2034,22 @@
     "4291": {
       "word": "one",
       "pos": "numeral",
-      "example": "One person came early."
+      "example": "I have one brother."
     },
     "4295": {
       "word": "fluent",
       "pos": "adjective",
-      "example": "She is fluent in Spanish."
+      "example": "She is fluent in English."
     },
     "4302": {
       "word": "speaker",
       "pos": "singular noun",
-      "example": "He is a native speaker."
+      "example": "He is a good speaker."
     },
     "4313": {
       "word": "mark",
       "pos": "base form verb",
-      "example": "Please mark your answers."
+      "example": "Please mark the correct answer."
     },
     "4318": {
       "word": "sentence",
@@ -2054,7 +2064,7 @@
     "4338": {
       "word": "unnatural",
       "pos": "adjective",
-      "example": "That sounds unnatural."
+      "example": "This sentence sounds unnatural."
     },
     "4349": {
       "word": "then",
@@ -2067,7 +2077,7 @@
       "example": "Replace old words with new ones."
     },
     "4362": {
-      "word": "them",
+      "word": "they",
       "pos": "pronoun",
       "example": "I saw them yesterday."
     },
@@ -2084,7 +2094,7 @@
     "4380": {
       "word": "structure",
       "pos": "plural noun",
-      "example": "The sentence has correct structure."
+      "example": "Sentence structure is important."
     },
     "4392": {
       "word": "not",
@@ -2108,13 +2118,13 @@
     },
     "4426": {
       "word": "matter",
-      "pos": "present tense verb",
-      "example": "Small details matter a lot."
+      "pos": "verb, present tense",
+      "example": "These issues matter a lot."
     },
     "4442": {
       "word": "natural",
       "pos": "adjective",
-      "example": "She has a natural talent for music."
+      "example": "She has natural talent."
     },
     "4450": {
       "word": "English",
@@ -2124,7 +2134,7 @@
     "4471": {
       "word": "advanced",
       "pos": "adjective",
-      "example": "She took an advanced course in math."
+      "example": "He took an advanced course."
     },
     "4480": {
       "word": "word",
@@ -2139,12 +2149,12 @@
     "4511": {
       "word": "pattern",
       "pos": "plural noun",
-      "example": "We can see patterns in data."
+      "example": "The design has many patterns."
     },
     "4525": {
       "word": "reader",
       "pos": "plural noun",
-      "example": "Readers enjoy good stories."
+      "example": "Readers enjoy good books."
     },
     "4533": {
       "word": "recognize",
@@ -2164,22 +2174,22 @@
     "4566": {
       "word": "profile",
       "pos": "plural noun",
-      "example": "This profile shows my experience."
+      "example": "I create a profile on social media."
     },
     "4575": {
       "word": "increasingly",
       "pos": "adverb",
-      "example": "She increasingly enjoys reading books."
+      "example": "She increasingly improves her skills."
     },
     "4588": {
       "word": "get",
       "pos": "verb",
-      "example": "They get the message quickly."
+      "example": "I get letters every day."
     },
     "4592": {
       "word": "read",
       "pos": "past participle verb",
-      "example": "I read a book every day."
+      "example": "I read books in the evening."
     },
     "4605": {
       "word": "human",
@@ -2199,7 +2209,7 @@
     "4638": {
       "word": "natural",
       "pos": "adjective",
-      "example": "Natural light is better."
+      "example": "She speaks natural English."
     },
     "4646": {
       "word": "English",
@@ -2209,12 +2219,12 @@
     "4658": {
       "word": "clear",
       "pos": "adjective",
-      "example": "He gave clear instructions."
+      "example": "She gave a clear explanation."
     },
     "4664": {
       "word": "keyword",
       "pos": "plural noun",
-      "example": "Use keywords in your text."
+      "example": "Use keywords to improve search."
     },
     "4673": {
       "word": "work",
@@ -2224,7 +2234,7 @@
     "4678": {
       "word": "together",
       "pos": "adverb",
-      "example": "They work together well."
+      "example": "We study together every day."
     },
     "4697": {
       "word": "use",
@@ -2244,7 +2254,7 @@
     "4715": {
       "word": "concrete",
       "pos": "adjective",
-      "example": "I need a concrete example."
+      "example": "She gave concrete evidence."
     },
     "4724": {
       "word": "proof",
@@ -2252,14 +2262,14 @@
       "example": "She showed proof of identity."
     },
     "4737": {
-      "word": "clean structure",
-      "pos": "compound noun",
-      "example": "A clean structure makes reading easy."
+      "word": "clean",
+      "pos": "adjective",
+      "example": "He keeps a clean desk."
     },
     "4743": {
       "word": "structure",
       "pos": "singular noun",
-      "example": "The structure is very complex."
+      "example": "This structure is strong."
     },
     "4759": {
       "word": "profile",
@@ -2278,13 +2288,13 @@
     },
     "4782": {
       "word": "translate",
-      "pos": "past participle verb",
-      "example": "This book was translated well."
+      "pos": "past participle adjective",
+      "example": "The book was translated recently."
     },
     "4797": {
       "word": "start",
-      "pos": "present simple verb",
-      "example": "We start work at nine."
+      "pos": "present tense verb",
+      "example": "Classes start at nine."
     },
     "4804": {
       "word": "sound",
@@ -2294,7 +2304,7 @@
     "4820": {
       "word": "professional",
       "pos": "adjective",
-      "example": "She gave a professional presentation."
+      "example": "She is a professional artist."
     },
     "4833": {
       "word": "document",
@@ -2309,7 +2319,7 @@
     "4857": {
       "word": "English-speaking",
       "pos": "compound adjective",
-      "example": "She lives in an English-speaking country."
+      "example": "He is an English-speaking person."
     },
     "4874": {
       "word": "audience",
@@ -2319,11 +2329,1292 @@
     "4883": {
       "word": "today",
       "pos": "adverb",
-      "example": "I am busy today."
+      "example": "I have a meeting today."
+    },
+    "177": {
+      "word": "because",
+      "pos": "conjunction",
+      "example": "I stayed home because it was raining."
+    },
+    "216": {
+      "word": "scan for",
+      "pos": "preposition in phrase",
+      "example": "They scan for errors in the document."
+    },
+    "235": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like coffee and tea."
+    },
+    "255": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The cover of the book is blue."
+    },
+    "258": {
+      "word": "your",
+      "pos": "possessive determiner",
+      "example": "Is this your book?"
+    },
+    "272": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like coffee and tea."
+    },
+    "297": {
+      "word": "decide whether",
+      "pos": "verb phrase with subordinating conjunction",
+      "example": "They decide whether to approve the plan."
+    },
+    "305": {
+      "word": "they",
+      "pos": "third person plural pronoun",
+      "example": "They are going to the store."
+    },
+    "359": {
+      "word": "be",
+      "pos": "third person singular present verb",
+      "example": "She is happy today."
+    },
+    "445": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "She lives in Spain."
+    },
+    "448": {
+      "word": "English",
+      "pos": "proper noun, singular",
+      "example": "I speak English every day."
+    },
+    "519": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes apples and oranges."
+    },
+    "553": {
+      "word": "engineer with",
+      "pos": "preposition 'with'",
+      "example": "She is an engineer with skills."
+    },
+    "569": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "He works in a big company."
+    },
+    "584": {
+      "word": "be",
+      "pos": "third person singular present verb",
+      "example": "She is a doctor."
+    },
+    "594": {
+      "word": "while",
+      "pos": "conjunction",
+      "example": "She listens while he talks."
+    },
+    "711": {
+      "word": "such as",
+      "pos": "determiner + preposition",
+      "example": "I like fruits such as apples and oranges."
+    },
+    "716": {
+      "word": "as",
+      "pos": "preposition",
+      "example": "She works as a teacher."
+    },
+    "750": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "Do you want tea or coffee?"
+    },
+    "818": {
+      "word": "them",
+      "pos": "personal pronoun, object form",
+      "example": "I saw them at the park yesterday."
+    },
+    "823": {
+      "word": "with",
+      "pos": "preposition",
+      "example": "She works with her team every day."
+    },
+    "845": {
+      "word": "can",
+      "pos": "modal verb",
+      "example": "I can help you with this task."
+    },
+    "849": {
+      "word": "be",
+      "pos": "base form verb",
+      "example": "I want to be a teacher."
+    },
+    "861": {
+      "word": "such as",
+      "pos": "demonstrative + preposition",
+      "example": "Use materials such as wood and metal."
+    },
+    "866": {
+      "word": "as",
+      "pos": "conjunction",
+      "example": "Use tools such as Python for coding."
+    },
+    "922": {
+      "word": "supply chain",
+      "pos": "noun phrase",
+      "example": "The supply chain is very complex."
+    },
+    "930": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "You can have tea or coffee."
+    },
+    "948": {
+      "word": "reduction",
+      "pos": "singular noun",
+      "example": "The reduction in price is significant."
+    },
+    "966": {
+      "word": "compliance",
+      "pos": "singular noun",
+      "example": "Compliance with rules is important."
+    },
+    "979": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is my favorite book."
+    },
+    "992": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "I stayed home because it rained."
+    },
+    "1016": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "She also likes to read books."
+    },
+    "1028": {
+      "word": "rely on",
+      "pos": "preposition in phrasal verb",
+      "example": "People rely on their phones daily."
+    },
+    "1041": {
+      "word": "and",
+      "pos": "conjunction",
+      "example": "You and I are friends."
+    },
+    "1062": {
+      "word": "you",
+      "pos": "personal pronoun",
+      "example": "You are learning English."
+    },
+    "1073": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "The book is in the bag."
+    },
+    "1263": {
+      "word": "be",
+      "pos": "third person singular present verb",
+      "example": "He is a good teacher."
+    },
+    "1284": {
+      "word": "to",
+      "pos": "preposition",
+      "example": "I like to read books every evening."
+    },
+    "1289": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "You can have tea or coffee."
+    },
+    "1334": {
+      "word": "to",
+      "pos": "infinitive particle",
+      "example": "I want to learn Spanish."
+    },
+    "1340": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "She lives in Spain."
+    },
+    "1388": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "You can choose coffee or tea."
+    },
+    "1474": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "1519": {
+      "word": "to",
+      "pos": "infinitive marker",
+      "example": "I want to learn Spanish."
+    },
+    "1536": {
+      "word": "be",
+      "pos": "third person singular present verb",
+      "example": "She is happy today."
+    },
+    "1547": {
+      "word": "than",
+      "pos": "subordinating conjunction",
+      "example": "She is taller than her brother."
+    },
+    "1553": {
+      "word": "I",
+      "pos": "personal pronoun, singular, first person",
+      "example": "I work every day."
+    },
+    "1570": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This gift is for you."
+    },
+    "1585": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "I also like to read books."
+    },
+    "1590": {
+      "word": "avoid",
+      "pos": "base form verb",
+      "example": "I try to avoid junk food."
+    },
+    "1596": {
+      "word": "long",
+      "pos": "adjective",
+      "example": "She has long hair."
+    },
+    "1601": {
+      "word": "sentence",
+      "pos": "plural noun",
+      "example": "She wrote a clear sentence."
+    },
+    "1611": {
+      "word": "with",
+      "pos": "preposition",
+      "example": "I went to the park with my friend."
+    },
+    "1616": {
+      "word": "many",
+      "pos": "determiner",
+      "example": "Many people like to read books."
+    },
+    "1621": {
+      "word": "comma",
+      "pos": "plural noun",
+      "example": "Use a comma to separate items in a list."
+    },
+    "1629": {
+      "word": "which",
+      "pos": "relative pronoun",
+      "example": "The book which you want is here."
+    },
+    "1635": {
+      "word": "often",
+      "pos": "adverb of frequency",
+      "example": "She often visits the museum."
+    },
+    "1641": {
+      "word": "come from",
+      "pos": "present tense verb + preposition",
+      "example": "Errors often come from misunderstanding."
+    },
+    "1646": {
+      "word": "come from",
+      "pos": "present tense phrasal verb",
+      "example": "Good ideas come from hard work."
+    },
+    "1651": {
+      "word": "direct translation",
+      "pos": "adjective before noun",
+      "example": "This is a direct translation."
+    },
+    "1658": {
+      "word": "direct translation",
+      "pos": "noun phrase",
+      "example": "Direct translation can cause mistakes."
+    },
+    "1682": {
+      "word": "break into",
+      "pos": "preposition in phrasal verb",
+      "example": "She break the story into parts."
+    },
+    "1702": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes apples and oranges."
+    },
+    "1730": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is very important."
+    },
+    "1743": {
+      "word": "because",
+      "pos": "conjunction",
+      "example": "I stayed home because it was raining."
+    },
+    "1843": {
+      "word": "be",
+      "pos": "third person singular present verb",
+      "example": "She is a good teacher."
+    },
+    "1846": {
+      "word": "what",
+      "pos": "pronoun",
+      "example": "What do you want to eat?"
+    },
+    "1885": {
+      "word": "rather than",
+      "pos": "adverb + conjunction",
+      "example": "I would rather walk than drive."
+    },
+    "1892": {
+      "word": "than",
+      "pos": "subordinating conjunction",
+      "example": "She is taller than her brother."
+    },
+    "1946": {
+      "word": "but",
+      "pos": "conjunction",
+      "example": "I like tea but not coffee."
+    },
+    "1950": {
+      "word": "not",
+      "pos": "adverb negation",
+      "example": "I do not like spinach."
+    },
+    "1986": {
+      "word": "be in charge of",
+      "pos": "base form verb phrase",
+      "example": "She is in charge of the project."
+    },
+    "1993": {
+      "word": "in charge of",
+      "pos": "preposition in fixed phrase",
+      "example": "She is in charge of the project."
+    },
+    "1997": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "You can have tea or coffee."
+    },
+    "2013": {
+      "word": "in charge of",
+      "pos": "preposition in fixed phrase",
+      "example": "She is in charge of the project."
+    },
+    "2019": {
+      "word": "instead",
+      "pos": "adverb",
+      "example": "I will walk instead of driving."
+    },
+    "2028": {
+      "word": "add",
+      "pos": "base form verb",
+      "example": "Please add your name to the list."
+    },
+    "2032": {
+      "word": "measurable",
+      "pos": "adjective",
+      "example": "The progress must be measurable to track success."
+    },
+    "2043": {
+      "word": "outcome",
+      "pos": "plural noun",
+      "example": "The outcome of the test was positive."
+    },
+    "2052": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I have a pen and a notebook."
+    },
+    "2056": {
+      "word": "scope",
+      "pos": "noun, singular",
+      "example": "The project has a wide scope."
+    },
+    "2063": {
+      "word": "team size",
+      "pos": "noun phrase",
+      "example": "The team size affects project success."
+    },
+    "2068": {
+      "word": "size",
+      "pos": "singular noun",
+      "example": "The size of the box is large."
+    },
+    "2074": {
+      "word": "budget",
+      "pos": "singular noun",
+      "example": "The project has a limited budget."
+    },
+    "2081": {
+      "word": "size",
+      "pos": "singular noun",
+      "example": "The size of the box is large."
+    },
+    "2087": {
+      "word": "number",
+      "pos": "singular noun",
+      "example": "The number of books is large."
+    },
+    "2094": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "A cup of tea is warm."
+    },
+    "2097": {
+      "word": "user",
+      "pos": "plural noun",
+      "example": "The user logs in every morning."
+    },
+    "2104": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "You can choose tea or coffee."
+    },
+    "2107": {
+      "word": "time saved",
+      "pos": "noun phrase",
+      "example": "Time saved helps improve productivity."
+    },
+    "2112": {
+      "word": "save",
+      "pos": "past tense verb",
+      "example": "I save money every month."
+    },
+    "2119": {
+      "word": "if",
+      "pos": "conjunction",
+      "example": "If it rains, we will stay inside."
+    },
+    "2122": {
+      "word": "you",
+      "pos": "personal pronoun",
+      "example": "You are learning English well."
+    },
+    "2161": {
+      "word": "you",
+      "pos": "personal pronoun",
+      "example": "You are my best friend."
+    },
+    "2165": {
+      "word": "can",
+      "pos": "modal verb, present tense",
+      "example": "I can help you with your homework."
+    },
+    "2175": {
+      "word": "be",
+      "pos": "base form verb",
+      "example": "It is important to be honest."
+    },
+    "2219": {
+      "word": "reduce by",
+      "pos": "past tense verb + preposition",
+      "example": "They reduce costs by cutting waste."
+    },
+    "2252": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "Would you like tea or coffee?"
+    },
+    "2301": {
+      "word": "mention",
+      "pos": "base form verb",
+      "example": "Please mention your name on the form."
+    },
+    "2309": {
+      "word": "recognizable",
+      "pos": "adjective",
+      "example": "The logo is easily recognizable."
+    },
+    "2322": {
+      "word": "method",
+      "pos": "plural noun",
+      "example": "This method is very effective."
+    },
+    "2330": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "You can choose tea or coffee."
+    },
+    "2333": {
+      "word": "standard",
+      "pos": "plural noun",
+      "example": "The company follows high safety standards."
+    },
+    "2343": {
+      "word": "only",
+      "pos": "adverb",
+      "example": "I only want a small piece."
+    },
+    "2348": {
+      "word": "if",
+      "pos": "conjunction",
+      "example": "If you study, you will pass."
+    },
+    "2351": {
+      "word": "you",
+      "pos": "personal pronoun",
+      "example": "You are very kind."
+    },
+    "2355": {
+      "word": "use",
+      "pos": "past tense verb",
+      "example": "I use this software every day."
+    },
+    "2360": {
+      "word": "them",
+      "pos": "personal pronoun, object form",
+      "example": "I saw them at the market."
+    },
+    "2365": {
+      "word": "used",
+      "pos": "past tense verb",
+      "example": "I used the correct method."
+    },
+    "2368": {
+      "word": "real",
+      "pos": "adjective",
+      "example": "She has real talent for music."
+    },
+    "2373": {
+      "word": "work",
+      "pos": "noun, singular",
+      "example": "She has a lot of work today."
+    },
+    "2379": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is very important."
+    },
+    "2392": {
+      "word": "because",
+      "pos": "conjunction",
+      "example": "I stayed home because it was raining."
+    },
+    "2454": {
+      "word": "as",
+      "pos": "preposition",
+      "example": "She works as a teacher."
+    },
+    "2478": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The cover of the book is red."
+    },
+    "2519": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "2523": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "She also likes to read books."
+    },
+    "2528": {
+      "word": "your",
+      "pos": "possessive determiner",
+      "example": "Your book is on the table."
+    },
+    "2569": {
+      "word": "when",
+      "pos": "conjunction",
+      "example": "Call me when you arrive."
+    },
+    "2574": {
+      "word": "they",
+      "pos": "third person plural pronoun",
+      "example": "They are going to the park."
+    },
+    "2585": {
+      "word": "with",
+      "pos": "preposition",
+      "example": "She works with her team every day."
+    },
+    "2615": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "You and I will go together."
+    },
+    "2683": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The cover of the book is blue."
+    },
+    "2693": {
+      "word": "like",
+      "pos": "preposition",
+      "example": "I like chocolate ice cream."
+    },
+    "2714": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The cover of the book is blue."
+    },
+    "2734": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The cover of the book is blue."
+    },
+    "2749": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "She is aware of the risks."
+    },
+    "2754": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "The book is in the bag."
+    },
+    "2818": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "You can choose tea or coffee."
+    },
+    "2861": {
+      "word": "another",
+      "pos": "determiner",
+      "example": "I want another cup of tea."
+    },
+    "2869": {
+      "word": "translation",
+      "pos": "noun, singular",
+      "example": "The translation of this text is difficult."
+    },
+    "2881": {
+      "word": "issue",
+      "pos": "singular noun",
+      "example": "We need to solve this issue quickly."
+    },
+    "2887": {
+      "word": "be",
+      "pos": "third person singular present verb",
+      "example": "She is happy today."
+    },
+    "2890": {
+      "word": "overuse",
+      "pos": "gerund form",
+      "example": "Many people overuse their phones daily."
+    },
+    "2906": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "Tom and Jerry are friends."
+    },
+    "2911": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "A cup of tea is on the table."
+    },
+    "2916": {
+      "word": "which",
+      "pos": "relative pronoun",
+      "example": "The book which I read was interesting."
+    },
+    "2922": {
+      "word": "make",
+      "pos": "third person singular present verb",
+      "example": "She makes great coffee every morning."
+    },
+    "2928": {
+      "word": "sentence",
+      "pos": "plural noun",
+      "example": "This sentence is easy to understand."
+    },
+    "2938": {
+      "word": "slow",
+      "pos": "adjective",
+      "example": "The slow turtle crosses the road."
+    },
+    "2972": {
+      "word": "build",
+      "pos": "past tense verb",
+      "example": "I build onboarding materials every month."
+    },
+    "3030": {
+      "word": "material",
+      "pos": "singular noun",
+      "example": "The material is on the table."
+    },
+    "3044": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This gift is for you."
+    },
+    "3067": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is my favorite book."
+    },
+    "3072": {
+      "word": "matter",
+      "pos": "third person singular present verb",
+      "example": "It matters to everyone."
+    },
+    "3080": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "I stayed home because it was raining."
+    },
+    "3088": {
+      "word": "simple",
+      "pos": "adjective, positive degree",
+      "example": "This is a simple task."
+    },
+    "3095": {
+      "word": "grammar",
+      "pos": "singular noun",
+      "example": "Good grammar helps others understand you."
+    },
+    "3103": {
+      "word": "reduce",
+      "pos": "third person singular present verb",
+      "example": "Exercise reduces stress effectively."
+    },
+    "3111": {
+      "word": "cognitive load",
+      "pos": "adjective + noun",
+      "example": "Cognitive load affects how well we learn."
+    },
+    "3121": {
+      "word": "cognitive load",
+      "pos": "noun phrase",
+      "example": "The cognitive load was too high for students."
+    },
+    "3126": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "3130": {
+      "word": "keep",
+      "pos": "third person singular present verb",
+      "example": "She keeps her promises."
+    },
+    "3136": {
+      "word": "keep attention on",
+      "pos": "noun",
+      "example": "Please keep attention on the screen."
+    },
+    "3146": {
+      "word": "keep on",
+      "pos": "preposition",
+      "example": "She keeps on trying despite difficulties."
+    },
+    "3149": {
+      "word": "your",
+      "pos": "possessive determiner",
+      "example": "Your book is on the table."
+    },
+    "3154": {
+      "word": "achievement",
+      "pos": "plural noun",
+      "example": "Her achievement was recognized by everyone."
+    },
+    "3181": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like coffee and tea."
+    },
+    "3190": {
+      "word": "be",
+      "pos": "present tense verb, 3rd person plural",
+      "example": "They are happy today."
+    },
+    "3194": {
+      "word": "where",
+      "pos": "adverb",
+      "example": "Where do you live?"
+    },
+    "3221": {
+      "word": "be",
+      "pos": "third person singular present verb",
+      "example": "She is happy today."
+    },
+    "3232": {
+      "word": "to",
+      "pos": "preposition",
+      "example": "I want to go to the park."
+    },
+    "3263": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and bananas."
+    },
+    "3296": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "She lives in a big city."
+    },
+    "3354": {
+      "word": "with great interest",
+      "pos": "adjective",
+      "example": "She reads the book with great interest."
+    },
+    "3360": {
+      "word": "with great interest",
+      "pos": "noun phrase",
+      "example": "I read the book with great interest."
+    },
+    "3371": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "Do you want tea or coffee?"
+    },
+    "3406": {
+      "word": "English LinkedIn writing",
+      "pos": "adjective + proper noun + noun",
+      "example": "English LinkedIn writing is becoming more popular."
+    },
+    "3414": {
+      "word": "LinkedIn",
+      "pos": "proper noun",
+      "example": "I updated my profile on LinkedIn."
+    },
+    "3423": {
+      "word": "writing",
+      "pos": "gerund form",
+      "example": "Writing improves with daily practice."
+    },
+    "3431": {
+      "word": "be",
+      "pos": "third person singular present verb",
+      "example": "She is a good friend."
+    },
+    "3434": {
+      "word": "polite",
+      "pos": "adjective",
+      "example": "She is always polite to everyone."
+    },
+    "3441": {
+      "word": "but",
+      "pos": "coordinating conjunction",
+      "example": "I like tea but prefer coffee."
+    },
+    "3445": {
+      "word": "straightforward",
+      "pos": "adjective",
+      "example": "The instructions are straightforward and easy."
+    },
+    "3484": {
+      "word": "be",
+      "pos": "contracted auxiliary verb",
+      "example": "I am happy today."
+    },
+    "3513": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "She lives in New York."
+    },
+    "3524": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "You can choose tea or coffee."
+    },
+    "3530": {
+      "word": "be",
+      "pos": "first-person singular contracted verb",
+      "example": "I am happy today."
+    },
+    "3543": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "The book is in the bag."
+    },
+    "3584": {
+      "word": "be open to",
+      "pos": "preposition in phrase",
+      "example": "I am open to new ideas."
+    },
+    "3609": {
+      "word": "use",
+      "pos": "base form verb",
+      "example": "Use a pencil to write your name."
+    },
+    "3614": {
+      "word": "I",
+      "pos": "personal pronoun, singular",
+      "example": "I am learning Spanish."
+    },
+    "3617": {
+      "word": "when",
+      "pos": "subordinating conjunction",
+      "example": "Call me when you arrive."
+    },
+    "3622": {
+      "word": "describe",
+      "pos": "gerund form",
+      "example": "I describe my job clearly every day."
+    },
+    "3633": {
+      "word": "your",
+      "pos": "possessive determiner",
+      "example": "Your book is on the table."
+    },
+    "3638": {
+      "word": "work",
+      "pos": "noun, singular",
+      "example": "I have a lot of work today."
+    },
+    "3644": {
+      "word": "use",
+      "pos": "gerund form",
+      "example": "I use a pen to write."
+    },
+    "3651": {
+      "word": "we",
+      "pos": "personal pronoun",
+      "example": "We are going to the park."
+    },
+    "3655": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This gift is for you."
+    },
+    "3659": {
+      "word": "everything",
+      "pos": "singular pronoun",
+      "example": "Everything is ready for the meeting."
+    },
+    "3670": {
+      "word": "can",
+      "pos": "modal verb, base form",
+      "example": "I can help you with that."
+    },
+    "3674": {
+      "word": "hide",
+      "pos": "base form verb",
+      "example": "They hide the truth from us."
+    },
+    "3679": {
+      "word": "your",
+      "pos": "possessive pronoun",
+      "example": "Is this your book?"
+    },
+    "3684": {
+      "word": "contribution",
+      "pos": "singular noun",
+      "example": "Her contribution helped the project succeed."
+    },
+    "3698": {
+      "word": "but",
+      "pos": "coordinating conjunction",
+      "example": "I wanted to go, but I stayed home."
+    },
+    "3702": {
+      "word": "use",
+      "pos": "gerund form",
+      "example": "I use a computer every day."
+    },
+    "3709": {
+      "word": "I",
+      "pos": "personal pronoun, singular",
+      "example": "I am learning Spanish."
+    },
+    "3712": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This gift is for you."
+    },
+    "3716": {
+      "word": "team",
+      "pos": "singular noun",
+      "example": "The team wins every game."
+    },
+    "3721": {
+      "word": "result",
+      "pos": "plural noun",
+      "example": "The result is clear and positive."
+    },
+    "3729": {
+      "word": "can",
+      "pos": "modal verb",
+      "example": "I can help you with homework."
+    },
+    "3733": {
+      "word": "sound",
+      "pos": "base form verb",
+      "example": "You sound happy today."
+    },
+    "3739": {
+      "word": "inaccurate",
+      "pos": "adjective",
+      "example": "The data is inaccurate and needs correction."
+    },
+    "3771": {
+      "word": "be",
+      "pos": "third person singular present verb",
+      "example": "She is happy with her work."
+    },
+    "3780": {
+      "word": "lead",
+      "pos": "past tense verb",
+      "example": "I lead the team every day."
+    },
+    "3783": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This book is for beginners."
+    },
+    "3787": {
+      "word": "your",
+      "pos": "possessive determiner",
+      "example": "Is this your book?"
+    },
+    "3803": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like coffee and tea."
+    },
+    "3844": {
+      "word": "work with",
+      "pos": "infinitive particle",
+      "example": "I work with my team every day."
+    },
+    "3850": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This gift is for you."
+    },
+    "3871": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is my favorite book."
+    },
+    "3884": {
+      "word": "because",
+      "pos": "conjunction",
+      "example": "I stayed inside because it was raining."
+    },
+    "3956": {
+      "word": "finally",
+      "pos": "adverb",
+      "example": "Finally, she finished her homework."
+    },
+    "3970": {
+      "word": "your",
+      "pos": "possessive pronoun",
+      "example": "Is this your book?"
+    },
+    "3988": {
+      "word": "read like",
+      "pos": "base form verb + preposition",
+      "example": "Your story should read like a true account."
+    },
+    "4018": {
+      "word": "by + gerund",
+      "pos": "preposition",
+      "example": "She improves her English by practicing daily."
+    },
+    "4030": {
+      "word": "revise for",
+      "pos": "base form verb + preposition",
+      "example": "I revise for my exams every night."
+    },
+    "4041": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes apples and oranges."
+    },
+    "4054": {
+      "word": "it",
+      "pos": "third person singular pronoun",
+      "example": "It is raining outside."
+    },
+    "4057": {
+      "word": "check with",
+      "pos": "preposition + gerund",
+      "example": "I always check with my teacher before submitting."
+    },
+    "4077": {
+      "word": "if",
+      "pos": "conjunction",
+      "example": "If it rains, we will stay home."
+    },
+    "4110": {
+      "word": "it",
+      "pos": "third person singular pronoun",
+      "example": "It is raining outside."
+    },
+    "4160": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "A cup of tea is warm."
+    },
+    "4182": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is a good idea."
+    },
+    "4187": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "They are happy today."
+    },
+    "4198": {
+      "word": "work on",
+      "pos": "phrasal verb (base form)",
+      "example": "I work on my project every day."
+    },
+    "4211": {
+      "word": "I",
+      "pos": "personal pronoun",
+      "example": "I like to read books."
+    },
+    "4218": {
+      "word": "work on",
+      "pos": "preposition in phrasal verb",
+      "example": "I work on my project every day."
+    },
+    "4225": {
+      "word": "I",
+      "pos": "personal pronoun singular",
+      "example": "I work every day."
+    },
+    "4236": {
+      "word": "my",
+      "pos": "possessive determiner",
+      "example": "My book is on the table."
+    },
+    "4262": {
+      "word": "I",
+      "pos": "subject pronoun",
+      "example": "I like to read books."
+    },
+    "4270": {
+      "word": "I am looking for",
+      "pos": "present continuous contraction",
+      "example": "I am looking for my keys."
+    },
+    "4310": {
+      "word": "to",
+      "pos": "particle (infinitive marker)",
+      "example": "I like to read books."
+    },
+    "4328": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "This is the book that I read."
+    },
+    "4421": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is my favorite book."
+    },
+    "4434": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "I stayed home because it was raining."
+    },
+    "4458": {
+      "word": "be",
+      "pos": "third person singular present verb",
+      "example": "She is happy today."
+    },
+    "4461": {
+      "word": "not",
+      "pos": "adverb",
+      "example": "I am not tired today."
+    },
+    "4465": {
+      "word": "be about",
+      "pos": "preposition in phrasal verb",
+      "example": "The book is about history."
+    },
+    "4487": {
+      "word": "it",
+      "pos": "personal pronoun singular",
+      "example": "It is raining outside."
+    },
+    "4490": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "He is happy today."
+    },
+    "4493": {
+      "word": "be about",
+      "pos": "preposition",
+      "example": "The book is about history."
+    },
+    "4520": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is my book."
+    },
+    "4597": {
+      "word": "by",
+      "pos": "preposition",
+      "example": "The book was written by the author."
+    },
+    "4600": {
+      "word": "both",
+      "pos": "determiner",
+      "example": "Both cats are sleeping on the sofa."
+    },
+    "4612": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like coffee and tea."
+    },
+    "4635": {
+      "word": "so",
+      "pos": "conjunction",
+      "example": "It was cold, so I wore a jacket."
+    },
+    "4654": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "You and I can go to the park."
+    },
+    "4688": {
+      "word": "when",
+      "pos": "subordinating conjunction",
+      "example": "Call me when you arrive."
+    },
+    "4693": {
+      "word": "you",
+      "pos": "second person pronoun",
+      "example": "You are learning English quickly."
+    },
+    "4731": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "You and I are friends."
+    },
+    "4754": {
+      "word": "your",
+      "pos": "possessive determiner",
+      "example": "Your book is on the table."
+    },
+    "4793": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "4813": {
+      "word": "like",
+      "pos": "preposition",
+      "example": "She acts like a teacher."
+    },
+    "4850": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This gift is for you."
+    },
+    "4854": {
+      "word": "an",
+      "pos": "indefinite article",
+      "example": "I saw an eagle flying."
     }
   },
   "translations": {
     "pt": {
+      "0": "perfil do LinkedIn",
       "2": "LinkedIn",
       "11": "perfil",
       "19": "soar",
@@ -2715,9 +4006,264 @@
       "4842": "escrito",
       "4857": "que fala inglês",
       "4874": "público",
-      "4883": "hoje"
+      "4883": "hoje",
+      "177": "porque",
+      "216": "procurar",
+      "235": "e",
+      "255": "de",
+      "258": "seu/sua",
+      "272": "e",
+      "297": "se",
+      "305": "eles",
+      "359": "ser/estar",
+      "445": "em",
+      "448": "inglês",
+      "519": "e",
+      "553": "com",
+      "569": "em",
+      "584": "ser/estar",
+      "594": "enquanto",
+      "711": "como",
+      "716": "como",
+      "750": "ou",
+      "818": "substituir",
+      "823": "substituir por",
+      "845": "pode",
+      "849": "ser/estar",
+      "861": "tais como",
+      "866": "como",
+      "922": "cadeia de suprimentos",
+      "930": "ou",
+      "948": "redução de custos",
+      "966": "conformidade com a segurança",
+      "979": "isto",
+      "992": "porque",
+      "1016": "também",
+      "1028": "depender de",
+      "1041": "e",
+      "1062": "você",
+      "1073": "em",
+      "1263": "ser / estar",
+      "1289": "ou",
+      "1334": "para",
+      "1340": "em",
+      "1388": "ou",
+      "1474": "e",
+      "1519": "para + verbo (infinitivo)",
+      "1536": "ser/estar",
+      "1547": "do que",
+      "1553": "eu",
+      "1570": "para",
+      "1585": "também",
+      "1590": "evitar",
+      "1596": "longo",
+      "1601": "frase",
+      "1611": "com",
+      "1616": "muitos",
+      "1621": "vírgula",
+      "1629": "que",
+      "1635": "frequentemente",
+      "1641": "vir de",
+      "1646": "vir de",
+      "1651": "tradução direta",
+      "1658": "tradução direta",
+      "1682": "dividir em",
+      "1702": "e",
+      "1730": "isso",
+      "1743": "porque",
+      "1843": "ser/estar",
+      "1846": "o que",
+      "1885": "em vez de",
+      "1892": "do que",
+      "1946": "mas",
+      "1950": "não",
+      "1986": "estar encarregado de",
+      "1993": "responsável por",
+      "1997": "ou",
+      "2013": "estar encarregado de",
+      "2019": "em vez de",
+      "2028": "adicionar",
+      "2032": "mensurável",
+      "2043": "resultado",
+      "2052": "e",
+      "2056": "escopo",
+      "2063": "tamanho da equipe",
+      "2068": "tamanho",
+      "2074": "orçamento",
+      "2081": "tamanho",
+      "2087": "número",
+      "2094": "de",
+      "2097": "usuário",
+      "2104": "ou",
+      "2107": "tempo economizado",
+      "2112": "economizar",
+      "2119": "se",
+      "2122": "você",
+      "2161": "você",
+      "2165": "poder",
+      "2175": "ser",
+      "2219": "reduzir em",
+      "2252": "ou",
+      "2301": "mencionar",
+      "2309": "reconhecível",
+      "2322": "método",
+      "2330": "mencionar",
+      "2333": "padrão",
+      "2343": "apenas",
+      "2348": "se",
+      "2351": "você",
+      "2355": "usar",
+      "2360": "usar",
+      "2365": "usado em",
+      "2368": "real",
+      "2373": "trabalho",
+      "2379": "isso",
+      "2392": "porque",
+      "2454": "como",
+      "2478": "de",
+      "2519": "e",
+      "2523": "também",
+      "2528": "seu/sua",
+      "2569": "quando",
+      "2574": "eles",
+      "2585": "com",
+      "2615": "e",
+      "2683": "de",
+      "2693": "como",
+      "2714": "de",
+      "2734": "de",
+      "2749": "de",
+      "2754": "em",
+      "2818": "ou",
+      "2861": "outro",
+      "2869": "tradução",
+      "2881": "questão",
+      "2887": "ser/estar",
+      "2890": "usar em excesso",
+      "2906": "e",
+      "2911": "de",
+      "2916": "que",
+      "2922": "tornar",
+      "2928": "frase",
+      "2938": "lento",
+      "3030": "de",
+      "3044": "construir para",
+      "3067": "isto",
+      "3072": "importar; ser importante",
+      "3080": "porque",
+      "3088": "simples",
+      "3095": "gramática",
+      "3103": "reduzir",
+      "3111": "carga cognitiva",
+      "3121": "carga cognitiva",
+      "3126": "e",
+      "3130": "manter",
+      "3136": "manter a atenção em",
+      "3146": "manter-se em",
+      "3149": "seu",
+      "3154": "realização",
+      "3181": "e",
+      "3190": "ser/estar",
+      "3194": "onde",
+      "3221": "ser/estar",
+      "3232": "para",
+      "3263": "e",
+      "3296": "em",
+      "3354": "com grande interesse",
+      "3360": "com grande interesse",
+      "3371": "ou",
+      "3406": "inglês",
+      "3414": "LinkedIn",
+      "3423": "escrita",
+      "3431": "ser/estar",
+      "3434": "educado",
+      "3441": "mas",
+      "3445": "direto, claro",
+      "3484": "Eu sou / Eu estou",
+      "3513": "em",
+      "3524": "ou",
+      "3530": "eu sou / eu estou",
+      "3543": "em",
+      "3584": "estar aberto a",
+      "3609": "usar",
+      "3614": "eu",
+      "3617": "quando",
+      "3622": "descrever",
+      "3633": "seu",
+      "3638": "trabalho",
+      "3644": "usar",
+      "3651": "nós",
+      "3655": "usar para",
+      "3659": "tudo",
+      "3670": "poder",
+      "3674": "esconder",
+      "3679": "seu",
+      "3684": "contribuição",
+      "3698": "mas",
+      "3702": "usar",
+      "3709": "eu",
+      "3712": "para",
+      "3716": "equipe",
+      "3721": "resultado",
+      "3729": "poder",
+      "3733": "parecer",
+      "3739": "inexato",
+      "3771": "ser/estar",
+      "3780": "liderar",
+      "3783": "para",
+      "3787": "seu",
+      "3803": "e",
+      "3844": "colaborar com",
+      "3850": "para",
+      "3871": "isto",
+      "3884": "porque",
+      "3956": "finalmente",
+      "3970": "seu / sua",
+      "3988": "parecer com",
+      "4018": "por",
+      "4030": "revisar para",
+      "4041": "e",
+      "4054": "ele/ela",
+      "4057": "consultar",
+      "4077": "se",
+      "4110": "ele/ela",
+      "4160": "de",
+      "4182": "que",
+      "4187": "ser/estar",
+      "4198": "eu ajudo",
+      "4211": "eu",
+      "4218": "trabalhar em",
+      "4225": "eu",
+      "4236": "meu/minha",
+      "4262": "eu",
+      "4270": "meu / minha",
+      "4310": "para",
+      "4328": "que",
+      "4421": "isto",
+      "4434": "porque",
+      "4458": "ser/estar",
+      "4461": "não",
+      "4465": "tratar-se de",
+      "4487": "ele/ela",
+      "4490": "ser/estar",
+      "4493": "tratar-se de",
+      "4520": "que",
+      "4597": "por",
+      "4600": "ambos",
+      "4612": "e",
+      "4635": "então",
+      "4654": "e",
+      "4688": "quando",
+      "4693": "você",
+      "4731": "e",
+      "4754": "seu/sua",
+      "4793": "e",
+      "4813": "parecer",
+      "4850": "para",
+      "4854": "um/uma"
     },
     "es": {
+      "0": "un/una",
       "2": "LinkedIn",
       "11": "perfil",
       "19": "sonar",
@@ -2735,6 +4281,7 @@
       "128": "traducción",
       "146": "otro",
       "154": "idioma",
+      "164": "esto",
       "169": "importar",
       "185": "reclutador",
       "196": "a menudo",
@@ -3012,7 +4559,7 @@
       "3546": "backend",
       "3554": "ingeniería",
       "3566": "puestos",
-      "3576": "enfocar",
+      "3576": "enfocado",
       "3587": "distribuidos",
       "3599": "sistemas",
       "3753": "equilibrado",
@@ -3112,9 +4659,266 @@
       "4842": "escrito",
       "4857": "de habla inglesa",
       "4874": "audiencia",
-      "4883": "hoy"
+      "4883": "hoy",
+      "177": "porque",
+      "216": "buscar",
+      "235": "y",
+      "255": "de",
+      "258": "tu/su",
+      "272": "y",
+      "297": "decidir si",
+      "305": "ellos",
+      "359": "ser/estar",
+      "445": "en",
+      "448": "inglés",
+      "519": "y",
+      "553": "ingeniero con",
+      "569": "en",
+      "584": "ser/estar",
+      "594": "mientras que",
+      "711": "como por ejemplo",
+      "716": "como",
+      "750": "o",
+      "818": "ellos",
+      "823": "con",
+      "845": "poder",
+      "849": "ser/estar",
+      "861": "tal como",
+      "866": "como",
+      "922": "cadena de suministro",
+      "930": "o",
+      "948": "reducción",
+      "966": "cumplimiento",
+      "979": "esto",
+      "992": "porque",
+      "1016": "también",
+      "1028": "depender de",
+      "1041": "y",
+      "1062": "tú",
+      "1073": "en",
+      "1263": "ser/estar",
+      "1284": "a",
+      "1289": "o",
+      "1334": "a",
+      "1340": "en",
+      "1388": "o",
+      "1474": "y",
+      "1519": "para",
+      "1536": "ser/estar",
+      "1547": "que",
+      "1553": "yo",
+      "1570": "para",
+      "1585": "también",
+      "1590": "evitar",
+      "1596": "largo",
+      "1601": "oración",
+      "1611": "con",
+      "1616": "muchos",
+      "1621": "coma",
+      "1629": "que",
+      "1635": "a menudo",
+      "1641": "provenir de",
+      "1646": "provenir de",
+      "1651": "traducción literal",
+      "1658": "traducción directa",
+      "1682": "dividir en",
+      "1702": "y",
+      "1730": "esto",
+      "1743": "porque",
+      "1843": "ser/estar",
+      "1846": "que",
+      "1885": "en lugar de",
+      "1892": "que",
+      "1946": "pero",
+      "1950": "no",
+      "1986": "estar a cargo de",
+      "1993": "a cargo de",
+      "1997": "o",
+      "2013": "a cargo de",
+      "2019": "en lugar de",
+      "2028": "agregar",
+      "2032": "medible",
+      "2043": "resultado",
+      "2052": "y",
+      "2056": "alcance",
+      "2063": "tamaño del equipo",
+      "2068": "tamaño",
+      "2074": "presupuesto",
+      "2081": "tamaño",
+      "2087": "número",
+      "2094": "de",
+      "2097": "usuario",
+      "2104": "o",
+      "2107": "tiempo ahorrado",
+      "2112": "ahorrar",
+      "2119": "si",
+      "2122": "tú",
+      "2161": "tú",
+      "2165": "poder (verbo modal)",
+      "2175": "ser/estar",
+      "2219": "reducir en",
+      "2252": "o",
+      "2301": "mencionar",
+      "2309": "reconocible",
+      "2322": "método",
+      "2330": "o",
+      "2333": "norma",
+      "2343": "solo",
+      "2348": "si",
+      "2351": "tú",
+      "2355": "usar",
+      "2360": "ellos",
+      "2365": "usar",
+      "2368": "real",
+      "2373": "trabajo",
+      "2379": "esto",
+      "2392": "porque",
+      "2454": "como",
+      "2478": "de",
+      "2519": "y",
+      "2523": "también",
+      "2528": "tu / su",
+      "2569": "cuando",
+      "2574": "ellos",
+      "2585": "con",
+      "2615": "y",
+      "2683": "de",
+      "2693": "como",
+      "2714": "de",
+      "2734": "de",
+      "2749": "de",
+      "2754": "en",
+      "2818": "o",
+      "2861": "otro",
+      "2869": "traducción",
+      "2881": "problema",
+      "2887": "ser/estar",
+      "2890": "usar en exceso",
+      "2906": "y",
+      "2911": "de",
+      "2916": "que",
+      "2922": "hacer",
+      "2928": "oración",
+      "2938": "lento",
+      "2972": "construir",
+      "3030": "material",
+      "3044": "para",
+      "3067": "esto",
+      "3072": "importar",
+      "3080": "porque",
+      "3088": "simple",
+      "3095": "gramática",
+      "3103": "reducir",
+      "3111": "carga cognitiva",
+      "3121": "carga cognitiva",
+      "3126": "y",
+      "3130": "mantener",
+      "3136": "mantener la atención en",
+      "3146": "continuar",
+      "3149": "tu",
+      "3154": "logro",
+      "3181": "y",
+      "3190": "ser/estar",
+      "3194": "donde",
+      "3221": "ser/estar",
+      "3232": "a",
+      "3263": "y",
+      "3296": "en",
+      "3354": "con gran interés",
+      "3360": "con gran interés",
+      "3371": "o",
+      "3406": "redacción en LinkedIn en inglés",
+      "3414": "LinkedIn",
+      "3423": "escritura",
+      "3431": "ser/estar",
+      "3434": "educado",
+      "3441": "pero",
+      "3445": "directo, sencillo",
+      "3484": "ser/estar",
+      "3513": "en",
+      "3524": "o",
+      "3530": "ser/estar",
+      "3543": "en",
+      "3584": "estar abierto a",
+      "3609": "usar",
+      "3614": "yo",
+      "3617": "cuando",
+      "3622": "describir",
+      "3633": "tu",
+      "3638": "trabajo",
+      "3644": "usar",
+      "3651": "nosotros",
+      "3655": "para",
+      "3659": "todo",
+      "3670": "poder",
+      "3674": "ocultar",
+      "3679": "tu",
+      "3684": "contribución",
+      "3698": "pero",
+      "3702": "usar",
+      "3709": "yo",
+      "3712": "para",
+      "3716": "equipo",
+      "3721": "resultado",
+      "3729": "poder",
+      "3733": "parecer",
+      "3739": "inexacto",
+      "3771": "es",
+      "3780": "liderar",
+      "3783": "para",
+      "3787": "tu",
+      "3803": "y",
+      "3844": "trabajar con",
+      "3850": "para",
+      "3871": "esto",
+      "3884": "porque",
+      "3956": "finalmente",
+      "3970": "tu",
+      "3988": "parecerse a",
+      "4018": "mediante",
+      "4030": "revisar para",
+      "4041": "y",
+      "4054": "eso",
+      "4057": "comprobar con",
+      "4077": "si",
+      "4110": "eso",
+      "4160": "de",
+      "4182": "que",
+      "4187": "ser/estar",
+      "4198": "trabajar en",
+      "4211": "yo",
+      "4218": "trabajar en",
+      "4225": "yo",
+      "4236": "mi",
+      "4262": "yo",
+      "4270": "Estoy buscando",
+      "4310": "a",
+      "4328": "que",
+      "4421": "esto",
+      "4434": "porque",
+      "4458": "ser/estar",
+      "4461": "no",
+      "4465": "tratar de, consistir en",
+      "4487": "eso",
+      "4490": "ser/estar",
+      "4493": "tratar de",
+      "4520": "ese/esa",
+      "4597": "por",
+      "4600": "ambos",
+      "4612": "y",
+      "4635": "por lo tanto",
+      "4654": "y",
+      "4688": "cuando",
+      "4693": "tú",
+      "4731": "y",
+      "4754": "tu",
+      "4793": "y",
+      "4813": "como",
+      "4850": "para",
+      "4854": "un/una"
     },
     "uk": {
+      "0": "артикль",
       "2": "LinkedIn",
       "11": "профіль",
       "19": "звучати",
@@ -3503,9 +5307,266 @@
       "4658": "чіткий",
       "4664": "ключове слово",
       "4673": "працювати",
-      "4678": "разом"
+      "4678": "разом",
+      "177": "тому що",
+      "216": "шукати, переглядати з метою пошуку",
+      "235": "і",
+      "255": "з",
+      "258": "твій",
+      "272": "і",
+      "297": "вирішувати, чи",
+      "305": "вони",
+      "359": "бути",
+      "445": "у, в",
+      "448": "англійська (мова)",
+      "519": "і",
+      "553": "з",
+      "569": "досвід у",
+      "584": "бути",
+      "594": "під час, в той час як",
+      "711": "такий як",
+      "716": "як",
+      "750": "або",
+      "818": "їх",
+      "823": "з",
+      "845": "може",
+      "849": "бути",
+      "861": "такий як",
+      "866": "як",
+      "922": "логістичний ланцюг",
+      "930": "або",
+      "948": "зменшення вартості",
+      "966": "дотримання",
+      "979": "цей",
+      "992": "тому що",
+      "1016": "також",
+      "1028": "покладатися на",
+      "1041": "і",
+      "1062": "ти",
+      "1073": "у",
+      "1263": "бути",
+      "1284": "до",
+      "1289": "або",
+      "1334": "до",
+      "1340": "у",
+      "1388": "або",
+      "1474": "і",
+      "1519": "для того, щоб",
+      "1536": "бути",
+      "1547": "ніж",
+      "1553": "я",
+      "1570": "відповідальний за",
+      "1585": "також",
+      "1590": "уникати",
+      "1596": "довгий",
+      "1601": "речення",
+      "1611": "з",
+      "1616": "багато",
+      "1621": "кома",
+      "1629": "який",
+      "1635": "часто",
+      "1641": "походити з",
+      "1646": "походити",
+      "1651": "прямий",
+      "1658": "дослівний переклад",
+      "1682": "розбити на",
+      "1702": "і",
+      "1730": "це",
+      "1743": "тому що",
+      "1843": "бути",
+      "1846": "що",
+      "1885": "скоріше ніж",
+      "1892": "ніж",
+      "1946": "але",
+      "1950": "не",
+      "1986": "відповідати за",
+      "1993": "відповідальний за",
+      "1997": "або",
+      "2013": "бути відповідальним за",
+      "2019": "замість цього",
+      "2028": "додавати",
+      "2032": "вимірний",
+      "2043": "результат",
+      "2052": "і",
+      "2056": "охоплення, масштаб",
+      "2063": "розмір команди",
+      "2068": "розмір",
+      "2074": "бюджет",
+      "2081": "розмір",
+      "2087": "кількість",
+      "2094": "—",
+      "2097": "користувачі",
+      "2104": "або",
+      "2107": "зекономлений час",
+      "2112": "зберігання часу",
+      "2119": "якщо",
+      "2122": "ти/ви",
+      "2161": "ти",
+      "2165": "можу",
+      "2175": "бути",
+      "2219": "зменшити на",
+      "2252": "або",
+      "2301": "згадувати",
+      "2309": "впізнаваний",
+      "2322": "метод",
+      "2330": "або",
+      "2333": "стандарт",
+      "2343": "лише",
+      "2348": "якщо",
+      "2351": "ти",
+      "2355": "використовувати",
+      "2360": "їх",
+      "2365": "використовувати",
+      "2368": "справжній, реальний",
+      "2373": "робота",
+      "2379": "це",
+      "2392": "тому що",
+      "2454": "як",
+      "2478": "з",
+      "2519": "і",
+      "2523": "також",
+      "2528": "твій",
+      "2569": "коли",
+      "2574": "вони",
+      "2585": "з",
+      "2615": "і",
+      "2683": "із",
+      "2693": "як",
+      "2714": "з (у значенні приналежності)",
+      "2734": "із, з, від",
+      "2749": "із, від",
+      "2754": "у, в",
+      "2818": "або",
+      "2861": "інший",
+      "2869": "переклад",
+      "2881": "питання, проблема",
+      "2887": "бути",
+      "2890": "надмірне використання",
+      "2906": "і",
+      "2911": "з",
+      "2916": "який",
+      "2922": "робити",
+      "2928": "речення",
+      "2938": "повільний",
+      "2972": "створювати",
+      "3030": "з",
+      "3044": "для",
+      "3067": "цей",
+      "3072": "мати значення, бути важливим",
+      "3080": "тому що",
+      "3088": "прості",
+      "3095": "граматика",
+      "3103": "зменшувати",
+      "3111": "когнітивне навантаження",
+      "3121": "когнітивне навантаження",
+      "3126": "і",
+      "3130": "утримувати",
+      "3136": "зосереджувати увагу на",
+      "3146": "продовжувати",
+      "3149": "твій",
+      "3154": "досягнення",
+      "3181": "та",
+      "3190": "бути",
+      "3194": "де",
+      "3221": "бути",
+      "3232": "до",
+      "3263": "і",
+      "3296": "у",
+      "3354": "з великим інтересом",
+      "3360": "із великим зацікавленням",
+      "3371": "або",
+      "3406": "англійська",
+      "3414": "LinkedIn",
+      "3423": "листування",
+      "3431": "бути",
+      "3434": "ввічливий",
+      "3441": "але",
+      "3445": "прямий, простий",
+      "3484": "я є",
+      "3513": "в",
+      "3524": "або",
+      "3530": "є",
+      "3543": "зацікавлений у",
+      "3584": "відкритий до",
+      "3609": "використовувати",
+      "3614": "я",
+      "3617": "коли",
+      "3622": "описувати",
+      "3633": "твій",
+      "3638": "робота",
+      "3644": "використовувати",
+      "3651": "ми",
+      "3655": "для",
+      "3659": "все",
+      "3670": "могти",
+      "3674": "приховувати",
+      "3679": "твій, ваш",
+      "3684": "внесок",
+      "3698": "але",
+      "3702": "використовувати",
+      "3709": "я",
+      "3712": "для",
+      "3716": "команда",
+      "3721": "результат",
+      "3729": "може",
+      "3733": "звучати",
+      "3739": "неточний",
+      "3771": "є",
+      "3780": "керувати",
+      "3783": "для",
+      "3787": "твій",
+      "3803": "і",
+      "3844": "працювати з",
+      "3850": "для",
+      "3871": "це",
+      "3884": "тому що",
+      "3956": "нарешті",
+      "3970": "твій",
+      "3988": "звучати як",
+      "4018": "за допомогою",
+      "4030": "редагувати для",
+      "4041": "і",
+      "4054": "це",
+      "4057": "узгоджувати з",
+      "4077": "якщо",
+      "4110": "воно",
+      "4160": "з",
+      "4182": "що",
+      "4187": "бути",
+      "4198": "в",
+      "4211": "я",
+      "4218": "працювати над",
+      "4225": "я",
+      "4236": "мій",
+      "4262": "я",
+      "4270": "Я шукаю",
+      "4310": "до",
+      "4328": "що",
+      "4421": "це",
+      "4434": "тому що",
+      "4458": "бути",
+      "4461": "не",
+      "4465": "полягати в",
+      "4487": "воно",
+      "4490": "бути",
+      "4493": "статися навколо, стосуватися",
+      "4520": "той",
+      "4597": "біля, поруч, за (показник агента)",
+      "4600": "обидва",
+      "4612": "і",
+      "4635": "отже",
+      "4654": "і",
+      "4688": "коли",
+      "4693": "ти",
+      "4731": "і",
+      "4754": "твій",
+      "4793": "і",
+      "4813": "звучати як",
+      "4850": "для",
+      "4854": "артикль 'an'"
     },
     "ja": {
+      "0": "LinkedInプロフィール",
       "2": "LinkedIn",
       "11": "プロフィール",
       "19": "聞こえる",
@@ -3914,7 +5975,263 @@
       "4833": "文書",
       "4857": "英語を話す",
       "4874": "聴衆",
-      "4883": "今日"
+      "4883": "今日",
+      "177": "〜ので",
+      "216": "探すために調べる",
+      "235": "そして",
+      "255": "の",
+      "258": "あなたの",
+      "272": "そして",
+      "297": "かどうか",
+      "305": "彼ら",
+      "359": "である",
+      "445": "〜で",
+      "448": "英語",
+      "519": "そして",
+      "553": "〜を持っている",
+      "569": "～の経験",
+      "584": "である",
+      "594": "～の間に、しかし",
+      "711": "例えば",
+      "716": "として",
+      "750": "または",
+      "818": "置き換える",
+      "823": "〜で置き換える",
+      "845": "できる",
+      "849": "〜である",
+      "861": "例えば",
+      "866": "のように",
+      "922": "サプライチェーン",
+      "930": "または",
+      "948": "コスト削減",
+      "966": "遵守",
+      "979": "これ",
+      "992": "なぜなら",
+      "1016": "も",
+      "1028": "に頼る",
+      "1041": "そして",
+      "1062": "あなた",
+      "1073": "で",
+      "1263": "である",
+      "1284": "に",
+      "1289": "または",
+      "1334": "〜へ、〜に",
+      "1340": "〜の中で",
+      "1388": "または",
+      "1474": "そして",
+      "1519": "～するために",
+      "1536": "です",
+      "1547": "より",
+      "1553": "私",
+      "1570": "〜の責任がある",
+      "1585": "また",
+      "1590": "避ける",
+      "1596": "長い",
+      "1601": "文",
+      "1611": "と共に",
+      "1616": "多くの",
+      "1621": "コンマ",
+      "1629": "どの、どれ",
+      "1635": "しばしば",
+      "1641": "由来する",
+      "1646": "〜から来る、〜に由来する",
+      "1651": "直接の",
+      "1658": "翻訳",
+      "1682": "分割する",
+      "1702": "そして",
+      "1730": "これ",
+      "1743": "なぜなら",
+      "1843": "である",
+      "1846": "何",
+      "1885": "〜よりもむしろ",
+      "1892": "むしろ〜よりも",
+      "1946": "しかし",
+      "1950": "〜ない",
+      "1986": "担当している",
+      "1993": "〜の責任がある",
+      "1997": "または",
+      "2013": "〜の責任がある",
+      "2019": "代わりに",
+      "2028": "追加する",
+      "2032": "測定可能な",
+      "2043": "結果",
+      "2052": "そして",
+      "2056": "範囲",
+      "2063": "チームの規模",
+      "2068": "サイズ",
+      "2074": "予算",
+      "2081": "サイズ",
+      "2087": "数",
+      "2094": "の",
+      "2097": "ユーザー",
+      "2104": "または",
+      "2107": "節約された時間",
+      "2112": "節約する",
+      "2119": "もし",
+      "2122": "あなた",
+      "2161": "あなた",
+      "2165": "できる",
+      "2175": "である",
+      "2219": "〜によって減らす",
+      "2252": "または",
+      "2301": "言及する",
+      "2309": "認識できる",
+      "2322": "方法",
+      "2330": "または",
+      "2333": "基準",
+      "2343": "だけ",
+      "2348": "もし",
+      "2351": "あなた",
+      "2355": "使う",
+      "2360": "使う",
+      "2365": "使う",
+      "2368": "本当の",
+      "2373": "仕事",
+      "2379": "これ",
+      "2392": "なぜなら",
+      "2454": "として",
+      "2478": "の",
+      "2519": "そして",
+      "2523": "また",
+      "2528": "あなたの",
+      "2569": "時",
+      "2574": "彼ら",
+      "2585": "〜を使って",
+      "2615": "そして",
+      "2683": "の",
+      "2693": "のように",
+      "2714": "の",
+      "2734": "の",
+      "2749": "の",
+      "2754": "～に",
+      "2818": "または",
+      "2861": "もう一つの",
+      "2869": "翻訳",
+      "2881": "問題",
+      "2887": "である",
+      "2890": "過度に使う",
+      "2906": "そして",
+      "2911": "の",
+      "2916": "どの",
+      "2922": "〜にする",
+      "2928": "文",
+      "2938": "遅い",
+      "2972": "作成する",
+      "3030": "オンボーディング用資料",
+      "3044": "作成した",
+      "3067": "これ",
+      "3072": "重要である",
+      "3080": "なぜなら",
+      "3088": "シンプルな",
+      "3095": "文法",
+      "3103": "減らす",
+      "3111": "認知負荷",
+      "3121": "認知負荷",
+      "3126": "そして",
+      "3130": "保つ",
+      "3136": "注意を向ける",
+      "3146": "続ける",
+      "3149": "あなたの",
+      "3154": "成果",
+      "3181": "そして",
+      "3190": "である",
+      "3194": "どこで",
+      "3221": "である",
+      "3232": "〜へ、〜に",
+      "3263": "そして",
+      "3296": "～で",
+      "3354": "非常に興味を持って",
+      "3360": "非常に興味を持って",
+      "3371": "または",
+      "3406": "英語",
+      "3414": "リンクトイン",
+      "3423": "執筆",
+      "3431": "である",
+      "3434": "礼儀正しい",
+      "3441": "しかし",
+      "3445": "率直な",
+      "3484": "である",
+      "3513": "～に（位置・場所を示す）",
+      "3524": "または",
+      "3530": "である",
+      "3543": "〜に興味がある",
+      "3584": "〜を受け入れる",
+      "3609": "使う",
+      "3614": "私",
+      "3617": "時",
+      "3622": "説明する",
+      "3633": "あなたの",
+      "3638": "仕事",
+      "3644": "使う",
+      "3651": "私たち",
+      "3655": "〜のために",
+      "3659": "すべて",
+      "3670": "できる",
+      "3674": "隠す",
+      "3679": "あなたの",
+      "3684": "貢献",
+      "3698": "しかし",
+      "3702": "使う",
+      "3709": "私",
+      "3712": "〜のために使う",
+      "3716": "チーム",
+      "3721": "結果",
+      "3729": "できる",
+      "3733": "聞こえる",
+      "3739": "不正確な",
+      "3771": "である",
+      "3780": "率いる",
+      "3783": "〜のために",
+      "3787": "あなたの",
+      "3803": "と",
+      "3844": "〜と一緒に働く",
+      "3850": "～のために",
+      "3871": "これ",
+      "3884": "なぜなら",
+      "3956": "最後に",
+      "3970": "あなたの",
+      "3988": "のように読める",
+      "4018": "～によって",
+      "4030": "～のために修正する",
+      "4041": "そして",
+      "4054": "それ",
+      "4057": "と一緒に",
+      "4077": "もし",
+      "4110": "それ",
+      "4160": "の",
+      "4182": "あの",
+      "4187": "である",
+      "4198": "〜に",
+      "4211": "私",
+      "4218": "取り組む",
+      "4225": "私",
+      "4236": "私の",
+      "4262": "私",
+      "4270": "探している",
+      "4310": "〜へ（不定詞のマーカー）",
+      "4328": "あの／その",
+      "4421": "これ",
+      "4434": "なぜなら",
+      "4458": "である",
+      "4461": "〜でない",
+      "4465": "〜に関する、〜についての",
+      "4487": "それ",
+      "4490": "である",
+      "4493": "〜に関する、〜についてである",
+      "4520": "あの/その",
+      "4597": "〜によって",
+      "4600": "両方",
+      "4612": "そして",
+      "4635": "だから",
+      "4654": "そして",
+      "4688": "〜とき",
+      "4693": "あなた",
+      "4731": "そして",
+      "4754": "あなたの",
+      "4793": "そして",
+      "4813": "のように聞こえる",
+      "4850": "～のために",
+      "4854": "一つの（母音で始まる語の前の不定冠詞）"
     }
   }
 }
