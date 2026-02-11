@@ -1,0 +1,3937 @@
+{
+  "title": "Lexington and Concord: The Start of the American Revolution",
+  "slug": "lexington-and-concord-start-of-american-revolution",
+  "description": "Learn English with the story of the Battles of Lexington and Concord in 1775 — how political tensions turned into the first shots of the American Revolutionary War.",
+  "level": "B1",
+  "appUrl": "https://app.readerly.ai?utm_campaign=start-of-american-revolution",
+  "text": "On a foggy morning in April 1775, farmers and shopkeepers in Massachusetts began doing something that would have sounded impossible a decade earlier: they prepared to fight the British Army.\n\nThe trouble had been building for years. After the Seven Years’ War, Britain wanted the American colonies to help pay the empire’s debts. London passed new taxes and trade rules, and many colonists argued that Parliament had no right to tax them because they had no elected representatives there. The slogan “no taxation without representation” spread through newspapers, speeches, and tavern talk.\n\nBy the early 1770s, the conflict was not only about money. It was about power. Britain sent troops to Boston. Colonial resistance grew. The Boston Tea Party in December 1773—when protesters dumped East India Company tea into the harbor—led Britain to pass harsh measures that the colonists called the “Intolerable Acts.” In response, colonists organized more tightly, forming networks of local committees and training part-time soldiers known as militia.\n\nIn Massachusetts, one fear dominated: that British authorities would seize colonial weapons and arrest rebel leaders. So the militia began storing gunpowder, muskets, and cannon in different towns. Concord, about 20 miles northwest of Boston, was one of those storage places.\n\nOn the night of April 18, 1775, British troops set out from Boston under orders to march to Concord. Their mission was to destroy military supplies. They also hoped to capture two well-known Patriot leaders, Samuel Adams and John Hancock, who were staying in Lexington.\n\nThe countryside did not stay quiet for long. Riders were sent out to warn people that British troops were moving. Paul Revere became the most famous of these messengers, partly because of later stories and poems, but he was not alone. William Dawes rode a different route, and others—some of them local riders whose names are less remembered—helped spread the alarm.\n\nJust before dawn on April 19, the first confrontation happened in Lexington. A small group of militia, sometimes called “minutemen,” stood on the town green. They did not expect to defeat the British. They likely wanted to show presence and protect their community. British soldiers arrived, tense and impatient. In the confusion, a shot was fired—no one is completely sure by whom. It became known later as “the shot heard ’round the world.”\n\nThe skirmish in Lexington was brief but deadly. Several colonists were killed. The British continued on to Concord.\n\nAt Concord, the situation changed. Militia from nearby towns gathered in larger numbers. At the North Bridge, fighting broke out again. This time the militia forced British troops to retreat. It was a small battle in size, but it mattered psychologically: local citizens had pushed back trained soldiers.\n\nThe return march to Boston turned into a running fight. As British troops moved along narrow roads, militia fired from behind trees, stone walls, and buildings. The geography favored the locals, who knew the land and could move in and out quickly. By the time the exhausted British column reached safety near Boston, both sides had taken significant casualties.\n\nNews traveled fast. Within days, militia from many colonies began moving toward Massachusetts. Boston was soon surrounded in a siege. Two months later, in June 1775, the Battle of Bunker Hill showed that the conflict was not going to disappear. Even though the British ultimately took the hill, their heavy losses shocked leaders in London and encouraged the Patriots.\n\nLexington and Concord are often described as the start of the American Revolutionary War, but the deeper story is about escalation. Arguments that began as political complaints turned into armed conflict when both sides believed they were defending basic rights and authority. Britain saw rebellion and disorder. The Patriots saw a government acting without consent.\n\nFor adult English learners, this event is also a good reminder about how history is preserved: we know about these hours through letters, depositions, official reports, and local memories—sources that sometimes disagree. That disagreement is not a weakness. It’s a clue. It shows how confusing real events can be, especially when fear, noise, and fast decisions control the moment.\n\nOn April 19, 1775, the road between Lexington and Concord became more than a road. It became a line people crossed—from protest to war.",
+  "words": {
+    "0": {
+      "word": "on",
+      "pos": "preposition",
+      "example": "The book is on the table."
+    },
+    "5": {
+      "word": "foggy",
+      "pos": "adjective",
+      "example": "The foggy morning was cold."
+    },
+    "11": {
+      "word": "morning",
+      "pos": "noun, singular",
+      "example": "I walk every morning."
+    },
+    "19": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "The book is in the bag."
+    },
+    "22": {
+      "word": "April",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "28": {
+      "word": "1775",
+      "pos": "numeral",
+      "example": ""
+    },
+    "34": {
+      "word": "farmer",
+      "pos": "plural noun",
+      "example": "The farmer works on the field."
+    },
+    "46": {
+      "word": "shopkeeper",
+      "pos": "plural noun",
+      "example": "The shopkeeper sells clothes."
+    },
+    "61": {
+      "word": "Massachusetts",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "75": {
+      "word": "begin",
+      "pos": "past tense verb",
+      "example": "We begin school at 8 AM."
+    },
+    "81": {
+      "word": "do",
+      "pos": "gerund verb",
+      "example": "I do my homework daily."
+    },
+    "87": {
+      "word": "something",
+      "pos": "pronoun",
+      "example": "I want to say something."
+    },
+    "113": {
+      "word": "sound",
+      "pos": "past tense verb",
+      "example": "That sounds interesting."
+    },
+    "121": {
+      "word": "impossible",
+      "pos": "adjective",
+      "example": "It's impossible to lie."
+    },
+    "134": {
+      "word": "decade",
+      "pos": "singular noun",
+      "example": "He lived there for a decade."
+    },
+    "141": {
+      "word": "early",
+      "pos": "adverb",
+      "example": "She arrived earlier today."
+    },
+    "155": {
+      "word": "prepare",
+      "pos": "past tense verb",
+      "example": "I prepare meals every evening."
+    },
+    "167": {
+      "word": "fight",
+      "pos": "verb",
+      "example": "Soldiers fight bravely."
+    },
+    "177": {
+      "word": "British",
+      "pos": "adjective",
+      "example": "British culture is rich."
+    },
+    "185": {
+      "word": "Army",
+      "pos": "singular noun",
+      "example": ""
+    },
+    "196": {
+      "word": "trouble",
+      "pos": "singular noun",
+      "example": "She has trouble with the math test."
+    },
+    "204": {
+      "word": "have",
+      "pos": "past perfect auxiliary verb",
+      "example": "I have seen that movie."
+    },
+    "208": {
+      "word": "be",
+      "pos": "past participle verb",
+      "example": "I have been busy today."
+    },
+    "213": {
+      "word": "build",
+      "pos": "present participle verb",
+      "example": "Tensions build before the match."
+    },
+    "226": {
+      "word": "year",
+      "pos": "plural noun",
+      "example": "She studied for many years."
+    },
+    "243": {
+      "word": "Seven Years’ War",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "261": {
+      "word": "Britain",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "269": {
+      "word": "want",
+      "pos": "past tense verb",
+      "example": "I want a new book."
+    },
+    "280": {
+      "word": "American",
+      "pos": "adjective",
+      "example": "She loves American food."
+    },
+    "289": {
+      "word": "colony",
+      "pos": "plural noun",
+      "example": "The colony grew quickly."
+    },
+    "301": {
+      "word": "help",
+      "pos": "verb",
+      "example": "I help my friend."
+    },
+    "306": {
+      "word": "pay",
+      "pos": "verb",
+      "example": "We pay the bills."
+    },
+    "314": {
+      "word": "empire",
+      "pos": "singular noun possessive",
+      "example": "The empire was vast."
+    },
+    "323": {
+      "word": "debt",
+      "pos": "plural noun",
+      "example": "He pays his debts."
+    },
+    "330": {
+      "word": "London",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "337": {
+      "word": "pass",
+      "pos": "past tense verb",
+      "example": "They pass new laws every year."
+    },
+    "344": {
+      "word": "new",
+      "pos": "adjective",
+      "example": "I bought a new book."
+    },
+    "348": {
+      "word": "tax",
+      "pos": "plural noun",
+      "example": "They pay tax every year."
+    },
+    "358": {
+      "word": "trade",
+      "pos": "noun",
+      "example": "Trade is important for the economy."
+    },
+    "364": {
+      "word": "rule",
+      "pos": "plural noun",
+      "example": "We follow school rules."
+    },
+    "375": {
+      "word": "many",
+      "pos": "adjective",
+      "example": "Many people live here."
+    },
+    "380": {
+      "word": "colonist",
+      "pos": "plural noun",
+      "example": "Colonists settled new lands."
+    },
+    "390": {
+      "word": "argue",
+      "pos": "past tense verb",
+      "example": "They argue about politics."
+    },
+    "397": {
+      "word": "that",
+      "pos": "conjunction",
+      "example": ""
+    },
+    "402": {
+      "word": "Parliament",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "413": {
+      "word": "have",
+      "pos": "past tense verb",
+      "example": "I have a car."
+    },
+    "417": {
+      "word": "no",
+      "pos": "adjective",
+      "example": "I have no money."
+    },
+    "420": {
+      "word": "right",
+      "pos": "noun",
+      "example": "Everyone has rights."
+    },
+    "426": {
+      "word": "to",
+      "pos": "preposition",
+      "example": ""
+    },
+    "429": {
+      "word": "tax",
+      "pos": "verb",
+      "example": "Governments tax income."
+    },
+    "433": {
+      "word": "they",
+      "pos": "pronoun",
+      "example": ""
+    },
+    "438": {
+      "word": "because",
+      "pos": "conjunction",
+      "example": ""
+    },
+    "446": {
+      "word": "they",
+      "pos": "pronoun",
+      "example": ""
+    },
+    "451": {
+      "word": "have",
+      "pos": "past tense verb",
+      "example": "I have a car."
+    },
+    "455": {
+      "word": "no",
+      "pos": "adjective",
+      "example": "There is no milk left."
+    },
+    "458": {
+      "word": "elect",
+      "pos": "past participle adjective",
+      "example": "We elect a leader."
+    },
+    "466": {
+      "word": "representative",
+      "pos": "plural noun",
+      "example": "Representatives attend meetings."
+    },
+    "482": {
+      "word": "there",
+      "pos": "adverb",
+      "example": "We live there."
+    },
+    "493": {
+      "word": "slogan",
+      "pos": "singular noun",
+      "example": "The slogan is easy to remember."
+    },
+    "500": {
+      "word": "no taxation without representation",
+      "pos": "fixed phrase, idiomatic expression",
+      "example": "No taxation without representation was the main demand."
+    },
+    "501": {
+      "word": "no taxation without representation",
+      "pos": "idiomatic phrase",
+      "example": "No taxation without representation was a famous slogan."
+    },
+    "537": {
+      "word": "spread",
+      "pos": "past tense verb",
+      "example": "News spread quickly around town."
+    },
+    "552": {
+      "word": "newspaper",
+      "pos": "plural noun",
+      "example": "I read the newspaper every day."
+    },
+    "564": {
+      "word": "speech",
+      "pos": "plural noun",
+      "example": "Her speeches inspire many people."
+    },
+    "578": {
+      "word": "tavern talk",
+      "pos": "compound noun",
+      "example": "Tavern talk often includes stories."
+    },
+    "599": {
+      "word": "early",
+      "pos": "adjective",
+      "example": "She arrived early to the meeting."
+    },
+    "605": {
+      "word": "1770",
+      "pos": "plural noun (decade)",
+      "example": ""
+    },
+    "616": {
+      "word": "conflict",
+      "pos": "singular noun",
+      "example": "Conflict often causes stress."
+    },
+    "625": {
+      "word": "be",
+      "pos": "past tense verb",
+      "example": "She was happy yesterday."
+    },
+    "644": {
+      "word": "money",
+      "pos": "uncountable noun",
+      "example": "She needs money for the trip."
+    },
+    "664": {
+      "word": "power",
+      "pos": "noun",
+      "example": "Power is necessary for machines."
+    },
+    "671": {
+      "word": "Britain",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "679": {
+      "word": "send",
+      "pos": "past tense verb",
+      "example": "They send letters every week."
+    },
+    "684": {
+      "word": "troop",
+      "pos": "plural noun",
+      "example": "The troop marched forward."
+    },
+    "694": {
+      "word": "Boston",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "702": {
+      "word": "colonial",
+      "pos": "adjective",
+      "example": "Colonial buildings are historic."
+    },
+    "711": {
+      "word": "resistance",
+      "pos": "noun",
+      "example": "Resistance to change is common."
+    },
+    "722": {
+      "word": "grow",
+      "pos": "past tense verb",
+      "example": "Plants grow quickly in spring."
+    },
+    "732": {
+      "word": "Boston Tea Party",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "739": {
+      "word": "tea",
+      "pos": "singular noun",
+      "example": "She drinks tea every morning."
+    },
+    "743": {
+      "word": "party",
+      "pos": "singular noun",
+      "example": "We went to a birthday party."
+    },
+    "752": {
+      "word": "December",
+      "pos": "noun (month)",
+      "example": "December is the last month."
+    },
+    "761": {
+      "word": "1773",
+      "pos": "numeral",
+      "example": ""
+    },
+    "771": {
+      "word": "protester",
+      "pos": "plural noun",
+      "example": "The protester shouted loudly."
+    },
+    "782": {
+      "word": "dump",
+      "pos": "past tense verb",
+      "example": "They dump the trash every day."
+    },
+    "789": {
+      "word": "East India Company",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "800": {
+      "word": "company",
+      "pos": "singular noun",
+      "example": "The company is growing fast."
+    },
+    "808": {
+      "word": "tea",
+      "pos": "noun",
+      "example": "I drink tea every morning."
+    },
+    "821": {
+      "word": "harbor",
+      "pos": "noun",
+      "example": "Ships arrive at the harbor."
+    },
+    "828": {
+      "word": "lead",
+      "pos": "past tense verb",
+      "example": "She leads the team."
+    },
+    "832": {
+      "word": "Britain",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "843": {
+      "word": "pass",
+      "pos": "base form verb",
+      "example": "I pass the exam."
+    },
+    "848": {
+      "word": "harsh",
+      "pos": "adjective",
+      "example": "The punishment is harsh."
+    },
+    "854": {
+      "word": "measure",
+      "pos": "plural noun",
+      "example": "We took safety measures."
+    },
+    "872": {
+      "word": "colonist",
+      "pos": "plural noun",
+      "example": "Colonists settled in new lands."
+    },
+    "894": {
+      "word": "Intolerable Acts",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "906": {
+      "word": "act",
+      "pos": "plural noun",
+      "example": "The act was passed quickly."
+    },
+    "1051": {
+      "word": "Massachusetts",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1066": {
+      "word": "one",
+      "pos": "determiner (number)",
+      "example": "One apple is enough."
+    },
+    "1070": {
+      "word": "fear",
+      "pos": "singular noun",
+      "example": "I have a fear of heights."
+    },
+    "1075": {
+      "word": "dominate",
+      "pos": "past tense verb",
+      "example": "Lions dominate their territory."
+    },
+    "1091": {
+      "word": "British",
+      "pos": "adjective",
+      "example": "British culture is diverse."
+    },
+    "1099": {
+      "word": "authority",
+      "pos": "plural noun",
+      "example": "Authorities enforce laws."
+    },
+    "1117": {
+      "word": "seize",
+      "pos": "base form verb",
+      "example": "They seize illegal goods."
+    },
+    "1123": {
+      "word": "colonial",
+      "pos": "adjective",
+      "example": "Colonial history is fascinating."
+    },
+    "1132": {
+      "word": "weapon",
+      "pos": "plural noun",
+      "example": "The army has many weapons."
+    },
+    "1144": {
+      "word": "arrest",
+      "pos": "infinitive verb",
+      "example": "Police arrest criminals."
+    },
+    "1151": {
+      "word": "rebel",
+      "pos": "adjective",
+      "example": "Rebel forces fought bravely."
+    },
+    "1157": {
+      "word": "leader",
+      "pos": "plural noun",
+      "example": "Leaders guide their teams."
+    },
+    "1173": {
+      "word": "militia",
+      "pos": "noun",
+      "example": "The militia defended the village."
+    },
+    "1181": {
+      "word": "begin",
+      "pos": "past tense verb",
+      "example": "I begin work at nine."
+    },
+    "1187": {
+      "word": "store",
+      "pos": "present participle verb",
+      "example": "They store food for winter."
+    },
+    "1195": {
+      "word": "gunpowder",
+      "pos": "singular noun",
+      "example": "Gunpowder was used in old guns."
+    },
+    "1206": {
+      "word": "musket",
+      "pos": "plural noun",
+      "example": "The soldiers carried muskets."
+    },
+    "1219": {
+      "word": "cannon",
+      "pos": "singular noun",
+      "example": "The army used a cannon."
+    },
+    "1229": {
+      "word": "different",
+      "pos": "adjective",
+      "example": "They chose different paths."
+    },
+    "1239": {
+      "word": "town",
+      "pos": "plural noun",
+      "example": "The towns are very old."
+    },
+    "1246": {
+      "word": "Concord",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1261": {
+      "word": "20",
+      "pos": "numeral",
+      "example": "I have 20 apples."
+    },
+    "1264": {
+      "word": "mile",
+      "pos": "plural noun",
+      "example": "He runs five miles every day."
+    },
+    "1270": {
+      "word": "northwest",
+      "pos": "adjective/direction",
+      "example": "The wind comes from the northwest."
+    },
+    "1283": {
+      "word": "Boston",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1291": {
+      "word": "be",
+      "pos": "past tense verb",
+      "example": "She is a teacher."
+    },
+    "1295": {
+      "word": "one",
+      "pos": "pronoun",
+      "example": "One is enough."
+    },
+    "1299": {
+      "word": "of",
+      "pos": "",
+      "example": ""
+    },
+    "1302": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "Those are my shoes."
+    },
+    "1308": {
+      "word": "storage",
+      "pos": "noun",
+      "example": "Storage is important for goods."
+    },
+    "1316": {
+      "word": "place",
+      "pos": "plural noun",
+      "example": "This place is quiet."
+    },
+    "1332": {
+      "word": "night",
+      "pos": "singular noun",
+      "example": "The stars shine at night."
+    },
+    "1341": {
+      "word": "April",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1347": {
+      "word": "18",
+      "pos": "number",
+      "example": ""
+    },
+    "1351": {
+      "word": "1775",
+      "pos": "number",
+      "example": ""
+    },
+    "1357": {
+      "word": "British",
+      "pos": "adjective",
+      "example": "British culture is rich."
+    },
+    "1365": {
+      "word": "troop",
+      "pos": "plural noun",
+      "example": "The troop rested after the march."
+    },
+    "1372": {
+      "word": "set out",
+      "pos": "phrasal verb",
+      "example": "We set out early in the morning."
+    },
+    "1380": {
+      "word": "from",
+      "pos": "preposition",
+      "example": "She came from France."
+    },
+    "1385": {
+      "word": "Boston",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1392": {
+      "word": "under",
+      "pos": "preposition",
+      "example": "The book is under the table."
+    },
+    "1398": {
+      "word": "order",
+      "pos": "plural noun",
+      "example": "She gave an order."
+    },
+    "1408": {
+      "word": "march",
+      "pos": "verb",
+      "example": "Soldiers march in the parade."
+    },
+    "1414": {
+      "word": "to",
+      "pos": "preposition",
+      "example": "I go to school."
+    },
+    "1417": {
+      "word": "Concord",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1426": {
+      "word": "their",
+      "pos": "possessive pronoun",
+      "example": "Their house is big."
+    },
+    "1432": {
+      "word": "mission",
+      "pos": "singular noun",
+      "example": "The mission was successful."
+    },
+    "1447": {
+      "word": "destroy",
+      "pos": "infinitive verb",
+      "example": "We want to destroy the old house."
+    },
+    "1455": {
+      "word": "military",
+      "pos": "adjective",
+      "example": "He joined the military forces."
+    },
+    "1464": {
+      "word": "supply",
+      "pos": "plural noun",
+      "example": "We need medical supplies."
+    },
+    "1479": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "I also like coffee."
+    },
+    "1484": {
+      "word": "hope",
+      "pos": "past tense verb",
+      "example": "I hope for good weather."
+    },
+    "1493": {
+      "word": "capture",
+      "pos": "verb",
+      "example": "They capture wild animals."
+    },
+    "1501": {
+      "word": "two",
+      "pos": "number",
+      "example": "I have two cats."
+    },
+    "1505": {
+      "word": "well-known",
+      "pos": "adjective",
+      "example": "He is a well-known artist."
+    },
+    "1516": {
+      "word": "Patriot",
+      "pos": "noun",
+      "example": ""
+    },
+    "1524": {
+      "word": "leader",
+      "pos": "plural noun",
+      "example": "The leader guides the team."
+    },
+    "1533": {
+      "word": "Samuel Adams",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1540": {
+      "word": "Adams",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1550": {
+      "word": "John",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1555": {
+      "word": "Hancock",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1573": {
+      "word": "stay",
+      "pos": "present participle verb",
+      "example": "We stay at hotels."
+    },
+    "1584": {
+      "word": "Lexington",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1600": {
+      "word": "countryside",
+      "pos": "singular noun",
+      "example": "The countryside is very peaceful."
+    },
+    "1612": {
+      "word": "do",
+      "pos": "past tense auxiliary verb",
+      "example": "I do my homework every day."
+    },
+    "1616": {
+      "word": "not",
+      "pos": "negation adverb",
+      "example": "I do not like rain."
+    },
+    "1620": {
+      "word": "stay",
+      "pos": "base form verb",
+      "example": "Please stay here."
+    },
+    "1625": {
+      "word": "quiet",
+      "pos": "adjective",
+      "example": "The room is quiet now."
+    },
+    "1635": {
+      "word": "long",
+      "pos": "adjective/adverb",
+      "example": "The movie was long."
+    },
+    "1641": {
+      "word": "rider",
+      "pos": "plural noun",
+      "example": "The rider rode fast."
+    },
+    "1653": {
+      "word": "send",
+      "pos": "past tense verb",
+      "example": "I send emails every day."
+    },
+    "1658": {
+      "word": "out",
+      "pos": "adverb",
+      "example": "He went out quickly."
+    },
+    "1665": {
+      "word": "warn",
+      "pos": "base form verb",
+      "example": "I warn you to be careful."
+    },
+    "1670": {
+      "word": "people",
+      "pos": "plural noun",
+      "example": "People are waiting outside."
+    },
+    "1682": {
+      "word": "British",
+      "pos": "adjective",
+      "example": ""
+    },
+    "1690": {
+      "word": "troop",
+      "pos": "plural noun",
+      "example": "The troop marched together."
+    },
+    "1702": {
+      "word": "move",
+      "pos": "present participle verb",
+      "example": "They move quickly between rooms."
+    },
+    "1710": {
+      "word": "Paul Revere",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1722": {
+      "word": "become",
+      "pos": "past tense verb",
+      "example": "They become friends quickly."
+    },
+    "1733": {
+      "word": "most",
+      "pos": "adverb superlative",
+      "example": "She is the most talented player."
+    },
+    "1738": {
+      "word": "famous",
+      "pos": "adjective",
+      "example": "The actor is famous worldwide."
+    },
+    "1754": {
+      "word": "messenger",
+      "pos": "plural noun",
+      "example": "The messenger delivered the letter."
+    },
+    "1766": {
+      "word": "partly",
+      "pos": "adverb",
+      "example": "The success was partly due to luck."
+    },
+    "1773": {
+      "word": "because",
+      "pos": "conjunction",
+      "example": "She left because she was tired."
+    },
+    "1784": {
+      "word": "later",
+      "pos": "adjective",
+      "example": "I will see you later."
+    },
+    "1790": {
+      "word": "story",
+      "pos": "plural noun",
+      "example": "She tells interesting stories."
+    },
+    "1802": {
+      "word": "poem",
+      "pos": "plural noun",
+      "example": "He writes beautiful poems."
+    },
+    "1813": {
+      "word": "he",
+      "pos": "pronoun",
+      "example": "He is my friend."
+    },
+    "1816": {
+      "word": "be",
+      "pos": "past tense verb",
+      "example": "She was happy."
+    },
+    "1820": {
+      "word": "not",
+      "pos": "adverb",
+      "example": "I am not ready."
+    },
+    "1824": {
+      "word": "alone",
+      "pos": "adjective",
+      "example": "She felt alone at home."
+    },
+    "1831": {
+      "word": "William Dawes",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1845": {
+      "word": "ride",
+      "pos": "past tense verb",
+      "example": "I ride my bike every day."
+    },
+    "1852": {
+      "word": "different",
+      "pos": "adjective",
+      "example": "She has different ideas."
+    },
+    "1862": {
+      "word": "route",
+      "pos": "noun, singular",
+      "example": "We planned a new route."
+    },
+    "1873": {
+      "word": "other",
+      "pos": "plural noun",
+      "example": "Others joined the game."
+    },
+    "1880": {
+      "word": "some",
+      "pos": "determiner/pronoun",
+      "example": "Some people like coffee."
+    },
+    "1893": {
+      "word": "local rider",
+      "pos": "compound noun",
+      "example": "The local rider knows the trails."
+    },
+    "1899": {
+      "word": "rider",
+      "pos": "plural noun",
+      "example": "Many riders joined the race."
+    },
+    "1912": {
+      "word": "name",
+      "pos": "plural noun",
+      "example": "Write your name here."
+    },
+    "1927": {
+      "word": "remember",
+      "pos": "past participle verb",
+      "example": "I remember his name."
+    },
+    "1938": {
+      "word": "help",
+      "pos": "past tense verb",
+      "example": "She helps her friends."
+    },
+    "1945": {
+      "word": "spread",
+      "pos": "past tense verb",
+      "example": "They spread the news quickly."
+    },
+    "1956": {
+      "word": "alarm",
+      "pos": "noun, singular",
+      "example": "The alarm rang loudly."
+    },
+    "1964": {
+      "word": "just",
+      "pos": "adverb",
+      "example": "I just arrived now."
+    },
+    "1969": {
+      "word": "before",
+      "pos": "preposition",
+      "example": "I eat before noon."
+    },
+    "1976": {
+      "word": "dawn",
+      "pos": "noun",
+      "example": "The dawn is very beautiful."
+    },
+    "1984": {
+      "word": "April",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1990": {
+      "word": "19",
+      "pos": "cardinal number",
+      "example": ""
+    },
+    "1998": {
+      "word": "first",
+      "pos": "ordinal adjective",
+      "example": "She came first in the race."
+    },
+    "2004": {
+      "word": "confrontation",
+      "pos": "noun",
+      "example": "The confrontation was tense."
+    },
+    "2018": {
+      "word": "happen",
+      "pos": "past tense verb",
+      "example": "Accidents happen sometimes."
+    },
+    "2030": {
+      "word": "Lexington",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "2043": {
+      "word": "small",
+      "pos": "adjective",
+      "example": "She has a small dog."
+    },
+    "2049": {
+      "word": "group",
+      "pos": "noun, singular",
+      "example": "They formed a group to study."
+    },
+    "2058": {
+      "word": "militia",
+      "pos": "singular noun",
+      "example": "The militia protects the town."
+    },
+    "2085": {
+      "word": "minuteman",
+      "pos": "plural noun",
+      "example": ""
+    },
+    "2097": {
+      "word": "stand",
+      "pos": "past tense verb",
+      "example": "They stand by the door."
+    },
+    "2110": {
+      "word": "town",
+      "pos": "noun, singular",
+      "example": "We live in a small town."
+    },
+    "2115": {
+      "word": "green",
+      "pos": "singular noun",
+      "example": "We met at the village green."
+    },
+    "2122": {
+      "word": "they",
+      "pos": "pronoun, plural",
+      "example": "They like to play soccer."
+    },
+    "2127": {
+      "word": "do",
+      "pos": "past tense auxiliary verb",
+      "example": "I do my homework every day."
+    },
+    "2135": {
+      "word": "expect",
+      "pos": "base form verb",
+      "example": "I expect good results tomorrow."
+    },
+    "2145": {
+      "word": "defeat",
+      "pos": "base form verb",
+      "example": "They want to defeat their rivals."
+    },
+    "2156": {
+      "word": "British",
+      "pos": "proper adjective",
+      "example": ""
+    },
+    "2170": {
+      "word": "likely",
+      "pos": "adverb",
+      "example": "It will likely rain today."
+    },
+    "2177": {
+      "word": "want",
+      "pos": "past tense verb",
+      "example": "I want a new book."
+    },
+    "2187": {
+      "word": "show",
+      "pos": "base form verb",
+      "example": "Please show me your work."
+    },
+    "2192": {
+      "word": "presence",
+      "pos": "noun",
+      "example": "Her presence was comforting."
+    },
+    "2205": {
+      "word": "protect",
+      "pos": "verb",
+      "example": "We protect the environment."
+    },
+    "2219": {
+      "word": "community",
+      "pos": "noun",
+      "example": "The community is very kind."
+    },
+    "2230": {
+      "word": "British",
+      "pos": "adjective",
+      "example": "British culture is unique."
+    },
+    "2238": {
+      "word": "soldier",
+      "pos": "plural noun",
+      "example": "The soldier guards the gate."
+    },
+    "2247": {
+      "word": "arrive",
+      "pos": "past tense verb",
+      "example": "They arrive late every day."
+    },
+    "2256": {
+      "word": "tense",
+      "pos": "adjective",
+      "example": "She felt tense before the exam."
+    },
+    "2266": {
+      "word": "impatient",
+      "pos": "adjective",
+      "example": "She is impatient with waiting."
+    },
+    "2284": {
+      "word": "confusion",
+      "pos": "noun",
+      "example": "Confusion can cause mistakes."
+    },
+    "2297": {
+      "word": "shot",
+      "pos": "noun",
+      "example": "He heard a shot in the night."
+    },
+    "2302": {
+      "word": "be",
+      "pos": "past tense verb (auxiliary)",
+      "example": "She was happy."
+    },
+    "2306": {
+      "word": "fire",
+      "pos": "past tense verb",
+      "example": "They fire the signal cannon."
+    },
+    "2312": {
+      "word": "no",
+      "pos": "determiner",
+      "example": "No one knows the answer."
+    },
+    "2315": {
+      "word": "one",
+      "pos": "pronoun",
+      "example": "One should be careful."
+    },
+    "2319": {
+      "word": "be",
+      "pos": "present tense verb (auxiliary)",
+      "example": "He is here."
+    },
+    "2322": {
+      "word": "completely",
+      "pos": "adverb",
+      "example": "She completely understands."
+    },
+    "2333": {
+      "word": "sure",
+      "pos": "adjective",
+      "example": "I am sure about it."
+    },
+    "2341": {
+      "word": "whom",
+      "pos": "pronoun",
+      "example": "Whom did you see?"
+    },
+    "2350": {
+      "word": "become",
+      "pos": "past tense verb",
+      "example": "They become friends quickly."
+    },
+    "2357": {
+      "word": "know",
+      "pos": "past participle adjective",
+      "example": "I know the answer."
+    },
+    "2363": {
+      "word": "later",
+      "pos": "adverb",
+      "example": "I will call you later."
+    },
+    "2373": {
+      "word": "the shot heard ’round the world",
+      "pos": "idiomatic phrase",
+      "example": "The shot heard ’round the world started the war."
+    },
+    "2377": {
+      "word": "shot",
+      "pos": "singular noun",
+      "example": "He fired a shot."
+    },
+    "2382": {
+      "word": "hear",
+      "pos": "past participle verb",
+      "example": "I hear music outside."
+    },
+    "2388": {
+      "word": "around",
+      "pos": "adverb (informal)",
+      "example": "The children ran around."
+    },
+    "2395": {
+      "word": "the",
+      "pos": "",
+      "example": ""
+    },
+    "2399": {
+      "word": "world",
+      "pos": "noun singular",
+      "example": "The world is big."
+    },
+    "2456": {
+      "word": "several",
+      "pos": "determiner (quantifier)",
+      "example": "Several people came to the party."
+    },
+    "2464": {
+      "word": "colonist",
+      "pos": "plural noun",
+      "example": "The colonist built a new home."
+    },
+    "2474": {
+      "word": "be",
+      "pos": "past tense auxiliary verb",
+      "example": "They were happy yesterday."
+    },
+    "2479": {
+      "word": "kill",
+      "pos": "past tense verb",
+      "example": "He kill the insect quickly."
+    },
+    "2491": {
+      "word": "British",
+      "pos": "adjective",
+      "example": "British culture is diverse."
+    },
+    "2499": {
+      "word": "continue",
+      "pos": "past tense verb",
+      "example": "They continue their work."
+    },
+    "2515": {
+      "word": "Concord",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "2541": {
+      "word": "situation",
+      "pos": "singular noun",
+      "example": "The situation is under control."
+    },
+    "2551": {
+      "word": "change",
+      "pos": "past tense verb",
+      "example": "They change the rules sometimes."
+    },
+    "2560": {
+      "word": "militia",
+      "pos": "singular noun",
+      "example": "The militia protects the village."
+    },
+    "2573": {
+      "word": "nearby",
+      "pos": "adjective",
+      "example": "We visited a nearby town."
+    },
+    "2580": {
+      "word": "town",
+      "pos": "plural noun",
+      "example": "The town is small."
+    },
+    "2586": {
+      "word": "gather",
+      "pos": "past tense verb",
+      "example": "We gather every Sunday."
+    },
+    "2598": {
+      "word": "large",
+      "pos": "comparative adjective",
+      "example": "A larger cake is better."
+    },
+    "2605": {
+      "word": "number",
+      "pos": "plural noun",
+      "example": "The number increased quickly."
+    },
+    "2621": {
+      "word": "North Bridge",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "2627": {
+      "word": "bridge",
+      "pos": "singular noun",
+      "example": "The bridge is over the river."
+    },
+    "2635": {
+      "word": "fight",
+      "pos": "gerund noun",
+      "example": "They fight for freedom."
+    },
+    "2644": {
+      "word": "break out",
+      "pos": "phrasal verb",
+      "example": "Fighting broke out during the meeting."
+    },
+    "2654": {
+      "word": "again",
+      "pos": "adverb",
+      "example": "She called me again."
+    },
+    "2666": {
+      "word": "time",
+      "pos": "noun",
+      "example": "This is my first time here."
+    },
+    "2675": {
+      "word": "militia",
+      "pos": "noun",
+      "example": "The militia protects the village."
+    },
+    "2683": {
+      "word": "force",
+      "pos": "past tense verb",
+      "example": "They force him to work."
+    },
+    "2690": {
+      "word": "British",
+      "pos": "adjective",
+      "example": "British culture is rich."
+    },
+    "2698": {
+      "word": "troop",
+      "pos": "plural noun",
+      "example": "The troop is ready for action."
+    },
+    "2708": {
+      "word": "retreat",
+      "pos": "verb",
+      "example": "They retreat when threatened."
+    },
+    "2726": {
+      "word": "small",
+      "pos": "adjective",
+      "example": "She has a small dog."
+    },
+    "2732": {
+      "word": "battle",
+      "pos": "singular noun",
+      "example": "The battle lasted all day."
+    },
+    "2742": {
+      "word": "size",
+      "pos": "singular noun",
+      "example": "The size of the table is large."
+    },
+    "2755": {
+      "word": "matter",
+      "pos": "past tense verb",
+      "example": "Issues matter to everyone."
+    },
+    "2764": {
+      "word": "psychologically",
+      "pos": "adverb",
+      "example": "She reacted psychologically to stress."
+    },
+    "2781": {
+      "word": "local",
+      "pos": "adjective",
+      "example": "Local people are friendly."
+    },
+    "2787": {
+      "word": "citizen",
+      "pos": "plural noun",
+      "example": "The citizen voted yesterday."
+    },
+    "2796": {
+      "word": "push",
+      "pos": "past perfect verb",
+      "example": "They push the door every day."
+    },
+    "2800": {
+      "word": "push back",
+      "pos": "phrasal verb",
+      "example": "The army will push back the enemy."
+    },
+    "2807": {
+      "word": "back",
+      "pos": "adverb",
+      "example": "Step back slowly."
+    },
+    "2812": {
+      "word": "train",
+      "pos": "past participle adjective",
+      "example": "She trained hard for the match."
+    },
+    "2820": {
+      "word": "soldier",
+      "pos": "plural noun",
+      "example": "Soldiers protect the country."
+    },
+    "2835": {
+      "word": "return",
+      "pos": "noun, singular",
+      "example": "The return was on time."
+    },
+    "2842": {
+      "word": "march",
+      "pos": "noun, singular",
+      "example": "We joined the march for peace."
+    },
+    "2851": {
+      "word": "Boston",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "2858": {
+      "word": "turn",
+      "pos": "past tense verb",
+      "example": "Leaves turn yellow in autumn."
+    },
+    "2865": {
+      "word": "into",
+      "pos": "preposition",
+      "example": "The caterpillar turns into a butterfly."
+    },
+    "2872": {
+      "word": "running",
+      "pos": "adjective",
+      "example": "He has a running nose."
+    },
+    "2880": {
+      "word": "fight",
+      "pos": "singular noun",
+      "example": "They fight for their rights."
+    },
+    "2890": {
+      "word": "British",
+      "pos": "adjective",
+      "example": "The British culture is diverse."
+    },
+    "2898": {
+      "word": "troop",
+      "pos": "plural noun",
+      "example": "The troop marched all day."
+    },
+    "2905": {
+      "word": "move",
+      "pos": "past tense verb",
+      "example": "They move quickly across fields."
+    },
+    "2911": {
+      "word": "along",
+      "pos": "adverb",
+      "example": "They walked along the river."
+    },
+    "2917": {
+      "word": "narrow",
+      "pos": "adjective",
+      "example": "This path is narrow."
+    },
+    "2924": {
+      "word": "road",
+      "pos": "plural noun",
+      "example": "Roads connect cities and towns."
+    },
+    "2931": {
+      "word": "militia",
+      "pos": "singular noun",
+      "example": "Militia guard the village."
+    },
+    "2939": {
+      "word": "fire",
+      "pos": "past tense verb",
+      "example": "Soldiers fire their rifles."
+    },
+    "2945": {
+      "word": "from",
+      "pos": "preposition",
+      "example": "She comes from America."
+    },
+    "2950": {
+      "word": "behind",
+      "pos": "preposition",
+      "example": "He hid behind the door."
+    },
+    "2957": {
+      "word": "tree",
+      "pos": "plural noun",
+      "example": "Birds sing in the tree."
+    },
+    "2964": {
+      "word": "stone",
+      "pos": "adjective",
+      "example": "The stone wall is old."
+    },
+    "2970": {
+      "word": "wall",
+      "pos": "plural noun",
+      "example": "The wall is tall."
+    },
+    "2981": {
+      "word": "building",
+      "pos": "plural noun",
+      "example": "The building is old."
+    },
+    "2996": {
+      "word": "geography",
+      "pos": "singular noun",
+      "example": "Geography studies the Earth's surfaces."
+    },
+    "3006": {
+      "word": "favor",
+      "pos": "past tense verb",
+      "example": "They favor local products."
+    },
+    "3018": {
+      "word": "local",
+      "pos": "plural noun",
+      "example": "Locals know the city well."
+    },
+    "3030": {
+      "word": "know",
+      "pos": "past tense verb",
+      "example": "I know the answer."
+    },
+    "3039": {
+      "word": "land",
+      "pos": "singular noun",
+      "example": "Farmers work the land."
+    },
+    "3048": {
+      "word": "can",
+      "pos": "modal verb",
+      "example": "I can swim well."
+    },
+    "3054": {
+      "word": "move",
+      "pos": "base form verb",
+      "example": "They move quickly."
+    },
+    "3066": {
+      "word": "out",
+      "pos": "adverb",
+      "example": "She went out yesterday."
+    },
+    "3070": {
+      "word": "quickly",
+      "pos": "adverb",
+      "example": "He runs quickly."
+    },
+    "3095": {
+      "word": "exhausted",
+      "pos": "adjective",
+      "example": "He felt exhausted after running."
+    },
+    "3105": {
+      "word": "British",
+      "pos": "proper adjective",
+      "example": ""
+    },
+    "3113": {
+      "word": "column",
+      "pos": "singular noun",
+      "example": "The column marched at dawn."
+    },
+    "3120": {
+      "word": "reach",
+      "pos": "past tense verb",
+      "example": "They reach the station by noon."
+    },
+    "3128": {
+      "word": "safety",
+      "pos": "singular noun",
+      "example": "Safety is important at work."
+    },
+    "3140": {
+      "word": "Boston",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3148": {
+      "word": "both",
+      "pos": "determiner (content word)",
+      "example": "Both sides agreed quickly."
+    },
+    "3153": {
+      "word": "side",
+      "pos": "plural noun",
+      "example": "We took sides in the argument."
+    },
+    "3159": {
+      "word": "have",
+      "pos": "past auxiliary verb",
+      "example": "They have finished their work."
+    },
+    "3163": {
+      "word": "take",
+      "pos": "past participle verb",
+      "example": "Please take this medicine."
+    },
+    "3169": {
+      "word": "significant",
+      "pos": "adjective",
+      "example": "There was significant progress."
+    },
+    "3181": {
+      "word": "casualty",
+      "pos": "plural noun",
+      "example": "The war caused many casualties."
+    },
+    "3194": {
+      "word": "news",
+      "pos": "singular noun",
+      "example": "The news is interesting today."
+    },
+    "3199": {
+      "word": "travel",
+      "pos": "past tense verb",
+      "example": "I travel by train every week."
+    },
+    "3208": {
+      "word": "fast",
+      "pos": "adverb",
+      "example": "He runs fast every day."
+    },
+    "3221": {
+      "word": "day",
+      "pos": "plural noun",
+      "example": "I work five days a week."
+    },
+    "3227": {
+      "word": "militia",
+      "pos": "noun",
+      "example": "The militia defended the town."
+    },
+    "3240": {
+      "word": "many",
+      "pos": "determiner/adjective",
+      "example": "Many people came to the party."
+    },
+    "3245": {
+      "word": "colony",
+      "pos": "plural noun",
+      "example": "Many colonies declared independence."
+    },
+    "3254": {
+      "word": "begin",
+      "pos": "past tense verb",
+      "example": "I begin work at nine."
+    },
+    "3260": {
+      "word": "move",
+      "pos": "present participle verb",
+      "example": "We move the chairs inside."
+    },
+    "3267": {
+      "word": "toward",
+      "pos": "preposition",
+      "example": "She walked toward the door."
+    },
+    "3274": {
+      "word": "Massachusetts",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3289": {
+      "word": "Boston",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3300": {
+      "word": "soon",
+      "pos": "adverb",
+      "example": "The train will come soon."
+    },
+    "3305": {
+      "word": "surround",
+      "pos": "past participle verb",
+      "example": "The castle is surrounded by walls."
+    },
+    "3321": {
+      "word": "siege",
+      "pos": "singular noun",
+      "example": "The army laid siege to the city."
+    },
+    "3328": {
+      "word": "two",
+      "pos": "numeral adjective",
+      "example": "I have two cats."
+    },
+    "3332": {
+      "word": "month",
+      "pos": "plural noun",
+      "example": "There are twelve months in a year."
+    },
+    "3349": {
+      "word": "June",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3354": {
+      "word": "1775",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3364": {
+      "word": "battle",
+      "pos": "singular noun",
+      "example": "The battle was very fierce."
+    },
+    "3374": {
+      "word": "Bunker",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3381": {
+      "word": "Hill",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3386": {
+      "word": "show",
+      "pos": "past tense verb",
+      "example": "I show my work to the teacher."
+    },
+    "3402": {
+      "word": "conflict",
+      "pos": "singular noun",
+      "example": "Conflict causes tension."
+    },
+    "3419": {
+      "word": "go",
+      "pos": "present participle verb",
+      "example": "They go to school every day."
+    },
+    "3428": {
+      "word": "disappear",
+      "pos": "infinitive verb",
+      "example": "The magician can disappear."
+    },
+    "3439": {
+      "word": "even",
+      "pos": "adverb",
+      "example": "Even I can do it."
+    },
+    "3444": {
+      "word": "though",
+      "pos": "conjunction",
+      "example": "Though it rains, we go out."
+    },
+    "3455": {
+      "word": "British",
+      "pos": "proper adjective",
+      "example": ""
+    },
+    "3463": {
+      "word": "ultimately",
+      "pos": "adverb",
+      "example": "We ultimately decided to go."
+    },
+    "3474": {
+      "word": "take",
+      "pos": "past tense verb",
+      "example": "I take the bus every day."
+    },
+    "3483": {
+      "word": "hill",
+      "pos": "singular noun",
+      "example": "We climbed the hill."
+    },
+    "3489": {
+      "word": "their",
+      "pos": "possessive pronoun",
+      "example": "Their house is big."
+    },
+    "3495": {
+      "word": "heavy",
+      "pos": "adjective",
+      "example": "It was a heavy bag."
+    },
+    "3501": {
+      "word": "loss",
+      "pos": "plural noun",
+      "example": "They suffered a big loss."
+    },
+    "3508": {
+      "word": "shock",
+      "pos": "past tense verb",
+      "example": "The news shocks me."
+    },
+    "3516": {
+      "word": "leader",
+      "pos": "plural noun",
+      "example": "Leaders must be strong."
+    },
+    "3527": {
+      "word": "London",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3538": {
+      "word": "encourage",
+      "pos": "past tense verb",
+      "example": "Parents encourage children to study."
+    },
+    "3553": {
+      "word": "Patriot",
+      "pos": "plural noun",
+      "example": ""
+    },
+    "3564": {
+      "word": "Lexington",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3578": {
+      "word": "Concord",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3596": {
+      "word": "describe",
+      "pos": "past participle verb",
+      "example": "They describe the scene clearly."
+    },
+    "3613": {
+      "word": "start",
+      "pos": "noun",
+      "example": "The start was very exciting."
+    },
+    "3626": {
+      "word": "American",
+      "pos": "adjective",
+      "example": "She loves American music."
+    },
+    "3635": {
+      "word": "revolutionary",
+      "pos": "adjective",
+      "example": "They made revolutionary changes."
+    },
+    "3649": {
+      "word": "war",
+      "pos": "noun",
+      "example": "War causes many problems."
+    },
+    "3662": {
+      "word": "deep",
+      "pos": "comparative adjective",
+      "example": "The lake is deep."
+    },
+    "3669": {
+      "word": "story",
+      "pos": "noun singular",
+      "example": "She tells a good story."
+    },
+    "3684": {
+      "word": "escalation",
+      "pos": "noun",
+      "example": "The escalation of conflict worried many."
+    },
+    "3696": {
+      "word": "argument",
+      "pos": "plural noun",
+      "example": "His argument was very convincing."
+    },
+    "3711": {
+      "word": "begin",
+      "pos": "past tense verb",
+      "example": "We begin class at 8 AM."
+    },
+    "3720": {
+      "word": "political",
+      "pos": "adjective",
+      "example": "She is interested in political news."
+    },
+    "3730": {
+      "word": "complaint",
+      "pos": "plural noun",
+      "example": "The complaint was about noise."
+    },
+    "3741": {
+      "word": "turn",
+      "pos": "past tense verb",
+      "example": "Leaves turn yellow in autumn."
+    },
+    "3748": {
+      "word": "into",
+      "pos": "preposition",
+      "example": ""
+    },
+    "3753": {
+      "word": "armed",
+      "pos": "adjective",
+      "example": "The armed guards protected us."
+    },
+    "3759": {
+      "word": "conflict",
+      "pos": "singular noun",
+      "example": "There was a conflict between friends."
+    },
+    "3768": {
+      "word": "when",
+      "pos": "conjunction",
+      "example": "We eat when hungry."
+    },
+    "3773": {
+      "word": "both",
+      "pos": "determiner",
+      "example": "Both options are good."
+    },
+    "3778": {
+      "word": "side",
+      "pos": "plural noun",
+      "example": "The two sides agreed to meet."
+    },
+    "3784": {
+      "word": "believe",
+      "pos": "past tense verb",
+      "example": "I believe in honesty."
+    },
+    "3793": {
+      "word": "they",
+      "pos": "pronoun",
+      "example": "They are my friends."
+    },
+    "3798": {
+      "word": "be",
+      "pos": "past tense verb",
+      "example": "They were happy yesterday."
+    },
+    "3803": {
+      "word": "defend",
+      "pos": "present participle verb",
+      "example": "We defend our rights."
+    },
+    "3813": {
+      "word": "basic",
+      "pos": "adjective",
+      "example": "She has basic knowledge."
+    },
+    "3819": {
+      "word": "right",
+      "pos": "plural noun",
+      "example": "Everyone has rights."
+    },
+    "3830": {
+      "word": "authority",
+      "pos": "noun",
+      "example": "He has authority over the group."
+    },
+    "3841": {
+      "word": "Britain",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3849": {
+      "word": "see",
+      "pos": "past tense verb",
+      "example": "I see the bird in the tree."
+    },
+    "3853": {
+      "word": "rebellion",
+      "pos": "singular noun",
+      "example": "Rebellion broke out in the city."
+    },
+    "3867": {
+      "word": "disorder",
+      "pos": "singular noun",
+      "example": "There was disorder in the city."
+    },
+    "3881": {
+      "word": "Patriot",
+      "pos": "plural noun",
+      "example": "A patriot loves their country."
+    },
+    "3890": {
+      "word": "see",
+      "pos": "past tense verb",
+      "example": "I see the bird in the tree."
+    },
+    "3896": {
+      "word": "government",
+      "pos": "singular noun",
+      "example": "The government passed new laws."
+    },
+    "3907": {
+      "word": "act",
+      "pos": "present participle verb",
+      "example": "They act in the play tonight."
+    },
+    "3922": {
+      "word": "consent",
+      "pos": "singular noun",
+      "example": "You need consent to enter."
+    },
+    "3936": {
+      "word": "adult",
+      "pos": "adjective",
+      "example": "Adult learners study hard."
+    },
+    "3942": {
+      "word": "English",
+      "pos": "adjective",
+      "example": ""
+    },
+    "3950": {
+      "word": "learner",
+      "pos": "plural noun",
+      "example": "A learner studies every day."
+    },
+    "3965": {
+      "word": "event",
+      "pos": "singular noun",
+      "example": "The event starts at noon."
+    },
+    "3974": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "I also like chocolate."
+    },
+    "3981": {
+      "word": "good",
+      "pos": "adjective",
+      "example": "This is a good book."
+    },
+    "3986": {
+      "word": "reminder",
+      "pos": "singular noun",
+      "example": "He gave a reminder yesterday."
+    },
+    "4001": {
+      "word": "how",
+      "pos": "adverb",
+      "example": "Show me how to do it."
+    },
+    "4005": {
+      "word": "history",
+      "pos": "singular noun",
+      "example": "History teaches us lessons."
+    },
+    "4016": {
+      "word": "preserve",
+      "pos": "past participle verb",
+      "example": "We preserve old buildings."
+    },
+    "4027": {
+      "word": "we",
+      "pos": "pronoun",
+      "example": "We study every day."
+    },
+    "4030": {
+      "word": "know",
+      "pos": "present tense verb",
+      "example": "I know the answer."
+    },
+    "4035": {
+      "word": "about",
+      "pos": "preposition",
+      "example": ""
+    },
+    "4041": {
+      "word": "this",
+      "pos": "demonstrative adjective",
+      "example": "These books are old."
+    },
+    "4047": {
+      "word": "hour",
+      "pos": "plural noun",
+      "example": "One hour is sixty minutes."
+    },
+    "4053": {
+      "word": "through",
+      "pos": "preposition",
+      "example": ""
+    },
+    "4061": {
+      "word": "letter",
+      "pos": "plural noun",
+      "example": "I received many letters."
+    },
+    "4070": {
+      "word": "deposition",
+      "pos": "plural noun",
+      "example": "The lawyer took a deposition."
+    },
+    "4083": {
+      "word": "official",
+      "pos": "adjective",
+      "example": "He received an official letter."
+    },
+    "4092": {
+      "word": "report",
+      "pos": "plural noun",
+      "example": "She wrote detailed reports."
+    },
+    "4105": {
+      "word": "local",
+      "pos": "adjective",
+      "example": "We like local food."
+    },
+    "4111": {
+      "word": "memory",
+      "pos": "plural noun",
+      "example": "Memory helps us remember."
+    },
+    "4120": {
+      "word": "source",
+      "pos": "plural noun",
+      "example": "Use reliable sources."
+    },
+    "4133": {
+      "word": "sometimes",
+      "pos": "adverb",
+      "example": "Sometimes I take a walk."
+    },
+    "4143": {
+      "word": "disagree",
+      "pos": "base form verb",
+      "example": "They disagree about plans."
+    },
+    "4158": {
+      "word": "disagreement",
+      "pos": "singular noun",
+      "example": "Disagreement can cause problems."
+    },
+    "4180": {
+      "word": "weakness",
+      "pos": "singular noun",
+      "example": "Everyone has a weakness."
+    },
+    "4197": {
+      "word": "clue",
+      "pos": "singular noun",
+      "example": "She found an important clue."
+    },
+    "4206": {
+      "word": "show",
+      "pos": "third person singular verb",
+      "example": "I show my work to the teacher."
+    },
+    "4216": {
+      "word": "confusing",
+      "pos": "adjective",
+      "example": "This puzzle is confusing."
+    },
+    "4226": {
+      "word": "real",
+      "pos": "adjective",
+      "example": "She has a real talent."
+    },
+    "4231": {
+      "word": "event",
+      "pos": "plural noun",
+      "example": "The event starts at 7 p.m."
+    },
+    "4238": {
+      "word": "can",
+      "pos": "modal verb",
+      "example": "I can swim well."
+    },
+    "4242": {
+      "word": "be",
+      "pos": "base verb",
+      "example": "It can be hard."
+    },
+    "4246": {
+      "word": "especially",
+      "pos": "adverb",
+      "example": "I like fruit, especially apples."
+    },
+    "4262": {
+      "word": "fear",
+      "pos": "noun",
+      "example": "She felt fear during the test."
+    },
+    "4268": {
+      "word": "noise",
+      "pos": "noun",
+      "example": "The noise is very loud."
+    },
+    "4279": {
+      "word": "fast decision",
+      "pos": "compound noun",
+      "example": "Fast decisions are risky."
+    },
+    "4284": {
+      "word": "decision",
+      "pos": "plural noun",
+      "example": "She made a good decision."
+    },
+    "4294": {
+      "word": "control",
+      "pos": "base verb",
+      "example": "They control the machine."
+    },
+    "4306": {
+      "word": "moment",
+      "pos": "noun",
+      "example": "Wait a moment, please."
+    },
+    "4318": {
+      "word": "April",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "4324": {
+      "word": "19",
+      "pos": "number",
+      "example": ""
+    },
+    "4328": {
+      "word": "1775",
+      "pos": "year",
+      "example": ""
+    },
+    "4338": {
+      "word": "road",
+      "pos": "singular noun",
+      "example": "The road is long and steep."
+    },
+    "4343": {
+      "word": "between",
+      "pos": "preposition",
+      "example": "She sat between her friends."
+    },
+    "4351": {
+      "word": "Lexington",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "4365": {
+      "word": "Concord",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "4373": {
+      "word": "become",
+      "pos": "past tense verb",
+      "example": "The weather can become cold."
+    },
+    "4380": {
+      "word": "more",
+      "pos": "adverb",
+      "example": "I want more apples."
+    },
+    "4392": {
+      "word": "road",
+      "pos": "singular noun",
+      "example": "The road is long."
+    },
+    "4401": {
+      "word": "become",
+      "pos": "past tense verb",
+      "example": "They become friends quickly."
+    },
+    "4410": {
+      "word": "line",
+      "pos": "singular noun",
+      "example": "Draw a line on the paper."
+    },
+    "4415": {
+      "word": "person",
+      "pos": "plural noun",
+      "example": "People like to travel."
+    },
+    "4422": {
+      "word": "cross",
+      "pos": "past tense verb",
+      "example": "They cross the street safely."
+    },
+    "4435": {
+      "word": "protest",
+      "pos": "singular noun",
+      "example": "The protest was loud."
+    },
+    "4446": {
+      "word": "war",
+      "pos": "singular noun",
+      "example": "War affects many people."
+    }
+  },
+  "translations": {
+    "vi": {
+      "0": "vào",
+      "5": "có sương mù",
+      "11": "buổi sáng",
+      "22": "tháng Tư",
+      "28": "năm 1775",
+      "34": "nông dân",
+      "46": "người bán hàng",
+      "61": "Massachusetts",
+      "75": "bắt đầu",
+      "81": "làm",
+      "87": "một điều gì đó",
+      "113": "có vẻ",
+      "121": "không thể",
+      "134": "thập kỷ",
+      "141": "trước đó",
+      "155": "chuẩn bị",
+      "167": "chiến đấu",
+      "177": "Anh",
+      "185": "Quân đội",
+      "196": "rắc rối",
+      "213": "tăng lên",
+      "226": "năm",
+      "243": "Chiến tranh Bảy năm",
+      "261": "Anh",
+      "269": "muốn",
+      "280": "Mỹ",
+      "289": "thuộc địa",
+      "301": "giúp",
+      "306": "trả",
+      "314": "đế quốc",
+      "323": "nợ",
+      "330": "London",
+      "337": "ban hành",
+      "344": "mới",
+      "348": "thuế",
+      "358": "thương mại",
+      "364": "quy tắc",
+      "375": "nhiều",
+      "380": "thuộc địa",
+      "390": "tranh luận",
+      "402": "Quốc hội",
+      "420": "quyền",
+      "429": "đánh thuế",
+      "433": "họ",
+      "446": "họ",
+      "451": "có",
+      "455": "không có",
+      "458": "được bầu",
+      "466": "đại diện",
+      "482": "ở đó",
+      "493": "khẩu hiệu",
+      "501": "không đánh thuế nếu không có đại diện",
+      "537": "lan truyền",
+      "552": "báo",
+      "564": "bài phát biểu",
+      "578": "câu chuyện quán rượu",
+      "599": "đầu",
+      "605": "những năm 1770",
+      "616": "cuộc xung đột",
+      "625": "đã",
+      "644": "tiền bạc",
+      "664": "quyền lực",
+      "671": "Anh",
+      "679": "gửi",
+      "684": "quân lính",
+      "694": "Boston",
+      "702": "thuộc địa",
+      "711": "sự kháng cự",
+      "722": "tăng lên",
+      "732": "Sự kiện Boston Tea Party",
+      "752": "tháng Mười Hai",
+      "771": "người phản kháng",
+      "782": "đổ",
+      "789": "Công ty Đông Ấn",
+      "808": "trà",
+      "821": "cảng",
+      "828": "dẫn đến",
+      "832": "Anh",
+      "843": "ban hành",
+      "848": "nghiêm khắc",
+      "854": "biện pháp",
+      "872": "các thuộc địa",
+      "894": "Các Đạo luật Không Thể Chấp Nhận",
+      "1051": "Massachusetts",
+      "1066": "một",
+      "1070": "nỗi sợ",
+      "1075": "chiếm ưu thế",
+      "1091": "Anh",
+      "1099": "chính quyền",
+      "1117": "tịch thu",
+      "1123": "thuộc địa",
+      "1132": "vũ khí",
+      "1144": "bắt giữ",
+      "1151": "nổi dậy",
+      "1157": "lãnh đạo",
+      "1173": "dân quân",
+      "1181": "bắt đầu",
+      "1187": "tích trữ",
+      "1195": "thuốc súng",
+      "1206": "súng muskét",
+      "1219": "pháo",
+      "1229": "khác nhau",
+      "1239": "thị trấn",
+      "1332": "đêm",
+      "1341": "tháng Tư",
+      "1347": "18",
+      "1351": "1775",
+      "1357": "Người Anh",
+      "1365": "quân đội",
+      "1372": "bắt đầu xuất phát",
+      "1380": "từ",
+      "1385": "Boston",
+      "1392": "theo",
+      "1398": "lệnh",
+      "1408": "hành quân",
+      "1414": "để",
+      "1417": "Concord",
+      "1426": "của họ",
+      "1432": "nhiệm vụ",
+      "1447": "phá hủy",
+      "1455": "quân sự",
+      "1464": "nguồn cung",
+      "1479": "cũng",
+      "1484": "hy vọng",
+      "1493": "bắt giữ",
+      "1501": "hai",
+      "1505": "nổi tiếng",
+      "1516": "Đảng Yêu nước",
+      "1524": "lãnh đạo",
+      "1533": "Samuel Adams",
+      "1550": "John Hancock",
+      "1573": "ở lại, lưu lại",
+      "1584": "Lexington",
+      "1600": "vùng quê",
+      "1612": "làm",
+      "1616": "",
+      "1620": "giữ",
+      "1625": "yên lặng",
+      "1635": "lâu",
+      "1641": "người cưỡi ngựa",
+      "1653": "gửi",
+      "1665": "cảnh báo",
+      "1670": "mọi người",
+      "1682": "Anh",
+      "1690": "quân đội",
+      "1702": "di chuyển",
+      "1831": "William Dawes",
+      "1845": "cưỡi",
+      "1852": "khác",
+      "1862": "tuyến đường",
+      "1873": "những người khác",
+      "1880": "một số",
+      "1893": "địa phương",
+      "1899": "người cưỡi",
+      "1912": "tên",
+      "1927": "nhớ",
+      "1938": "giúp",
+      "1945": "lan truyền",
+      "1956": "cảnh báo",
+      "1969": "trước",
+      "1976": "bình minh",
+      "1984": "tháng 4",
+      "2004": "cuộc đối đầu",
+      "2018": "xảy ra",
+      "2030": "Lexington",
+      "2043": "nhỏ",
+      "2049": "nhóm",
+      "2058": "dân quân",
+      "2085": "dân quân phút chót",
+      "2097": "đứng",
+      "2110": "thị trấn",
+      "2115": "bãi cỏ",
+      "2127": "làm",
+      "2135": "mong đợi",
+      "2145": "đánh bại",
+      "2156": "người Anh",
+      "2170": "có thể",
+      "2177": "muốn",
+      "2187": "thể hiện",
+      "2192": "sự hiện diện",
+      "2205": "bảo vệ",
+      "2219": "cộng đồng",
+      "2230": "Anh",
+      "2238": "người lính",
+      "2247": "đến",
+      "2256": "căng thẳng",
+      "2266": "sốt ruột",
+      "2284": "sự bối rối",
+      "2297": "viên đạn",
+      "2302": "đã",
+      "2306": "bắn",
+      "2312": "không",
+      "2315": "ai",
+      "2319": "là",
+      "2322": "hoàn toàn",
+      "2333": "chắc chắn",
+      "2341": "bởi ai",
+      "2350": "trở nên",
+      "2357": "biết",
+      "2377": "phát súng",
+      "2382": "nghe",
+      "2388": "xung quanh",
+      "2399": "thế giới",
+      "2456": "một số",
+      "2464": "người định cư",
+      "2479": "giết",
+      "2491": "người Anh",
+      "2499": "tiếp tục",
+      "2515": "Concord",
+      "2541": "tình hình",
+      "2551": "thay đổi",
+      "2560": "dân quân",
+      "2580": "thị trấn",
+      "2586": "tập trung",
+      "2598": "lớn hơn",
+      "2605": "số lượng",
+      "2621": "Bắc",
+      "2627": "cầu",
+      "2635": "chiến đấu",
+      "2644": "bùng nổ",
+      "2654": "lại",
+      "2675": "dân quân",
+      "2683": "buộc",
+      "2690": "Anh",
+      "2698": "quân đội",
+      "2708": "rút lui",
+      "2726": "nhỏ",
+      "2732": "trận chiến",
+      "2742": "quy mô",
+      "2755": "quan trọng",
+      "2764": "về mặt tâm lý",
+      "2781": "địa phương",
+      "2787": "công dân",
+      "2800": "đẩy lùi",
+      "2812": "được huấn luyện",
+      "2820": "binh sĩ",
+      "2835": "trở về",
+      "2842": "cuộc diễu hành",
+      "2851": "Boston",
+      "2858": "biến thành",
+      "2865": "thành",
+      "2872": "liên tục, chạy",
+      "2880": "cuộc chiến",
+      "2890": "người Anh",
+      "2898": "quân đội",
+      "2905": "di chuyển",
+      "2911": "dọc theo",
+      "2917": "hẹp",
+      "2924": "con đường",
+      "2931": "lực lượng dân quân",
+      "2939": "bắn",
+      "2945": "từ",
+      "2950": "phía sau",
+      "2957": "cây",
+      "2964": "đá",
+      "2970": "bức tường",
+      "2981": "tòa nhà",
+      "2996": "địa lý",
+      "3006": "ưu đãi",
+      "3018": "người địa phương",
+      "3030": "biết",
+      "3039": "đất đai",
+      "3048": "có thể",
+      "3054": "di chuyển",
+      "3066": "ra ngoài",
+      "3070": "nhanh chóng",
+      "3095": "kiệt sức",
+      "3105": "Anh",
+      "3113": "đoàn quân",
+      "3120": "đến nơi an toàn",
+      "3140": "Boston",
+      "3153": "bên",
+      "3159": "đã",
+      "3163": "chịu",
+      "3169": "đáng kể",
+      "3181": "thương vong",
+      "3194": "tin tức",
+      "3199": "lan truyền",
+      "3208": "nhanh",
+      "3221": "ngày",
+      "3227": "dân quân",
+      "3240": "nhiều",
+      "3245": "thuộc địa",
+      "3254": "bắt đầu",
+      "3260": "di chuyển",
+      "3267": "về phía",
+      "3274": "Massachusetts",
+      "3289": "Boston",
+      "3300": "sớm",
+      "3305": "bao vây",
+      "3321": "cuộc bao vây",
+      "3328": "hai",
+      "3332": "tháng",
+      "3349": "tháng Sáu",
+      "3364": "trận chiến",
+      "3374": "Bunker Hill",
+      "3386": "cho thấy",
+      "3402": "xung đột",
+      "3428": "biến mất",
+      "3444": "mặc dù",
+      "3455": "người Anh",
+      "3474": "chiếm lấy",
+      "3483": "đồi",
+      "3489": "của họ",
+      "3495": "nặng nề",
+      "3501": "tổn thất",
+      "3508": "làm sốc",
+      "3516": "nhà lãnh đạo",
+      "3527": "London",
+      "3538": "khuyến khích",
+      "3553": "những người Yêu nước",
+      "3696": "tranh luận",
+      "3711": "bắt đầu",
+      "3720": "chính trị",
+      "3730": "lời than phiền",
+      "3741": "biến thành",
+      "3748": "thành",
+      "3753": "xung đột vũ trang",
+      "3773": "cả hai",
+      "3778": "bên",
+      "3784": "tin tưởng",
+      "3803": "bảo vệ",
+      "3813": "cơ bản",
+      "3819": "quyền",
+      "3830": "quyền lực",
+      "3841": "Nước Anh",
+      "3849": "thấy, chứng kiến",
+      "3853": "cuộc nổi loạn",
+      "3867": "sự hỗn loạn",
+      "3881": "người yêu nước",
+      "3890": "thấy",
+      "3896": "chính phủ",
+      "3907": "hành động",
+      "3922": "sự đồng thuận",
+      "3936": "người trưởng thành",
+      "3942": "tiếng Anh",
+      "3950": "người học",
+      "3965": "sự kiện",
+      "3981": "tốt",
+      "3986": "lời nhắc nhở",
+      "4001": "như thế nào",
+      "4005": "lịch sử",
+      "4016": "bảo tồn",
+      "4030": "biết",
+      "4047": "giờ",
+      "4061": "thư từ",
+      "4070": "lời khai",
+      "4083": "chính thức",
+      "4092": "báo cáo",
+      "4105": "địa phương",
+      "4111": "ký ức",
+      "4120": "nguồn",
+      "4133": "đôi khi",
+      "4143": "không đồng ý",
+      "4158": "sự bất đồng",
+      "4180": "điểm yếu",
+      "4197": "manh mối",
+      "4206": "cho thấy",
+      "4216": "gây nhầm lẫn",
+      "4226": "thực sự",
+      "4231": "sự kiện",
+      "4238": "có thể",
+      "4246": "đặc biệt",
+      "4262": "nỗi sợ",
+      "4268": "tiếng ồn",
+      "4279": "nhanh",
+      "4284": "quyết định",
+      "4294": "kiểm soát",
+      "4306": "khoảnh khắc",
+      "4318": "tháng 4",
+      "4324": "19",
+      "4328": "1775",
+      "4338": "con đường",
+      "4351": "Lexington",
+      "4365": "Concord",
+      "4373": "trở thành",
+      "4380": "nhiều hơn",
+      "4392": "con đường",
+      "4401": "trở thành",
+      "4410": "ranh giới",
+      "4415": "mọi người",
+      "4422": "vượt qua",
+      "4435": "biểu tình",
+      "4446": "chiến tranh"
+    },
+    "ja": {
+      "0": "〜の上に、〜の日に",
+      "5": "霧がかった",
+      "11": "朝",
+      "22": "4月",
+      "28": "1775年",
+      "34": "農民",
+      "46": "商店主",
+      "61": "マサチューセッツ州",
+      "75": "始める",
+      "81": "する",
+      "121": "不可能な",
+      "134": "10年",
+      "155": "準備する",
+      "167": "戦う",
+      "177": "イギリスの",
+      "185": "軍隊",
+      "196": "問題",
+      "204": "持っていた",
+      "208": "であった",
+      "213": "進行する",
+      "226": "年",
+      "243": "七年戦争",
+      "261": "イギリス",
+      "269": "欲しがる",
+      "280": "アメリカの",
+      "289": "植民地",
+      "301": "助ける",
+      "306": "支払う",
+      "314": "帝国",
+      "323": "借金",
+      "330": "ロンドン",
+      "337": "通過させる",
+      "344": "新しい",
+      "348": "税金",
+      "358": "貿易",
+      "364": "規則",
+      "380": "植民者",
+      "390": "主張した",
+      "397": "そのこと (demonstrative conjunction)",
+      "402": "議会",
+      "413": "持っていた",
+      "417": "ない",
+      "420": "権利",
+      "426": "",
+      "429": "課税する",
+      "433": "彼らを",
+      "438": "なぜなら",
+      "446": "彼らは",
+      "451": "持っていた",
+      "455": "ない",
+      "458": "選出された",
+      "466": "代表者",
+      "482": "そこに",
+      "493": "スローガン",
+      "500": "代表なしに課税なし",
+      "537": "広がる",
+      "552": "新聞",
+      "564": "演説",
+      "578": "居酒屋の話",
+      "599": "初めの",
+      "605": "1770年代",
+      "616": "紛争",
+      "625": "であった",
+      "644": "お金",
+      "664": "力",
+      "671": "イギリス",
+      "679": "送る",
+      "684": "軍隊",
+      "694": "ボストン",
+      "702": "植民地の",
+      "711": "抵抗",
+      "722": "成長する",
+      "732": "ボストン",
+      "739": "茶",
+      "743": "事件",
+      "752": "12月",
+      "761": "1773年",
+      "771": "抗議者",
+      "782": "投棄した",
+      "789": "東インド",
+      "800": "会社",
+      "808": "茶",
+      "821": "港",
+      "828": "導いた",
+      "832": "英国",
+      "843": "通過させる",
+      "848": "厳しい",
+      "854": "措置",
+      "872": "植民者",
+      "894": "耐え難い",
+      "906": "法案",
+      "1051": "マサチューセッツ",
+      "1066": "一つの",
+      "1070": "恐怖",
+      "1075": "支配する",
+      "1091": "イギリスの",
+      "1099": "当局",
+      "1117": "押収する",
+      "1123": "植民地の",
+      "1132": "武器",
+      "1144": "逮捕する",
+      "1151": "反乱の",
+      "1157": "指導者",
+      "1173": "民兵",
+      "1181": "始める",
+      "1187": "保管する",
+      "1195": "火薬",
+      "1206": "マスケット銃",
+      "1219": "大砲",
+      "1229": "異なる",
+      "1239": "町々",
+      "1246": "コンコード",
+      "1261": "20",
+      "1264": "マイル",
+      "1270": "北西",
+      "1283": "ボストン",
+      "1308": "保管",
+      "1316": "場所",
+      "1357": "イギリスの",
+      "1365": "軍隊",
+      "1372": "出発する",
+      "1380": "から",
+      "1385": "ボストン",
+      "1392": "のもとで",
+      "1398": "命令",
+      "1408": "進軍する",
+      "1417": "コンコード",
+      "1432": "任務",
+      "1447": "破壊する",
+      "1455": "軍用の",
+      "1464": "物資",
+      "1484": "望む",
+      "1493": "捕らえる",
+      "1501": "2つの",
+      "1505": "有名な",
+      "1516": "愛国者",
+      "1524": "指導者",
+      "1533": "サミュエル",
+      "1540": "アダムズ",
+      "1550": "ジョン",
+      "1555": "ハンコック",
+      "1573": "滞在する",
+      "1584": "レキシントン",
+      "1612": "する",
+      "1616": "～ない",
+      "1620": "とどまる",
+      "1625": "静かな",
+      "1635": "長い間",
+      "1641": "騎手、騎兵",
+      "1653": "送る、派遣する",
+      "1658": "外へ",
+      "1665": "警告する",
+      "1670": "人々",
+      "1682": "イギリスの",
+      "1690": "軍隊、部隊",
+      "1702": "動く、移動する",
+      "1710": "ポール・リビア",
+      "1722": "なる",
+      "1738": "有名な",
+      "1754": "使者",
+      "1766": "部分的に",
+      "1773": "なぜなら",
+      "1784": "後の",
+      "1790": "物語",
+      "1802": "詩",
+      "1813": "彼",
+      "1816": "であった",
+      "1820": "～でない",
+      "1824": "一人で",
+      "1831": "ウィリアム・ドーズ",
+      "1845": "乗る",
+      "1852": "異なる",
+      "1862": "ルート",
+      "1873": "他の人たち",
+      "1893": "地元の",
+      "1899": "乗り手",
+      "1927": "覚えられる",
+      "1938": "助ける",
+      "1945": "広める",
+      "1956": "警報",
+      "1976": "夜明け",
+      "1984": "4月",
+      "1990": "19日",
+      "2004": "対立",
+      "2018": "起こる",
+      "2030": "レキシントン",
+      "2043": "小さな",
+      "2049": "グループ",
+      "2058": "民兵",
+      "2085": "分隊",
+      "2097": "立っていた",
+      "2110": "町",
+      "2115": "広場",
+      "2127": "する",
+      "2135": "予想する",
+      "2145": "打ち負かす",
+      "2156": "イギリス人",
+      "2170": "おそらく",
+      "2177": "欲しい、望む",
+      "2187": "示す",
+      "2192": "存在感",
+      "2205": "守る",
+      "2219": "コミュニティ、地域社会",
+      "2230": "イギリスの",
+      "2238": "兵士",
+      "2247": "到着する",
+      "2256": "緊張した",
+      "2266": "いらいらしている",
+      "2284": "混乱",
+      "2297": "一発（銃などの）",
+      "2306": "発射する",
+      "2312": "誰も〜ない (used in phrase)",
+      "2315": "人",
+      "2322": "完全に",
+      "2333": "確信している",
+      "2341": "誰を、誰に (目的格の誰)",
+      "2350": "なる",
+      "2357": "知られている",
+      "2373": "",
+      "2377": "銃声、一発",
+      "2382": "聞こえた",
+      "2388": "〜の周りで",
+      "2395": "",
+      "2399": "世界",
+      "2456": "いくつかの",
+      "2464": "植民者",
+      "2479": "殺す",
+      "2491": "イギリス人",
+      "2499": "続ける",
+      "2515": "コンコード",
+      "2541": "状況",
+      "2551": "変わる",
+      "2560": "民兵",
+      "2580": "町",
+      "2586": "集まる",
+      "2598": "より大きい",
+      "2605": "人数",
+      "2621": "ノースブリッジ",
+      "2635": "戦い",
+      "2644": "勃発する",
+      "2654": "再び",
+      "2675": "民兵隊",
+      "2683": "強いる",
+      "2690": "イギリスの",
+      "2698": "軍隊",
+      "2708": "撤退する",
+      "2726": "小さな",
+      "2732": "戦い",
+      "2742": "規模",
+      "2755": "重要である",
+      "2764": "心理的に",
+      "2781": "地元の",
+      "2787": "市民",
+      "2800": "押し返す",
+      "2812": "訓練された",
+      "2820": "兵士",
+      "2890": "イギリスの",
+      "2898": "軍隊",
+      "2905": "移動する",
+      "2917": "狭い",
+      "2924": "道路",
+      "2931": "民兵",
+      "2939": "発砲する",
+      "2957": "木々",
+      "2964": "石の",
+      "2970": "壁",
+      "2981": "建物",
+      "2996": "地理",
+      "3006": "有利にする",
+      "3018": "地元の人々",
+      "3030": "知っていた",
+      "3039": "土地",
+      "3048": "〜できた",
+      "3054": "動く",
+      "3066": "外へ",
+      "3070": "素早く",
+      "3095": "疲れ切った",
+      "3105": "イギリスの",
+      "3113": "隊列",
+      "3120": "安全な場所に到着する",
+      "3140": "ボストン",
+      "3148": "両方の",
+      "3153": "側",
+      "3159": "持っていた",
+      "3163": "受ける",
+      "3169": "重大な",
+      "3181": "損害",
+      "3194": "ニュース",
+      "3199": "伝わる",
+      "3208": "速く",
+      "3227": "民兵",
+      "3245": "植民地",
+      "3254": "始める",
+      "3260": "動く",
+      "3267": "〜の方へ",
+      "3274": "マサチューセッツ",
+      "3289": "ボストン",
+      "3300": "すぐに",
+      "3305": "包囲する",
+      "3321": "包囲攻撃",
+      "3328": "2",
+      "3332": "か月",
+      "3349": "6月",
+      "3354": "1775年",
+      "3364": "バンカーヒルの戦い",
+      "3386": "示す",
+      "3402": "紛争",
+      "3428": "消える",
+      "3455": "イギリスの",
+      "3474": "取る",
+      "3483": "丘",
+      "3489": "彼らの",
+      "3495": "多大な",
+      "3501": "損失",
+      "3508": "ショックを与える",
+      "3516": "指導者",
+      "3527": "ロンドン",
+      "3538": "励ます",
+      "3553": "パトリオット",
+      "3564": "レキシントン",
+      "3578": "コンコード",
+      "3596": "描写する",
+      "3613": "始まり",
+      "3626": "アメリカの",
+      "3635": "革命の",
+      "3649": "戦争",
+      "3662": "深い",
+      "3669": "物語",
+      "3684": "エスカレーション",
+      "3696": "議論",
+      "3711": "始まる",
+      "3720": "政治的な",
+      "3730": "不満",
+      "3741": "変わる",
+      "3748": "〜に",
+      "3753": "武装紛争",
+      "3784": "信じる",
+      "3803": "守る",
+      "3813": "基本的な",
+      "3819": "権利",
+      "3830": "権威",
+      "3841": "イギリス",
+      "3849": "見る",
+      "3853": "反乱",
+      "3867": "無秩序",
+      "3890": "見た",
+      "3896": "政府",
+      "3907": "行動する",
+      "3922": "同意",
+      "3936": "大人の",
+      "3942": "英語",
+      "3950": "学習者",
+      "3965": "イベント",
+      "3981": "良い",
+      "3986": "思い出させるもの",
+      "4001": "どのように",
+      "4005": "歴史",
+      "4016": "保存される",
+      "4030": "知っている",
+      "4047": "時間",
+      "4061": "手紙",
+      "4070": "証言（法的証言）",
+      "4083": "公式の",
+      "4092": "報告書",
+      "4105": "地域の",
+      "4111": "記憶",
+      "4120": "情報源",
+      "4133": "時には",
+      "4143": "意見が合わない",
+      "4158": "意見の相違",
+      "4180": "弱点",
+      "4197": "手がかり",
+      "4206": "示す",
+      "4216": "混乱させる",
+      "4226": "現実の",
+      "4231": "出来事",
+      "4262": "恐怖",
+      "4268": "騒音",
+      "4284": "決定",
+      "4294": "支配する",
+      "4306": "瞬間",
+      "4318": "4月",
+      "4328": "1775年",
+      "4343": "～の間に",
+      "4351": "レキシントン",
+      "4365": "コンコード",
+      "4373": "なる",
+      "4380": "もっと",
+      "4392": "道",
+      "4401": "なる",
+      "4410": "線",
+      "4415": "人々",
+      "4422": "越える",
+      "4435": "抗議",
+      "4446": "戦争"
+    },
+    "pt": {
+      "0": "em",
+      "5": "enevoado",
+      "11": "manhã",
+      "19": "em",
+      "22": "abril",
+      "34": "agricultor",
+      "46": "lojista",
+      "61": "Massachusetts",
+      "75": "começar",
+      "81": "fazer",
+      "87": "algo",
+      "113": "parecer",
+      "121": "impossível",
+      "134": "década",
+      "155": "preparar",
+      "167": "lutar",
+      "177": "Exército Britânico",
+      "196": "problema",
+      "213": "crescer, aumentar",
+      "226": "ano",
+      "243": "Guerra dos Sete Anos",
+      "261": "Grã-Bretanha",
+      "269": "querer",
+      "280": "americano",
+      "289": "colônia",
+      "301": "ajudar",
+      "306": "pagar",
+      "314": "império",
+      "323": "dívida",
+      "330": "Londres",
+      "337": "aprovar",
+      "344": "novo",
+      "348": "imposto",
+      "358": "comércio",
+      "364": "regra",
+      "380": "colono",
+      "390": "argumentar",
+      "402": "Parlamento",
+      "420": "direito",
+      "429": "taxar",
+      "433": "eles",
+      "446": "eles",
+      "451": "ter",
+      "455": "nenhum",
+      "458": "eleito",
+      "466": "representante",
+      "482": "lá",
+      "493": "slogan",
+      "500": "sem tributação sem representação",
+      "537": "espalhar",
+      "552": "jornais",
+      "564": "discursos",
+      "578": "conversas de taverna",
+      "599": "início",
+      "605": "década de 1770",
+      "616": "conflito",
+      "625": "era",
+      "644": "dinheiro",
+      "664": "poder",
+      "671": "Grã-Bretanha",
+      "679": "enviar",
+      "684": "tropas",
+      "694": "Boston",
+      "702": "colonial",
+      "711": "resistência",
+      "722": "crescer",
+      "732": "Boston Tea Party",
+      "752": "dezembro",
+      "771": "manifestante",
+      "782": "jogar fora",
+      "789": "East India Company",
+      "808": "chá",
+      "821": "porto",
+      "828": "levar",
+      "832": "Grã-Bretanha",
+      "843": "aprovar",
+      "848": "severo",
+      "854": "medida",
+      "872": "colono",
+      "894": "Atos Intoleráveis",
+      "1051": "Massachusetts",
+      "1066": "um",
+      "1070": "medo",
+      "1075": "dominava",
+      "1091": "britânicas",
+      "1099": "autoridades",
+      "1117": "apreender",
+      "1123": "coloniais",
+      "1132": "armas",
+      "1144": "prender",
+      "1151": "rebelde",
+      "1157": "líderes",
+      "1173": "milícia",
+      "1181": "começar",
+      "1187": "armazenar",
+      "1195": "pólvora",
+      "1206": "mosquete",
+      "1219": "canhão",
+      "1229": "diferente",
+      "1239": "cidade",
+      "1246": "Concord",
+      "1261": "20",
+      "1264": "milha",
+      "1270": "noroeste",
+      "1283": "Boston",
+      "1308": "armazenamento",
+      "1316": "local",
+      "1332": "noite",
+      "1341": "abril",
+      "1351": "1775",
+      "1357": "britânico",
+      "1365": "tropa",
+      "1372": "partir",
+      "1385": "Boston",
+      "1398": "ordem",
+      "1408": "marchar",
+      "1417": "Concord",
+      "1432": "missão",
+      "1447": "destruir",
+      "1455": "militar",
+      "1464": "suprimento",
+      "1479": "também",
+      "1484": "esperar",
+      "1493": "capturar",
+      "1501": "dois",
+      "1505": "bem conhecido",
+      "1516": "patriota",
+      "1524": "líder",
+      "1573": "ficar",
+      "1584": "Lexington",
+      "1600": "campo",
+      "1612": "fazer",
+      "1616": "não",
+      "1620": "ficar",
+      "1625": "quieto",
+      "1635": "muito tempo",
+      "1641": "cavaleiro",
+      "1653": "enviar",
+      "1658": "fora",
+      "1665": "avisar",
+      "1670": "pessoas",
+      "1682": "britânico",
+      "1690": "tropa",
+      "1702": "mover",
+      "1710": "Paul Revere",
+      "1722": "tornar-se",
+      "1733": "mais",
+      "1738": "famoso",
+      "1754": "mensageiro",
+      "1766": "em parte",
+      "1773": "porque",
+      "1784": "posterior",
+      "1790": "história",
+      "1802": "poema",
+      "1824": "sozinho",
+      "1831": "William Dawes",
+      "1845": "cavalgar",
+      "1852": "diferente",
+      "1862": "rota",
+      "1873": "outros",
+      "1893": "ciclista local",
+      "1912": "nome",
+      "1938": "ajudar",
+      "1945": "espalhar",
+      "1956": "alarme",
+      "1964": "apenas",
+      "1976": "amanhecer",
+      "1984": "abril",
+      "1990": "19",
+      "2004": "confrontação",
+      "2018": "acontecer",
+      "2030": "Lexington",
+      "2043": "pequeno",
+      "2049": "grupo",
+      "2058": "milícia",
+      "2085": "minutemen",
+      "2097": "ficou",
+      "2110": "cidade",
+      "2115": "praça",
+      "2122": "eles",
+      "2135": "esperar",
+      "2145": "derrotar",
+      "2156": "britânicos",
+      "2170": "provavelmente",
+      "2177": "querer",
+      "2187": "mostrar",
+      "2192": "presença",
+      "2205": "proteger",
+      "2219": "comunidade",
+      "2230": "britânico",
+      "2238": "soldado",
+      "2247": "chegar",
+      "2256": "tenso",
+      "2266": "impaciente",
+      "2284": "confusão",
+      "2297": "tiro",
+      "2306": "disparar",
+      "2315": "alguém",
+      "2322": "completamente",
+      "2333": "certo",
+      "2341": "quem",
+      "2350": "tornar-se",
+      "2357": "conhecido",
+      "2363": "depois",
+      "2373": "o tiro ouvido ao redor do mundo",
+      "2456": "vários",
+      "2464": "colono",
+      "2474": "ser/estar",
+      "2479": "matar",
+      "2491": "britânico",
+      "2499": "continuar",
+      "2515": "Concord",
+      "2541": "situação",
+      "2551": "mudar",
+      "2560": "milícia",
+      "2573": "próximo",
+      "2580": "cidade",
+      "2586": "reunir",
+      "2598": "maior",
+      "2605": "número",
+      "2621": "Norte",
+      "2627": "ponte",
+      "2635": "luta",
+      "2644": "começar de repente, eclodir",
+      "2654": "novamente",
+      "2666": "vez",
+      "2675": "milícia",
+      "2683": "forçar",
+      "2690": "britânicas",
+      "2698": "tropas",
+      "2708": "retirar",
+      "2726": "pequeno",
+      "2732": "batalha",
+      "2742": "tamanho",
+      "2755": "importar",
+      "2764": "psicologicamente",
+      "2781": "local",
+      "2787": "cidadão",
+      "2800": "repelir",
+      "2812": "treinar",
+      "2820": "soldado",
+      "2835": "retorno",
+      "2842": "marcha",
+      "2851": "Boston",
+      "2858": "transformar-se",
+      "2865": "em",
+      "2872": "em andamento",
+      "2880": "luta",
+      "2890": "britânico",
+      "2898": "tropa",
+      "2905": "mover",
+      "2911": "ao longo de",
+      "2917": "estreito",
+      "2924": "estrada",
+      "2931": "milícia",
+      "2939": "atirar",
+      "2950": "atrás de",
+      "2957": "árvore",
+      "2964": "pedra",
+      "2970": "muro",
+      "2981": "prédio",
+      "2996": "geografia",
+      "3006": "favorecer",
+      "3018": "morador local",
+      "3030": "conhecer",
+      "3039": "terra",
+      "3048": "poder",
+      "3054": "mover",
+      "3070": "rapidamente",
+      "3095": "exausto",
+      "3105": "britânico",
+      "3113": "coluna",
+      "3120": "alcançar",
+      "3128": "segurança",
+      "3140": "Boston",
+      "3153": "lado",
+      "3159": "havia",
+      "3163": "sofrer",
+      "3169": "significativo",
+      "3181": "baixa",
+      "3194": "notícias",
+      "3199": "espalhar-se",
+      "3208": "rapidamente",
+      "3221": "dias",
+      "3227": "milícia",
+      "3240": "muitas",
+      "3245": "colônias",
+      "3254": "começar",
+      "3260": "mover",
+      "3267": "em direção a",
+      "3274": "Massachusetts",
+      "3289": "Boston",
+      "3305": "cercar",
+      "3321": "cerco",
+      "3328": "dois",
+      "3332": "mês",
+      "3349": "junho",
+      "3354": "1775",
+      "3364": "batalha",
+      "3374": "Bunker",
+      "3381": "Hill",
+      "3386": "mostrar",
+      "3402": "conflito",
+      "3428": "desaparecer",
+      "3439": "mesmo",
+      "3455": "britânico",
+      "3463": "finalmente",
+      "3474": "tomar",
+      "3483": "colina",
+      "3489": "seus",
+      "3495": "pesado",
+      "3501": "perda",
+      "3508": "chocar",
+      "3516": "líder",
+      "3527": "Londres",
+      "3538": "encorajar",
+      "3553": "patriota",
+      "3564": "Lexington",
+      "3578": "Concord",
+      "3596": "descrever",
+      "3613": "início",
+      "3626": "Americano",
+      "3635": "revolucionário",
+      "3649": "guerra",
+      "3662": "mais profundo",
+      "3669": "história",
+      "3684": "escalada",
+      "3696": "argumento",
+      "3711": "começar",
+      "3720": "político",
+      "3730": "reclamação",
+      "3741": "transformar",
+      "3748": "em",
+      "3753": "conflito armado",
+      "3768": "quando",
+      "3773": "ambos",
+      "3778": "lado",
+      "3784": "acreditar",
+      "3793": "eles",
+      "3798": "estar",
+      "3803": "defender",
+      "3813": "básico",
+      "3819": "direito",
+      "3830": "autoridade",
+      "3841": "Grã-Bretanha",
+      "3849": "ver",
+      "3853": "rebelião",
+      "3867": "desordem",
+      "3890": "ver",
+      "3896": "governo",
+      "3907": "agindo",
+      "3922": "consentimento",
+      "3936": "adulto",
+      "3942": "inglês",
+      "3950": "aprendiz",
+      "3965": "evento",
+      "3974": "também",
+      "3981": "bom",
+      "3986": "lembrete",
+      "4001": "como",
+      "4005": "história",
+      "4016": "preservar",
+      "4027": "nós",
+      "4030": "saber",
+      "4035": "sobre",
+      "4041": "estes",
+      "4047": "hora",
+      "4053": "através de",
+      "4061": "carta",
+      "4070": "depoimento",
+      "4083": "oficial",
+      "4092": "relatório",
+      "4105": "local",
+      "4111": "memória",
+      "4120": "fonte",
+      "4133": "às vezes",
+      "4143": "discordar",
+      "4158": "discordância",
+      "4180": "fraqueza",
+      "4197": "pista",
+      "4206": "mostrar",
+      "4216": "confuso",
+      "4226": "real",
+      "4231": "evento",
+      "4238": "poder",
+      "4242": "ser",
+      "4262": "medo",
+      "4268": "barulho",
+      "4279": "decisão rápida",
+      "4294": "controlar",
+      "4306": "momento",
+      "4318": "abril",
+      "4338": "estrada",
+      "4351": "Lexington",
+      "4365": "Concord",
+      "4373": "tornar-se",
+      "4380": "mais",
+      "4392": "estrada",
+      "4401": "tornar-se",
+      "4410": "linha",
+      "4415": "pessoas",
+      "4422": "atravessar",
+      "4435": "protesto",
+      "4446": "guerra"
+    },
+    "es": {
+      "0": "en",
+      "5": "brumosa",
+      "11": "mañana",
+      "19": "en",
+      "22": "abril",
+      "28": "1775",
+      "34": "agricultor",
+      "46": "tendero",
+      "61": "Massachusetts",
+      "75": "comenzar",
+      "81": "hacer",
+      "87": "algo",
+      "121": "imposible",
+      "134": "década",
+      "155": "preparar",
+      "167": "luchar",
+      "177": "Británico",
+      "185": "Ejército",
+      "196": "problema",
+      "213": "acumularse",
+      "226": "años",
+      "243": "Guerra de los Siete Años",
+      "261": "Gran Bretaña",
+      "269": "querer",
+      "280": "americano",
+      "289": "colonia",
+      "301": "ayudar",
+      "306": "pagar",
+      "314": "imperio",
+      "323": "deuda",
+      "330": "Londres",
+      "337": "aprobar",
+      "344": "nuevo",
+      "348": "impuesto",
+      "358": "comercio",
+      "364": "regla",
+      "375": "muchos",
+      "380": "colono",
+      "390": "argumentar",
+      "402": "Parlamento",
+      "420": "derecho",
+      "429": "gravar",
+      "433": "ellos",
+      "451": "tener",
+      "455": "no",
+      "458": "elegir",
+      "466": "representante",
+      "482": "allí",
+      "493": "eslogan",
+      "501": "no hay tributación sin representación",
+      "537": "difundir",
+      "552": "periódico",
+      "564": "discurso",
+      "578": "charlas en tabernas",
+      "599": "temprano",
+      "605": "años 1770",
+      "616": "conflicto",
+      "625": "fue",
+      "644": "dinero",
+      "664": "poder",
+      "671": "Gran Bretaña",
+      "679": "enviar",
+      "684": "tropas",
+      "694": "Boston",
+      "702": "colonial",
+      "711": "resistencia",
+      "722": "crecer",
+      "732": "Boston",
+      "739": "té",
+      "743": "motín",
+      "752": "diciembre",
+      "761": "1773",
+      "771": "manifestante",
+      "782": "echar",
+      "789": "Indias Orientales",
+      "800": "compañía",
+      "808": "té",
+      "821": "puerto",
+      "828": "llevó",
+      "832": "Gran Bretaña",
+      "843": "aprobar",
+      "848": "estricto",
+      "854": "medida",
+      "872": "colono",
+      "894": "intolerable",
+      "906": "actos",
+      "1051": "Massachusetts",
+      "1066": "un",
+      "1070": "temor",
+      "1075": "dominaba",
+      "1091": "británicas",
+      "1099": "autoridades",
+      "1117": "confiscar",
+      "1123": "coloniales",
+      "1132": "armas",
+      "1144": "arrestar",
+      "1151": "rebelde",
+      "1157": "líderes",
+      "1173": "milicia",
+      "1181": "comenzar",
+      "1187": "almacenar",
+      "1195": "pólvora",
+      "1206": "mosquete",
+      "1219": "cañón",
+      "1229": "diferente",
+      "1239": "ciudad",
+      "1246": "Concord",
+      "1261": "20",
+      "1264": "milla",
+      "1270": "noroeste",
+      "1283": "Boston",
+      "1291": "fue",
+      "1295": "uno",
+      "1299": "",
+      "1302": "esos",
+      "1308": "almacenamiento",
+      "1316": "lugar",
+      "1332": "noche",
+      "1341": "abril",
+      "1351": "1775",
+      "1357": "británico",
+      "1365": "tropa",
+      "1372": "partir",
+      "1385": "Boston",
+      "1392": "bajo",
+      "1398": "órdenes",
+      "1408": "marchar",
+      "1417": "Concord",
+      "1432": "misión",
+      "1447": "destruir",
+      "1455": "militar",
+      "1464": "suministro",
+      "1479": "también",
+      "1484": "esperar",
+      "1493": "capturar",
+      "1501": "dos",
+      "1505": "conocido",
+      "1516": "patriota",
+      "1524": "líder",
+      "1533": "Samuel Adams",
+      "1550": "John Hancock",
+      "1573": "quedarse",
+      "1584": "Lexington",
+      "1600": "campo",
+      "1612": "hacer",
+      "1616": "no",
+      "1620": "permanecer",
+      "1625": "tranquilo",
+      "1635": "mucho tiempo",
+      "1641": "jinete",
+      "1653": "enviar",
+      "1658": "fuera",
+      "1665": "advertir",
+      "1670": "gente",
+      "1682": "británico",
+      "1690": "tropa",
+      "1702": "moverse",
+      "1710": "Paul Revere",
+      "1722": "convertirse",
+      "1738": "famoso",
+      "1754": "mensajero",
+      "1766": "parcialmente",
+      "1773": "porque",
+      "1784": "posterior",
+      "1790": "historia",
+      "1802": "poema",
+      "1813": "él",
+      "1816": "estar",
+      "1820": "no",
+      "1824": "solo",
+      "1831": "William Dawes",
+      "1845": "montar/cabalgar",
+      "1852": "diferente",
+      "1862": "ruta",
+      "1873": "otros",
+      "1893": "jinete local",
+      "1912": "nombre",
+      "1927": "recordar",
+      "1938": "ayudar",
+      "1945": "difundir",
+      "1956": "alarma",
+      "1969": "antes de",
+      "1976": "amanecer",
+      "1984": "abril",
+      "1998": "primero",
+      "2004": "confrontación",
+      "2018": "suceder",
+      "2030": "Lexington",
+      "2043": "pequeño",
+      "2049": "grupo",
+      "2058": "milicia",
+      "2085": "minutemen",
+      "2097": "estar de pie",
+      "2110": "pueblo",
+      "2115": "prado",
+      "2127": "hacer",
+      "2135": "esperar",
+      "2145": "derrotar",
+      "2156": "británicos",
+      "2170": "probablemente",
+      "2177": "querer",
+      "2187": "mostrar",
+      "2192": "presencia",
+      "2205": "proteger",
+      "2219": "comunidad",
+      "2230": "británico",
+      "2238": "soldado",
+      "2247": "llegar",
+      "2256": "tenso",
+      "2266": "impaciente",
+      "2284": "confusión",
+      "2297": "disparo",
+      "2306": "disparar",
+      "2315": "nadie",
+      "2322": "completamente",
+      "2333": "seguro",
+      "2341": "quién",
+      "2350": "convertirse",
+      "2357": "conocer",
+      "2363": "más tarde",
+      "2373": "el disparo que se escuchó en todo el mundo",
+      "2456": "varios",
+      "2464": "colono",
+      "2474": "ser/estar",
+      "2479": "matar",
+      "2491": "británicos",
+      "2499": "continuar",
+      "2515": "Concord",
+      "2541": "situación",
+      "2551": "cambiar",
+      "2560": "milicia",
+      "2573": "cercano",
+      "2580": "pueblo",
+      "2586": "reunir",
+      "2598": "más grande",
+      "2605": "número",
+      "2621": "Puente Norte",
+      "2635": "pelea",
+      "2644": "estallar (comenzar bruscamente)",
+      "2654": "otra vez",
+      "2675": "milicia",
+      "2683": "obligar",
+      "2690": "británico",
+      "2698": "tropa",
+      "2708": "retirarse",
+      "2726": "pequeño",
+      "2732": "batalla",
+      "2764": "psicológicamente",
+      "2781": "ciudadano local",
+      "2796": "empujar / rechazar",
+      "2807": "hacia atrás",
+      "2812": "entrenado",
+      "2820": "soldado",
+      "2835": "regreso",
+      "2842": "marcha",
+      "2851": "Boston",
+      "2858": "convertirse",
+      "2865": "en",
+      "2872": "en movimiento",
+      "2880": "pelea",
+      "2890": "británico",
+      "2898": "tropas",
+      "2905": "mover",
+      "2917": "estrecho",
+      "2924": "caminos",
+      "2931": "milicia",
+      "2939": "disparar",
+      "2957": "árboles",
+      "2964": "piedra",
+      "2970": "muros",
+      "2981": "edificios",
+      "2996": "geografía",
+      "3006": "favorecer",
+      "3018": "local",
+      "3030": "saber",
+      "3039": "tierra",
+      "3048": "poder",
+      "3054": "mover",
+      "3070": "rápidamente",
+      "3095": "agotado",
+      "3105": "británico",
+      "3113": "columna",
+      "3120": "alcanzar",
+      "3128": "seguridad",
+      "3140": "Boston",
+      "3153": "lado",
+      "3159": "haber",
+      "3163": "sufrir",
+      "3169": "significativo",
+      "3181": "baja",
+      "3194": "noticia",
+      "3199": "viajar",
+      "3208": "rápido",
+      "3221": "días",
+      "3227": "milicia",
+      "3240": "muchos",
+      "3245": "colonias",
+      "3254": "empezar",
+      "3260": "moverse",
+      "3267": "hacia",
+      "3274": "Massachusetts",
+      "3289": "Boston",
+      "3300": "pronto",
+      "3305": "rodear",
+      "3321": "asedio",
+      "3328": "dos",
+      "3332": "mes",
+      "3349": "junio",
+      "3364": "batalla",
+      "3374": "Bunker Hill",
+      "3386": "mostrar",
+      "3402": "conflicto",
+      "3419": "ir",
+      "3428": "desaparecer",
+      "3439": "incluso",
+      "3444": "aunque",
+      "3455": "británico",
+      "3463": "finalmente",
+      "3474": "tomar",
+      "3483": "colina",
+      "3489": "su",
+      "3495": "grande",
+      "3501": "pérdida",
+      "3508": "sorprender",
+      "3516": "líder",
+      "3527": "Londres",
+      "3538": "animar",
+      "3553": "patriota",
+      "3564": "Lexington",
+      "3578": "Concord",
+      "3596": "describir",
+      "3613": "comienzo",
+      "3626": "americano",
+      "3635": "revolucionario",
+      "3649": "guerra",
+      "3662": "más profundo",
+      "3669": "historia",
+      "3684": "escalada",
+      "3696": "argumentos",
+      "3711": "comenzar",
+      "3720": "político",
+      "3730": "quejas",
+      "3741": "convertir",
+      "3748": "",
+      "3753": "armado",
+      "3759": "conflicto",
+      "3784": "creer",
+      "3803": "defender",
+      "3813": "básico",
+      "3819": "derechos",
+      "3830": "autoridad",
+      "3841": "Gran Bretaña",
+      "3849": "ver",
+      "3853": "rebelión",
+      "3867": "desorden",
+      "3890": "ver",
+      "3896": "gobierno",
+      "3907": "actuar",
+      "3922": "consentimiento",
+      "3936": "adulto",
+      "3942": "inglés",
+      "3950": "estudiante",
+      "3965": "evento",
+      "3981": "bueno",
+      "3986": "recordatorio",
+      "4001": "cómo",
+      "4005": "historia",
+      "4016": "preservar",
+      "4030": "saber",
+      "4047": "hora",
+      "4061": "carta",
+      "4070": "declaración",
+      "4083": "oficial",
+      "4092": "informe",
+      "4105": "local",
+      "4111": "memoria",
+      "4120": "fuente",
+      "4133": "a veces",
+      "4143": "discrepar",
+      "4158": "desacuerdo",
+      "4180": "debilidad",
+      "4197": "pista",
+      "4206": "mostrar",
+      "4216": "confuso",
+      "4226": "real",
+      "4231": "evento",
+      "4262": "miedo",
+      "4268": "ruido",
+      "4284": "decisión",
+      "4294": "controlar",
+      "4306": "momento",
+      "4318": "abril",
+      "4328": "1775",
+      "4338": "camino",
+      "4351": "Lexington",
+      "4365": "Concord",
+      "4373": "convertirse en",
+      "4380": "más",
+      "4401": "convertirse",
+      "4410": "línea",
+      "4415": "persona",
+      "4422": "cruzar",
+      "4435": "protesta",
+      "4446": "guerra"
+    }
+  }
+}
