@@ -5,5 +5,6 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   site: "https://readerly.ai",
   output: "static",
+  trailingSlash: "always",
   integrations: [tailwind(), sitemap()],
 });
