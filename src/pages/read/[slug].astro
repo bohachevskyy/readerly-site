@@ -309,7 +309,7 @@ const articleJsonLd = {
     // Fetch translations on page load
     (async function loadTranslations() {
       try {
-        const res = await fetch(`/api/stories/${slug}/translations.json`);
+        const res = await fetch(`/api/stories/${slug}/translations.json/`);
         if (!res.ok) throw new Error("Failed to load translations");
         const data = await res.json();
         translations = data.translations || {};
