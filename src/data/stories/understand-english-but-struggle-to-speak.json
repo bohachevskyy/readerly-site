@@ -1,0 +1,3500 @@
+{
+  "title": "The Science Behind the Fluency Gap",
+  "slug": "understand-english-but-struggle-to-speak",
+  "description": "Why can you understand English but struggle to speak fluently? Learn the real reasons behind this common problem and practical techniques to improve your English speaking speed, confidence, and vocabulary recall.",
+  "level": "b2",
+  "appUrl": "https://app.readerly.ai?utm_source=blog&utm_medium=word-banner&utm_campaign=thirty-six-views-mount-fuji&utm_campaign=understand-english-but-struggle-to-speak",
+  "text": "Many English learners can follow movies, podcasts, or meetings but struggle to speak quickly. This gap matters because it is not a sign of “not knowing English.” It usually comes from how the brain stores and retrieves language, and it can be improved with specific practice.\n\nUnderstanding is often easier than speaking because comprehension uses recognition, while speaking requires recall. When you listen or read, you can recognize words even if they are weakly learned, and context fills in missing pieces. When you speak, you must choose a word, its grammar, and its pronunciation fast, with no multiple-choice options. Psycholinguistic research describes this as a difference between receptive vocabulary (words you understand) and productive vocabulary (words you can use).\n\nWord-finding problems often happen during lexical retrieval, the step where the brain selects a word from many competitors. In models of speech production developed by Willem Levelt and others, speakers move from a message idea to a word form and then to sounds. If retrieval is slow, you may pause, use a simpler word, or switch to your first language. This is common in a second language because links between meaning and the English word are less automatic, so competing words interfere more.\n\nProcessing speed is another reason. Skilled speakers do not just “know more”; they access what they know quickly. In conversation, you have to plan content while listening and watching the other person, which uses working memory. Research in cognitive psychology shows that working memory has limited capacity, and stress can reduce performance. If you worry about mistakes, attention shifts from meaning to monitoring grammar, which slows speech and increases tip-of-the-tongue moments.\n\nInput can also be unbalanced. Many learners get large amounts of listening and reading but little speaking, so the brain becomes efficient at comprehension but not at production. Usage-based theories of language learning, associated with researchers like Michael Tomasello, emphasize that fluency grows from repeated use in real contexts. Without repeated speaking, you may “know” a word but never build a fast route to it. This is why you can recognize advanced vocabulary in articles but still rely on basic words in conversation.\n\nAnother cause is knowing a word but not knowing its typical partners, called collocations. English speakers say “make a decision,” “heavy rain,” and “take responsibility.” If you know “decision” but not the verb that usually goes with it, you hesitate because several verbs seem possible. Corpus linguistics, which studies large databases of real language, shows that common collocations strongly shape natural speech. Learning words together, not alone, reduces retrieval time.\n\nPractical improvement comes from training recall, not more passive exposure. Timed speaking tasks help because they force retrieval under pressure, closer to real conversation. Short daily practice works well: describe your day for two minutes, retell a news story, or answer common interview questions aloud. Also practice “retrieval with feedback”: record yourself, notice missing words, then repeat the same message with better wording. This kind of deliberate repetition builds automaticity.\n\nIt also helps to prepare “chunks,” ready-made phrases that fit many situations, such as “What I mean is…,” “The main reason is…,” and “I’m not sure about the exact number, but…”. These chunks reduce planning load and give you time to retrieve harder words. In addition, spaced repetition with active recall, such as using flashcards where you produce the word from a definition or example, strengthens productive vocabulary more than rereading lists.\n\nUnderstanding without easy speaking is a normal stage, not a personal failure. In school, work, and immigration settings, speaking ability affects opportunities, so closing the gap has real consequences. When you focus on fast retrieval, collocations, and repeated spoken practice, your productive vocabulary catches up to your receptive vocabulary, and conversation becomes less exhausting and more accurate.",
+  "words": {
+    "0": {
+      "word": "many",
+      "pos": "determiner",
+      "example": "Many people like coffee."
+    },
+    "5": {
+      "word": "English",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "13": {
+      "word": "learner",
+      "pos": "plural noun",
+      "example": "A learner studies new languages."
+    },
+    "22": {
+      "word": "can",
+      "pos": "modal verb",
+      "example": "I can swim well."
+    },
+    "26": {
+      "word": "follow",
+      "pos": "base form verb",
+      "example": "Please follow the instructions."
+    },
+    "33": {
+      "word": "movie",
+      "pos": "plural noun",
+      "example": "They watch a movie tonight."
+    },
+    "41": {
+      "word": "podcast",
+      "pos": "plural noun",
+      "example": "She listens to podcasts every day."
+    },
+    "54": {
+      "word": "meeting",
+      "pos": "plural noun",
+      "example": "We have a meeting tomorrow."
+    },
+    "67": {
+      "word": "struggle",
+      "pos": "base form verb",
+      "example": "They struggle to learn grammar."
+    },
+    "79": {
+      "word": "speak",
+      "pos": "base form verb",
+      "example": "I speak three languages."
+    },
+    "85": {
+      "word": "quickly",
+      "pos": "adverb",
+      "example": "He runs quickly in races."
+    },
+    "99": {
+      "word": "gap",
+      "pos": "singular noun",
+      "example": "There is a gap between the buildings."
+    },
+    "103": {
+      "word": "matter",
+      "pos": "present tense verb",
+      "example": "It matters to me."
+    },
+    "119": {
+      "word": "it",
+      "pos": "pronoun",
+      "example": "It is raining today."
+    },
+    "125": {
+      "word": "not",
+      "pos": "adverb",
+      "example": "I am not hungry."
+    },
+    "129": {
+      "word": "a",
+      "pos": "article",
+      "example": ""
+    },
+    "131": {
+      "word": "sign",
+      "pos": "noun, singular",
+      "example": "This is a sign of hope."
+    },
+    "140": {
+      "word": "not knowing",
+      "pos": "gerund verb phrase with negation",
+      "example": "Not knowing the answer is okay."
+    },
+    "144": {
+      "word": "know",
+      "pos": "present participle verb",
+      "example": "I know the answer."
+    },
+    "152": {
+      "word": "English",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "277": {
+      "word": "understanding",
+      "pos": "noun",
+      "example": "Understanding is important for success."
+    },
+    "294": {
+      "word": "often",
+      "pos": "adverb",
+      "example": "She often goes to the park."
+    },
+    "300": {
+      "word": "easy",
+      "pos": "comparative adjective",
+      "example": "Math is easy to learn."
+    },
+    "312": {
+      "word": "speak",
+      "pos": "gerund verb",
+      "example": "She likes to speak in public."
+    },
+    "329": {
+      "word": "comprehension",
+      "pos": "noun",
+      "example": "Reading improves comprehension."
+    },
+    "348": {
+      "word": "recognition",
+      "pos": "noun",
+      "example": "I have recognition for her face."
+    },
+    "367": {
+      "word": "speak",
+      "pos": "gerund noun",
+      "example": "I speak English daily."
+    },
+    "376": {
+      "word": "require",
+      "pos": "present tense verb",
+      "example": "This job requires skill."
+    },
+    "385": {
+      "word": "recall",
+      "pos": "noun",
+      "example": "Recall helps in exams."
+    },
+    "402": {
+      "word": "listen",
+      "pos": "base form verb",
+      "example": "I listen to music every day."
+    },
+    "412": {
+      "word": "read",
+      "pos": "base form verb",
+      "example": "I read books at night."
+    },
+    "422": {
+      "word": "can",
+      "pos": "modal verb",
+      "example": "I can swim well."
+    },
+    "426": {
+      "word": "recognize",
+      "pos": "base form verb",
+      "example": "I recognize his face."
+    },
+    "436": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "These words are new."
+    },
+    "442": {
+      "word": "even",
+      "pos": "adverb",
+      "example": "She can run even faster now."
+    },
+    "459": {
+      "word": "weakly",
+      "pos": "adverb",
+      "example": "He spoke weakly during the speech."
+    },
+    "466": {
+      "word": "learn",
+      "pos": "past participle verb",
+      "example": "Children learn quickly at school."
+    },
+    "479": {
+      "word": "context",
+      "pos": "singular noun",
+      "example": "The context is important."
+    },
+    "487": {
+      "word": "fill",
+      "pos": "present tense verb",
+      "example": "I fill the glass with water."
+    },
+    "493": {
+      "word": "in",
+      "pos": "preposition",
+      "example": ""
+    },
+    "496": {
+      "word": "missing",
+      "pos": "adjective",
+      "example": "The missing key was found."
+    },
+    "504": {
+      "word": "piece",
+      "pos": "plural noun",
+      "example": "She ate a piece of cake."
+    },
+    "521": {
+      "word": "speak",
+      "pos": "base form verb",
+      "example": "I speak English every day."
+    },
+    "532": {
+      "word": "must",
+      "pos": "modal verb",
+      "example": "You must finish your work."
+    },
+    "537": {
+      "word": "choose",
+      "pos": "base form verb",
+      "example": "Please choose your favorite color."
+    },
+    "546": {
+      "word": "word",
+      "pos": "singular noun",
+      "example": "I learned a new word."
+    },
+    "552": {
+      "word": "its",
+      "pos": "possessive pronoun",
+      "example": "The cat licks its paw."
+    },
+    "556": {
+      "word": "grammar",
+      "pos": "singular noun",
+      "example": "Good grammar improves writing."
+    },
+    "573": {
+      "word": "pronunciation",
+      "pos": "singular noun",
+      "example": "Pronunciation is important."
+    },
+    "587": {
+      "word": "fast",
+      "pos": "adverb",
+      "example": "She runs fast every day."
+    },
+    "601": {
+      "word": "multiple-choice",
+      "pos": "compound adjective",
+      "example": "She answered multiple-choice questions."
+    },
+    "617": {
+      "word": "option",
+      "pos": "plural noun",
+      "example": "There are many options available."
+    },
+    "626": {
+      "word": "psycholinguistic",
+      "pos": "adjective",
+      "example": "Psycholinguistic studies help understand language."
+    },
+    "643": {
+      "word": "research",
+      "pos": "noun singular",
+      "example": "Research improves medical treatments."
+    },
+    "652": {
+      "word": "describe",
+      "pos": "present tense verb",
+      "example": "Please describe your experience."
+    },
+    "672": {
+      "word": "difference",
+      "pos": "singular noun",
+      "example": "There is a big difference between them."
+    },
+    "691": {
+      "word": "receptive vocabulary",
+      "pos": "compound noun",
+      "example": "Receptive vocabulary grows first in children."
+    },
+    "713": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "I learn new words every day."
+    },
+    "723": {
+      "word": "understand",
+      "pos": "base form verb",
+      "example": "I understand the question."
+    },
+    "739": {
+      "word": "productive vocabulary",
+      "pos": "compound noun",
+      "example": "Teachers encourage productive vocabulary use."
+    },
+    "762": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "She learns new words daily."
+    },
+    "772": {
+      "word": "can",
+      "pos": "modal verb",
+      "example": "I can speak English."
+    },
+    "776": {
+      "word": "use",
+      "pos": "verb",
+      "example": "We use computers daily."
+    },
+    "783": {
+      "word": "word-finding",
+      "pos": "compound noun",
+      "example": "Word-finding can be difficult sometimes."
+    },
+    "796": {
+      "word": "problem",
+      "pos": "plural noun",
+      "example": "She solved the problem quickly."
+    },
+    "805": {
+      "word": "often",
+      "pos": "adverb",
+      "example": "I often visit the museum."
+    },
+    "811": {
+      "word": "happen",
+      "pos": "base form verb",
+      "example": "Accidents happen unexpectedly."
+    },
+    "818": {
+      "word": "during",
+      "pos": "preposition",
+      "example": "She slept during the movie."
+    },
+    "825": {
+      "word": "lexical",
+      "pos": "adjective",
+      "example": "They analyzed the lexical items."
+    },
+    "833": {
+      "word": "retrieval",
+      "pos": "noun",
+      "example": "Data retrieval is fast."
+    },
+    "848": {
+      "word": "step",
+      "pos": "noun",
+      "example": "Next step is to review."
+    },
+    "863": {
+      "word": "brain",
+      "pos": "noun",
+      "example": "The brain controls the body."
+    },
+    "865": {
+      "word": "a",
+      "pos": "",
+      "example": ""
+    },
+    "869": {
+      "word": "select",
+      "pos": "present tense verb",
+      "example": "I select the best option."
+    },
+    "879": {
+      "word": "word",
+      "pos": "noun",
+      "example": "I wrote a new word today."
+    },
+    "884": {
+      "word": "from",
+      "pos": "preposition",
+      "example": "Choose from these options."
+    },
+    "889": {
+      "word": "many",
+      "pos": "adjective",
+      "example": "There are many books here."
+    },
+    "894": {
+      "word": "competitor",
+      "pos": "plural noun",
+      "example": "The competitor finished first."
+    },
+    "910": {
+      "word": "model",
+      "pos": "plural noun",
+      "example": "The model is very detailed."
+    },
+    "920": {
+      "word": "speech",
+      "pos": "noun",
+      "example": "Her speech was inspiring."
+    },
+    "927": {
+      "word": "production",
+      "pos": "noun",
+      "example": "Production of the film took months."
+    },
+    "938": {
+      "word": "develop",
+      "pos": "past tense verb",
+      "example": "Scientists develop new technologies."
+    },
+    "951": {
+      "word": "Willem Levelt",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "977": {
+      "word": "speaker",
+      "pos": "plural noun",
+      "example": "The speaker talked for hours."
+    },
+    "986": {
+      "word": "move",
+      "pos": "present tense verb",
+      "example": "They move quickly every day."
+    },
+    "998": {
+      "word": "message",
+      "pos": "noun singular",
+      "example": "I sent a message."
+    },
+    "1006": {
+      "word": "idea",
+      "pos": "noun",
+      "example": "She has a good idea."
+    },
+    "1016": {
+      "word": "word",
+      "pos": "noun",
+      "example": "This word is difficult."
+    },
+    "1021": {
+      "word": "form",
+      "pos": "noun singular",
+      "example": "Fill out the form."
+    },
+    "1038": {
+      "word": "sound",
+      "pos": "plural noun",
+      "example": "The sound is loud."
+    },
+    "1049": {
+      "word": "retrieval",
+      "pos": "noun",
+      "example": "The retrieval of data takes time."
+    },
+    "1062": {
+      "word": "slow",
+      "pos": "adjective",
+      "example": "The process is slow."
+    },
+    "1072": {
+      "word": "may",
+      "pos": "modal verb",
+      "example": "You may leave now."
+    },
+    "1076": {
+      "word": "pause",
+      "pos": "verb",
+      "example": "Please pause the video."
+    },
+    "1078": {
+      "word": "use",
+      "pos": "verb",
+      "example": "I use a computer every day."
+    },
+    "1083": {
+      "word": "use",
+      "pos": "verb",
+      "example": "I use a computer daily."
+    },
+    "1087": {
+      "word": "a",
+      "pos": "",
+      "example": ""
+    },
+    "1089": {
+      "word": "simple",
+      "pos": "comparative adjective",
+      "example": "This task is simple."
+    },
+    "1097": {
+      "word": "word",
+      "pos": "noun",
+      "example": "She wrote a new word."
+    },
+    "1106": {
+      "word": "switch",
+      "pos": "verb",
+      "example": "Please switch the lights off."
+    },
+    "1113": {
+      "word": "to",
+      "pos": "",
+      "example": ""
+    },
+    "1116": {
+      "word": "your",
+      "pos": "possessive pronoun",
+      "example": ""
+    },
+    "1121": {
+      "word": "first",
+      "pos": "adjective",
+      "example": "She won the first prize."
+    },
+    "1127": {
+      "word": "language",
+      "pos": "singular noun",
+      "example": "English is my language."
+    },
+    "1145": {
+      "word": "common",
+      "pos": "adjective",
+      "example": "It is common to exercise daily."
+    },
+    "1157": {
+      "word": "second",
+      "pos": "ordinal number",
+      "example": "She finished in second place."
+    },
+    "1164": {
+      "word": "language",
+      "pos": "noun, singular",
+      "example": "He speaks a new language."
+    },
+    "1181": {
+      "word": "link",
+      "pos": "plural noun",
+      "example": "The link between ideas is clear."
+    },
+    "1187": {
+      "word": "between",
+      "pos": "preposition",
+      "example": "The key is between the books."
+    },
+    "1195": {
+      "word": "meaning",
+      "pos": "singular noun",
+      "example": "The meaning is clear."
+    },
+    "1211": {
+      "word": "English",
+      "pos": "adjective",
+      "example": "She speaks English well."
+    },
+    "1219": {
+      "word": "word",
+      "pos": "singular noun",
+      "example": "Write the word on the paper."
+    },
+    "1228": {
+      "word": "less",
+      "pos": "adverb",
+      "example": "I have less time now."
+    },
+    "1233": {
+      "word": "automatic",
+      "pos": "adjective",
+      "example": "The door opens automatic."
+    },
+    "1247": {
+      "word": "compete",
+      "pos": "present participle verb",
+      "example": "They compete every year."
+    },
+    "1257": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "She learned many words today."
+    },
+    "1263": {
+      "word": "interfere",
+      "pos": "infinitive verb",
+      "example": "Don’t interfere in their plans."
+    },
+    "1273": {
+      "word": "more",
+      "pos": "adverb",
+      "example": "I need more time."
+    },
+    "1280": {
+      "word": "process",
+      "pos": "gerund verb",
+      "example": "They process data quickly."
+    },
+    "1291": {
+      "word": "speed",
+      "pos": "noun",
+      "example": "The speed is very fast."
+    },
+    "1300": {
+      "word": "another",
+      "pos": "determiner/adjective",
+      "example": "She has another idea."
+    },
+    "1308": {
+      "word": "reason",
+      "pos": "singular noun",
+      "example": "There is a reason for this."
+    },
+    "1316": {
+      "word": "skilled",
+      "pos": "adjective",
+      "example": "She is a skilled artist."
+    },
+    "1324": {
+      "word": "speaker",
+      "pos": "plural noun",
+      "example": "The speaker gave a good speech."
+    },
+    "1333": {
+      "word": "do",
+      "pos": "base form verb",
+      "example": "I do my homework."
+    },
+    "1340": {
+      "word": "just",
+      "pos": "adverb",
+      "example": "I just arrived."
+    },
+    "1346": {
+      "word": "know",
+      "pos": "base form verb",
+      "example": "I know the answer."
+    },
+    "1351": {
+      "word": "more",
+      "pos": "adverb",
+      "example": "She wants to learn more."
+    },
+    "1363": {
+      "word": "access",
+      "pos": "verb",
+      "example": "You can access the website here."
+    },
+    "1370": {
+      "word": "what",
+      "pos": "pronoun",
+      "example": "What is your name?"
+    },
+    "1375": {
+      "word": "they",
+      "pos": "pronoun",
+      "example": "They are my friends."
+    },
+    "1380": {
+      "word": "know",
+      "pos": "base form verb",
+      "example": "I know the answer."
+    },
+    "1385": {
+      "word": "quickly",
+      "pos": "adverb",
+      "example": "He runs quickly."
+    },
+    "1397": {
+      "word": "conversation",
+      "pos": "singular noun",
+      "example": "The conversation was very interesting."
+    },
+    "1411": {
+      "word": "you",
+      "pos": "pronoun",
+      "example": "You are my friend."
+    },
+    "1415": {
+      "word": "have",
+      "pos": "verb",
+      "example": "I have a dog."
+    },
+    "1420": {
+      "word": "to",
+      "pos": "infinitive marker",
+      "example": ""
+    },
+    "1423": {
+      "word": "plan",
+      "pos": "base form verb",
+      "example": "I plan my day carefully."
+    },
+    "1428": {
+      "word": "content",
+      "pos": "noun, singular",
+      "example": "The content is interesting."
+    },
+    "1442": {
+      "word": "listen",
+      "pos": "gerund verb",
+      "example": "I like to listen to music."
+    },
+    "1456": {
+      "word": "watch",
+      "pos": "gerund verb",
+      "example": "They watch movies every weekend."
+    },
+    "1469": {
+      "word": "other",
+      "pos": "adjective",
+      "example": "I have the other book."
+    },
+    "1475": {
+      "word": "person",
+      "pos": "noun singular",
+      "example": "She is a kind person."
+    },
+    "1489": {
+      "word": "use",
+      "pos": "present tense verb",
+      "example": "I use my phone daily."
+    },
+    "1494": {
+      "word": "working memory",
+      "pos": "compound noun",
+      "example": "Working memory helps us think."
+    },
+    "1502": {
+      "word": "memory",
+      "pos": "noun, singular",
+      "example": "My memory is good."
+    },
+    "1510": {
+      "word": "research",
+      "pos": "singular noun",
+      "example": "Research helps us learn new things."
+    },
+    "1522": {
+      "word": "cognitive",
+      "pos": "adjective",
+      "example": "Cognitive skills are important for learning."
+    },
+    "1532": {
+      "word": "psychology",
+      "pos": "noun",
+      "example": "Psychology studies the human mind."
+    },
+    "1543": {
+      "word": "show",
+      "pos": "present tense verb",
+      "example": "I show my work to the teacher."
+    },
+    "1554": {
+      "word": "work",
+      "pos": "adjective form (participle)",
+      "example": "Working memory is important for tasks."
+    },
+    "1562": {
+      "word": "memory",
+      "pos": "singular noun",
+      "example": "Memory helps us remember things."
+    },
+    "1573": {
+      "word": "limit",
+      "pos": "past participle adjective",
+      "example": "The time is limited for the test."
+    },
+    "1581": {
+      "word": "capacity",
+      "pos": "noun",
+      "example": "The room has a large capacity."
+    },
+    "1595": {
+      "word": "stress",
+      "pos": "noun",
+      "example": "Stress affects people’s health."
+    },
+    "1606": {
+      "word": "reduce",
+      "pos": "infinitive verb",
+      "example": "We want to reduce waste."
+    },
+    "1613": {
+      "word": "performance",
+      "pos": "singular noun",
+      "example": "Her performance was excellent."
+    },
+    "1633": {
+      "word": "worry",
+      "pos": "base form verb",
+      "example": "I worry about my exams."
+    },
+    "1645": {
+      "word": "mistake",
+      "pos": "plural noun",
+      "example": "I learn from mistake."
+    },
+    "1655": {
+      "word": "attention",
+      "pos": "noun",
+      "example": "Pay attention to the teacher."
+    },
+    "1665": {
+      "word": "shift",
+      "pos": "present tense verb",
+      "example": "They shift the furniture."
+    },
+    "1677": {
+      "word": "meaning",
+      "pos": "noun",
+      "example": "What is the meaning of this word?"
+    },
+    "1688": {
+      "word": "monitor",
+      "pos": "gerund verb",
+      "example": "They monitor the situation."
+    },
+    "1699": {
+      "word": "grammar",
+      "pos": "singular noun",
+      "example": "Grammar is important in writing."
+    },
+    "1714": {
+      "word": "slow",
+      "pos": "present tense verb",
+      "example": "The car slows down."
+    },
+    "1720": {
+      "word": "speech",
+      "pos": "noun",
+      "example": "He gave a great speech."
+    },
+    "1731": {
+      "word": "increase",
+      "pos": "present tense verb",
+      "example": "We increase the volume."
+    },
+    "1741": {
+      "word": "tip-of-the-tongue",
+      "pos": "compound noun",
+      "example": "I had a tip-of-the-tongue moment."
+    },
+    "1759": {
+      "word": "moment",
+      "pos": "plural noun",
+      "example": "Wait for the right moment."
+    },
+    "1769": {
+      "word": "input",
+      "pos": "noun",
+      "example": "The input is important for results."
+    },
+    "1779": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "She also likes coffee."
+    },
+    "1787": {
+      "word": "unbalanced",
+      "pos": "adjective",
+      "example": "The scale is unbalanced."
+    },
+    "1799": {
+      "word": "many",
+      "pos": "quantifier adjective",
+      "example": "Many people like music."
+    },
+    "1804": {
+      "word": "learner",
+      "pos": "plural noun",
+      "example": "The learner studies every day."
+    },
+    "1813": {
+      "word": "get",
+      "pos": "base form verb",
+      "example": "I get many emails daily."
+    },
+    "1817": {
+      "word": "large",
+      "pos": "adjective",
+      "example": "She has a large house."
+    },
+    "1823": {
+      "word": "amount",
+      "pos": "plural noun",
+      "example": "She used a small amount of sugar."
+    },
+    "1834": {
+      "word": "listening",
+      "pos": "noun (gerund)",
+      "example": "Listening helps with language."
+    },
+    "1848": {
+      "word": "reading",
+      "pos": "noun (gerund)",
+      "example": "Reading is fun."
+    },
+    "1867": {
+      "word": "speaking",
+      "pos": "noun (gerund)",
+      "example": "Speaking takes practice."
+    },
+    "1884": {
+      "word": "brain",
+      "pos": "singular noun",
+      "example": "The brain controls the body."
+    },
+    "1890": {
+      "word": "become",
+      "pos": "present tense verb",
+      "example": "I become tired at night."
+    },
+    "1898": {
+      "word": "efficient",
+      "pos": "adjective",
+      "example": "She is an efficient worker."
+    },
+    "1911": {
+      "word": "comprehension",
+      "pos": "singular noun",
+      "example": "Reading requires comprehension."
+    },
+    "1936": {
+      "word": "production",
+      "pos": "noun",
+      "example": "Production of goods is important."
+    },
+    "1948": {
+      "word": "usage-based",
+      "pos": "adjective",
+      "example": "Usage-based models explain learning well."
+    },
+    "1960": {
+      "word": "theory",
+      "pos": "plural noun",
+      "example": "The theory explains natural phenomena."
+    },
+    "1972": {
+      "word": "language",
+      "pos": "noun",
+      "example": "English is a global language."
+    },
+    "1981": {
+      "word": "learning",
+      "pos": "noun",
+      "example": "Learning is important for success."
+    },
+    "1991": {
+      "word": "associate",
+      "pos": "past participle verb",
+      "example": "We associate apples with health."
+    },
+    "2007": {
+      "word": "researcher",
+      "pos": "plural noun",
+      "example": "Researchers study new medicines."
+    },
+    "2024": {
+      "word": "Michael Tomasello",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "2043": {
+      "word": "emphasize",
+      "pos": "present tense verb",
+      "example": "Teachers emphasize good habits."
+    },
+    "2058": {
+      "word": "fluency",
+      "pos": "noun",
+      "example": "Fluency improves with practice."
+    },
+    "2066": {
+      "word": "grow",
+      "pos": "present tense verb",
+      "example": "Plants grow in sunlight."
+    },
+    "2077": {
+      "word": "repeat",
+      "pos": "past participle verb",
+      "example": "Please repeat the question."
+    },
+    "2086": {
+      "word": "use",
+      "pos": "noun",
+      "example": "Use tools carefully."
+    },
+    "2093": {
+      "word": "real",
+      "pos": "adjective",
+      "example": "This is a real diamond."
+    },
+    "2098": {
+      "word": "context",
+      "pos": "plural noun",
+      "example": "Words depend on context."
+    },
+    "2116": {
+      "word": "repeat",
+      "pos": "adjective",
+      "example": "The repeated noise was annoying."
+    },
+    "2125": {
+      "word": "speak",
+      "pos": "gerund verb",
+      "example": "She likes to speak English."
+    },
+    "2144": {
+      "word": "know",
+      "pos": "base form verb",
+      "example": "I know the answer."
+    },
+    "2152": {
+      "word": "word",
+      "pos": "singular noun",
+      "example": "She learned a new word."
+    },
+    "2161": {
+      "word": "never",
+      "pos": "adverb",
+      "example": "She never lies."
+    },
+    "2167": {
+      "word": "build",
+      "pos": "base form verb",
+      "example": "We build houses."
+    },
+    "2173": {
+      "word": "a",
+      "pos": "article",
+      "example": ""
+    },
+    "2175": {
+      "word": "fast",
+      "pos": "adjective",
+      "example": "He drives a fast car."
+    },
+    "2180": {
+      "word": "route",
+      "pos": "singular noun",
+      "example": "The route is long."
+    },
+    "2186": {
+      "word": "to",
+      "pos": "preposition",
+      "example": ""
+    },
+    "2189": {
+      "word": "it",
+      "pos": "pronoun",
+      "example": ""
+    },
+    "2201": {
+      "word": "why",
+      "pos": "adverb",
+      "example": "Why do you ask?"
+    },
+    "2209": {
+      "word": "can",
+      "pos": "modal verb",
+      "example": "I can swim well."
+    },
+    "2213": {
+      "word": "recognize",
+      "pos": "base form verb",
+      "example": "I recognize her face."
+    },
+    "2223": {
+      "word": "advanced",
+      "pos": "adjective",
+      "example": "He has advanced skills."
+    },
+    "2232": {
+      "word": "vocabulary",
+      "pos": "singular noun",
+      "example": "My vocabulary is large."
+    },
+    "2246": {
+      "word": "article",
+      "pos": "plural noun",
+      "example": "I read many articles daily."
+    },
+    "2259": {
+      "word": "still",
+      "pos": "adverb",
+      "example": "He still works here."
+    },
+    "2265": {
+      "word": "rely",
+      "pos": "verb",
+      "example": "You can rely on me."
+    },
+    "2273": {
+      "word": "basic",
+      "pos": "adjective",
+      "example": "We learned basic skills."
+    },
+    "2279": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "She learns new words."
+    },
+    "2288": {
+      "word": "conversation",
+      "pos": "noun",
+      "example": "They have a conversation."
+    },
+    "2303": {
+      "word": "another",
+      "pos": "adjective",
+      "example": "I need another book to read."
+    },
+    "2311": {
+      "word": "cause",
+      "pos": "singular noun",
+      "example": "The cause of the problem is clear."
+    },
+    "2320": {
+      "word": "know",
+      "pos": "gerund verb",
+      "example": "I know the answer."
+    },
+    "2328": {
+      "word": "",
+      "pos": "article",
+      "example": ""
+    },
+    "2330": {
+      "word": "word",
+      "pos": "singular noun",
+      "example": "Learn a new word every day."
+    },
+    "2335": {
+      "word": "but",
+      "pos": "conjunction",
+      "example": ""
+    },
+    "2343": {
+      "word": "know",
+      "pos": "gerund verb",
+      "example": "You should know the answer."
+    },
+    "2351": {
+      "word": "its",
+      "pos": "possessive pronoun",
+      "example": ""
+    },
+    "2355": {
+      "word": "typical",
+      "pos": "adjective",
+      "example": "This is a typical example."
+    },
+    "2363": {
+      "word": "partner",
+      "pos": "plural noun",
+      "example": "She is my dance partner."
+    },
+    "2373": {
+      "word": "call",
+      "pos": "past participle verb",
+      "example": "They call me every day."
+    },
+    "2380": {
+      "word": "collocation",
+      "pos": "plural noun",
+      "example": "Collocations are word combinations."
+    },
+    "2394": {
+      "word": "English",
+      "pos": "adjective",
+      "example": "English is spoken worldwide."
+    },
+    "2402": {
+      "word": "speaker",
+      "pos": "plural noun",
+      "example": "She is a good speaker."
+    },
+    "2411": {
+      "word": "say",
+      "pos": "present tense verb",
+      "example": "I say hello every morning."
+    },
+    "2415": {
+      "word": "make decision",
+      "pos": "idiomatic phrase",
+      "example": "I need to make a decision soon."
+    },
+    "2416": {
+      "word": "make a decision",
+      "pos": "idiomatic phrase",
+      "example": "She decided to make a decision quickly."
+    },
+    "2434": {
+      "word": "heavy rain",
+      "pos": "compound noun",
+      "example": "Heavy rain flooded the streets."
+    },
+    "2435": {
+      "word": "heavy rain",
+      "pos": "compound noun",
+      "example": "Heavy rain caused the flood."
+    },
+    "2453": {
+      "word": "take responsibility",
+      "pos": "idiomatic phrase",
+      "example": "You must take responsibility for your mistakes."
+    },
+    "2592": {
+      "word": "corpus linguistics",
+      "pos": "compound noun",
+      "example": "Corpus linguistics studies text collections."
+    },
+    "2599": {
+      "word": "linguistics",
+      "pos": "singular noun",
+      "example": "Linguistics studies languages."
+    },
+    "2618": {
+      "word": "study",
+      "pos": "present tense verb",
+      "example": "They study new languages."
+    },
+    "2626": {
+      "word": "large",
+      "pos": "adjective",
+      "example": "She has a large house."
+    },
+    "2632": {
+      "word": "database",
+      "pos": "plural noun",
+      "example": "The database stores information."
+    },
+    "2645": {
+      "word": "real",
+      "pos": "adjective",
+      "example": "This is a real problem."
+    },
+    "2650": {
+      "word": "language",
+      "pos": "singular noun",
+      "example": "Language changes over time."
+    },
+    "2660": {
+      "word": "show",
+      "pos": "present tense verb",
+      "example": "The chart shows sales trends."
+    },
+    "2671": {
+      "word": "common",
+      "pos": "adjective",
+      "example": "It is a common mistake."
+    },
+    "2678": {
+      "word": "collocation",
+      "pos": "plural noun",
+      "example": "Collocations help in speaking."
+    },
+    "2691": {
+      "word": "strongly",
+      "pos": "adverb",
+      "example": "She strongly supports the cause."
+    },
+    "2700": {
+      "word": "shape",
+      "pos": "present tense verb",
+      "example": "Experiences shape our character."
+    },
+    "2706": {
+      "word": "natural",
+      "pos": "adjective",
+      "example": "She showed natural talent."
+    },
+    "2714": {
+      "word": "speech",
+      "pos": "singular noun",
+      "example": "His speech was inspiring."
+    },
+    "2722": {
+      "word": "learn",
+      "pos": "gerund verb",
+      "example": "I learn new things every day."
+    },
+    "2731": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "She reads many word books."
+    },
+    "2737": {
+      "word": "together",
+      "pos": "adverb",
+      "example": "We study together."
+    },
+    "2751": {
+      "word": "alone",
+      "pos": "adjective",
+      "example": "She is alone at home."
+    },
+    "2758": {
+      "word": "reduce",
+      "pos": "present tense verb",
+      "example": "I reduce waste to help the earth."
+    },
+    "2766": {
+      "word": "retrieval",
+      "pos": "noun",
+      "example": "Data retrieval is important."
+    },
+    "2776": {
+      "word": "time",
+      "pos": "noun",
+      "example": "Time flies when you’re happy."
+    },
+    "2783": {
+      "word": "practical",
+      "pos": "adjective",
+      "example": "She gave practical advice."
+    },
+    "2793": {
+      "word": "improvement",
+      "pos": "noun",
+      "example": "The improvement was noticeable."
+    },
+    "2805": {
+      "word": "come",
+      "pos": "present tense verb",
+      "example": "Good things come to those who wait."
+    },
+    "2816": {
+      "word": "training",
+      "pos": "noun",
+      "example": "Training improves skills."
+    },
+    "2825": {
+      "word": "recall",
+      "pos": "noun",
+      "example": "I have a good recall of facts."
+    },
+    "2837": {
+      "word": "more",
+      "pos": "adjective",
+      "example": "I want more time."
+    },
+    "2842": {
+      "word": "passive",
+      "pos": "adjective",
+      "example": "Passive learning is slow."
+    },
+    "2850": {
+      "word": "exposure",
+      "pos": "singular noun",
+      "example": "Exposure to sunlight helps vitamin D."
+    },
+    "2860": {
+      "word": "timed",
+      "pos": "past participle adjective",
+      "example": "We have a timed test tomorrow."
+    },
+    "2866": {
+      "word": "speak",
+      "pos": "gerund verb",
+      "example": "She is speaking now."
+    },
+    "2875": {
+      "word": "task",
+      "pos": "plural noun",
+      "example": "We have many tasks to finish."
+    },
+    "2881": {
+      "word": "help",
+      "pos": "verb",
+      "example": "Can you help me?"
+    },
+    "2899": {
+      "word": "force",
+      "pos": "verb",
+      "example": "They force us to study."
+    },
+    "2905": {
+      "word": "retrieval",
+      "pos": "noun",
+      "example": "Memory retrieval is important."
+    },
+    "2915": {
+      "word": "under",
+      "pos": "preposition",
+      "example": "He is under pressure."
+    },
+    "2921": {
+      "word": "pressure",
+      "pos": "noun",
+      "example": "She works well under pressure."
+    },
+    "2931": {
+      "word": "close",
+      "pos": "comparative adjective",
+      "example": "We are close friends."
+    },
+    "2938": {
+      "word": "to",
+      "pos": "preposition",
+      "example": "I go to school."
+    },
+    "2941": {
+      "word": "real",
+      "pos": "adjective",
+      "example": "This is a real problem."
+    },
+    "2946": {
+      "word": "conversation",
+      "pos": "noun",
+      "example": "They had a long conversation."
+    },
+    "2960": {
+      "word": "short",
+      "pos": "adjective",
+      "example": "This is a short book."
+    },
+    "2966": {
+      "word": "daily",
+      "pos": "adjective",
+      "example": "He reads the daily news."
+    },
+    "2972": {
+      "word": "practice",
+      "pos": "noun",
+      "example": "Practice makes perfect."
+    },
+    "2981": {
+      "word": "work",
+      "pos": "third person singular verb",
+      "example": "He works every day."
+    },
+    "2987": {
+      "word": "well",
+      "pos": "adverb",
+      "example": "She sings well."
+    },
+    "2993": {
+      "word": "describe",
+      "pos": "base form verb",
+      "example": "Please describe your idea."
+    },
+    "3002": {
+      "word": "your",
+      "pos": "pronoun",
+      "example": "Is this your book?"
+    },
+    "3007": {
+      "word": "day",
+      "pos": "singular noun",
+      "example": "Today is a good day."
+    },
+    "3015": {
+      "word": "two",
+      "pos": "numeral",
+      "example": "I have two cats."
+    },
+    "3019": {
+      "word": "minute",
+      "pos": "plural noun",
+      "example": "Wait for five minutes."
+    },
+    "3028": {
+      "word": "retell",
+      "pos": "base form verb",
+      "example": "Can you retell the story?"
+    },
+    "3035": {
+      "word": "a",
+      "pos": "article",
+      "example": ""
+    },
+    "3037": {
+      "word": "news",
+      "pos": "singular noun",
+      "example": "The news is on TV."
+    },
+    "3042": {
+      "word": "story",
+      "pos": "singular noun",
+      "example": "Tell me a story."
+    },
+    "3052": {
+      "word": "answer",
+      "pos": "imperative verb",
+      "example": "Answer the question."
+    },
+    "3059": {
+      "word": "common",
+      "pos": "adjective",
+      "example": "It's a common problem."
+    },
+    "3066": {
+      "word": "interview",
+      "pos": "singular noun",
+      "example": "I have an interview tomorrow."
+    },
+    "3076": {
+      "word": "question",
+      "pos": "plural noun",
+      "example": "Ask a question."
+    },
+    "3086": {
+      "word": "aloud",
+      "pos": "adverb",
+      "example": "Read the text aloud."
+    },
+    "3093": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "I also like this movie."
+    },
+    "3098": {
+      "word": "practice",
+      "pos": "base form verb",
+      "example": "I practice daily to improve."
+    },
+    "3107": {
+      "word": "retrieval with feedback",
+      "pos": "idiomatic phrase",
+      "example": "Retrieval with feedback improves learning."
+    },
+    "3108": {
+      "word": "retrieval with feedback",
+      "pos": "idiomatic phrase",
+      "example": "Retrieval with feedback improves memory."
+    },
+    "3134": {
+      "word": "record",
+      "pos": "verb base form",
+      "example": "I record my voice."
+    },
+    "3141": {
+      "word": "yourself",
+      "pos": "pronoun reflexive",
+      "example": "Look at yourself in the mirror."
+    },
+    "3151": {
+      "word": "notice",
+      "pos": "base form verb",
+      "example": "Notice the changes carefully."
+    },
+    "3158": {
+      "word": "missing",
+      "pos": "adjective",
+      "example": "I found a missing sock."
+    },
+    "3166": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "I know many words."
+    },
+    "3173": {
+      "word": "the",
+      "pos": "",
+      "example": ""
+    },
+    "3178": {
+      "word": "repeat",
+      "pos": "verb base form",
+      "example": "Please repeat the question."
+    },
+    "3185": {
+      "word": "the",
+      "pos": "article",
+      "example": ""
+    },
+    "3189": {
+      "word": "same",
+      "pos": "adjective",
+      "example": "We wear the same clothes."
+    },
+    "3194": {
+      "word": "message",
+      "pos": "noun",
+      "example": "Send me a message."
+    },
+    "3202": {
+      "word": "with",
+      "pos": "",
+      "example": ""
+    },
+    "3207": {
+      "word": "better",
+      "pos": "adjective comparative",
+      "example": "This is better."
+    },
+    "3214": {
+      "word": "wording",
+      "pos": "singular noun",
+      "example": "The wording is unclear."
+    },
+    "3228": {
+      "word": "kind",
+      "pos": "noun, singular",
+      "example": "This kind of book is popular."
+    },
+    "3236": {
+      "word": "deliberate",
+      "pos": "adjective",
+      "example": "He made a deliberate choice."
+    },
+    "3247": {
+      "word": "repetition",
+      "pos": "singular noun",
+      "example": "Repetition helps learning."
+    },
+    "3258": {
+      "word": "build",
+      "pos": "present tense verb",
+      "example": "I build houses."
+    },
+    "3265": {
+      "word": "automaticity",
+      "pos": "noun, singular",
+      "example": "Automaticity improves skills."
+    },
+    "3283": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "I also like coffee."
+    },
+    "3288": {
+      "word": "help",
+      "pos": "present tense verb",
+      "example": "They help students learn."
+    },
+    "3297": {
+      "word": "prepare",
+      "pos": "base form verb",
+      "example": "I prepare my lunch at home."
+    },
+    "3305": {
+      "word": "chunk",
+      "pos": "noun",
+      "example": "She ate a chunk of bread."
+    },
+    "3315": {
+      "word": "ready-made",
+      "pos": "adjective",
+      "example": "I bought a ready-made meal."
+    },
+    "3326": {
+      "word": "phrase",
+      "pos": "plural noun",
+      "example": "She knows many useful phrases."
+    },
+    "3334": {
+      "word": "that",
+      "pos": "relative pronoun",
+      "example": "The book that helps me."
+    },
+    "3339": {
+      "word": "fit",
+      "pos": "present tense verb",
+      "example": "These shoes fit well."
+    },
+    "3343": {
+      "word": "many",
+      "pos": "adjective",
+      "example": "Many people come here."
+    },
+    "3348": {
+      "word": "situation",
+      "pos": "plural noun",
+      "example": "This is a difficult situation."
+    },
+    "3360": {
+      "word": "such",
+      "pos": "adjective",
+      "example": "Such problems are common."
+    },
+    "3365": {
+      "word": "as",
+      "pos": "preposition",
+      "example": "Like this as example."
+    },
+    "3368": {
+      "word": "what I mean is",
+      "pos": "fixed phrase",
+      "example": "What I mean is simple."
+    },
+    "3381": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "This is my pen."
+    },
+    "3387": {
+      "word": "the main reason is",
+      "pos": "fixed phrase",
+      "example": "The main reason is clear."
+    },
+    "3397": {
+      "word": "reason",
+      "pos": "noun",
+      "example": "I know the reason why."
+    },
+    "3414": {
+      "word": "I am not sure about",
+      "pos": "fixed phrase",
+      "example": "I am not sure about that."
+    },
+    "3415": {
+      "word": "be",
+      "pos": "contraction of 'I am', present tense verb",
+      "example": "I'm happy today."
+    },
+    "3419": {
+      "word": "not",
+      "pos": "adverb",
+      "example": "I am not tired."
+    },
+    "3423": {
+      "word": "sure",
+      "pos": "adjective",
+      "example": "Are you sure?"
+    },
+    "3438": {
+      "word": "exact",
+      "pos": "adjective",
+      "example": "I want the exact answer."
+    },
+    "3444": {
+      "word": "number",
+      "pos": "singular noun",
+      "example": "Give me your phone number."
+    },
+    "3459": {
+      "word": "this",
+      "pos": "demonstrative determiner",
+      "example": "These are my books."
+    },
+    "3465": {
+      "word": "chunk",
+      "pos": "plural noun",
+      "example": "He ate large chunks of bread."
+    },
+    "3472": {
+      "word": "reduce",
+      "pos": "base form verb",
+      "example": "We need to reduce waste."
+    },
+    "3479": {
+      "word": "plan",
+      "pos": "gerund noun",
+      "example": "Planning is important for success."
+    },
+    "3488": {
+      "word": "load",
+      "pos": "singular noun",
+      "example": "The load was too heavy."
+    },
+    "3497": {
+      "word": "give",
+      "pos": "base form verb",
+      "example": "Please give me a pen."
+    },
+    "3502": {
+      "word": "you",
+      "pos": "pronoun",
+      "example": ""
+    },
+    "3506": {
+      "word": "time",
+      "pos": "singular noun",
+      "example": "Time flies quickly."
+    },
+    "3514": {
+      "word": "retrieve",
+      "pos": "base form verb",
+      "example": "I retrieve files from the computer."
+    },
+    "3523": {
+      "word": "hard",
+      "pos": "comparative adjective",
+      "example": "This test is harder than before."
+    },
+    "3530": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "New words are fun to learn."
+    },
+    "3550": {
+      "word": "spaced repetition",
+      "pos": "compound noun",
+      "example": "Spaced repetition improves memory."
+    },
+    "3573": {
+      "word": "active recall",
+      "pos": "compound noun",
+      "example": "Active recall strengthens learning."
+    },
+    "3596": {
+      "word": "use flashcard",
+      "pos": "verb + noun phrase",
+      "example": "I use flashcards to study new words."
+    },
+    "3623": {
+      "word": "produce",
+      "pos": "base form verb",
+      "example": "They produce many goods each year."
+    },
+    "3635": {
+      "word": "word",
+      "pos": "singular noun",
+      "example": "I learned a new word."
+    },
+    "3647": {
+      "word": "definition",
+      "pos": "singular noun",
+      "example": "The definition of 'house' is a building."
+    },
+    "3661": {
+      "word": "example",
+      "pos": "singular noun",
+      "example": "Give me an example."
+    },
+    "3670": {
+      "word": "strengthen",
+      "pos": "present tense verb",
+      "example": "Exercises strengthen muscles."
+    },
+    "3682": {
+      "word": "productive",
+      "pos": "adjective",
+      "example": "She has a productive day."
+    },
+    "3693": {
+      "word": "vocabulary",
+      "pos": "singular noun",
+      "example": "His vocabulary improved fast."
+    },
+    "3714": {
+      "word": "reread",
+      "pos": "gerund verb",
+      "example": "I reread the book yesterday."
+    },
+    "3724": {
+      "word": "list",
+      "pos": "plural noun",
+      "example": "She made several lists."
+    },
+    "3732": {
+      "word": "understanding",
+      "pos": "noun",
+      "example": "Understanding others is important."
+    },
+    "3746": {
+      "word": "without",
+      "pos": "preposition",
+      "example": "She left without saying goodbye."
+    },
+    "3754": {
+      "word": "easy",
+      "pos": "adjective",
+      "example": "The test is easy."
+    },
+    "3759": {
+      "word": "speak",
+      "pos": "gerund noun",
+      "example": "Speaking clearly is important."
+    },
+    "3773": {
+      "word": "normal",
+      "pos": "adjective",
+      "example": "This is a normal situation."
+    },
+    "3780": {
+      "word": "stage",
+      "pos": "noun",
+      "example": "This is an early stage of learning."
+    },
+    "3793": {
+      "word": "personal",
+      "pos": "adjective",
+      "example": "This is a personal opinion."
+    },
+    "3802": {
+      "word": "failure",
+      "pos": "singular noun",
+      "example": "Failure teaches important lessons."
+    },
+    "3814": {
+      "word": "school",
+      "pos": "noun",
+      "example": "I go to school every day."
+    },
+    "3822": {
+      "word": "work",
+      "pos": "singular noun",
+      "example": "He has a lot of work to do."
+    },
+    "3832": {
+      "word": "immigration",
+      "pos": "singular noun",
+      "example": "Immigration laws are strict."
+    },
+    "3844": {
+      "word": "setting",
+      "pos": "plural noun",
+      "example": "The meeting was held in different settings."
+    },
+    "3854": {
+      "word": "speak",
+      "pos": "gerund verb",
+      "example": "I practice speaking every day."
+    },
+    "3863": {
+      "word": "ability",
+      "pos": "singular noun",
+      "example": "She has the ability to learn fast."
+    },
+    "3871": {
+      "word": "affect",
+      "pos": "present tense verb",
+      "example": "Cold weather affects health."
+    },
+    "3879": {
+      "word": "opportunity",
+      "pos": "plural noun",
+      "example": "He has many opportunities to succeed."
+    },
+    "3897": {
+      "word": "close",
+      "pos": "gerund verb",
+      "example": "We are closing the door now."
+    },
+    "3909": {
+      "word": "gap",
+      "pos": "singular noun",
+      "example": "There is a gap between the buildings."
+    },
+    "3913": {
+      "word": "have",
+      "pos": "present tense verb",
+      "example": "I have a book."
+    },
+    "3917": {
+      "word": "real",
+      "pos": "adjective",
+      "example": "This is a real problem."
+    },
+    "3922": {
+      "word": "consequence",
+      "pos": "plural noun",
+      "example": "Actions have consequences."
+    },
+    "3941": {
+      "word": "you",
+      "pos": "pronoun",
+      "example": "You are my friend."
+    },
+    "3945": {
+      "word": "focus",
+      "pos": "verb",
+      "example": "I focus on my work."
+    },
+    "3954": {
+      "word": "fast",
+      "pos": "adjective",
+      "example": "He runs fast."
+    },
+    "3959": {
+      "word": "retrieval",
+      "pos": "noun singular",
+      "example": "The retrieval of data is quick."
+    },
+    "3970": {
+      "word": "collocation",
+      "pos": "plural noun",
+      "example": "Collocations improve language fluency."
+    },
+    "3988": {
+      "word": "repeat",
+      "pos": "past participle adjective",
+      "example": "She repeats the lesson."
+    },
+    "3997": {
+      "word": "speak",
+      "pos": "past participle adjective",
+      "example": "Spoken English is important."
+    },
+    "4004": {
+      "word": "practice",
+      "pos": "noun",
+      "example": "Practice improves your skills."
+    },
+    "4014": {
+      "word": "your",
+      "pos": "possessive pronoun",
+      "example": "Your book is here."
+    },
+    "4019": {
+      "word": "productive",
+      "pos": "adjective",
+      "example": "She had a productive day."
+    },
+    "4030": {
+      "word": "vocabulary",
+      "pos": "noun",
+      "example": "English vocabulary is large."
+    },
+    "4041": {
+      "word": "catch up",
+      "pos": "phrasal verb",
+      "example": "She tried to catch up with us."
+    },
+    "4049": {
+      "word": "up",
+      "pos": "adverb",
+      "example": "She caught up quickly."
+    },
+    "4055": {
+      "word": "your",
+      "pos": "possessive pronoun",
+      "example": "Your ideas are interesting."
+    },
+    "4060": {
+      "word": "receptive",
+      "pos": "adjective",
+      "example": "Be receptive to new ideas."
+    },
+    "4070": {
+      "word": "vocabulary",
+      "pos": "noun",
+      "example": "We increase vocabulary every day."
+    },
+    "4086": {
+      "word": "conversation",
+      "pos": "noun",
+      "example": "The conversation was interesting."
+    },
+    "4099": {
+      "word": "become",
+      "pos": "present tense verb",
+      "example": "He will become a teacher."
+    },
+    "4107": {
+      "word": "less",
+      "pos": "adverb",
+      "example": "This is less difficult."
+    },
+    "4112": {
+      "word": "exhausting",
+      "pos": "adjective",
+      "example": "Running is exhausting."
+    },
+    "4127": {
+      "word": "more",
+      "pos": "adverb",
+      "example": "She wants more coffee."
+    },
+    "4132": {
+      "word": "accurate",
+      "pos": "adjective",
+      "example": "His answer is accurate."
+    }
+  },
+  "translations": {
+    "vi": {
+      "0": "nhiều",
+      "5": "tiếng Anh",
+      "13": "người học",
+      "22": "có thể",
+      "26": "theo dõi",
+      "33": "phim",
+      "41": "podcast",
+      "54": "cuộc họp",
+      "67": "gặp khó khăn",
+      "79": "nói",
+      "85": "nhanh",
+      "99": "khoảng cách",
+      "103": "quan trọng",
+      "119": "nó",
+      "125": "không",
+      "129": "một",
+      "131": "dấu hiệu",
+      "140": "không",
+      "144": "biết",
+      "152": "tiếng Anh",
+      "277": "sự hiểu",
+      "294": "thường",
+      "300": "dễ hơn",
+      "312": "nói",
+      "329": "sự hiểu",
+      "348": "nhận dạng",
+      "367": "nói",
+      "376": "đòi hỏi",
+      "385": "phải nhớ lại",
+      "402": "nghe",
+      "412": "đọc",
+      "422": "có thể",
+      "426": "nhận ra",
+      "436": "từ",
+      "459": "một cách yếu ớt",
+      "466": "học",
+      "479": "ngữ cảnh",
+      "487": "điền vào",
+      "493": "vào",
+      "496": "thiếu",
+      "504": "phần",
+      "521": "nói",
+      "532": "phải",
+      "537": "chọn",
+      "546": "từ",
+      "552": "của nó",
+      "556": "ngữ pháp",
+      "573": "cách phát âm",
+      "587": "nhanh",
+      "601": "trắc nghiệm",
+      "617": "tùy chọn",
+      "626": "tâm ngôn ngữ học",
+      "643": "nghiên cứu",
+      "652": "mô tả",
+      "672": "sự khác biệt",
+      "691": "từ vựng tiếp nhận",
+      "713": "từ",
+      "739": "từ vựng sản xuất",
+      "772": "có thể",
+      "776": "sử dụng",
+      "783": "tìm từ",
+      "796": "vấn đề",
+      "805": "thường",
+      "811": "xảy ra",
+      "825": "ngữ nghĩa",
+      "833": "truy xuất",
+      "848": "bước",
+      "863": "não",
+      "869": "chọn",
+      "879": "từ",
+      "894": "đối thủ",
+      "920": "lời nói",
+      "927": "sản xuất",
+      "938": "phát triển",
+      "951": "Willem Levelt",
+      "977": "người nói",
+      "986": "chuyển",
+      "998": "thông điệp",
+      "1006": "ý tưởng",
+      "1016": "từ",
+      "1021": "dạng",
+      "1038": "âm thanh",
+      "1049": "sự truy xuất",
+      "1062": "chậm",
+      "1072": "có thể",
+      "1076": "tạm dừng",
+      "1083": "sử dụng",
+      "1089": "đơn giản hơn",
+      "1097": "từ",
+      "1106": "chuyển",
+      "1116": "của bạn",
+      "1121": "đầu tiên",
+      "1127": "ngôn ngữ",
+      "1145": "thường",
+      "1157": "thứ hai",
+      "1164": "ngôn ngữ",
+      "1181": "liên kết",
+      "1195": "ý nghĩa",
+      "1211": "tiếng Anh",
+      "1219": "từ",
+      "1228": "ít hơn",
+      "1233": "tự động",
+      "1247": "cạnh tranh",
+      "1257": "từ",
+      "1263": "can thiệp",
+      "1273": "nhiều hơn",
+      "1280": "xử lý",
+      "1291": "tốc độ",
+      "1300": "khác",
+      "1308": "lý do",
+      "1316": "có kỹ năng",
+      "1324": "người nói",
+      "1333": "làm",
+      "1340": "chỉ",
+      "1346": "biết",
+      "1363": "truy cập",
+      "1370": "những gì",
+      "1380": "biết",
+      "1385": "nhanh chóng",
+      "1397": "cuộc trò chuyện",
+      "1415": "cần phải",
+      "1423": "lập kế hoạch",
+      "1428": "nội dung",
+      "1442": "nghe",
+      "1456": "xem",
+      "1469": "khác",
+      "1475": "người",
+      "1489": "sử dụng",
+      "1494": "bộ nhớ làm việc",
+      "1510": "nghiên cứu",
+      "1522": "nhận thức",
+      "1532": "tâm lý học",
+      "1543": "chỉ ra",
+      "1554": "bộ nhớ làm việc",
+      "1573": "giới hạn",
+      "1581": "dung lượng",
+      "1595": "căng thẳng",
+      "1606": "giảm",
+      "1613": "hiệu suất",
+      "1633": "lo lắng",
+      "1645": "lỗi sai",
+      "1655": "sự chú ý",
+      "1665": "chuyển",
+      "1677": "ý nghĩa",
+      "1688": "giám sát",
+      "1699": "ngữ pháp",
+      "1714": "làm chậm",
+      "1720": "lời nói",
+      "1731": "tăng",
+      "1741": "lưỡi bị vấp (không thể nhớ từ)",
+      "1759": "khoảnh khắc",
+      "1769": "dữ liệu vào",
+      "1779": "cũng",
+      "1787": "không cân bằng",
+      "1799": "nhiều",
+      "1804": "người học",
+      "1813": "nhận được",
+      "1817": "lớn",
+      "1823": "lượng",
+      "1834": "nghe",
+      "1848": "đọc",
+      "1867": "nói",
+      "1884": "não",
+      "1890": "trở nên",
+      "1898": "hiệu quả",
+      "1911": "sự hiểu",
+      "1936": "sự sản xuất",
+      "1948": "dựa trên việc sử dụng",
+      "1960": "lý thuyết",
+      "1972": "ngôn ngữ",
+      "1981": "học tập",
+      "1991": "liên quan",
+      "2007": "nhà nghiên cứu",
+      "2043": "nhấn mạnh",
+      "2058": "sự lưu loát",
+      "2066": "phát triển",
+      "2077": "lặp lại",
+      "2086": "việc sử dụng",
+      "2093": "thực tế",
+      "2098": "bối cảnh",
+      "2116": "lặp đi lặp lại",
+      "2125": "nói",
+      "2144": "biết",
+      "2152": "từ",
+      "2161": "không bao giờ",
+      "2167": "xây dựng",
+      "2173": "",
+      "2175": "nhanh",
+      "2180": "con đường",
+      "2201": "tại sao",
+      "2209": "có thể",
+      "2213": "nhận biết",
+      "2223": "nâng cao",
+      "2232": "từ vựng",
+      "2246": "bài viết",
+      "2259": "vẫn",
+      "2265": "dựa vào",
+      "2273": "cơ bản",
+      "2279": "từ",
+      "2288": "cuộc trò chuyện",
+      "2303": "một khác",
+      "2311": "nguyên nhân",
+      "2320": "biết",
+      "2328": "",
+      "2330": "từ",
+      "2343": "biết",
+      "2351": "của nó",
+      "2355": "điển hình",
+      "2363": "đối tác",
+      "2373": "gọi là",
+      "2380": "cộng tác từ",
+      "2394": "tiếng Anh",
+      "2402": "người nói",
+      "2411": "nói",
+      "2416": "quyết định",
+      "2435": "mưa nặng hạt",
+      "2453": "chịu trách nhiệm",
+      "2592": "ngôn ngữ học kho ngữ liệu",
+      "2618": "nghiên cứu",
+      "2626": "lớn",
+      "2632": "cơ sở dữ liệu",
+      "2645": "thực",
+      "2650": "ngôn ngữ",
+      "2660": "cho thấy",
+      "2671": "phổ biến",
+      "2678": "cộng tác từ",
+      "2691": "mạnh mẽ",
+      "2700": "định hình",
+      "2706": "tự nhiên",
+      "2714": "lời nói",
+      "2722": "học",
+      "2731": "từ",
+      "2737": "cùng nhau",
+      "2751": "một mình",
+      "2758": "giảm",
+      "2766": "truy xuất",
+      "2776": "thời gian",
+      "2783": "thực tế",
+      "2793": "cải thiện",
+      "2805": "đến từ",
+      "2816": "luyện tập",
+      "2825": "ghi nhớ",
+      "2842": "thụ động",
+      "2850": "tiếp xúc",
+      "2860": "có thời gian",
+      "2866": "nói",
+      "2875": "bài tập",
+      "2881": "giúp",
+      "2899": "buộc",
+      "2905": "việc nhớ lại",
+      "2921": "áp lực",
+      "2931": "gần hơn",
+      "2941": "thực tế",
+      "2946": "cuộc trò chuyện",
+      "2960": "ngắn",
+      "2966": "hàng ngày",
+      "2972": "luyện tập",
+      "2981": "hoạt động, hiệu quả",
+      "2987": "tốt, hiệu quả",
+      "2993": "mô tả",
+      "3007": "ngày",
+      "3015": "hai",
+      "3019": "phút",
+      "3028": "kể lại",
+      "3035": "skip",
+      "3037": "tin tức",
+      "3042": "câu chuyện",
+      "3052": "trả lời",
+      "3059": "phổ biến",
+      "3066": "phỏng vấn",
+      "3076": "câu hỏi",
+      "3086": "lớn tiếng",
+      "3098": "thực hành",
+      "3107": "truy xuất với phản hồi",
+      "3134": "ghi âm",
+      "3141": "chính mình",
+      "3151": "chú ý",
+      "3158": "bị thiếu",
+      "3166": "từ",
+      "3173": "",
+      "3178": "lặp lại",
+      "3189": "cùng",
+      "3194": "thông điệp",
+      "3202": "",
+      "3207": "tốt hơn",
+      "3214": "cách diễn đạt",
+      "3228": "loại",
+      "3236": "cố ý, có chủ ý",
+      "3247": "sự lặp lại",
+      "3258": "xây dựng",
+      "3265": "tính tự động",
+      "3288": "giúp",
+      "3297": "chuẩn bị",
+      "3305": "cụm từ",
+      "3315": "làm sẵn",
+      "3326": "cụm từ",
+      "3334": "mà",
+      "3339": "phù hợp",
+      "3343": "nhiều",
+      "3348": "tình huống",
+      "3360": "chẳng hạn",
+      "3365": "như",
+      "3368": "Ý tôi là",
+      "3387": "Lý do chính là",
+      "3414": "Tôi không chắc về",
+      "3438": "chính xác",
+      "3444": "số",
+      "3459": "những",
+      "3465": "phần",
+      "3472": "giảm",
+      "3479": "kế hoạch",
+      "3488": "tải",
+      "3497": "cho",
+      "3502": "bạn",
+      "3506": "thời gian",
+      "3514": "lấy lại",
+      "3523": "khó hơn",
+      "3530": "từ",
+      "3550": "lặp lại có giãn cách",
+      "3573": "hồi tưởng chủ động",
+      "3596": "sử dụng thẻ học",
+      "3623": "tạo ra",
+      "3635": "từ",
+      "3647": "định nghĩa",
+      "3661": "ví dụ",
+      "3670": "làm tăng cường",
+      "3682": "sản xuất",
+      "3693": "vốn từ vựng",
+      "3714": "đọc lại",
+      "3724": "danh sách",
+      "3732": "sự hiểu biết",
+      "3754": "dễ dàng",
+      "3759": "nói",
+      "3773": "bình thường",
+      "3780": "giai đoạn",
+      "3793": "cá nhân",
+      "3802": "thất bại",
+      "3814": "trường học",
+      "3822": "công việc",
+      "3832": "nhập cư",
+      "3844": "môi trường",
+      "3854": "nói",
+      "3863": "khả năng",
+      "3871": "ảnh hưởng",
+      "3879": "cơ hội",
+      "3897": "thu hẹp",
+      "3909": "khoảng cách",
+      "3913": "có",
+      "3917": "thực sự",
+      "3922": "hậu quả",
+      "3941": "bạn",
+      "3945": "tập trung",
+      "3954": "nhanh",
+      "3959": "việc truy xuất",
+      "3970": "các cụm từ cố định",
+      "3988": "lặp đi lặp lại",
+      "3997": "nói",
+      "4004": "luyện tập",
+      "4014": "của bạn",
+      "4019": "có năng suất",
+      "4030": "vốn từ vựng",
+      "4041": "bắt kịp",
+      "4055": "của bạn",
+      "4060": "tiếp nhận",
+      "4070": "vốn từ vựng",
+      "4086": "cuộc trò chuyện",
+      "4112": "mệt mỏi",
+      "4132": "chính xác"
+    },
+    "pt": {
+      "0": "muitos",
+      "5": "inglês",
+      "13": "aprendiz",
+      "26": "acompanhar",
+      "33": "filme",
+      "41": "podcast",
+      "54": "reunião",
+      "67": "ter dificuldade",
+      "79": "falar",
+      "85": "rapidamente",
+      "99": "lacuna",
+      "103": "importar",
+      "119": "ele/ela (neutro)",
+      "131": "sinal",
+      "140": "não saber",
+      "152": "inglês",
+      "277": "compreensão",
+      "294": "frequentemente",
+      "300": "mais fácil",
+      "312": "falar",
+      "329": "compreensão",
+      "348": "reconhecimento",
+      "367": "falar",
+      "376": "requer",
+      "385": "recordação",
+      "402": "escutar",
+      "412": "ler",
+      "426": "reconhecer",
+      "436": "palavra",
+      "459": "de forma fraca",
+      "466": "aprender",
+      "479": "contexto",
+      "487": "preencher",
+      "496": "faltante",
+      "504": "parte",
+      "521": "falar",
+      "537": "escolher",
+      "546": "palavra",
+      "556": "gramática",
+      "573": "pronúncia",
+      "587": "rápido",
+      "601": "de múltipla escolha",
+      "617": "opção",
+      "626": "psicolinguístico",
+      "643": "pesquisa",
+      "652": "descrever",
+      "672": "diferença",
+      "691": "vocabulário receptivo",
+      "723": "entender",
+      "739": "vocabulário produtivo",
+      "762": "palavra",
+      "776": "usar",
+      "783": "para encontrar palavras",
+      "796": "problema",
+      "805": "frequentemente",
+      "811": "acontecer",
+      "818": "durante",
+      "825": "lexical",
+      "833": "recuperação",
+      "848": "etapa",
+      "863": "cérebro",
+      "869": "selecionar",
+      "879": "palavra",
+      "889": "muitos",
+      "894": "concorrente",
+      "910": "modelo",
+      "920": "fala",
+      "927": "produção",
+      "938": "desenvolver",
+      "951": "Willem Levelt",
+      "977": "falante",
+      "986": "mover",
+      "998": "mensagem",
+      "1006": "ideia",
+      "1016": "palavra",
+      "1021": "forma",
+      "1038": "sons",
+      "1049": "recuperação",
+      "1062": "lento",
+      "1076": "pausar",
+      "1083": "usar",
+      "1089": "mais simples",
+      "1097": "palavra",
+      "1106": "mudar",
+      "1116": "seu/sua",
+      "1121": "primeiro",
+      "1127": "língua",
+      "1145": "comum",
+      "1157": "segunda",
+      "1164": "língua",
+      "1181": "ligações",
+      "1195": "significado",
+      "1211": "inglesa",
+      "1219": "palavra",
+      "1228": "menos",
+      "1233": "automáticas",
+      "1247": "concorrentes",
+      "1257": "palavras",
+      "1263": "interferem",
+      "1273": "mais",
+      "1280": "processamento",
+      "1291": "velocidade",
+      "1300": "outra",
+      "1308": "razão",
+      "1316": "habilidoso",
+      "1324": "falante",
+      "1340": "apenas",
+      "1346": "saber",
+      "1351": "mais",
+      "1363": "acessar",
+      "1380": "saber",
+      "1385": "rapidamente",
+      "1423": "planejar",
+      "1428": "conteúdo",
+      "1442": "escutar",
+      "1456": "observar",
+      "1475": "pessoa",
+      "1489": "usar",
+      "1494": "memória de trabalho",
+      "1510": "pesquisa",
+      "1522": "cognitivo",
+      "1532": "psicologia",
+      "1543": "mostrar",
+      "1554": "memória de trabalho",
+      "1573": "limitado",
+      "1581": "capacidade",
+      "1595": "estresse",
+      "1606": "reduzir",
+      "1613": "desempenho",
+      "1633": "preocupar",
+      "1645": "erro",
+      "1655": "atenção",
+      "1665": "desloca",
+      "1677": "significado",
+      "1688": "monitoramento",
+      "1699": "gramática",
+      "1714": "desacelera",
+      "1720": "fala",
+      "1731": "aumenta",
+      "1741": "ponta da língua",
+      "1759": "momento",
+      "1769": "entrada",
+      "1779": "também",
+      "1787": "desequilibrado",
+      "1799": "muitos",
+      "1804": "aprendiz",
+      "1813": "obter",
+      "1817": "grande",
+      "1823": "quantidade",
+      "1834": "audição",
+      "1848": "leitura",
+      "1867": "fala",
+      "1884": "cérebro",
+      "1890": "tornar-se",
+      "1898": "eficiente",
+      "1911": "compreensão",
+      "1936": "produção",
+      "1948": "baseadas no uso",
+      "1960": "teoria",
+      "1972": "linguagem",
+      "1981": "aprendizagem",
+      "1991": "associadas",
+      "2007": "pesquisador",
+      "2024": "Michael Tomasello",
+      "2043": "enfatizam",
+      "2058": "fluência",
+      "2066": "cresce",
+      "2077": "repetido",
+      "2086": "uso",
+      "2093": "reais",
+      "2098": "contextos",
+      "2201": "por que",
+      "2209": "poder",
+      "2213": "reconhecer",
+      "2223": "avançado",
+      "2232": "vocabulário",
+      "2246": "artigo",
+      "2259": "ainda",
+      "2265": "confiar",
+      "2273": "básico",
+      "2279": "palavra",
+      "2288": "conversa",
+      "2303": "outro",
+      "2311": "causa",
+      "2320": "saber",
+      "2328": "",
+      "2330": "palavra",
+      "2343": "saber",
+      "2351": "seus",
+      "2355": "típico",
+      "2363": "parceiro",
+      "2373": "chamar",
+      "2380": "colocação",
+      "2394": "inglês",
+      "2402": "falante",
+      "2411": "dizer",
+      "2416": "tomar uma decisão",
+      "2435": "chuva forte",
+      "2453": "assumir responsabilidade",
+      "2592": "Corpus",
+      "2599": "linguística",
+      "2618": "estuda",
+      "2626": "grandes",
+      "2632": "bases de dados",
+      "2645": "real",
+      "2650": "linguagem",
+      "2660": "mostra",
+      "2671": "comuns",
+      "2678": "colocações",
+      "2691": "fortemente",
+      "2700": "moldam",
+      "2706": "natural",
+      "2714": "fala",
+      "2722": "aprender",
+      "2731": "palavra",
+      "2737": "juntos",
+      "2751": "sozinho",
+      "2758": "reduzir",
+      "2766": "recuperação",
+      "2776": "tempo",
+      "2783": "prático",
+      "2793": "melhoria",
+      "2805": "vir",
+      "2816": "treino",
+      "2825": "recordação",
+      "2837": "mais",
+      "2842": "passivo",
+      "2850": "exposição",
+      "2860": "cronometrado",
+      "2866": "falar",
+      "2875": "tarefa",
+      "2881": "ajudar",
+      "2899": "forçar",
+      "2905": "recuperação",
+      "2921": "pressão",
+      "2931": "mais próxima",
+      "2946": "conversa",
+      "2960": "curto",
+      "2966": "diário",
+      "2972": "prática",
+      "2981": "funcionar",
+      "2987": "bem",
+      "2993": "descreva",
+      "3007": "dia",
+      "3015": "dois",
+      "3019": "minuto",
+      "3028": "reconte",
+      "3037": "notícia",
+      "3042": "história",
+      "3052": "responda",
+      "3059": "comum",
+      "3066": "entrevista",
+      "3076": "pergunta",
+      "3086": "em voz alta",
+      "3093": "também",
+      "3098": "praticar",
+      "3108": "recuperação com feedback",
+      "3134": "gravar",
+      "3141": "a si mesmo",
+      "3151": "perceber",
+      "3158": "palavra faltando",
+      "3178": "repetir",
+      "3189": "mesmo",
+      "3194": "mensagem",
+      "3207": "melhor",
+      "3214": "redação",
+      "3228": "tipo",
+      "3236": "deliberado",
+      "3247": "repetição",
+      "3258": "desenvolver",
+      "3265": "automaticidade",
+      "3288": "ajuda",
+      "3297": "preparar",
+      "3305": "bloco",
+      "3315": "pronto",
+      "3326": "frase",
+      "3339": "combinar",
+      "3343": "muitas",
+      "3348": "situação",
+      "3368": "o que quero dizer é",
+      "3387": "a principal razão é",
+      "3414": "não tenho certeza sobre o número exato, mas",
+      "3459": "esses",
+      "3465": "bloco",
+      "3472": "reduzir",
+      "3479": "planejamento",
+      "3488": "carga",
+      "3497": "dar",
+      "3506": "tempo",
+      "3514": "recuperar",
+      "3523": "mais difícil",
+      "3530": "palavra",
+      "3550": "repetição espaçada",
+      "3573": "recordação ativa",
+      "3596": "usar flashcards",
+      "3623": "produzir",
+      "3635": "palavra",
+      "3647": "definição",
+      "3661": "exemplo",
+      "3670": "fortalecer",
+      "3682": "produtivo",
+      "3693": "vocabulário",
+      "3714": "reler",
+      "3724": "listas",
+      "3732": "compreender",
+      "3754": "fácil",
+      "3759": "falar",
+      "3773": "normal",
+      "3780": "fase",
+      "3793": "pessoal",
+      "3802": "falha",
+      "3814": "escola",
+      "3822": "trabalho",
+      "3832": "imigração",
+      "3844": "ambiente",
+      "3854": "falar",
+      "3863": "capacidade",
+      "3871": "afetar",
+      "3879": "oportunidade",
+      "3897": "fechar",
+      "3909": "lacuna",
+      "3913": "ter",
+      "3917": "real",
+      "3922": "consequência",
+      "3941": "você",
+      "3945": "concentrar",
+      "3954": "rápido",
+      "3959": "recuperação",
+      "3970": "colocação",
+      "3988": "repetido",
+      "3997": "falado",
+      "4004": "prática",
+      "4014": "seu",
+      "4019": "produtivo",
+      "4030": "vocabulário",
+      "4041": "alcançar (nível)",
+      "4055": "seu",
+      "4060": "receptivo",
+      "4070": "vocabulário",
+      "4086": "conversa",
+      "4112": "cansativo",
+      "4132": "preciso"
+    },
+    "es": {
+      "0": "muchos",
+      "5": "inglés",
+      "13": "estudiante",
+      "26": "seguir",
+      "33": "película",
+      "41": "podcast",
+      "54": "reunión",
+      "67": "tener dificultades",
+      "79": "hablar",
+      "85": "rápidamente",
+      "277": "comprender",
+      "300": "más fácil",
+      "312": "hablar",
+      "329": "comprensión",
+      "348": "reconocimiento",
+      "367": "hablar",
+      "376": "requerir",
+      "385": "memoria",
+      "402": "escuchar",
+      "412": "leer",
+      "426": "reconocer",
+      "436": "palabra",
+      "459": "débilmente",
+      "466": "aprender",
+      "479": "contexto",
+      "487": "llenar",
+      "496": "faltante",
+      "504": "pieza",
+      "521": "hablar",
+      "537": "elegir",
+      "546": "palabra",
+      "556": "gramática",
+      "573": "pronunciación",
+      "587": "rápido",
+      "601": "de selección múltiple",
+      "617": "opción",
+      "626": "psicolingüístico",
+      "643": "investigación",
+      "652": "describe",
+      "672": "diferencia",
+      "691": "vocabulario receptivo",
+      "713": "palabra",
+      "723": "entender",
+      "739": "vocabulario productivo",
+      "762": "palabra",
+      "776": "usar",
+      "783": "para encontrar palabras",
+      "796": "problema",
+      "805": "a menudo",
+      "811": "ocurrir",
+      "818": "durante",
+      "825": "léxico",
+      "833": "recuperación",
+      "848": "paso",
+      "863": "cerebro",
+      "869": "seleccionar",
+      "879": "palabra",
+      "894": "competidor",
+      "910": "modelo",
+      "920": "habla",
+      "927": "producción",
+      "938": "desarrollar",
+      "951": "Willem Levelt",
+      "977": "hablante",
+      "986": "mover",
+      "998": "mensaje",
+      "1006": "idea",
+      "1016": "palabra",
+      "1021": "forma",
+      "1038": "sonido",
+      "1049": "recuperación",
+      "1062": "lento",
+      "1076": "pausar",
+      "1078": "usar",
+      "1089": "más simple",
+      "1097": "palabra",
+      "1106": "cambiar",
+      "1121": "primer",
+      "1127": "idioma",
+      "1145": "común",
+      "1157": "segundo",
+      "1164": "idioma",
+      "1181": "vínculo",
+      "1195": "significado",
+      "1211": "inglés",
+      "1219": "palabra",
+      "1228": "menos",
+      "1233": "automático",
+      "1247": "competir",
+      "1257": "palabra",
+      "1263": "interferir",
+      "1273": "más",
+      "1280": "procesamiento",
+      "1291": "velocidad",
+      "1300": "otra",
+      "1308": "razón",
+      "1316": "experto",
+      "1324": "orador",
+      "1333": "hacer",
+      "1346": "saber",
+      "1351": "más",
+      "1363": "acceder",
+      "1370": "lo que",
+      "1380": "saber",
+      "1385": "rápidamente",
+      "1411": "tú",
+      "1415": "tener",
+      "1420": "",
+      "1423": "planificar",
+      "1428": "contenido",
+      "1442": "escuchar",
+      "1456": "mirar",
+      "1469": "otro",
+      "1475": "persona",
+      "1494": "de trabajo",
+      "1502": "memoria",
+      "1510": "investigación",
+      "1522": "cognitivo",
+      "1532": "psicología",
+      "1543": "muestra",
+      "1554": "de trabajo",
+      "1562": "memoria",
+      "1573": "limitado",
+      "1581": "capacidad",
+      "1595": "estrés",
+      "1606": "reducir",
+      "1613": "rendimiento",
+      "1633": "preocuparse",
+      "1645": "error",
+      "1655": "atención",
+      "1665": "cambiar",
+      "1677": "significado",
+      "1688": "supervisar",
+      "1699": "gramática",
+      "1714": "ralentizar",
+      "1720": "habla",
+      "1731": "aumentar",
+      "1741": "en la punta de la lengua",
+      "1759": "momento",
+      "1769": "entrada",
+      "1779": "también",
+      "1787": "desequilibrada",
+      "1799": "muchos",
+      "1804": "aprendiz",
+      "1813": "obtener",
+      "1817": "grande",
+      "1823": "cantidad",
+      "1834": "escucha",
+      "1848": "lectura",
+      "1867": "expresión oral",
+      "1884": "cerebro",
+      "1890": "volverse",
+      "1898": "eficiente",
+      "1911": "comprensión",
+      "1936": "producción",
+      "1948": "basado en el uso",
+      "1960": "teoría",
+      "1972": "idioma",
+      "1981": "aprendizaje",
+      "1991": "asociado",
+      "2007": "investigador",
+      "2024": "Michael Tomasello",
+      "2043": "enfatizar",
+      "2058": "fluidez",
+      "2066": "crecer",
+      "2077": "repetido",
+      "2086": "uso",
+      "2093": "real",
+      "2098": "contexto",
+      "2116": "repetido",
+      "2125": "hablar",
+      "2144": "saber",
+      "2152": "palabra",
+      "2161": "nunca",
+      "2167": "construir",
+      "2173": "",
+      "2175": "rápido",
+      "2180": "ruta",
+      "2186": "",
+      "2189": "",
+      "2213": "reconocer",
+      "2223": "avanzado",
+      "2232": "vocabulario",
+      "2246": "artículo",
+      "2259": "aún",
+      "2265": "confiar",
+      "2273": "básico",
+      "2279": "palabra",
+      "2288": "conversación",
+      "2303": "otra",
+      "2311": "causa",
+      "2320": "conocer",
+      "2328": "",
+      "2330": "palabra",
+      "2335": "",
+      "2343": "saber",
+      "2351": "",
+      "2355": "típico",
+      "2363": "compañero",
+      "2373": "llamado",
+      "2380": "colocación",
+      "2394": "inglés",
+      "2402": "hablante",
+      "2411": "decir",
+      "2415": "tomar una decisión",
+      "2434": "lluvia fuerte",
+      "2592": "corpus",
+      "2599": "lingüística",
+      "2618": "estudiar",
+      "2626": "grande",
+      "2632": "base de datos",
+      "2645": "real",
+      "2650": "lenguaje",
+      "2660": "mostrar",
+      "2671": "común",
+      "2678": "colocación",
+      "2691": "fuertemente",
+      "2700": "moldear",
+      "2706": "natural",
+      "2714": "habla",
+      "2722": "aprender",
+      "2731": "palabra",
+      "2737": "juntos",
+      "2751": "solo",
+      "2758": "reducir",
+      "2766": "recuperación",
+      "2776": "tiempo",
+      "2783": "práctico",
+      "2793": "mejora",
+      "2805": "venir",
+      "2816": "entrenamiento",
+      "2825": "memoria",
+      "2837": "más",
+      "2842": "pasivo",
+      "2850": "exposición",
+      "2860": "cronometrado",
+      "2866": "hablar",
+      "2875": "tarea",
+      "2881": "ayudar",
+      "2899": "obligar",
+      "2905": "recuperación",
+      "2921": "presión",
+      "2931": "más cerca",
+      "2941": "real",
+      "2946": "conversación",
+      "2960": "corto",
+      "2966": "diario",
+      "2972": "práctica",
+      "2981": "funcionar",
+      "2987": "bien",
+      "2993": "describir",
+      "3007": "día",
+      "3015": "dos",
+      "3019": "minuto",
+      "3028": "volver a contar",
+      "3035": "skip",
+      "3037": "noticia",
+      "3042": "relato",
+      "3052": "responder",
+      "3059": "común",
+      "3066": "entrevista",
+      "3076": "pregunta",
+      "3086": "en voz alta",
+      "3093": "también",
+      "3098": "practicar",
+      "3107": "recuperación con retroalimentación",
+      "3134": "grabar",
+      "3141": "a ti mismo",
+      "3151": "notar",
+      "3158": "faltante",
+      "3166": "palabra",
+      "3173": "luego",
+      "3178": "repetir",
+      "3185": "",
+      "3189": "mismo",
+      "3194": "mensaje",
+      "3202": "",
+      "3207": "mejor",
+      "3214": "redacción",
+      "3228": "tipo",
+      "3236": "deliberada",
+      "3247": "repetición",
+      "3258": "construye",
+      "3265": "automaticidad",
+      "3288": "ayudar",
+      "3297": "preparar",
+      "3305": "fragmento",
+      "3315": "prefabricado",
+      "3326": "frase",
+      "3339": "encajar",
+      "3343": "muchos",
+      "3348": "situación",
+      "3397": "razón",
+      "3423": "seguro",
+      "3438": "exacto",
+      "3444": "número",
+      "3465": "fragmento",
+      "3472": "reducir",
+      "3479": "planificación",
+      "3488": "carga",
+      "3497": "dar",
+      "3502": "tú",
+      "3506": "tiempo",
+      "3514": "recuperar",
+      "3523": "más difícil",
+      "3530": "palabra",
+      "3550": "repetición espaciada",
+      "3573": "recuperación activa",
+      "3596": "usar tarjetas de memoria",
+      "3623": "producir",
+      "3635": "palabra",
+      "3647": "definición",
+      "3661": "ejemplo",
+      "3670": "fortalecer",
+      "3682": "vocabulario productivo",
+      "3714": "releer",
+      "3724": "listas",
+      "3732": "entender",
+      "3754": "fácil",
+      "3759": "hablar",
+      "3773": "normal",
+      "3780": "etapa",
+      "3793": "personal",
+      "3802": "fracaso",
+      "3814": "escuela",
+      "3822": "trabajo",
+      "3832": "inmigración",
+      "3844": "entorno",
+      "3854": "hablar",
+      "3863": "capacidad",
+      "3871": "afectar",
+      "3879": "oportunidad",
+      "3897": "cerrar",
+      "3909": "brecha",
+      "3917": "real",
+      "3922": "consecuencia",
+      "3941": "tú",
+      "3945": "concentrarse",
+      "3954": "rápido",
+      "3959": "recuperación",
+      "3970": "colocaciones",
+      "3988": "repetido",
+      "3997": "oral",
+      "4004": "práctica",
+      "4014": "tu",
+      "4019": "productivo",
+      "4030": "vocabulario",
+      "4041": "alcanzar",
+      "4055": "tu",
+      "4060": "receptivo",
+      "4070": "vocabulario",
+      "4086": "conversación",
+      "4099": "volverse",
+      "4107": "menos",
+      "4112": "agotador",
+      "4127": "más",
+      "4132": "preciso"
+    },
+    "th": {
+      "0": "หลาย",
+      "5": "ภาษาอังกฤษ",
+      "13": "ผู้เรียน",
+      "26": "ติดตาม",
+      "33": "ภาพยนตร์",
+      "41": "พอดแคสต์",
+      "54": "การประชุม",
+      "67": "ดิ้นรน",
+      "79": "พูด",
+      "85": "อย่างรวดเร็ว",
+      "99": "ช่องว่าง",
+      "103": "สำคัญ",
+      "119": "มัน",
+      "131": "สัญญาณ",
+      "140": "ไม่รู้ภาษาอังกฤษ",
+      "277": "ความเข้าใจ",
+      "300": "ง่ายกว่า",
+      "312": "การพูด",
+      "329": "การเข้าใจความหมาย",
+      "348": "การจดจำ",
+      "367": "การพูด",
+      "376": "ต้องการ",
+      "385": "การเรียกคืน",
+      "402": "ฟัง",
+      "412": "อ่าน",
+      "426": "รู้จำ",
+      "436": "คำ",
+      "442": "แม้",
+      "459": "อย่างอ่อนแอ",
+      "466": "เรียนรู้",
+      "479": "บริบท",
+      "487": "เติมเต็ม",
+      "496": "ที่หายไป",
+      "504": "ชิ้นส่วน",
+      "521": "พูด",
+      "537": "เลือก",
+      "546": "คำ",
+      "552": "ของมัน",
+      "556": "ไวยากรณ์",
+      "573": "การออกเสียง",
+      "587": "อย่างรวดเร็ว",
+      "601": "ตัวเลือกแบบหลายตัว",
+      "626": "จิตภาษา",
+      "643": "งานวิจัย",
+      "652": "อธิบาย",
+      "672": "ความแตกต่าง",
+      "691": "คำศัพท์ที่รับรู้",
+      "713": "คำ",
+      "723": "เข้าใจ",
+      "739": "คำศัพท์ที่ผลิตได้",
+      "762": "คำ",
+      "776": "ใช้",
+      "783": "การค้นหาคำ",
+      "796": "ปัญหา",
+      "805": "บ่อยๆ",
+      "811": "เกิดขึ้น",
+      "818": "ระหว่าง",
+      "825": "เกี่ยวกับคำศัพท์",
+      "833": "การดึงข้อมูล",
+      "848": "ขั้นตอน",
+      "863": "สมอง",
+      "865": "",
+      "869": "เลือก",
+      "879": "คำ",
+      "884": "จาก",
+      "889": "หลาย",
+      "894": "คู่แข่ง",
+      "910": "แบบจำลอง",
+      "920": "คำพูด",
+      "927": "การผลิต",
+      "938": "พัฒนา",
+      "951": "Willem Levelt",
+      "977": "ผู้พูด",
+      "986": "เคลื่อน",
+      "998": "ข้อความ",
+      "1006": "แนวคิด",
+      "1016": "คำ",
+      "1021": "รูปแบบ",
+      "1038": "เสียง",
+      "1049": "การดึงข้อมูล",
+      "1062": "ช้า",
+      "1072": "อาจจะ",
+      "1076": "หยุดชั่วคราว",
+      "1083": "ใช้",
+      "1087": "",
+      "1089": "ง่ายกว่า",
+      "1097": "คำ",
+      "1106": "เปลี่ยน",
+      "1113": "",
+      "1116": "",
+      "1121": "แรก",
+      "1127": "ภาษา",
+      "1145": "ทั่วไป",
+      "1157": "ที่สอง",
+      "1164": "ภาษา",
+      "1181": "ความสัมพันธ์",
+      "1187": "ระหว่าง",
+      "1195": "ความหมาย",
+      "1211": "ภาษาอังกฤษ",
+      "1219": "คำ",
+      "1228": "น้อยกว่า",
+      "1233": "โดยอัตโนมัติ",
+      "1247": "แข่งขัน",
+      "1257": "คำ",
+      "1263": "แทรกแซง",
+      "1273": "มากขึ้น",
+      "1280": "ประมวลผล",
+      "1291": "ความเร็ว",
+      "1300": "อีก",
+      "1308": "เหตุผล",
+      "1316": "มีทักษะ",
+      "1324": "ผู้พูด",
+      "1333": "ทำ",
+      "1346": "รู้",
+      "1351": "มากขึ้น",
+      "1363": "เข้าถึง",
+      "1370": "สิ่งที่",
+      "1375": "พวกเขา",
+      "1380": "รู้",
+      "1385": "อย่างรวดเร็ว",
+      "1397": "การสนทนา",
+      "1415": "ต้องมี",
+      "1423": "วางแผน",
+      "1428": "เนื้อหา",
+      "1442": "ฟัง",
+      "1456": "ดู",
+      "1469": "อื่น",
+      "1475": "บุคคล",
+      "1489": "ใช้",
+      "1494": "หน่วยความจำทำงาน",
+      "1510": "งานวิจัย",
+      "1522": "การรับรู้",
+      "1532": "จิตวิทยา",
+      "1543": "แสดงให้เห็น",
+      "1554": "ความจำทำงาน",
+      "1573": "จำกัด",
+      "1581": "ความจุ",
+      "1595": "ความเครียด",
+      "1606": "ลด",
+      "1613": "ประสิทธิภาพ",
+      "1633": "กังวล",
+      "1645": "ความผิดพลาด",
+      "1655": "ความสนใจ",
+      "1665": "เปลี่ยน",
+      "1677": "ความหมาย",
+      "1688": "ตรวจสอบ",
+      "1699": "ไวยากรณ์",
+      "1714": "ช้า",
+      "1720": "การพูด",
+      "1731": "เพิ่มขึ้น",
+      "1741": "ช่วงเวลาที่ไม่สามารถนึกคำพูดได้",
+      "1759": "ช่วงเวลา",
+      "1769": "ข้อมูลนำเข้า",
+      "1779": "ยัง, ด้วย",
+      "1787": "ไม่สมดุล",
+      "1799": "จำนวนมาก",
+      "1804": "ผู้เรียน",
+      "1813": "ได้รับ",
+      "1817": "ใหญ่",
+      "1823": "ปริมาณ",
+      "1834": "การฟัง",
+      "1848": "การอ่าน",
+      "1867": "การพูด",
+      "1884": "สมอง",
+      "1890": "กลายเป็น",
+      "1898": "มีประสิทธิภาพ",
+      "1911": "การทำความเข้าใจ",
+      "1936": "การผลิต",
+      "1948": "ตามการใช้งาน",
+      "1960": "ทฤษฎี",
+      "1972": "ภาษา",
+      "1981": "การเรียนรู้",
+      "1991": "เกี่ยวข้อง",
+      "2007": "นักวิจัย",
+      "2043": "เน้น",
+      "2058": "ความคล่องแคล่ว",
+      "2066": "เติบโต",
+      "2077": "ซ้ำ",
+      "2086": "การใช้",
+      "2093": "จริง",
+      "2098": "บริบท",
+      "2116": "ทำซ้ำ",
+      "2125": "พูด",
+      "2144": "รู้",
+      "2152": "คำ",
+      "2161": "ไม่เคย",
+      "2167": "สร้าง",
+      "2173": "",
+      "2175": "เร็ว",
+      "2180": "เส้นทาง",
+      "2209": "สามารถ",
+      "2213": "จำแนก",
+      "2223": "ขั้นสูง",
+      "2232": "ศัพท์",
+      "2246": "บทความ",
+      "2259": "ยัง",
+      "2265": "พึ่งพา",
+      "2273": "พื้นฐาน",
+      "2279": "คำ",
+      "2288": "การสนทนา",
+      "2394": "ภาษาอังกฤษ",
+      "2402": "ผู้พูด",
+      "2411": "พูด",
+      "2416": "ตัดสินใจ",
+      "2435": "ฝนตกหนัก",
+      "2453": "รับผิดชอบ",
+      "2592": "ภาษาศาสตร์คอร์ปัส",
+      "2618": "ศึกษา",
+      "2626": "ขนาดใหญ่",
+      "2632": "ฐานข้อมูล",
+      "2645": "ภาษาแท้จริง",
+      "2660": "แสดงให้เห็น",
+      "2671": "ที่พบบ่อย",
+      "2678": "การเรียงคำ",
+      "2691": "อย่างยิ่ง",
+      "2700": "มีอิทธิพล",
+      "2706": "ตามธรรมชาติ",
+      "2714": "การพูด",
+      "2722": "เรียนรู้",
+      "2731": "คำ",
+      "2737": "ด้วยกัน",
+      "2751": "คนเดียว",
+      "2758": "ลด",
+      "2766": "การเรียกคืน",
+      "2776": "เวลา",
+      "2783": "ที่ใช้งานได้จริง",
+      "2793": "การปรับปรุง",
+      "2805": "มา",
+      "2816": "การฝึกฝน",
+      "2825": "ความจำ",
+      "2842": "แบบนิ่ง",
+      "2850": "การรับรู้",
+      "2860": "ที่มีเวลาจำกัด",
+      "2866": "การพูด",
+      "2875": "งาน",
+      "2881": "ช่วย",
+      "2899": "บังคับ",
+      "2905": "การดึงข้อมูล",
+      "2915": "ภายใต้",
+      "2921": "ความกดดัน",
+      "2931": "ใกล้",
+      "2938": "ถึง",
+      "2941": "จริง",
+      "2946": "การสนทนา",
+      "2960": "สั้น",
+      "2966": "รายวัน",
+      "2972": "การฝึกฝน",
+      "2981": "ได้ผล",
+      "2987": "ดี",
+      "2993": "บรรยาย",
+      "3002": "ของคุณ",
+      "3007": "วัน",
+      "3015": "สอง",
+      "3019": "นาที",
+      "3028": "เล่าเรื่องใหม่",
+      "3035": "",
+      "3037": "ข่าว",
+      "3042": "เรื่องราว",
+      "3052": "ตอบ",
+      "3059": "ที่พบบ่อย",
+      "3066": "สัมภาษณ์",
+      "3076": "คำถาม",
+      "3086": "ด้วยเสียงดัง",
+      "3093": "นอกจากนี้",
+      "3098": "ฝึก",
+      "3108": "การเรียกคืนพร้อมคำติชม",
+      "3134": "อัด",
+      "3141": "ตัวเอง",
+      "3151": "สังเกต",
+      "3158": "ขาดหาย",
+      "3166": "คำ",
+      "3178": "พูดซ้ำ",
+      "3189": "เดียวกัน",
+      "3194": "ข้อความ",
+      "3207": "ที่ดีกว่า",
+      "3214": "คำ",
+      "3228": "ชนิด",
+      "3236": "อย่างตั้งใจ",
+      "3247": "การทำซ้ำ",
+      "3258": "สร้าง",
+      "3265": "ความอัตโนมัติ",
+      "3283": "ด้วย",
+      "3288": "ช่วย",
+      "3297": "เตรียม",
+      "3305": "กลุ่มคำ",
+      "3315": "ที่ทำไว้ล่วงหน้า",
+      "3326": "วลี",
+      "3339": "เหมาะกับ",
+      "3348": "สถานการณ์",
+      "3381": "เป็น",
+      "3415": "ฉันเป็น",
+      "3419": "ไม่",
+      "3423": "แน่ใจ",
+      "3438": "ที่แน่นอน",
+      "3444": "ตัวเลข",
+      "3465": "ชิ้นส่วน",
+      "3472": "ลด",
+      "3479": "การวางแผน",
+      "3488": "ภาระ",
+      "3497": "ให้",
+      "3502": "คุณ",
+      "3506": "เวลา",
+      "3514": "ดึงออกมา",
+      "3523": "ยากกว่า",
+      "3530": "คำ",
+      "3550": "การทบทวนซ้ำเป็นช่วง ๆ",
+      "3573": "การเรียกคืนอย่างกระตือรือร้น",
+      "3596": "การใช้แฟลชการ์ด",
+      "3623": "ผลิต",
+      "3647": "คำจำกัดความ",
+      "3661": "คำตัวอย่าง",
+      "3670": "เสริมสร้าง",
+      "3682": "เชิงผลิต",
+      "3693": "คำศัพท์",
+      "3714": "อ่านซ้ำ",
+      "3724": "รายการ",
+      "3732": "ความเข้าใจ",
+      "3746": "โดยไม่ต้อง",
+      "3754": "ง่าย",
+      "3759": "พูด",
+      "3773": "ปกติ",
+      "3780": "ขั้นตอน",
+      "3793": "ส่วนบุคคล",
+      "3802": "ความล้มเหลว",
+      "3814": "โรงเรียน",
+      "3822": "งาน",
+      "3832": "การเข้าเมือง",
+      "3844": "สภาพแวดล้อม",
+      "3854": "การพูด",
+      "3863": "ความสามารถ",
+      "3871": "ส่งผลต่อ",
+      "3879": "โอกาส",
+      "3897": "การปิด",
+      "3909": "ช่องว่าง",
+      "3917": "แท้จริง",
+      "3922": "ผลกระทบ",
+      "3941": "คุณ",
+      "3945": "มุ่งเน้น",
+      "3954": "อย่างรวดเร็ว",
+      "3959": "การดึงข้อมูล",
+      "3970": "การจับคู่คำ",
+      "3988": "ซ้ำ",
+      "3997": "พูด",
+      "4004": "การฝึก",
+      "4014": "ของคุณ",
+      "4019": "ผลิตได้",
+      "4030": "คำศัพท์",
+      "4041": "ตามทัน",
+      "4049": "ทัน",
+      "4055": "ของคุณ",
+      "4060": "รับรู้",
+      "4070": "คำศัพท์",
+      "4086": "การสนทนา",
+      "4099": "กลายเป็น",
+      "4107": "น้อยกว่า",
+      "4112": "เหนื่อย",
+      "4127": "มากขึ้น",
+      "4132": "ถูกต้อง"
+    }
+  }
+}
