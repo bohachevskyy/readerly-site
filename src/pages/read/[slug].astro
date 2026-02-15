@@ -307,9 +307,11 @@ const articleJsonLd = {
     let loadError = false;
 
     // Fetch translations on page load
+    // Try without trailing slash first (production: Vercel/Netlify), then with slash (local Astro dev with trailingSlash: "always")
     (async function loadTranslations() {
       try {
-        const res = await fetch(`/api/stories/${slug}/translations.json/`);
+        let res = await fetch(`/api/stories/${slug}/translations.json`);
+        if (!res.ok) res = await fetch(`/api/stories/${slug}/translations.json/`);
         if (!res.ok) throw new Error("Failed to load translations");
         const data = await res.json();
         translations = data.translations || {};
