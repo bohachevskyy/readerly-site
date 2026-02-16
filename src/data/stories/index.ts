@@ -9,6 +9,7 @@ export interface Story {
   slug: string;
   description: string;
   level: string;
+  tags?: string[];
   appUrl?: string;
   text: string;
   words?: Record<string, WordInfo>;
