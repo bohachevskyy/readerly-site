@@ -76,19 +76,35 @@ function getLanguageLabel(code: string): string {
                     {story.level}
                   </span>
                 )}
-                <div class="flex gap-1">
-                  {Object.keys(story.translations).map((lang) => (
-                    <span class="rounded-full bg-soft px-2 py-0.5 text-[10px] font-medium text-muted uppercase">
-                      {lang}
-                    </span>
-                  ))}
+                <div class="flex gap-1 flex-wrap">
+                  {(() => {
+                    const langs = Object.keys(story.translations);
+                    const maxVisible = 4;
+                    const visibleLangs = langs.slice(0, maxVisible);
+                    const remainingCount = langs.length - maxVisible;
+
+                    return (
+                      <>
+                        {visibleLangs.map((lang) => (
+                          <span class="rounded-full bg-soft px-2 py-0.5 text-[10px] font-medium text-muted uppercase">
+                            {lang}
+                          </span>
+                        ))}
+                        {remainingCount > 0 && (
+                          <span class="rounded-full bg-soft px-2 py-0.5 text-[10px] font-medium text-muted">
+                            +{remainingCount}
+                          </span>
+                        )}
+                      </>
+                    );
+                  })()}
                 </div>
               </div>
               <h2 class="text-lg font-semibold text-ink group-hover:text-emerald-700 transition-colors">
                 {story.title}
               </h2>
               <p class="mt-2 text-sm text-muted leading-relaxed">
-                {story.description}
+                {story.cardDescription ?? story.description}
               </p>
               {story.tags && story.tags.length > 0 && (
                 <div class="mt-3 flex flex-wrap gap-1.5">
