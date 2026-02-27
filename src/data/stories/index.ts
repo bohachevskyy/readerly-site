@@ -8,6 +8,7 @@ export interface Story {
   title: string;
   slug: string;
   description: string;
+  cardDescription?: string;
   level: string;
   tags?: string[];
   appUrl?: string;

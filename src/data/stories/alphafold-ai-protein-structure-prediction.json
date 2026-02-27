@@ -1,0 +1,6873 @@
+{
+  "title": "AlphaFold: How AI Changed Protein Structure Prediction",
+  "slug": "alphafold-ai-protein-structure-prediction",
+  "description": "Learn English with the story of AlphaFold — how DeepMind's AI system solved the protein folding problem and transformed structural biology with machine learning.",
+  "level": "C1",
+  "appUrl": "https://app.readerly.ai?utm_source=blog&utm_medium=word-banner&utm_campaign=alphafold-ai-protein-structure-prediction",
+  "text": "AlphaFold showed that a computer system can predict many protein 3D structures with near-experimental accuracy, and it changed how biologists get structural information. DeepMind presented major results in 2020, after AlphaFold2 won the CASP14 competition, and the company and its partner EMBL-EBI released a large public database in 2021. This matters because protein shape strongly affects function, and lab methods such as X-ray crystallography and cryo-electron microscopy can be slow, expensive, or difficult for certain proteins.\n\nThe scientific problem AlphaFold targeted is the protein folding problem: given an amino-acid sequence, predict the final 3D arrangement of atoms. A protein is a chain of 20 common amino acids, and its sequence is encoded in DNA. The chain folds because of physical forces such as hydrophobic interactions and hydrogen bonds, and because of constraints in the backbone geometry. Predicting the fold is hard because a chain has many possible conformations, and because proteins often have flexible parts. Reliable structure prediction helps researchers infer active sites, binding pockets, and how mutations change stability.\n\nA key reason AlphaFold worked is that it combined two strong sources of information: evolutionary patterns and structural geometry. The system uses multiple sequence alignments, which are collections of related protein sequences found in databases. When two residues mutate together across evolution, it often indicates that they are close in 3D space, because contact helps maintain function. Earlier methods used this “coevolution” idea, but AlphaFold connected it tightly to a neural network that reasons directly about distances and angles, turning statistical signals into a consistent 3D model.\n\nAlphaFold2’s architecture introduced a way to update both sequence-level features and pairwise residue relationships repeatedly, so the model can refine its own understanding. DeepMind described an “Evoformer” module that passes information between a representation of the alignment and a representation of residue-residue pairs. After that, a structure module generates 3D coordinates and then recycles its output back into the network for further improvement. This recycling is important because structure prediction is a global constraint problem: a local choice, like a helix position, affects long-range contacts across the entire protein.\n\nTraining also mattered, because the model learned from decades of experimental structures. Public resources like the Protein Data Bank (PDB), founded in 1971, contain experimentally determined structures from techniques such as X-ray crystallography, NMR spectroscopy, and cryo-EM. AlphaFold learned patterns that connect sequence to geometry, such as typical bond lengths, angles, and common secondary structures like alpha helices and beta sheets. DeepMind reported that the 2020 system reached accuracy levels in CASP14 that were close to experimental results for many targets, measured by established metrics used in the competition.\n\nAlphaFold’s impact on biomedical research came quickly because access was broad and the outputs included confidence estimates. The AlphaFold Protein Structure Database, released in 2021 by DeepMind and EMBL-EBI, provided predicted structures for large parts of the human proteome and many model organisms. Researchers could download structures, visualize likely domains, and focus experiments on the most uncertain regions. The model’s per-residue confidence score, often discussed as pLDDT, helps users judge where the prediction is strong and where flexible loops or disordered regions make any single structure less reliable.\n\nThe technology also changed how labs plan experiments and interpret disease mutations. Structural predictions can guide mutagenesis experiments by suggesting which residues form an active site or a binding interface. In medical genetics, a mutation that disrupts a tightly packed core or a catalytic residue is more likely to affect function than one on a flexible surface loop, and predicted structures help make that reasoning more concrete. AlphaFold models also help in drug discovery when a protein structure is missing, although real drug design still depends on details like ligand-induced conformational changes and water molecules that can be hard to capture without experiments.\n\nAlphaFold is not a complete solution to structural biology, and its limits are important for responsible use. Many proteins act as complexes, bind DNA or RNA, or change shape when they bind partners, and single-chain predictions do not automatically provide those states. Some regions are intrinsically disordered and do not have one stable structure. Post-translational modifications, cofactors, and membranes can also influence shape. These limits matter because they define where experiments remain essential and where computational prediction should be treated as one strong piece of evidence, not the final answer.\n\nAlphaFold’s broader significance is that it compressed the time from gene sequence to structural hypothesis from months or years to hours or days, which supports faster cycles of research. It also made protein structure a more routine input for fields like microbiology, enzyme engineering, and human disease biology. As newer methods expand to protein complexes and dynamics, the main lesson remains: combining large biological datasets with geometry-aware machine learning can produce tools that change what counts as “available knowledge” for everyday science.",
+  "words": {
+    "0": {
+      "word": "AlphaFold",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "10": {
+      "word": "show",
+      "pos": "past tense verb",
+      "example": "I show my work to the teacher."
+    },
+    "17": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is my book."
+    },
+    "24": {
+      "word": "computer",
+      "pos": "singular noun",
+      "example": "The computer is very fast."
+    },
+    "33": {
+      "word": "system",
+      "pos": "singular noun",
+      "example": "The heating system works well."
+    },
+    "40": {
+      "word": "can",
+      "pos": "modal verb",
+      "example": "I can swim very well."
+    },
+    "44": {
+      "word": "predict",
+      "pos": "verb",
+      "example": "Experts predict rain tomorrow."
+    },
+    "52": {
+      "word": "many",
+      "pos": "determiner",
+      "example": "Many people like to read books."
+    },
+    "57": {
+      "word": "protein",
+      "pos": "noun",
+      "example": "Protein is important for health."
+    },
+    "65": {
+      "word": "3D",
+      "pos": "adjective",
+      "example": "The model is 3D."
+    },
+    "66": {
+      "word": "get",
+      "pos": "base form verb",
+      "example": "I get information from books."
+    },
+    "68": {
+      "word": "structure",
+      "pos": "plural noun",
+      "example": "The structure is complex."
+    },
+    "79": {
+      "word": "with",
+      "pos": "preposition",
+      "example": "She works with great care."
+    },
+    "84": {
+      "word": "near-experimental",
+      "pos": "adjective",
+      "example": "The results show near-experimental accuracy."
+    },
+    "102": {
+      "word": "accuracy",
+      "pos": "noun",
+      "example": "Accuracy is important in tests."
+    },
+    "112": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like coffee and tea."
+    },
+    "116": {
+      "word": "it",
+      "pos": "third person singular pronoun",
+      "example": "It is raining today."
+    },
+    "119": {
+      "word": "change",
+      "pos": "past tense verb",
+      "example": "We change our plans often."
+    },
+    "127": {
+      "word": "how",
+      "pos": "adverb",
+      "example": "I don't know how it works."
+    },
+    "131": {
+      "word": "biologist",
+      "pos": "plural noun",
+      "example": "Biologists study living things."
+    },
+    "142": {
+      "word": "get",
+      "pos": "verb",
+      "example": "I get information from books."
+    },
+    "146": {
+      "word": "structural",
+      "pos": "adjective",
+      "example": "Structural design is important."
+    },
+    "157": {
+      "word": "information",
+      "pos": "noun",
+      "example": "Information helps us learn."
+    },
+    "170": {
+      "word": "DeepMind",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "179": {
+      "word": "present",
+      "pos": "past tense verb",
+      "example": "I present my work to the class."
+    },
+    "189": {
+      "word": "major",
+      "pos": "adjective",
+      "example": "He made a major decision."
+    },
+    "195": {
+      "word": "result",
+      "pos": "plural noun",
+      "example": "The result was surprising."
+    },
+    "203": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "She is in the room."
+    },
+    "206": {
+      "word": "2020",
+      "pos": "noun (year)",
+      "example": ""
+    },
+    "212": {
+      "word": "after",
+      "pos": "preposition",
+      "example": "We will eat dinner after the movie."
+    },
+    "218": {
+      "word": "AlphaFold2",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "229": {
+      "word": "win",
+      "pos": "past tense verb",
+      "example": "They win the game."
+    },
+    "237": {
+      "word": "CASP14",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "244": {
+      "word": "competition",
+      "pos": "singular noun",
+      "example": "She entered the competition."
+    },
+    "257": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "265": {
+      "word": "company",
+      "pos": "singular noun",
+      "example": "The company grows fast."
+    },
+    "273": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "277": {
+      "word": "its",
+      "pos": "possessive determiner",
+      "example": "The company updated its software."
+    },
+    "281": {
+      "word": "partner EMBL-EBI",
+      "pos": "compound noun",
+      "example": ""
+    },
+    "289": {
+      "word": "EMBL-EBI",
+      "pos": "proper noun",
+      "example": "EMBL-EBI provides important bioinformatics resources."
+    },
+    "298": {
+      "word": "release",
+      "pos": "past tense verb",
+      "example": "They release new software."
+    },
+    "309": {
+      "word": "large",
+      "pos": "adjective",
+      "example": "This is a large building."
+    },
+    "310": {
+      "word": "",
+      "pos": "",
+      "example": ""
+    },
+    "315": {
+      "word": "public",
+      "pos": "adjective",
+      "example": "The park is public land."
+    },
+    "322": {
+      "word": "database",
+      "pos": "singular noun",
+      "example": "The database stores information."
+    },
+    "331": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "She is in the room."
+    },
+    "334": {
+      "word": "2021",
+      "pos": "number",
+      "example": ""
+    },
+    "340": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is important for the experiment."
+    },
+    "345": {
+      "word": "matter",
+      "pos": "present tense verb",
+      "example": "The issue matters to everyone."
+    },
+    "353": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "I stayed home because it was raining."
+    },
+    "361": {
+      "word": "protein",
+      "pos": "singular noun",
+      "example": "Protein is essential for life."
+    },
+    "369": {
+      "word": "shape",
+      "pos": "singular noun",
+      "example": "The shape of the object is round."
+    },
+    "375": {
+      "word": "strongly",
+      "pos": "adverb",
+      "example": "She strongly disagrees."
+    },
+    "384": {
+      "word": "affect",
+      "pos": "present tense verb",
+      "example": "Stress affects health."
+    },
+    "392": {
+      "word": "function",
+      "pos": "noun, singular",
+      "example": "The function is important."
+    },
+    "402": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "406": {
+      "word": "lab",
+      "pos": "singular noun",
+      "example": "The lab conducts important tests."
+    },
+    "410": {
+      "word": "method",
+      "pos": "plural noun",
+      "example": "Methods vary widely."
+    },
+    "418": {
+      "word": "such as",
+      "pos": "determiner + preposition",
+      "example": "Techniques such as X-rays reveal structures."
+    },
+    "423": {
+      "word": "as",
+      "pos": "preposition",
+      "example": "She works as a teacher."
+    },
+    "426": {
+      "word": "X-ray crystallography",
+      "pos": "compound noun",
+      "example": "X-ray crystallography reveals structures."
+    },
+    "432": {
+      "word": "X-ray crystallography",
+      "pos": "noun, compound noun",
+      "example": "X-ray crystallography reveals protein structures."
+    },
+    "448": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "452": {
+      "word": "cryo-electron microscopy",
+      "pos": "compound noun",
+      "example": "Cryo-electron microscopy shows molecules."
+    },
+    "466": {
+      "word": "cryo-electron microscopy",
+      "pos": "noun compound",
+      "example": "Cryo-electron microscopy produces detailed images."
+    },
+    "477": {
+      "word": "can",
+      "pos": "modal verb, base form",
+      "example": "I can swim very well."
+    },
+    "481": {
+      "word": "be",
+      "pos": "base form verb",
+      "example": "I want to be a doctor."
+    },
+    "484": {
+      "word": "slow",
+      "pos": "adjective",
+      "example": "The car is slow."
+    },
+    "490": {
+      "word": "expensive",
+      "pos": "adjective",
+      "example": "This car is expensive."
+    },
+    "501": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "You can have tea or coffee."
+    },
+    "504": {
+      "word": "difficult",
+      "pos": "adjective",
+      "example": "The test is difficult."
+    },
+    "514": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This gift is for you."
+    },
+    "518": {
+      "word": "certain",
+      "pos": "adjective",
+      "example": "Certain people are late."
+    },
+    "526": {
+      "word": "protein",
+      "pos": "plural noun",
+      "example": "Proteins have many functions."
+    },
+    "541": {
+      "word": "scientific",
+      "pos": "adjective",
+      "example": "She published a scientific article."
+    },
+    "552": {
+      "word": "problem",
+      "pos": "singular noun",
+      "example": "This problem is hard to solve."
+    },
+    "560": {
+      "word": "AlphaFold",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "570": {
+      "word": "target",
+      "pos": "past tense verb",
+      "example": "They target new customers every year."
+    },
+    "579": {
+      "word": "is",
+      "pos": "third person singular present verb",
+      "example": "He is happy today."
+    },
+    "586": {
+      "word": "protein",
+      "pos": "singular noun",
+      "example": "Protein is important for the body."
+    },
+    "594": {
+      "word": "folding",
+      "pos": "gerund noun",
+      "example": "The folding of paper is easy."
+    },
+    "602": {
+      "word": "problem",
+      "pos": "singular noun",
+      "example": "She solved a difficult problem."
+    },
+    "611": {
+      "word": "give",
+      "pos": "past participle adjective",
+      "example": "Given these facts, we decided to act."
+    },
+    "617": {
+      "word": "an",
+      "pos": "indefinite article",
+      "example": "I saw an eagle flying."
+    },
+    "620": {
+      "word": "amino acid",
+      "pos": "compound noun",
+      "example": "Amino acids build proteins."
+    },
+    "631": {
+      "word": "sequence",
+      "pos": "singular noun",
+      "example": "Follow the sequence carefully."
+    },
+    "641": {
+      "word": "predict",
+      "pos": "infinitive verb",
+      "example": "I can predict the weather."
+    },
+    "653": {
+      "word": "final",
+      "pos": "adjective",
+      "example": "This is the final decision."
+    },
+    "659": {
+      "word": "3D",
+      "pos": "adjective",
+      "example": ""
+    },
+    "660": {
+      "word": "protein folding problem",
+      "pos": "noun phrase",
+      "example": "Scientists study the protein folding problem."
+    },
+    "662": {
+      "word": "arrangement",
+      "pos": "singular noun",
+      "example": "The arrangement looks nice."
+    },
+    "674": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The color of the sky is blue."
+    },
+    "677": {
+      "word": "atom",
+      "pos": "plural noun",
+      "example": "Atoms make up everything."
+    },
+    "686": {
+      "word": "protein",
+      "pos": "singular noun",
+      "example": "Protein is essential for health."
+    },
+    "694": {
+      "word": "be",
+      "pos": "third person singular present verb",
+      "example": "This is my favorite book."
+    },
+    "699": {
+      "word": "chain",
+      "pos": "singular noun",
+      "example": "He wore a gold chain."
+    },
+    "705": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The cover of the book is blue."
+    },
+    "708": {
+      "word": "20",
+      "pos": "number",
+      "example": ""
+    },
+    "711": {
+      "word": "common",
+      "pos": "adjective",
+      "example": "She found a common solution."
+    },
+    "718": {
+      "word": "amino acid",
+      "pos": "plural noun",
+      "example": "Amino acid is a building block."
+    },
+    "724": {
+      "word": "amino acid",
+      "pos": "plural noun",
+      "example": "Proteins are made of amino acids."
+    },
+    "731": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like coffee and tea."
+    },
+    "735": {
+      "word": "its",
+      "pos": "possessive determiner",
+      "example": "The company updated its policy recently."
+    },
+    "739": {
+      "word": "sequence",
+      "pos": "singular noun",
+      "example": "The sequence of numbers is clear."
+    },
+    "748": {
+      "word": "be",
+      "pos": "third person singular present tense verb",
+      "example": "He is a good student."
+    },
+    "751": {
+      "word": "encode",
+      "pos": "past participle verb",
+      "example": "They encode the message carefully."
+    },
+    "759": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "The book is in the bag."
+    },
+    "762": {
+      "word": "DNA",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "771": {
+      "word": "chain",
+      "pos": "singular noun",
+      "example": "The chain is very strong."
+    },
+    "777": {
+      "word": "fold",
+      "pos": "present tense verb",
+      "example": "I fold the paper carefully."
+    },
+    "783": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "She stayed home because she was sick."
+    },
+    "791": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The cover of the book is blue."
+    },
+    "794": {
+      "word": "physical",
+      "pos": "adjective",
+      "example": "We did a physical experiment."
+    },
+    "803": {
+      "word": "force",
+      "pos": "plural noun",
+      "example": "The force is very strong."
+    },
+    "810": {
+      "word": "such as",
+      "pos": "determiner + preposition",
+      "example": "Many fruits such as apples are healthy."
+    },
+    "815": {
+      "word": "as",
+      "pos": "conjunction",
+      "example": "She works as a teacher."
+    },
+    "818": {
+      "word": "hydrophobic interaction",
+      "pos": "compound noun",
+      "example": "Hydrophobic interactions affect protein folding."
+    },
+    "830": {
+      "word": "interaction",
+      "pos": "plural noun",
+      "example": "The interaction between molecules is important."
+    },
+    "847": {
+      "word": "hydrogen bond",
+      "pos": "compound noun",
+      "example": "Hydrogen bonds stabilize the structure."
+    },
+    "878": {
+      "word": "constraint",
+      "pos": "plural noun",
+      "example": "The job has many constraints."
+    },
+    "897": {
+      "word": "backbone",
+      "pos": "compound noun",
+      "example": "The backbone supports the body."
+    },
+    "906": {
+      "word": "geometry",
+      "pos": "noun",
+      "example": "Geometry studies shapes and spaces."
+    },
+    "916": {
+      "word": "predict",
+      "pos": "gerund verb",
+      "example": "I predict rain tomorrow."
+    },
+    "931": {
+      "word": "fold",
+      "pos": "noun",
+      "example": "This cloth has a fold."
+    },
+    "939": {
+      "word": "hard",
+      "pos": "adjective",
+      "example": "Math is hard for me."
+    },
+    "954": {
+      "word": "chain",
+      "pos": "noun",
+      "example": "She wore a gold chain."
+    },
+    "964": {
+      "word": "many",
+      "pos": "determiner (quantifier)",
+      "example": "Many people like music."
+    },
+    "969": {
+      "word": "possible",
+      "pos": "adjective",
+      "example": "Is it possible to come?"
+    },
+    "978": {
+      "word": "conformation",
+      "pos": "plural noun",
+      "example": "Protein conformation affects function."
+    },
+    "1005": {
+      "word": "protein",
+      "pos": "plural noun",
+      "example": "Proteins are vital for life."
+    },
+    "1014": {
+      "word": "often",
+      "pos": "adverb",
+      "example": "I often read books."
+    },
+    "1020": {
+      "word": "have",
+      "pos": "present verb",
+      "example": "They have many toys."
+    },
+    "1025": {
+      "word": "flexible",
+      "pos": "adjective",
+      "example": "She has flexible hours."
+    },
+    "1034": {
+      "word": "part",
+      "pos": "plural noun",
+      "example": "The machine has many parts."
+    },
+    "1041": {
+      "word": "reliable",
+      "pos": "adjective",
+      "example": "She gave me reliable information."
+    },
+    "1050": {
+      "word": "structure",
+      "pos": "singular noun",
+      "example": "The structure of the building is strong."
+    },
+    "1060": {
+      "word": "prediction",
+      "pos": "singular noun",
+      "example": "Her prediction was correct."
+    },
+    "1071": {
+      "word": "help",
+      "pos": "third person singular verb",
+      "example": "I help my friends."
+    },
+    "1077": {
+      "word": "researcher",
+      "pos": "plural noun",
+      "example": "Researchers study new medicines."
+    },
+    "1089": {
+      "word": "infer",
+      "pos": "infinitive verb",
+      "example": "We infer meaning from context."
+    },
+    "1095": {
+      "word": "active site",
+      "pos": "compound noun",
+      "example": "Enzymes have active sites."
+    },
+    "1102": {
+      "word": "site",
+      "pos": "plural noun",
+      "example": "The construction site is closed."
+    },
+    "1109": {
+      "word": "binding pocket",
+      "pos": "compound noun",
+      "example": "The protein has binding pockets."
+    },
+    "1117": {
+      "word": "pocket",
+      "pos": "plural noun",
+      "example": "He put coins in pockets."
+    },
+    "1134": {
+      "word": "mutation",
+      "pos": "plural noun",
+      "example": "Mutations affect DNA sequences."
+    },
+    "1144": {
+      "word": "change",
+      "pos": "present tense verb",
+      "example": "Seasons change every year."
+    },
+    "1151": {
+      "word": "stability",
+      "pos": "noun singular",
+      "example": "The stability is important."
+    },
+    "1165": {
+      "word": "key",
+      "pos": "adjective",
+      "example": "This is a key point."
+    },
+    "1169": {
+      "word": "reason",
+      "pos": "singular noun",
+      "example": "The reason is clear."
+    },
+    "1176": {
+      "word": "AlphaFold",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1186": {
+      "word": "work",
+      "pos": "past tense verb",
+      "example": "I work every day."
+    },
+    "1204": {
+      "word": "combine",
+      "pos": "past tense verb",
+      "example": "We combine colors."
+    },
+    "1213": {
+      "word": "two",
+      "pos": "numeral",
+      "example": "I have two cats."
+    },
+    "1217": {
+      "word": "strong",
+      "pos": "adjective",
+      "example": "She has strong muscles."
+    },
+    "1224": {
+      "word": "source",
+      "pos": "plural noun",
+      "example": "The source is reliable."
+    },
+    "1235": {
+      "word": "information",
+      "pos": "singular noun",
+      "example": "I need information."
+    },
+    "1248": {
+      "word": "evolutionary",
+      "pos": "adjective",
+      "example": "Evolutionary changes occur."
+    },
+    "1261": {
+      "word": "pattern",
+      "pos": "plural noun",
+      "example": "Patterns are visible."
+    },
+    "1274": {
+      "word": "structural",
+      "pos": "adjective",
+      "example": "Structural design is important."
+    },
+    "1285": {
+      "word": "geometry",
+      "pos": "singular noun",
+      "example": "Geometry is a math topic."
+    },
+    "1299": {
+      "word": "system",
+      "pos": "singular noun",
+      "example": "The system works efficiently."
+    },
+    "1306": {
+      "word": "use",
+      "pos": "present tense verb",
+      "example": "I use a computer every day."
+    },
+    "1311": {
+      "word": "multiple",
+      "pos": "adjective",
+      "example": "She has multiple books."
+    },
+    "1320": {
+      "word": "sequence alignment",
+      "pos": "compound noun",
+      "example": "Sequence alignment reveals similarity."
+    },
+    "1351": {
+      "word": "collection",
+      "pos": "plural noun",
+      "example": "A collection of books is mine."
+    },
+    "1366": {
+      "word": "related",
+      "pos": "adjective",
+      "example": "These topics are related."
+    },
+    "1374": {
+      "word": "protein",
+      "pos": "singular noun",
+      "example": "Protein is essential for life."
+    },
+    "1382": {
+      "word": "sequence",
+      "pos": "plural noun",
+      "example": "The sequence is important in DNA."
+    },
+    "1401": {
+      "word": "database",
+      "pos": "plural noun",
+      "example": "The data is stored in databases."
+    },
+    "1417": {
+      "word": "two",
+      "pos": "numeral adjective",
+      "example": "I have two cats."
+    },
+    "1421": {
+      "word": "residue",
+      "pos": "plural noun",
+      "example": "The residue remained on the surface."
+    },
+    "1430": {
+      "word": "mutate",
+      "pos": "infinitive verb",
+      "example": "Viruses can mutate quickly."
+    },
+    "1437": {
+      "word": "together",
+      "pos": "adverb",
+      "example": "They work together on projects."
+    },
+    "1446": {
+      "word": "across",
+      "pos": "preposition",
+      "example": "We traveled across the country."
+    },
+    "1453": {
+      "word": "evolution",
+      "pos": "noun",
+      "example": "Evolution explains species changes."
+    },
+    "1467": {
+      "word": "often",
+      "pos": "adverb",
+      "example": "She often goes to the gym."
+    },
+    "1473": {
+      "word": "indicate",
+      "pos": "present tense verb",
+      "example": "Signs indicate the direction."
+    },
+    "1483": {
+      "word": "that",
+      "pos": "pronoun",
+      "example": "That is my favorite book."
+    },
+    "1497": {
+      "word": "close",
+      "pos": "adjective",
+      "example": "They live close to each other."
+    },
+    "1506": {
+      "word": "3D",
+      "pos": "adjective",
+      "example": ""
+    },
+    "1509": {
+      "word": "space",
+      "pos": "noun",
+      "example": "Planets exist in outer space."
+    },
+    "1524": {
+      "word": "contact",
+      "pos": "noun",
+      "example": "Contact the office for details."
+    },
+    "1532": {
+      "word": "help",
+      "pos": "present tense verb",
+      "example": "I help my friends."
+    },
+    "1538": {
+      "word": "maintain",
+      "pos": "infinitive verb",
+      "example": "They maintain the building."
+    },
+    "1547": {
+      "word": "function",
+      "pos": "noun",
+      "example": "The function of the heart is vital."
+    },
+    "1557": {
+      "word": "early",
+      "pos": "adjective",
+      "example": "I arrived early to the meeting."
+    },
+    "1565": {
+      "word": "method",
+      "pos": "plural noun",
+      "example": "This method works well."
+    },
+    "1573": {
+      "word": "use",
+      "pos": "past tense verb",
+      "example": "I use a pen to write."
+    },
+    "1578": {
+      "word": "this",
+      "pos": "demonstrative adjective",
+      "example": "This is my book."
+    },
+    "1583": {
+      "word": "coevolution",
+      "pos": "noun",
+      "example": ""
+    },
+    "1584": {
+      "word": "coevolution",
+      "pos": "noun",
+      "example": "Coevolution occurs between species."
+    },
+    "1607": {
+      "word": "AlphaFold",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1617": {
+      "word": "connect",
+      "pos": "past tense verb",
+      "example": "We connect the devices."
+    },
+    "1627": {
+      "word": "it",
+      "pos": "pronoun",
+      "example": "It is raining."
+    },
+    "1630": {
+      "word": "tightly",
+      "pos": "adverb",
+      "example": "Hold the rope tightly."
+    },
+    "1638": {
+      "word": "to",
+      "pos": "",
+      "example": ""
+    },
+    "1641": {
+      "word": "a",
+      "pos": "",
+      "example": ""
+    },
+    "1643": {
+      "word": "neural",
+      "pos": "adjective",
+      "example": "Neural networks learn patterns."
+    },
+    "1650": {
+      "word": "network",
+      "pos": "noun",
+      "example": "The network is slow today."
+    },
+    "1658": {
+      "word": "that",
+      "pos": "conjunction",
+      "example": ""
+    },
+    "1663": {
+      "word": "reason",
+      "pos": "present tense verb",
+      "example": "They reason carefully."
+    },
+    "1671": {
+      "word": "directly",
+      "pos": "adverb",
+      "example": "Answer directly please."
+    },
+    "1680": {
+      "word": "about",
+      "pos": "preposition",
+      "example": ""
+    },
+    "1686": {
+      "word": "distance",
+      "pos": "plural noun",
+      "example": "The distance is long."
+    },
+    "1700": {
+      "word": "angle",
+      "pos": "plural noun",
+      "example": "Angles measure the turn."
+    },
+    "1708": {
+      "word": "turn",
+      "pos": "present participle verb",
+      "example": "They turn the page."
+    },
+    "1716": {
+      "word": "statistical",
+      "pos": "adjective",
+      "example": "Statistical data is useful."
+    },
+    "1728": {
+      "word": "signal",
+      "pos": "plural noun",
+      "example": "Signals guide traffic."
+    },
+    "1732": {
+      "word": "a",
+      "pos": "article",
+      "example": ""
+    },
+    "1736": {
+      "word": "into",
+      "pos": "preposition",
+      "example": ""
+    },
+    "1743": {
+      "word": "consistent",
+      "pos": "adjective",
+      "example": "Her work is consistent."
+    },
+    "1754": {
+      "word": "3D",
+      "pos": "adjective",
+      "example": "3D models are realistic."
+    },
+    "1757": {
+      "word": "model",
+      "pos": "noun",
+      "example": "This model is precise."
+    },
+    "1765": {
+      "word": "AlphaFold2",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1778": {
+      "word": "architecture",
+      "pos": "singular noun",
+      "example": "The architecture is very modern."
+    },
+    "1791": {
+      "word": "introduce",
+      "pos": "past tense verb",
+      "example": "They introduce new rules every year."
+    },
+    "1804": {
+      "word": "way",
+      "pos": "singular noun",
+      "example": "Find a way to solve the problem."
+    },
+    "1811": {
+      "word": "update",
+      "pos": "base form verb",
+      "example": "We need to update the software."
+    },
+    "1823": {
+      "word": "sequence-level feature",
+      "pos": "compound noun",
+      "example": "Sequence-level features help analyze DNA."
+    },
+    "1838": {
+      "word": "feature",
+      "pos": "plural noun",
+      "example": "The phone has many features."
+    },
+    "1851": {
+      "word": "pairwise residue relationship",
+      "pos": "compound noun, plural",
+      "example": "Pairwise residue relationships influence folding."
+    },
+    "1860": {
+      "word": "residue",
+      "pos": "singular noun",
+      "example": "Residue remains after reaction."
+    },
+    "1868": {
+      "word": "relationship",
+      "pos": "plural noun",
+      "example": "They have a good relationship."
+    },
+    "1882": {
+      "word": "repeatedly",
+      "pos": "adverb",
+      "example": "She practices repeatedly."
+    },
+    "1901": {
+      "word": "model",
+      "pos": "noun, singular",
+      "example": "The model predicts well."
+    },
+    "1911": {
+      "word": "refine",
+      "pos": "infinitive verb",
+      "example": "We refine the design continuously."
+    },
+    "1922": {
+      "word": "own",
+      "pos": "adjective",
+      "example": "She has her own car."
+    },
+    "1926": {
+      "word": "understanding",
+      "pos": "noun, singular",
+      "example": "Her understanding is deep."
+    },
+    "1941": {
+      "word": "DeepMind",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1950": {
+      "word": "describe",
+      "pos": "past tense verb",
+      "example": "Scientists describe their findings clearly."
+    },
+    "1964": {
+      "word": "Evoformer",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "1975": {
+      "word": "module",
+      "pos": "singular noun",
+      "example": "This module controls the process."
+    },
+    "1987": {
+      "word": "pass",
+      "pos": "present tense verb",
+      "example": "They pass the ball quickly."
+    },
+    "1994": {
+      "word": "information",
+      "pos": "singular noun",
+      "example": "She shares useful information."
+    },
+    "2016": {
+      "word": "representation",
+      "pos": "singular noun",
+      "example": "The map is a representation of the city."
+    },
+    "2038": {
+      "word": "alignment",
+      "pos": "singular noun",
+      "example": "The alignment of text matters."
+    },
+    "2054": {
+      "word": "representation",
+      "pos": "singular noun",
+      "example": "He gave a clear representation."
+    },
+    "2072": {
+      "word": "residue-residue pair",
+      "pos": "plural noun compound",
+      "example": "Protein structure depends on residue-residue pairs."
+    },
+    "2088": {
+      "word": "pair",
+      "pos": "plural noun",
+      "example": "I bought a pair of shoes."
+    },
+    "2109": {
+      "word": "structure",
+      "pos": "noun singular",
+      "example": "The structure is very strong."
+    },
+    "2119": {
+      "word": "module",
+      "pos": "noun",
+      "example": "Each module has a specific task."
+    },
+    "2126": {
+      "word": "generate",
+      "pos": "present tense verb",
+      "example": "They generate electricity from wind."
+    },
+    "2136": {
+      "word": "3D",
+      "pos": "adjective",
+      "example": ""
+    },
+    "2139": {
+      "word": "coordinate",
+      "pos": "plural noun",
+      "example": "The coordinate is on the map."
+    },
+    "2160": {
+      "word": "recycle",
+      "pos": "present tense verb",
+      "example": "We recycle paper every week."
+    },
+    "2173": {
+      "word": "output",
+      "pos": "noun",
+      "example": "The output was measured carefully."
+    },
+    "2180": {
+      "word": "back",
+      "pos": "adverb",
+      "example": "She came back home."
+    },
+    "2194": {
+      "word": "network",
+      "pos": "noun",
+      "example": "The network connects all devices."
+    },
+    "2206": {
+      "word": "further",
+      "pos": "adjective",
+      "example": "Further tests are needed."
+    },
+    "2214": {
+      "word": "improvement",
+      "pos": "noun",
+      "example": "They noticed an improvement in skill."
+    },
+    "2232": {
+      "word": "recycling",
+      "pos": "noun",
+      "example": "Recycling reduces waste."
+    },
+    "2244": {
+      "word": "important",
+      "pos": "adjective",
+      "example": "Education is important."
+    },
+    "2245": {
+      "word": "important",
+      "pos": "adjective",
+      "example": "It is important to be honest."
+    },
+    "2263": {
+      "word": "structure prediction",
+      "pos": "compound noun",
+      "example": "Structure prediction aids in protein research."
+    },
+    "2273": {
+      "word": "prediction",
+      "pos": "noun",
+      "example": "The prediction was accurate."
+    },
+    "2289": {
+      "word": "global",
+      "pos": "adjective",
+      "example": "Global warming is serious."
+    },
+    "2296": {
+      "word": "constraint",
+      "pos": "noun",
+      "example": "Time is a constraint on the project."
+    },
+    "2307": {
+      "word": "problem",
+      "pos": "noun",
+      "example": "Math problems are challenging."
+    },
+    "2318": {
+      "word": "local",
+      "pos": "adjective",
+      "example": "Local shops are good for community."
+    },
+    "2324": {
+      "word": "choice",
+      "pos": "noun",
+      "example": "You have a choice to make."
+    },
+    "2339": {
+      "word": "helix",
+      "pos": "noun",
+      "example": "DNA has a helical shape."
+    },
+    "2345": {
+      "word": "position",
+      "pos": "noun",
+      "example": "She holds a high position."
+    },
+    "2355": {
+      "word": "affect",
+      "pos": "present tense verb",
+      "example": "Weather can affect your mood."
+    },
+    "2363": {
+      "word": "long-range",
+      "pos": "adjective",
+      "example": "Long-range plans are important."
+    },
+    "2374": {
+      "word": "contact",
+      "pos": "plural noun",
+      "example": "Contacts help in communication."
+    },
+    "2394": {
+      "word": "entire",
+      "pos": "adjective",
+      "example": "The entire team works hard."
+    },
+    "2401": {
+      "word": "protein",
+      "pos": "noun",
+      "example": "Protein is essential for health."
+    },
+    "2411": {
+      "word": "training",
+      "pos": "singular noun",
+      "example": "Training improves your skills."
+    },
+    "2420": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "She also wants to come."
+    },
+    "2425": {
+      "word": "matter",
+      "pos": "past tense verb",
+      "example": "It doesn't matter to me."
+    },
+    "2447": {
+      "word": "model",
+      "pos": "singular noun",
+      "example": "The model shows the design."
+    },
+    "2453": {
+      "word": "learn",
+      "pos": "past tense verb",
+      "example": "I learn new things every day."
+    },
+    "2466": {
+      "word": "decade",
+      "pos": "plural noun",
+      "example": "It lasted for a decade."
+    },
+    "2477": {
+      "word": "experimental",
+      "pos": "adjective",
+      "example": "They used experimental methods."
+    },
+    "2490": {
+      "word": "structure",
+      "pos": "plural noun",
+      "example": "The building's structure is strong."
+    },
+    "2502": {
+      "word": "public",
+      "pos": "adjective",
+      "example": "The public library is open today."
+    },
+    "2509": {
+      "word": "resource",
+      "pos": "plural noun",
+      "example": "Education needs many resource."
+    },
+    "2528": {
+      "word": "Protein Data Bank",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "2547": {
+      "word": "PDB",
+      "pos": "abbreviation",
+      "example": ""
+    },
+    "2553": {
+      "word": "found",
+      "pos": "past participle verb",
+      "example": "They found a new company."
+    },
+    "2564": {
+      "word": "1971",
+      "pos": "proper noun (year)",
+      "example": ""
+    },
+    "2570": {
+      "word": "contain",
+      "pos": "base form verb",
+      "example": "Boxes contain old books."
+    },
+    "2578": {
+      "word": "experimentally",
+      "pos": "adverb",
+      "example": "We tested it experimentally."
+    },
+    "2593": {
+      "word": "determine",
+      "pos": "past participle verb",
+      "example": "We determine the causes carefully."
+    },
+    "2604": {
+      "word": "structure",
+      "pos": "plural noun",
+      "example": "The building has a strong structure."
+    },
+    "2620": {
+      "word": "technique",
+      "pos": "plural noun",
+      "example": "This technique improves results."
+    },
+    "2639": {
+      "word": "X-ray crystallography",
+      "pos": "compound noun",
+      "example": "X-ray crystallography reveals crystal structures."
+    },
+    "2662": {
+      "word": "NMR spectroscopy",
+      "pos": "compound noun",
+      "example": "NMR spectroscopy analyzes molecules."
+    },
+    "2666": {
+      "word": "spectroscopy",
+      "pos": "noun",
+      "example": "Spectroscopy helps analyze chemicals."
+    },
+    "2684": {
+      "word": "cryo-EM",
+      "pos": "compound noun",
+      "example": ""
+    },
+    "2693": {
+      "word": "AlphaFold",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "2703": {
+      "word": "learn",
+      "pos": "past tense verb",
+      "example": "Children learn new things daily."
+    },
+    "2711": {
+      "word": "pattern",
+      "pos": "plural noun",
+      "example": "The pattern repeats every hour."
+    },
+    "2725": {
+      "word": "connect",
+      "pos": "base form verb",
+      "example": "We connect cables for internet."
+    },
+    "2733": {
+      "word": "sequence",
+      "pos": "noun",
+      "example": "The DNA sequence is important."
+    },
+    "2745": {
+      "word": "geometry",
+      "pos": "singular noun",
+      "example": "We studied geometry in school."
+    },
+    "2763": {
+      "word": "typical",
+      "pos": "adjective",
+      "example": "This is a typical example."
+    },
+    "2771": {
+      "word": "bond",
+      "pos": "singular noun",
+      "example": "The bond is strong."
+    },
+    "2776": {
+      "word": "length",
+      "pos": "plural noun",
+      "example": "The length of the rope is two meters."
+    },
+    "2785": {
+      "word": "angle",
+      "pos": "plural noun",
+      "example": "The angle of the triangle is 90 degrees."
+    },
+    "2797": {
+      "word": "common secondary structure",
+      "pos": "compound noun phrase",
+      "example": "Common secondary structures include sheets."
+    },
+    "2804": {
+      "word": "secondary structure",
+      "pos": "compound noun",
+      "example": "Secondary structure affects protein shape."
+    },
+    "2814": {
+      "word": "structure",
+      "pos": "plural noun",
+      "example": "The structure of the molecule is complex."
+    },
+    "2830": {
+      "word": "alpha helix",
+      "pos": "compound noun",
+      "example": "Alpha helix is a protein structure."
+    },
+    "2848": {
+      "word": "beta sheet",
+      "pos": "compound noun",
+      "example": "Beta sheet stabilizes protein shapes."
+    },
+    "2861": {
+      "word": "DeepMind",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "2870": {
+      "word": "report",
+      "pos": "past tense verb",
+      "example": "They report the results daily."
+    },
+    "2888": {
+      "word": "2020",
+      "pos": "number (year)",
+      "example": ""
+    },
+    "2893": {
+      "word": "system",
+      "pos": "singular noun",
+      "example": "The system works well."
+    },
+    "2900": {
+      "word": "reach accuracy",
+      "pos": "verb phrase",
+      "example": "We reach accuracy after practice."
+    },
+    "2908": {
+      "word": "accuracy",
+      "pos": "singular noun",
+      "example": "Accuracy is important."
+    },
+    "2917": {
+      "word": "level",
+      "pos": "plural noun",
+      "example": "There are various skill levels."
+    },
+    "2927": {
+      "word": "CASP14",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "2944": {
+      "word": "close",
+      "pos": "adjective",
+      "example": "The marks are close."
+    },
+    "2953": {
+      "word": "experimental",
+      "pos": "adjective",
+      "example": "They tested experimental methods."
+    },
+    "2966": {
+      "word": "result",
+      "pos": "plural noun",
+      "example": "The result is positive."
+    },
+    "2978": {
+      "word": "many",
+      "pos": "adjective",
+      "example": "Many people like music."
+    },
+    "2983": {
+      "word": "target",
+      "pos": "plural noun",
+      "example": "We aimed at the target."
+    },
+    "2992": {
+      "word": "measure",
+      "pos": "past tense verb",
+      "example": "We measure the height."
+    },
+    "3004": {
+      "word": "establish",
+      "pos": "past participle adjective",
+      "example": "They establish rules."
+    },
+    "3016": {
+      "word": "metric",
+      "pos": "plural noun",
+      "example": "We use various metrics."
+    },
+    "3036": {
+      "word": "competition",
+      "pos": "singular noun",
+      "example": "The competition was tough."
+    },
+    "3050": {
+      "word": "AlphaFold",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3062": {
+      "word": "impact",
+      "pos": "singular noun",
+      "example": "The impact was very strong."
+    },
+    "3072": {
+      "word": "biomedical",
+      "pos": "adjective",
+      "example": "She studies biomedical science."
+    },
+    "3083": {
+      "word": "research",
+      "pos": "noun, singular",
+      "example": "Research is important."
+    },
+    "3092": {
+      "word": "come",
+      "pos": "past tense verb",
+      "example": "They come home early."
+    },
+    "3097": {
+      "word": "quickly",
+      "pos": "adverb",
+      "example": "He runs quickly."
+    },
+    "3113": {
+      "word": "access",
+      "pos": "noun",
+      "example": "Access is restricted here."
+    },
+    "3124": {
+      "word": "broad",
+      "pos": "adjective",
+      "example": "They have broad knowledge."
+    },
+    "3138": {
+      "word": "output",
+      "pos": "plural noun",
+      "example": "The output is clear."
+    },
+    "3146": {
+      "word": "include",
+      "pos": "past tense verb",
+      "example": "The list includes names."
+    },
+    "3155": {
+      "word": "confidence",
+      "pos": "uncountable noun",
+      "example": "He has confidence in his skills."
+    },
+    "3166": {
+      "word": "estimate",
+      "pos": "plural noun",
+      "example": "The estimates are accurate."
+    },
+    "3181": {
+      "word": "AlphaFold",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3191": {
+      "word": "protein",
+      "pos": "noun",
+      "example": "Protein is essential for health."
+    },
+    "3199": {
+      "word": "structure",
+      "pos": "singular noun",
+      "example": "The structure is complex."
+    },
+    "3209": {
+      "word": "database",
+      "pos": "noun",
+      "example": "The database stores the records."
+    },
+    "3219": {
+      "word": "release",
+      "pos": "past tense verb",
+      "example": "They release new software today."
+    },
+    "3231": {
+      "word": "2021",
+      "pos": "proper noun, year",
+      "example": ""
+    },
+    "3239": {
+      "word": "DeepMind",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3252": {
+      "word": "EMBL-EBI",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3262": {
+      "word": "provide",
+      "pos": "past tense verb",
+      "example": "We provide food for guests."
+    },
+    "3271": {
+      "word": "predict",
+      "pos": "past participle adjective",
+      "example": "They predict the weather daily."
+    },
+    "3281": {
+      "word": "structure",
+      "pos": "plural noun",
+      "example": "The structure is stable."
+    },
+    "3296": {
+      "word": "large",
+      "pos": "adjective",
+      "example": "They own a large house."
+    },
+    "3302": {
+      "word": "part",
+      "pos": "plural noun",
+      "example": "Many parts form the machine."
+    },
+    "3315": {
+      "word": "human",
+      "pos": "adjective",
+      "example": "Human beings need food."
+    },
+    "3321": {
+      "word": "proteome",
+      "pos": "singular noun",
+      "example": "The proteome is studied extensively."
+    },
+    "3334": {
+      "word": "many",
+      "pos": "determiner / adjective",
+      "example": "Many people like music."
+    },
+    "3339": {
+      "word": "model",
+      "pos": "adjective",
+      "example": "This is a model organism."
+    },
+    "3345": {
+      "word": "organism",
+      "pos": "plural noun",
+      "example": "The organism lives in water."
+    },
+    "3356": {
+      "word": "researcher",
+      "pos": "plural noun",
+      "example": "The researcher studies biology."
+    },
+    "3374": {
+      "word": "download",
+      "pos": "base form verb",
+      "example": "I download files from the internet."
+    },
+    "3383": {
+      "word": "structure",
+      "pos": "plural noun",
+      "example": "The structure is strong."
+    },
+    "3395": {
+      "word": "visualize",
+      "pos": "base form verb",
+      "example": "She visualizes success clearly."
+    },
+    "3405": {
+      "word": "likely",
+      "pos": "adjective",
+      "example": "It is likely to rain today."
+    },
+    "3412": {
+      "word": "domain",
+      "pos": "plural noun",
+      "example": "The domain of the function is all real numbers."
+    },
+    "3425": {
+      "word": "focus",
+      "pos": "base form verb",
+      "example": "We focus on the project."
+    },
+    "3431": {
+      "word": "experiment",
+      "pos": "plural noun",
+      "example": "The experiment tested the theory."
+    },
+    "3455": {
+      "word": "uncertain",
+      "pos": "adjective",
+      "example": "The result is uncertain."
+    },
+    "3465": {
+      "word": "region",
+      "pos": "plural noun",
+      "example": "The region is mountainous."
+    },
+    "3478": {
+      "word": "model",
+      "pos": "possessive noun",
+      "example": "The model walked on the runway."
+    },
+    "3486": {
+      "word": "per-residue",
+      "pos": "compound adjective",
+      "example": "The per-residue scores vary greatly."
+    },
+    "3498": {
+      "word": "confidence",
+      "pos": "noun",
+      "example": "She showed confidence in her skills."
+    },
+    "3509": {
+      "word": "score",
+      "pos": "noun",
+      "example": "He got a high score on the test."
+    },
+    "3516": {
+      "word": "often",
+      "pos": "adverb",
+      "example": "I often go jogging."
+    },
+    "3522": {
+      "word": "discuss",
+      "pos": "past participle verb",
+      "example": "They discuss plans daily."
+    },
+    "3535": {
+      "word": "pLDDT",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "3542": {
+      "word": "help",
+      "pos": "present tense verb",
+      "example": "I help my friends often."
+    },
+    "3548": {
+      "word": "user",
+      "pos": "plural noun",
+      "example": "Users like new apps."
+    },
+    "3554": {
+      "word": "judge",
+      "pos": "verb",
+      "example": "We judge by appearances sometimes."
+    },
+    "3560": {
+      "word": "where",
+      "pos": "adverb",
+      "example": "This is where we meet."
+    },
+    "3570": {
+      "word": "prediction",
+      "pos": "noun",
+      "example": "Her prediction came true."
+    },
+    "3584": {
+      "word": "strong",
+      "pos": "adjective",
+      "example": "She is very strong."
+    },
+    "3595": {
+      "word": "where",
+      "pos": "adverb",
+      "example": "I know where to go."
+    },
+    "3601": {
+      "word": "flexible",
+      "pos": "adjective",
+      "example": "This material is flexible."
+    },
+    "3610": {
+      "word": "loop",
+      "pos": "plural noun",
+      "example": "The loops repeat quickly."
+    },
+    "3619": {
+      "word": "disordered",
+      "pos": "adjective",
+      "example": "The room was disordered."
+    },
+    "3630": {
+      "word": "region",
+      "pos": "plural noun",
+      "example": "These regions are cold."
+    },
+    "3647": {
+      "word": "single",
+      "pos": "adjective",
+      "example": "She bought a single ticket."
+    },
+    "3654": {
+      "word": "structure",
+      "pos": "noun",
+      "example": "The structure is very tall."
+    },
+    "3664": {
+      "word": "less",
+      "pos": "adjective",
+      "example": "This one is less popular."
+    },
+    "3669": {
+      "word": "reliable",
+      "pos": "adjective",
+      "example": "He is a reliable friend."
+    },
+    "3684": {
+      "word": "technology",
+      "pos": "noun, singular",
+      "example": "Technology improves our lives."
+    },
+    "3695": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "She also likes music."
+    },
+    "3700": {
+      "word": "change",
+      "pos": "past tense verb",
+      "example": "I change my plans often."
+    },
+    "3712": {
+      "word": "lab",
+      "pos": "plural noun",
+      "example": "The lab is very clean."
+    },
+    "3717": {
+      "word": "plan",
+      "pos": "base form verb",
+      "example": "We plan the event."
+    },
+    "3722": {
+      "word": "experiment",
+      "pos": "plural noun",
+      "example": "Science needs experiments."
+    },
+    "3738": {
+      "word": "interpret",
+      "pos": "base form verb",
+      "example": "They interpret the data."
+    },
+    "3748": {
+      "word": "disease",
+      "pos": "noun, singular",
+      "example": "The disease spreads fast."
+    },
+    "3756": {
+      "word": "mutation",
+      "pos": "plural noun",
+      "example": "Mutations affect genes."
+    },
+    "3767": {
+      "word": "structural",
+      "pos": "adjective",
+      "example": "Structural changes affect the building."
+    },
+    "3778": {
+      "word": "prediction",
+      "pos": "plural noun",
+      "example": "Her prediction was accurate."
+    },
+    "3794": {
+      "word": "guide",
+      "pos": "base form verb",
+      "example": "I guide new employees."
+    },
+    "3800": {
+      "word": "mutagenesis",
+      "pos": "noun",
+      "example": "Mutagenesis helps study gene function."
+    },
+    "3812": {
+      "word": "experiment",
+      "pos": "plural noun",
+      "example": "Science involves experiments."
+    },
+    "3827": {
+      "word": "suggest",
+      "pos": "gerund verb",
+      "example": "I suggest a new plan."
+    },
+    "3844": {
+      "word": "residue",
+      "pos": "plural noun",
+      "example": "Residue affects protein function."
+    },
+    "3853": {
+      "word": "form",
+      "pos": "verb",
+      "example": "Water forms ice."
+    },
+    "3858": {
+      "word": "",
+      "pos": "",
+      "example": ""
+    },
+    "3861": {
+      "word": "active site",
+      "pos": "compound noun",
+      "example": "The enzyme has an active site."
+    },
+    "3868": {
+      "word": "site",
+      "pos": "noun",
+      "example": "We visited the site yesterday."
+    },
+    "3873": {
+      "word": "",
+      "pos": "",
+      "example": ""
+    },
+    "3878": {
+      "word": "binding",
+      "pos": "noun",
+      "example": "Binding occurs between molecules."
+    },
+    "3886": {
+      "word": "interface",
+      "pos": "noun",
+      "example": "The interface is user-friendly."
+    },
+    "3900": {
+      "word": "medical",
+      "pos": "adjective",
+      "example": "She studies medical science."
+    },
+    "3908": {
+      "word": "genetics",
+      "pos": "singular noun",
+      "example": "Genetics explains inherited traits."
+    },
+    "3920": {
+      "word": "mutation",
+      "pos": "noun",
+      "example": "Mutation can cause disease."
+    },
+    "3934": {
+      "word": "disrupt",
+      "pos": "present tense verb",
+      "example": "Loud noise disrupts concentration."
+    },
+    "3945": {
+      "word": "tightly packed",
+      "pos": "adjective phrase",
+      "example": "The books are tightly packed."
+    },
+    "3953": {
+      "word": "pack",
+      "pos": "past participle adjective",
+      "example": "The suitcase is tightly packed."
+    },
+    "3960": {
+      "word": "core",
+      "pos": "noun",
+      "example": "The core of the problem is trust."
+    },
+    "3970": {
+      "word": "catalytic",
+      "pos": "adjective",
+      "example": "Catalytic enzymes speed reactions."
+    },
+    "3980": {
+      "word": "residue",
+      "pos": "noun",
+      "example": "Residues remain after evaporation."
+    },
+    "3991": {
+      "word": "more",
+      "pos": "adverb",
+      "example": "She wants more food."
+    },
+    "3996": {
+      "word": "likely",
+      "pos": "adjective",
+      "example": "It is likely to rain today."
+    },
+    "4006": {
+      "word": "affect",
+      "pos": "infinitive verb",
+      "example": "Pollution affects health."
+    },
+    "4013": {
+      "word": "function",
+      "pos": "noun",
+      "example": "The function of the heart is pumping."
+    },
+    "4036": {
+      "word": "flexible",
+      "pos": "adjective",
+      "example": "The schedule is flexible."
+    },
+    "4045": {
+      "word": "surface",
+      "pos": "noun",
+      "example": "The surface is smooth."
+    },
+    "4053": {
+      "word": "loop",
+      "pos": "noun",
+      "example": "The loop forms a circle."
+    },
+    "4063": {
+      "word": "predict",
+      "pos": "past participle adjective",
+      "example": "They predicted the outcome."
+    },
+    "4073": {
+      "word": "structure",
+      "pos": "plural noun",
+      "example": "Buildings have strong structures."
+    },
+    "4084": {
+      "word": "help",
+      "pos": "base form verb",
+      "example": "I help my friends."
+    },
+    "4089": {
+      "word": "make",
+      "pos": "base form verb",
+      "example": "I make dinner at home."
+    },
+    "4094": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That book is mine."
+    },
+    "4099": {
+      "word": "reasoning",
+      "pos": "noun",
+      "example": "Good reasoning solves problems."
+    },
+    "4109": {
+      "word": "more",
+      "pos": "adverb",
+      "example": "She needs more time."
+    },
+    "4114": {
+      "word": "concrete",
+      "pos": "adjective",
+      "example": "Use concrete examples to explain."
+    },
+    "4124": {
+      "word": "AlphaFold",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "4134": {
+      "word": "model",
+      "pos": "plural noun",
+      "example": "I build a model airplane."
+    },
+    "4141": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "I also like coffee."
+    },
+    "4146": {
+      "word": "help",
+      "pos": "base form verb",
+      "example": "I help my friend."
+    },
+    "4154": {
+      "word": "drug",
+      "pos": "noun",
+      "example": "The drug cured the disease."
+    },
+    "4159": {
+      "word": "discovery",
+      "pos": "noun",
+      "example": "Discovery of the virus was important."
+    },
+    "4176": {
+      "word": "protein",
+      "pos": "noun",
+      "example": "Protein is essential for health."
+    },
+    "4184": {
+      "word": "structure",
+      "pos": "noun",
+      "example": "The building's structure is strong."
+    },
+    "4197": {
+      "word": "missing",
+      "pos": "adjective",
+      "example": "A missing key stops the car."
+    },
+    "4206": {
+      "word": "although",
+      "pos": "conjunction - not translated as content word",
+      "example": ""
+    },
+    "4215": {
+      "word": "real",
+      "pos": "adjective",
+      "example": "He bought a real diamond."
+    },
+    "4220": {
+      "word": "drug design",
+      "pos": "compound noun",
+      "example": "Drug design requires many tests."
+    },
+    "4225": {
+      "word": "design",
+      "pos": "noun",
+      "example": "She has a talent for design."
+    },
+    "4232": {
+      "word": "still",
+      "pos": "adverb",
+      "example": "He still works here."
+    },
+    "4238": {
+      "word": "depend",
+      "pos": "present tense verb",
+      "example": "Plants depend on sunlight."
+    },
+    "4249": {
+      "word": "detail",
+      "pos": "plural noun",
+      "example": "She knows every detail well."
+    },
+    "4262": {
+      "word": "ligand-induced",
+      "pos": "adjective",
+      "example": "Ligand-induced changes affect proteins."
+    },
+    "4269": {
+      "word": "induce",
+      "pos": "past participle verb",
+      "example": "Drugs induce side effects."
+    },
+    "4277": {
+      "word": "conformational change",
+      "pos": "compound noun",
+      "example": "Conformational changes alter protein shape."
+    },
+    "4304": {
+      "word": "water",
+      "pos": "singular noun",
+      "example": "Water is essential for life."
+    },
+    "4310": {
+      "word": "molecule",
+      "pos": "plural noun",
+      "example": "Water consists of molecules."
+    },
+    "4332": {
+      "word": "hard",
+      "pos": "adjective",
+      "example": "This problem is hard to solve."
+    },
+    "4340": {
+      "word": "capture",
+      "pos": "base form verb",
+      "example": "Photographers capture beautiful images."
+    },
+    "4356": {
+      "word": "experiment",
+      "pos": "plural noun",
+      "example": "Experiments test new ideas."
+    },
+    "4370": {
+      "word": "AlphaFold",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "4389": {
+      "word": "complete",
+      "pos": "adjective",
+      "example": "We need complete information."
+    },
+    "4398": {
+      "word": "solution",
+      "pos": "singular noun",
+      "example": "I found a solution to the problem."
+    },
+    "4410": {
+      "word": "structural",
+      "pos": "adjective",
+      "example": "The building has structural damage."
+    },
+    "4421": {
+      "word": "biology",
+      "pos": "noun",
+      "example": "Biology studies living organisms."
+    },
+    "4438": {
+      "word": "limit",
+      "pos": "plural noun",
+      "example": "The limit is ten items."
+    },
+    "4449": {
+      "word": "important",
+      "pos": "adjective",
+      "example": "This is an important decision."
+    },
+    "4463": {
+      "word": "responsible",
+      "pos": "adjective",
+      "example": "He is responsible for the project."
+    },
+    "4475": {
+      "word": "use",
+      "pos": "singular noun",
+      "example": "The use of phones is allowed."
+    },
+    "4480": {
+      "word": "many",
+      "pos": "determiner (quantity)",
+      "example": "Many people like music."
+    },
+    "4485": {
+      "word": "protein",
+      "pos": "plural noun",
+      "example": "Protein is important for health."
+    },
+    "4494": {
+      "word": "act",
+      "pos": "base form verb",
+      "example": "I act in school plays."
+    },
+    "4501": {
+      "word": "complex",
+      "pos": "plural noun",
+      "example": "The complex is stable."
+    },
+    "4512": {
+      "word": "bind",
+      "pos": "present tense verb",
+      "example": "Enzymes bind substrates tightly."
+    },
+    "4517": {
+      "word": "DNA",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "4521": {
+      "word": "or",
+      "pos": "conjunction",
+      "example": "Would you like tea or coffee?"
+    },
+    "4524": {
+      "word": "RNA",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "4529": {
+      "word": "or",
+      "pos": "conjunction",
+      "example": "Do you want this or that?"
+    },
+    "4532": {
+      "word": "change",
+      "pos": "base form verb",
+      "example": "Seasons change every year."
+    },
+    "4539": {
+      "word": "shape",
+      "pos": "singular noun",
+      "example": "The shape of the object is round."
+    },
+    "4550": {
+      "word": "they",
+      "pos": "pronoun",
+      "example": "They are my friends."
+    },
+    "4555": {
+      "word": "bind",
+      "pos": "base form verb",
+      "example": "I bind the papers together."
+    },
+    "4560": {
+      "word": "partner",
+      "pos": "plural noun",
+      "example": "She is my partner in the game."
+    },
+    "4574": {
+      "word": "single-chain",
+      "pos": "compound adjective",
+      "example": "A single-chain antibody is smaller."
+    },
+    "4587": {
+      "word": "prediction",
+      "pos": "plural noun",
+      "example": "Her prediction was correct."
+    },
+    "4602": {
+      "word": "not",
+      "pos": "adverb",
+      "example": "I do not like rain."
+    },
+    "4606": {
+      "word": "automatically",
+      "pos": "adverb",
+      "example": "The door opens automatically."
+    },
+    "4620": {
+      "word": "provide",
+      "pos": "base form verb",
+      "example": "We provide good service."
+    },
+    "4634": {
+      "word": "state",
+      "pos": "plural noun",
+      "example": "The water changes state."
+    },
+    "4647": {
+      "word": "region",
+      "pos": "plural noun",
+      "example": "A region can have many cities."
+    },
+    "4659": {
+      "word": "intrinsically",
+      "pos": "adverb",
+      "example": "She is intrinsically talented."
+    },
+    "4673": {
+      "word": "disordered",
+      "pos": "adjective",
+      "example": "The room looked disordered."
+    },
+    "4695": {
+      "word": "have",
+      "pos": "base form verb",
+      "example": "I have two cats."
+    },
+    "4704": {
+      "word": "stable",
+      "pos": "adjective",
+      "example": "The table is stable."
+    },
+    "4711": {
+      "word": "structure",
+      "pos": "singular noun",
+      "example": "The building has a strong structure."
+    },
+    "4722": {
+      "word": "post-translational modification",
+      "pos": "compound noun",
+      "example": "Post-translational modification regulates protein."
+    },
+    "4756": {
+      "word": "cofactor",
+      "pos": "plural noun",
+      "example": "Cofactors are essential for enzyme activity."
+    },
+    "4771": {
+      "word": "membrane",
+      "pos": "plural noun",
+      "example": "Cell membranes protect cells."
+    },
+    "4790": {
+      "word": "influence",
+      "pos": "verb",
+      "example": "Heavy rain can influence the traffic."
+    },
+    "4800": {
+      "word": "shape",
+      "pos": "noun",
+      "example": "The shape of the object is round."
+    },
+    "4807": {
+      "word": "this",
+      "pos": "demonstrative determiner",
+      "example": "This book is interesting."
+    },
+    "4813": {
+      "word": "limit",
+      "pos": "plural noun",
+      "example": "There is a speed limit here."
+    },
+    "4820": {
+      "word": "matter",
+      "pos": "base form verb",
+      "example": "Issues matter to everyone."
+    },
+    "4835": {
+      "word": "they",
+      "pos": "personal pronoun",
+      "example": "They run fast."
+    },
+    "4840": {
+      "word": "define",
+      "pos": "base form verb",
+      "example": "Please define the problem."
+    },
+    "4847": {
+      "word": "where",
+      "pos": "relative adverb",
+      "example": "Where is the library?"
+    },
+    "4853": {
+      "word": "experiment",
+      "pos": "plural noun",
+      "example": "The experiment was successful."
+    },
+    "4865": {
+      "word": "remain",
+      "pos": "base form verb",
+      "example": "They remain very friendly."
+    },
+    "4872": {
+      "word": "essential",
+      "pos": "adjective",
+      "example": "Water is essential for life."
+    },
+    "4892": {
+      "word": "computational",
+      "pos": "adjective",
+      "example": "Computational methods help science."
+    },
+    "4906": {
+      "word": "prediction",
+      "pos": "noun",
+      "example": "Prediction is difficult."
+    },
+    "4917": {
+      "word": "should be treated",
+      "pos": "modal verb phrase",
+      "example": "This data should be treated carefully."
+    },
+    "4927": {
+      "word": "treat",
+      "pos": "past tense verb",
+      "example": "We treat patients carefully."
+    },
+    "4935": {
+      "word": "as",
+      "pos": "conjunction",
+      "example": "He works as a teacher."
+    },
+    "4938": {
+      "word": "strong piece of evidence",
+      "pos": "idiomatic phrase",
+      "example": "This is strong evidence."
+    },
+    "4942": {
+      "word": "strong",
+      "pos": "adjective",
+      "example": "He is very strong."
+    },
+    "4949": {
+      "word": "piece of evidence",
+      "pos": "idiomatic phrase",
+      "example": "That is a strong piece of evidence."
+    },
+    "4958": {
+      "word": "evidence",
+      "pos": "noun",
+      "example": "The evidence is convincing."
+    },
+    "4976": {
+      "word": "final",
+      "pos": "adjective",
+      "example": "This is the final decision."
+    },
+    "4982": {
+      "word": "answer",
+      "pos": "noun",
+      "example": "She gave a good answer."
+    },
+    "4991": {
+      "word": "AlphaFold",
+      "pos": "proper noun",
+      "example": ""
+    },
+    "5003": {
+      "word": "broad",
+      "pos": "comparative adjective",
+      "example": "The broad road connects cities."
+    },
+    "5011": {
+      "word": "significance",
+      "pos": "noun, singular",
+      "example": "The significance is clear."
+    },
+    "5035": {
+      "word": "compress",
+      "pos": "past tense verb",
+      "example": "I compress the files."
+    },
+    "5050": {
+      "word": "time",
+      "pos": "noun",
+      "example": "Time flies quickly."
+    },
+    "5060": {
+      "word": "gene",
+      "pos": "noun, singular",
+      "example": "Genes determine traits."
+    },
+    "5065": {
+      "word": "sequence",
+      "pos": "noun",
+      "example": "The sequence of numbers is important."
+    },
+    "5077": {
+      "word": "structural",
+      "pos": "adjective",
+      "example": "Structural changes improve the building."
+    },
+    "5088": {
+      "word": "hypothesis",
+      "pos": "noun",
+      "example": "The hypothesis needs testing."
+    },
+    "5104": {
+      "word": "month",
+      "pos": "plural noun",
+      "example": "Months pass quickly."
+    },
+    "5114": {
+      "word": "year",
+      "pos": "plural noun",
+      "example": "Years fly by."
+    },
+    "5123": {
+      "word": "hour",
+      "pos": "plural noun",
+      "example": "Hours make a difference."
+    },
+    "5132": {
+      "word": "day",
+      "pos": "plural noun",
+      "example": "She rested for several days."
+    },
+    "5144": {
+      "word": "support",
+      "pos": "present tense verb",
+      "example": "I support your decision."
+    },
+    "5153": {
+      "word": "fast",
+      "pos": "comparative adjective",
+      "example": "He runs faster than me."
+    },
+    "5160": {
+      "word": "cycle",
+      "pos": "plural noun",
+      "example": "The moon has several cycles."
+    },
+    "5170": {
+      "word": "research",
+      "pos": "noun, singular",
+      "example": "Research is important."
+    },
+    "5183": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "I also like apples."
+    },
+    "5188": {
+      "word": "make",
+      "pos": "past tense verb",
+      "example": "They make good food."
+    },
+    "5193": {
+      "word": "protein",
+      "pos": "noun, singular",
+      "example": "Protein is essential for health."
+    },
+    "5201": {
+      "word": "structure",
+      "pos": "noun",
+      "example": "The structure is very complex."
+    },
+    "5218": {
+      "word": "routine",
+      "pos": "adjective",
+      "example": "She follows a routine schedule."
+    },
+    "5226": {
+      "word": "input",
+      "pos": "noun",
+      "example": "The device requires input."
+    },
+    "5236": {
+      "word": "field",
+      "pos": "plural noun",
+      "example": "She works in the field."
+    },
+    "5248": {
+      "word": "microbiology",
+      "pos": "noun, singular",
+      "example": ""
+    },
+    "5262": {
+      "word": "enzyme engineering",
+      "pos": "compound noun",
+      "example": ""
+    },
+    "5286": {
+      "word": "human",
+      "pos": "adjective",
+      "example": "Human biology is fascinating."
+    },
+    "5292": {
+      "word": "disease",
+      "pos": "noun",
+      "example": "He studies disease mechanisms."
+    },
+    "5300": {
+      "word": "biology",
+      "pos": "noun",
+      "example": "Biology helps us understand life."
+    },
+    "5312": {
+      "word": "new",
+      "pos": "comparative adjective",
+      "example": "New methods improve research."
+    },
+    "5318": {
+      "word": "method",
+      "pos": "plural noun",
+      "example": "The method is simple."
+    },
+    "5326": {
+      "word": "expand",
+      "pos": "verb",
+      "example": "Companies expand their markets."
+    },
+    "5336": {
+      "word": "protein",
+      "pos": "noun",
+      "example": "Protein is essential for cells."
+    },
+    "5344": {
+      "word": "complex",
+      "pos": "plural noun",
+      "example": "The complex is large."
+    },
+    "5358": {
+      "word": "dynamic",
+      "pos": "plural noun",
+      "example": "Dynamics change over time."
+    },
+    "5372": {
+      "word": "main",
+      "pos": "adjective",
+      "example": "The main issue is clear."
+    },
+    "5377": {
+      "word": "lesson",
+      "pos": "noun",
+      "example": "She learned a lesson."
+    },
+    "5384": {
+      "word": "remain",
+      "pos": "present tense verb",
+      "example": "Problems remain unsolved."
+    },
+    "5393": {
+      "word": "combine",
+      "pos": "gerund verb",
+      "example": "We combine colors skillfully."
+    },
+    "5403": {
+      "word": "large",
+      "pos": "adjective",
+      "example": "They have a large house."
+    },
+    "5409": {
+      "word": "biological",
+      "pos": "adjective",
+      "example": "Biological studies are important."
+    },
+    "5420": {
+      "word": "dataset",
+      "pos": "plural noun",
+      "example": "The dataset is valid."
+    },
+    "5429": {
+      "word": "with",
+      "pos": "preposition",
+      "example": ""
+    },
+    "5434": {
+      "word": "geometry-aware",
+      "pos": "adjective phrase",
+      "example": "Geometry-aware models improve accuracy."
+    },
+    "5449": {
+      "word": "machine learning",
+      "pos": "compound noun",
+      "example": "Machine learning helps analyze data."
+    },
+    "5466": {
+      "word": "can",
+      "pos": "modal verb",
+      "example": "She can run fast."
+    },
+    "5470": {
+      "word": "produce",
+      "pos": "base form verb",
+      "example": "They produce good results."
+    },
+    "5478": {
+      "word": "tool",
+      "pos": "plural noun",
+      "example": "We use tools to fix things."
+    },
+    "5489": {
+      "word": "change",
+      "pos": "verb",
+      "example": "People can change habits."
+    },
+    "5496": {
+      "word": "what",
+      "pos": "relative pronoun",
+      "example": ""
+    },
+    "5501": {
+      "word": "count",
+      "pos": "verb, present tense",
+      "example": "Every opinion counts."
+    },
+    "5512": {
+      "word": "available",
+      "pos": "adjective",
+      "example": "Tickets are available now."
+    },
+    "5522": {
+      "word": "knowledge",
+      "pos": "noun",
+      "example": "Knowledge is power."
+    },
+    "5537": {
+      "word": "everyday",
+      "pos": "adjective",
+      "example": "Everyday tasks are simple."
+    },
+    "5546": {
+      "word": "science",
+      "pos": "noun",
+      "example": "Science explains natural phenomena."
+    },
+    "843": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "856": {
+      "word": "hydrogen bond",
+      "pos": "plural noun",
+      "example": "Water molecules form hydrogen bonds with each other."
+    },
+    "863": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "867": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "She stayed home because she was sick."
+    },
+    "875": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The color of the sky is blue."
+    },
+    "890": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "The book is in the bag."
+    },
+    "936": {
+      "word": "be",
+      "pos": "third person singular present tense verb",
+      "example": "She is a good teacher."
+    },
+    "944": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "She stayed home because she was sick."
+    },
+    "960": {
+      "word": "have",
+      "pos": "third person singular present verb",
+      "example": "She has a big house."
+    },
+    "993": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "997": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "She stayed home because she was sick."
+    },
+    "1126": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "1130": {
+      "word": "how",
+      "pos": "adverb",
+      "example": "How do you solve this problem?"
+    },
+    "1193": {
+      "word": "be",
+      "pos": "third person singular present tense verb",
+      "example": "She is a good teacher."
+    },
+    "1196": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is my book."
+    },
+    "1201": {
+      "word": "it",
+      "pos": "third person singular pronoun",
+      "example": "It is raining today."
+    },
+    "1232": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The color of the sky is blue."
+    },
+    "1270": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "1329": {
+      "word": "sequence alignment",
+      "pos": "plural noun",
+      "example": "The scientist studies sequence alignment methods."
+    },
+    "1341": {
+      "word": "which",
+      "pos": "relative pronoun",
+      "example": "The book, which is new, is on the table."
+    },
+    "1347": {
+      "word": "be",
+      "pos": "present tense auxiliary verb",
+      "example": "They are friends."
+    },
+    "1363": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The color of the sky is blue."
+    },
+    "1392": {
+      "word": "find",
+      "pos": "past tense verb",
+      "example": "They find errors in the code."
+    },
+    "1398": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "The book is in the bag."
+    },
+    "1412": {
+      "word": "when",
+      "pos": "subordinating conjunction",
+      "example": "Call me when you arrive."
+    },
+    "1464": {
+      "word": "it",
+      "pos": "third person singular pronoun",
+      "example": "It is raining today."
+    },
+    "1488": {
+      "word": "they",
+      "pos": "third person plural pronoun",
+      "example": "They are going to the park today."
+    },
+    "1493": {
+      "word": "be",
+      "pos": "present tense auxiliary verb",
+      "example": "They are friends."
+    },
+    "1503": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "The book is in the bag."
+    },
+    "1507": {
+      "word": "mutate",
+      "pos": "present tense verb",
+      "example": "Genes often mutate over generations."
+    },
+    "1516": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "She stayed home because she was sick."
+    },
+    "1597": {
+      "word": "idea",
+      "pos": "singular noun",
+      "example": "She had a great idea for the project."
+    },
+    "1603": {
+      "word": "but",
+      "pos": "coordinating conjunction",
+      "example": "I want to go, but I am tired."
+    },
+    "1696": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "1755": {
+      "word": "turn",
+      "pos": "present participle verb",
+      "example": "The caterpillar turns into a butterfly."
+    },
+    "1776": {
+      "word": "sequence-level features",
+      "pos": "plural noun phrase",
+      "example": "The model analyzes sequence-level features carefully."
+    },
+    "1808": {
+      "word": "to",
+      "pos": "preposition",
+      "example": "I want to learn English."
+    },
+    "1818": {
+      "word": "both",
+      "pos": "determiner",
+      "example": "Both options are good."
+    },
+    "1847": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "1894": {
+      "word": "so",
+      "pos": "conjunction",
+      "example": "I was tired, so I went to bed."
+    },
+    "1907": {
+      "word": "can",
+      "pos": "modal verb",
+      "example": "I can swim very well."
+    },
+    "1918": {
+      "word": "its",
+      "pos": "possessive determiner",
+      "example": "The company updated its policy recently."
+    },
+    "1960": {
+      "word": "an",
+      "pos": "indefinite article",
+      "example": "I saw an eagle flying."
+    },
+    "1982": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is my book."
+    },
+    "2006": {
+      "word": "between",
+      "pos": "preposition",
+      "example": "The book is between the shelves."
+    },
+    "2031": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The color of the sky is blue."
+    },
+    "2048": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "2069": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The color of the sky is blue."
+    },
+    "2095": {
+      "word": "after",
+      "pos": "preposition",
+      "example": "We went home after the movie."
+    },
+    "2101": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is my book."
+    },
+    "2137": {
+      "word": "recycle",
+      "pos": "third person singular present verb",
+      "example": "We recycle paper to protect the environment."
+    },
+    "2151": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "2155": {
+      "word": "then",
+      "pos": "adverb",
+      "example": "Finish your work, then go outside."
+    },
+    "2169": {
+      "word": "its",
+      "pos": "possessive determiner",
+      "example": "The company updated its policy recently."
+    },
+    "2185": {
+      "word": "recycle back into",
+      "pos": "phrasal verb",
+      "example": "They recycle waste back into new products."
+    },
+    "2202": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This gift is for you."
+    },
+    "2227": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is important for the experiment."
+    },
+    "2242": {
+      "word": "be",
+      "pos": "third person singular present tense verb",
+      "example": "She is a good teacher."
+    },
+    "2255": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "She stayed home because she was sick."
+    },
+    "2284": {
+      "word": "be",
+      "pos": "third person singular present tense verb",
+      "example": "She is a good teacher."
+    },
+    "2332": {
+      "word": "like",
+      "pos": "preposition",
+      "example": "She sings like a professional."
+    },
+    "2383": {
+      "word": "across",
+      "pos": "preposition",
+      "example": "She walked across the street."
+    },
+    "2435": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "She stayed home because she was sick."
+    },
+    "2461": {
+      "word": "learn from",
+      "pos": "preposition in phrasal verb",
+      "example": "Children learn from their parents."
+    },
+    "2474": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The color of the sky is blue."
+    },
+    "2519": {
+      "word": "like",
+      "pos": "preposition",
+      "example": "I like apples and oranges."
+    },
+    "2536": {
+      "word": "data",
+      "pos": "plural noun",
+      "example": "The data show an increase in sales."
+    },
+    "2541": {
+      "word": "Protein Data Bank",
+      "pos": "proper noun",
+      "example": "The Protein Data Bank stores protein structures."
+    },
+    "2561": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "The book is in the bag."
+    },
+    "2615": {
+      "word": "learn from",
+      "pos": "preposition in phrasal verb",
+      "example": "Children learn from their parents."
+    },
+    "2631": {
+      "word": "such as",
+      "pos": "determiner + preposition",
+      "example": "Techniques such as X-ray are useful."
+    },
+    "2636": {
+      "word": "as",
+      "pos": "preposition",
+      "example": "He works as a teacher."
+    },
+    "2645": {
+      "word": "crystallography",
+      "pos": "singular noun",
+      "example": "Crystallography helps to determine molecular structures."
+    },
+    "2680": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "2720": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is my book."
+    },
+    "2742": {
+      "word": "to",
+      "pos": "preposition",
+      "example": "I want to learn English."
+    },
+    "2755": {
+      "word": "such as",
+      "pos": "determiner + preposition",
+      "example": "Techniques such as X-ray are useful."
+    },
+    "2760": {
+      "word": "as",
+      "pos": "preposition",
+      "example": "He works as a teacher."
+    },
+    "2793": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "2825": {
+      "word": "like",
+      "pos": "preposition",
+      "example": "I like apples and bananas."
+    },
+    "2836": {
+      "word": "alpha helix",
+      "pos": "plural noun",
+      "example": "Proteins often contain an alpha helix."
+    },
+    "2844": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "2853": {
+      "word": "beta sheet",
+      "pos": "plural noun",
+      "example": "The protein contains many beta sheets."
+    },
+    "2879": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is my book."
+    },
+    "2924": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "The book is in the bag."
+    },
+    "2934": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is my book."
+    },
+    "2939": {
+      "word": "be",
+      "pos": "past tense verb",
+      "example": "They are happy today."
+    },
+    "2950": {
+      "word": "to",
+      "pos": "preposition",
+      "example": "I want to learn English."
+    },
+    "2974": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This gift is for you."
+    },
+    "3001": {
+      "word": "measured by",
+      "pos": "past participle + preposition",
+      "example": "The performance is measured by accuracy."
+    },
+    "3024": {
+      "word": "use",
+      "pos": "past tense verb",
+      "example": "I use a computer every day."
+    },
+    "3029": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "The book is in the bag."
+    },
+    "3060": {
+      "word": "access",
+      "pos": "singular noun",
+      "example": "We need access to the database."
+    },
+    "3069": {
+      "word": "impact on",
+      "pos": "preposition",
+      "example": "The impact on society was significant."
+    },
+    "3105": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "She stayed home because she was sick."
+    },
+    "3120": {
+      "word": "be",
+      "pos": "past tense verb",
+      "example": "She is happy today."
+    },
+    "3130": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "3228": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "The book is in the bag."
+    },
+    "3236": {
+      "word": "measured by",
+      "pos": "past participle + preposition",
+      "example": "The performance is measured by accuracy."
+    },
+    "3248": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "3292": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This gift is for you."
+    },
+    "3308": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The color of the sky is blue."
+    },
+    "3330": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "3368": {
+      "word": "could",
+      "pos": "modal verb, past form",
+      "example": "She could help if needed."
+    },
+    "3421": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "3443": {
+      "word": "impact on",
+      "pos": "preposition",
+      "example": "The impact on society was significant."
+    },
+    "3450": {
+      "word": "most",
+      "pos": "superlative determiner",
+      "example": "She is the most talented singer."
+    },
+    "3484": {
+      "word": "model's",
+      "pos": "possessive singular noun",
+      "example": "The model's accuracy is impressive."
+    },
+    "3532": {
+      "word": "as",
+      "pos": "preposition",
+      "example": "He works as a teacher."
+    },
+    "3581": {
+      "word": "be",
+      "pos": "third person singular present tense verb",
+      "example": "She is a good teacher."
+    },
+    "3591": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "3616": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "Do you want tea or coffee?"
+    },
+    "3638": {
+      "word": "make",
+      "pos": "base form verb",
+      "example": "I make a cake every Sunday."
+    },
+    "3643": {
+      "word": "any",
+      "pos": "determiner",
+      "example": "Do you have any questions?"
+    },
+    "3708": {
+      "word": "how",
+      "pos": "adverb",
+      "example": "Tell me how to use this device."
+    },
+    "3734": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "3790": {
+      "word": "can",
+      "pos": "modal verb",
+      "example": "I can swim very well."
+    },
+    "3824": {
+      "word": "measured by",
+      "pos": "past participle + preposition",
+      "example": "The performance is measured by accuracy."
+    },
+    "3838": {
+      "word": "which",
+      "pos": "relative pronoun",
+      "example": "The book, which is new, is on the table."
+    },
+    "3897": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "The book is in the bag."
+    },
+    "3929": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is my book."
+    },
+    "3965": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "Do you want tea or coffee?"
+    },
+    "3988": {
+      "word": "be",
+      "pos": "third person singular present tense verb",
+      "example": "She is a good teacher."
+    },
+    "4003": {
+      "word": "to",
+      "pos": "preposition",
+      "example": "I want to learn English."
+    },
+    "4022": {
+      "word": "than",
+      "pos": "conjunction",
+      "example": "She is taller than her brother."
+    },
+    "4027": {
+      "word": "one",
+      "pos": "indefinite pronoun",
+      "example": "One is the first number."
+    },
+    "4031": {
+      "word": "impact on",
+      "pos": "preposition",
+      "example": "The impact on society was significant."
+    },
+    "4059": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "4151": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "The book is in the bag."
+    },
+    "4169": {
+      "word": "when",
+      "pos": "subordinating conjunction",
+      "example": "Call me when you arrive."
+    },
+    "4194": {
+      "word": "be",
+      "pos": "third person singular present tense verb",
+      "example": "She is a good teacher."
+    },
+    "4246": {
+      "word": "impact on",
+      "pos": "preposition",
+      "example": "The impact on society was significant."
+    },
+    "4257": {
+      "word": "like",
+      "pos": "preposition",
+      "example": "I like apples more than oranges."
+    },
+    "4292": {
+      "word": "change",
+      "pos": "plural noun",
+      "example": "Small changes improve the final result."
+    },
+    "4300": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "4320": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is my book."
+    },
+    "4325": {
+      "word": "can",
+      "pos": "modal verb",
+      "example": "I can swim very well."
+    },
+    "4329": {
+      "word": "be",
+      "pos": "base form verb",
+      "example": "I want to be a doctor."
+    },
+    "4337": {
+      "word": "to",
+      "pos": "preposition",
+      "example": "I want to learn English."
+    },
+    "4348": {
+      "word": "without",
+      "pos": "preposition",
+      "example": "I cannot live without my phone."
+    },
+    "4380": {
+      "word": "be",
+      "pos": "third person singular present tense verb",
+      "example": "She is a good teacher."
+    },
+    "4383": {
+      "word": "not",
+      "pos": "negation adverb",
+      "example": "I am not hungry."
+    },
+    "4407": {
+      "word": "to",
+      "pos": "preposition",
+      "example": "I want to learn English."
+    },
+    "4430": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "4434": {
+      "word": "its",
+      "pos": "possessive determiner",
+      "example": "The company updated its policy recently."
+    },
+    "4445": {
+      "word": "be",
+      "pos": "present tense auxiliary verb",
+      "example": "They are friends."
+    },
+    "4459": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This gift is for you."
+    },
+    "4498": {
+      "word": "as",
+      "pos": "preposition",
+      "example": "He works as a teacher."
+    },
+    "4545": {
+      "word": "when",
+      "pos": "subordinating conjunction",
+      "example": "Call me when you arrive."
+    },
+    "4570": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "4599": {
+      "word": "do",
+      "pos": "base form verb",
+      "example": "I do my homework every day."
+    },
+    "4628": {
+      "word": "those",
+      "pos": "demonstrative pronoun",
+      "example": "Those are my books on the table."
+    },
+    "4642": {
+      "word": "some",
+      "pos": "determiner",
+      "example": "Some people like to read books."
+    },
+    "4655": {
+      "word": "be",
+      "pos": "present tense auxiliary verb",
+      "example": "They are friends."
+    },
+    "4684": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "4688": {
+      "word": "do not have",
+      "pos": "base form verb + negation",
+      "example": "They do not have enough time."
+    },
+    "4691": {
+      "word": "not",
+      "pos": "negation adverb",
+      "example": "I am not hungry."
+    },
+    "4700": {
+      "word": "one",
+      "pos": "singular indefinite pronoun",
+      "example": "She has one apple."
+    },
+    "4741": {
+      "word": "modification",
+      "pos": "plural noun",
+      "example": "This modification improves the machine's performance."
+    },
+    "4767": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "4781": {
+      "word": "can",
+      "pos": "modal verb",
+      "example": "I can swim very well."
+    },
+    "4785": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "She also likes to read books."
+    },
+    "4827": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "She stayed home because she was sick."
+    },
+    "4882": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "4886": {
+      "word": "where",
+      "pos": "relative adverb",
+      "example": "I know where the library is."
+    },
+    "4924": {
+      "word": "be",
+      "pos": "base form verb",
+      "example": "I want to be a doctor."
+    },
+    "4955": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The color of the sky is blue."
+    },
+    "4968": {
+      "word": "not",
+      "pos": "negation adverb",
+      "example": "I am not hungry."
+    },
+    "5001": {
+      "word": "AlphaFold",
+      "pos": "proper noun",
+      "example": "AlphaFold predicts protein structures accurately."
+    },
+    "5024": {
+      "word": "be",
+      "pos": "third person singular present tense verb",
+      "example": "She is a good teacher."
+    },
+    "5027": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is my book."
+    },
+    "5032": {
+      "word": "it",
+      "pos": "third person singular pronoun",
+      "example": "It is raining today."
+    },
+    "5055": {
+      "word": "learn from",
+      "pos": "preposition in phrasal verb",
+      "example": "Children learn from their parents."
+    },
+    "5074": {
+      "word": "to",
+      "pos": "preposition",
+      "example": "I want to learn English."
+    },
+    "5099": {
+      "word": "learn from",
+      "pos": "preposition in phrasal verb",
+      "example": "Children learn from their parents."
+    },
+    "5111": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "Do you want tea or coffee?"
+    },
+    "5120": {
+      "word": "to",
+      "pos": "preposition",
+      "example": "I want to learn English."
+    },
+    "5129": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "Do you want tea or coffee?"
+    },
+    "5138": {
+      "word": "which",
+      "pos": "relative pronoun",
+      "example": "The book, which is new, is on the table."
+    },
+    "5167": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The color of the sky is blue."
+    },
+    "5180": {
+      "word": "it",
+      "pos": "third person singular pronoun",
+      "example": "It is raining today."
+    },
+    "5213": {
+      "word": "more",
+      "pos": "comparative adverb",
+      "example": "I want more time to finish."
+    },
+    "5232": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This gift is for you."
+    },
+    "5243": {
+      "word": "like",
+      "pos": "preposition",
+      "example": "I like music."
+    },
+    "5269": {
+      "word": "engineering",
+      "pos": "noun, singular",
+      "example": "She studies civil engineering at university."
+    },
+    "5282": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "5309": {
+      "word": "as",
+      "pos": "preposition",
+      "example": "He works as a teacher."
+    },
+    "5333": {
+      "word": "to",
+      "pos": "preposition",
+      "example": "I want to learn English."
+    },
+    "5354": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "She likes coffee and tea."
+    },
+    "5457": {
+      "word": "machine learning",
+      "pos": "gerund form",
+      "example": "Machine learning helps computers improve automatically."
+    },
+    "5484": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is my book."
+    },
+    "5508": {
+      "word": "as",
+      "pos": "preposition",
+      "example": "He works as a teacher."
+    },
+    "5533": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This gift is for you."
+    }
+  },
+  "translations": {
+    "pt": {
+      "0": "AlphaFold",
+      "10": "mostrar",
+      "17": "que",
+      "24": "computador",
+      "33": "sistema",
+      "40": "poder (verbo modal)",
+      "44": "prever",
+      "52": "muitos",
+      "57": "proteína",
+      "65": "3D",
+      "66": "obter",
+      "68": "estrutura",
+      "79": "com",
+      "84": "quase experimental",
+      "102": "precisão",
+      "112": "e",
+      "116": "ele",
+      "119": "mudar",
+      "127": "mudar a forma como",
+      "131": "biólogo",
+      "142": "obter",
+      "146": "estrutural",
+      "157": "informação",
+      "170": "DeepMind",
+      "179": "apresentar",
+      "189": "importante",
+      "195": "resultado",
+      "203": "em",
+      "206": "2020",
+      "212": "depois de",
+      "218": "AlphaFold2",
+      "229": "vencer",
+      "237": "CASP14",
+      "244": "competição",
+      "257": "e",
+      "265": "empresa",
+      "273": "e",
+      "277": "seu",
+      "281": "parceiro",
+      "289": "EMBL-EBI",
+      "298": "lançar",
+      "309": "grande",
+      "315": "público",
+      "322": "base de dados",
+      "331": "em",
+      "334": "2021",
+      "340": "isto",
+      "345": "importar",
+      "353": "porque",
+      "361": "proteína",
+      "369": "forma",
+      "375": "fortemente",
+      "384": "afetar",
+      "392": "função",
+      "402": "e",
+      "406": "laboratório",
+      "410": "método",
+      "418": "como",
+      "423": "como",
+      "426": "cristalografia de raios X",
+      "432": "cristalografia",
+      "448": "e",
+      "452": "crio-microscopia eletrônica",
+      "466": "criomicroscopia eletrônica",
+      "477": "poder",
+      "481": "ser/estar",
+      "484": "lento",
+      "490": "caro",
+      "501": "ou",
+      "504": "difícil",
+      "514": "para",
+      "518": "certos",
+      "526": "proteínas",
+      "541": "científico",
+      "552": "problema",
+      "560": "AlphaFold",
+      "570": "focou",
+      "579": "ser/estar",
+      "586": "proteína",
+      "594": "dobramento",
+      "602": "problema",
+      "611": "dada",
+      "617": "",
+      "620": "aminoácido",
+      "631": "sequência",
+      "641": "prever",
+      "653": "final",
+      "659": "3D",
+      "660": "dobramento de proteína",
+      "662": "arranjo",
+      "674": "de",
+      "677": "átomo",
+      "686": "proteína",
+      "694": "ser/estar",
+      "699": "cadeia",
+      "705": "de",
+      "708": "20",
+      "711": "comum",
+      "718": "aminoácido",
+      "724": "ácido",
+      "731": "e",
+      "735": "seu",
+      "739": "sequência",
+      "748": "ser/estar",
+      "751": "codificar",
+      "759": "em",
+      "762": "DNA",
+      "771": "cadeia",
+      "777": "dobrar",
+      "783": "porque",
+      "791": "de",
+      "794": "físico",
+      "803": "força",
+      "810": "tais como",
+      "815": "como",
+      "818": "interações hidrofóbicas",
+      "847": "ligações de hidrogênio",
+      "878": "restrição",
+      "897": "espinha dorsal",
+      "906": "geometria",
+      "916": "prever",
+      "931": "dobra",
+      "939": "difícil",
+      "954": "cadeia",
+      "964": "muitas",
+      "969": "possíveis",
+      "978": "conformações",
+      "1005": "proteínas",
+      "1014": "frequentemente",
+      "1020": "têm",
+      "1025": "flexíveis",
+      "1034": "partes",
+      "1041": "confiável",
+      "1050": "estrutura",
+      "1060": "predição",
+      "1071": "ajuda",
+      "1077": "pesquisador",
+      "1089": "inferir",
+      "1095": "sítio ativo",
+      "1109": "bolso de ligação",
+      "1134": "mutação",
+      "1144": "alterar",
+      "1151": "estabilidade",
+      "1165": "chave",
+      "1169": "razão",
+      "1176": "AlphaFold",
+      "1186": "funcionar",
+      "1204": "combinar",
+      "1213": "duas",
+      "1217": "fortes",
+      "1224": "fontes",
+      "1235": "informação",
+      "1248": "padrões evolutivos",
+      "1274": "geometria estrutural",
+      "1299": "sistema",
+      "1306": "usar",
+      "1311": "múltiplos",
+      "1320": "alinhamento de sequências",
+      "1351": "coleção",
+      "1366": "relacionado",
+      "1374": "proteína",
+      "1382": "sequência",
+      "1401": "banco de dados",
+      "1417": "dois",
+      "1421": "resíduo",
+      "1430": "mutar",
+      "1437": "juntos",
+      "1446": "ao longo de",
+      "1453": "evolução",
+      "1467": "geralmente",
+      "1473": "indicar",
+      "1497": "próximo",
+      "1506": "3D",
+      "1509": "espaço",
+      "1524": "contato",
+      "1532": "ajudar",
+      "1538": "manter",
+      "1547": "função",
+      "1557": "anterior",
+      "1565": "método",
+      "1573": "usar",
+      "1578": "esta",
+      "1583": "coevolução",
+      "1607": "AlphaFold",
+      "1617": "conectar",
+      "1627": "ela",
+      "1630": "firmemente",
+      "1638": "",
+      "1641": "neural",
+      "1650": "rede",
+      "1658": "",
+      "1663": "raciocinar",
+      "1671": "diretamente",
+      "1680": "",
+      "1686": "distância",
+      "1700": "ângulo",
+      "1708": "transformar",
+      "1716": "estatístico",
+      "1728": "sinal",
+      "1732": "",
+      "1736": "",
+      "1743": "consistente",
+      "1754": "3D",
+      "1757": "modelo",
+      "1765": "AlphaFold2",
+      "1778": "arquitetura",
+      "1791": "introduzir",
+      "1804": "forma",
+      "1811": "atualizar",
+      "1823": "característica ao nível da sequência",
+      "1851": "relação entre resíduos em pares",
+      "1882": "repetidamente",
+      "1901": "modelo",
+      "1911": "refinar",
+      "1926": "compreensão",
+      "1941": "DeepMind",
+      "1950": "descrever",
+      "1964": "Evoformer",
+      "1975": "módulo",
+      "1987": "transmitir",
+      "1994": "informação",
+      "2016": "representação",
+      "2038": "alinhamento",
+      "2054": "representação",
+      "2072": "resíduo-resíduo",
+      "2088": "par",
+      "2109": "estrutura",
+      "2119": "módulo",
+      "2126": "gera",
+      "2136": "3D",
+      "2139": "coordenadas",
+      "2160": "recicla",
+      "2173": "saída",
+      "2194": "rede",
+      "2206": "maior",
+      "2214": "melhoria",
+      "2232": "reciclagem",
+      "2245": "importante",
+      "2263": "predição de estrutura",
+      "2289": "global",
+      "2296": "restrição",
+      "2307": "problema",
+      "2318": "local",
+      "2324": "escolha",
+      "2339": "hélice",
+      "2345": "posição",
+      "2355": "afeta",
+      "2363": "de longo alcance",
+      "2374": "contatos",
+      "2394": "toda",
+      "2401": "proteína",
+      "2411": "treinamento",
+      "2425": "importar",
+      "2447": "modelo",
+      "2453": "aprender",
+      "2466": "década",
+      "2477": "experimental",
+      "2490": "estrutura",
+      "2502": "público",
+      "2509": "recurso",
+      "2528": "Banco de Dados de Proteínas",
+      "2553": "fundar",
+      "2564": "1971",
+      "2570": "conter",
+      "2578": "experimentalmente",
+      "2593": "determinar",
+      "2604": "estrutura",
+      "2620": "técnica",
+      "2639": "cristalografia de raios X",
+      "2662": "espectroscopia de RMN",
+      "2684": "crio-ME",
+      "2693": "AlphaFold",
+      "2703": "aprender",
+      "2711": "padrão",
+      "2725": "conectar",
+      "2733": "sequência",
+      "2745": "geometria",
+      "2763": "típico",
+      "2771": "ligação",
+      "2776": "comprimento",
+      "2785": "ângulo",
+      "2797": "comum",
+      "2804": "estruturas secundárias",
+      "2830": "hélices alfa",
+      "2848": "folhas beta",
+      "2861": "DeepMind",
+      "2870": "relatar",
+      "2888": "2020",
+      "2893": "sistema",
+      "2900": "atingir precisão",
+      "2917": "níveis",
+      "2927": "CASP14",
+      "2944": "próximo",
+      "2953": "experimental",
+      "2966": "resultados",
+      "2983": "alvos",
+      "2992": "medir",
+      "3004": "estabelecer",
+      "3016": "métricas",
+      "3036": "competição",
+      "3050": "AlphaFold",
+      "3062": "impacto",
+      "3072": "biomédico",
+      "3083": "pesquisa",
+      "3092": "ocorrer",
+      "3097": "rapidamente",
+      "3113": "acesso",
+      "3124": "amplo",
+      "3138": "resultado",
+      "3146": "incluir",
+      "3155": "confiança",
+      "3166": "estimativa",
+      "3181": "AlphaFold",
+      "3191": "proteína",
+      "3199": "estrutura",
+      "3209": "banco de dados",
+      "3219": "lançar",
+      "3239": "DeepMind",
+      "3252": "EMBL-EBI",
+      "3262": "fornecer",
+      "3271": "previsto",
+      "3281": "estruturas",
+      "3296": "grande",
+      "3302": "partes",
+      "3315": "humano",
+      "3321": "proteoma",
+      "3334": "muitos",
+      "3339": "modelo",
+      "3345": "organismo",
+      "3356": "pesquisador",
+      "3374": "baixar",
+      "3383": "estrutura",
+      "3395": "visualizar",
+      "3405": "provável",
+      "3412": "domínio",
+      "3425": "focar",
+      "3431": "experimento",
+      "3455": "incerto",
+      "3465": "região",
+      "3478": "modelo",
+      "3486": "por resíduo",
+      "3498": "confiança",
+      "3509": "pontuação",
+      "3516": "frequentemente",
+      "3522": "discutir",
+      "3542": "ajuda",
+      "3548": "usuário",
+      "3554": "julgar",
+      "3570": "previsão",
+      "3584": "forte",
+      "3595": "onde",
+      "3601": "flexível",
+      "3610": "laço",
+      "3619": "desordenado",
+      "3630": "região",
+      "3647": "único",
+      "3654": "estrutura",
+      "3664": "menos",
+      "3669": "confiável",
+      "3684": "tecnologia",
+      "3695": "também",
+      "3700": "mudar",
+      "3712": "laboratório",
+      "3717": "planejar",
+      "3722": "experimento",
+      "3738": "interpretar",
+      "3748": "doença",
+      "3756": "mutação",
+      "3767": "estrutural",
+      "3778": "previsão",
+      "3794": "orientar",
+      "3800": "mutagênese",
+      "3812": "experimento",
+      "3827": "sugerir",
+      "3844": "resíduo",
+      "3853": "formar",
+      "3861": "ativo",
+      "3868": "sítio",
+      "3878": "ligação",
+      "3886": "interface",
+      "3900": "médico",
+      "3908": "genética",
+      "3920": "mutação",
+      "3934": "interromper",
+      "3945": "firmemente",
+      "3953": "compactado",
+      "3960": "núcleo",
+      "3970": "catalítico",
+      "3980": "resíduo",
+      "3991": "mais",
+      "3996": "provável",
+      "4006": "afetar",
+      "4013": "função",
+      "4036": "flexível",
+      "4045": "superfície",
+      "4053": "laço",
+      "4063": "previsto",
+      "4073": "estrutura",
+      "4084": "ajudar",
+      "4099": "raciocínio",
+      "4114": "concreto",
+      "4370": "AlphaFold",
+      "4389": "completo",
+      "4398": "solução",
+      "4410": "estrutural",
+      "4421": "biologia",
+      "4438": "limite",
+      "4449": "importante",
+      "4463": "responsável",
+      "4475": "uso",
+      "4480": "muitas",
+      "4485": "proteína",
+      "4494": "atuar",
+      "4501": "complexo",
+      "4512": "ligar",
+      "4517": "DNA",
+      "4524": "RNA",
+      "4532": "mudar",
+      "4539": "forma",
+      "4555": "ligar",
+      "4560": "parceiro",
+      "4574": "cadeia única",
+      "4587": "previsão",
+      "4602": "não",
+      "4606": "automaticamente",
+      "4620": "fornecer",
+      "4634": "estado",
+      "4647": "região",
+      "4659": "intrinsecamente",
+      "4673": "desordenado",
+      "4695": "ter",
+      "4704": "estável",
+      "4711": "estrutura",
+      "4722": "modificação pós-traducional",
+      "4756": "cofator",
+      "4771": "membrana",
+      "4790": "influenciar",
+      "4800": "forma",
+      "4813": "limite",
+      "4820": "importar",
+      "4840": "definir",
+      "4853": "experimento",
+      "4872": "essencial",
+      "4892": "computacional",
+      "4906": "previsão",
+      "4927": "tratar",
+      "4938": "forte evidência",
+      "4976": "resposta final",
+      "5188": "tornar",
+      "5193": "proteína",
+      "5201": "estrutura",
+      "5218": "rotineira",
+      "5226": "entrada",
+      "5236": "áreas",
+      "5248": "microbiologia",
+      "5262": "engenharia de enzimas",
+      "5286": "humana",
+      "5292": "doenças",
+      "5300": "biologia",
+      "5312": "mais recente",
+      "5318": "método",
+      "5326": "expandir",
+      "5336": "proteína",
+      "5344": "complexo",
+      "5358": "dinâmica",
+      "5372": "principal",
+      "5377": "lição",
+      "5384": "permanece",
+      "5393": "combinar",
+      "5403": "grande",
+      "5409": "biológico",
+      "5420": "conjunto de dados",
+      "5434": "consciente da geometria",
+      "5449": "aprendizado de máquina",
+      "5470": "produzir",
+      "5478": "ferramenta",
+      "5489": "mudar",
+      "5501": "contar, considerar",
+      "5512": "disponível",
+      "5522": "conhecimento",
+      "5537": "cotidiano",
+      "5546": "ciência",
+      "830": "interação hidrofóbica",
+      "843": "e",
+      "856": "ligação de hidrogênio",
+      "863": "e",
+      "867": "porque",
+      "875": "de",
+      "890": "em",
+      "936": "é",
+      "944": "porque",
+      "960": "ter",
+      "993": "e",
+      "997": "porque",
+      "1102": "local",
+      "1117": "sítio de ligação",
+      "1126": "e",
+      "1130": "como",
+      "1193": "é",
+      "1196": "que",
+      "1201": "ele",
+      "1232": "de",
+      "1261": "padrão",
+      "1270": "e",
+      "1285": "geometria",
+      "1329": "alinhamento múltiplo de sequências",
+      "1341": "que",
+      "1347": "ser/estar",
+      "1363": "de",
+      "1392": "encontrar",
+      "1398": "em",
+      "1412": "quando",
+      "1464": "ele",
+      "1483": "que",
+      "1488": "eles",
+      "1493": "ser/estar",
+      "1503": "em",
+      "1507": "mudar/mutar",
+      "1516": "porque",
+      "1584": "coevolução",
+      "1597": "ideia",
+      "1603": "mas",
+      "1643": "rede neural",
+      "1696": "e",
+      "1755": "transformar",
+      "1776": "atualizar",
+      "1808": "para",
+      "1818": "ambos",
+      "1838": "característica",
+      "1847": "e",
+      "1860": "resíduo",
+      "1868": "relação",
+      "1894": "então",
+      "1907": "poder",
+      "1918": "seu",
+      "1922": "próprio",
+      "1960": "um/uma",
+      "1982": "que",
+      "2006": "entre",
+      "2031": "de",
+      "2048": "e",
+      "2069": "de",
+      "2095": "depois de",
+      "2101": "que",
+      "2137": "reciclar",
+      "2151": "e",
+      "2155": "então",
+      "2169": "seu",
+      "2180": "reutilizar de volta",
+      "2185": "reintroduzir em",
+      "2202": "para",
+      "2227": "isto",
+      "2242": "é",
+      "2255": "porque",
+      "2273": "predição",
+      "2284": "é",
+      "2332": "como",
+      "2383": "através de",
+      "2420": "também",
+      "2435": "porque",
+      "2461": "aprender com",
+      "2474": "de",
+      "2519": "como",
+      "2536": "dados",
+      "2541": "Banco de Dados de Proteínas",
+      "2547": "PDB",
+      "2561": "em",
+      "2615": "aprender com",
+      "2631": "tais como",
+      "2636": "como",
+      "2645": "cristalografia",
+      "2666": "espectroscopia",
+      "2680": "e",
+      "2720": "que",
+      "2742": "para",
+      "2755": "tais como",
+      "2760": "como",
+      "2793": "e",
+      "2814": "estrutura secundária",
+      "2825": "como",
+      "2836": "hélice alfa",
+      "2844": "e",
+      "2853": "folha (beta sheet em proteínas)",
+      "2879": "que",
+      "2908": "precisão",
+      "2924": "em",
+      "2934": "que",
+      "2939": "ser/estar",
+      "2950": "para",
+      "2974": "para",
+      "2978": "muitos",
+      "3001": "por",
+      "3024": "usar",
+      "3029": "em",
+      "3060": "AlphaFold",
+      "3069": "impacto em",
+      "3105": "porque",
+      "3120": "ser/estar",
+      "3130": "e",
+      "3228": "em",
+      "3236": "por",
+      "3248": "e",
+      "3292": "para",
+      "3308": "de",
+      "3330": "e",
+      "3368": "poderia",
+      "3421": "e",
+      "3443": "impacto em",
+      "3450": "mais",
+      "3484": "do modelo",
+      "3532": "como",
+      "3535": "pLDDT",
+      "3560": "onde",
+      "3581": "é",
+      "3591": "e",
+      "3616": "ou",
+      "3638": "tornar",
+      "3643": "qualquer",
+      "3708": "como",
+      "3734": "e",
+      "3790": "poder",
+      "3824": "por",
+      "3838": "que",
+      "3858": "um/uma",
+      "3873": "ou",
+      "3897": "em",
+      "3929": "que",
+      "3965": "ou",
+      "3988": "é",
+      "4003": "para",
+      "4022": "do que",
+      "4027": "um",
+      "4031": "impacto em",
+      "4059": "e",
+      "4089": "fazer",
+      "4094": "que",
+      "4109": "mais",
+      "4124": "AlphaFold",
+      "4134": "modelo",
+      "4141": "também",
+      "4146": "ajudar",
+      "4151": "em",
+      "4154": "descoberta de medicamentos",
+      "4159": "descoberta",
+      "4169": "quando",
+      "4176": "proteína",
+      "4184": "estrutura",
+      "4194": "é",
+      "4197": "faltando",
+      "4206": "embora",
+      "4215": "real",
+      "4220": "descoberta de medicamentos",
+      "4225": "projeto",
+      "4232": "ainda",
+      "4238": "depender de",
+      "4246": "impacto em",
+      "4249": "detalhe",
+      "4257": "como",
+      "4262": "induzido por ligando",
+      "4277": "conformacional",
+      "4292": "mudança",
+      "4300": "e",
+      "4304": "molécula de água",
+      "4310": "molécula",
+      "4320": "que",
+      "4325": "poder",
+      "4329": "ser/estar",
+      "4332": "difícil",
+      "4337": "para",
+      "4340": "capturar",
+      "4348": "sem",
+      "4356": "experimento",
+      "4380": "é",
+      "4383": "não",
+      "4407": "para",
+      "4430": "e",
+      "4434": "seu",
+      "4445": "ser/estar",
+      "4459": "para",
+      "4498": "como",
+      "4521": "ou",
+      "4529": "ou",
+      "4545": "quando",
+      "4550": "eles",
+      "4570": "e",
+      "4599": "não fornecem automaticamente",
+      "4628": "esses",
+      "4642": "alguns",
+      "4655": "ser/estar",
+      "4684": "e",
+      "4688": "não ter",
+      "4691": "não",
+      "4700": "um",
+      "4741": "modificação pós-traducional",
+      "4767": "e",
+      "4781": "poder",
+      "4785": "também",
+      "4807": "estes",
+      "4827": "porque",
+      "4835": "eles",
+      "4847": "onde",
+      "4865": "permanecer",
+      "4882": "e",
+      "4886": "onde",
+      "4917": "deve",
+      "4924": "ser/estar",
+      "4935": "como",
+      "4942": "forte",
+      "4949": "parte de",
+      "4955": "de",
+      "4958": "prova, evidência",
+      "4968": "não",
+      "4982": "resposta",
+      "4991": "AlphaFold",
+      "5001": "ciclo de pesquisa",
+      "5003": "mais amplo",
+      "5011": "significado, importância",
+      "5024": "é",
+      "5027": "que",
+      "5032": "ele",
+      "5035": "comprimir",
+      "5050": "reduzir o tempo",
+      "5055": "aprender com",
+      "5060": "gene",
+      "5065": "sequência",
+      "5074": "para",
+      "5077": "estrutural",
+      "5088": "hipótese",
+      "5099": "aprender com",
+      "5104": "mês",
+      "5111": "ou",
+      "5114": "ano",
+      "5120": "para",
+      "5123": "hora",
+      "5129": "ou",
+      "5132": "dia",
+      "5138": "que",
+      "5144": "apoia",
+      "5153": "mais rápido",
+      "5160": "ciclo",
+      "5167": "de",
+      "5170": "pesquisa",
+      "5180": "ele",
+      "5183": "também",
+      "5213": "mais",
+      "5232": "para",
+      "5243": "como",
+      "5269": "engenharia",
+      "5282": "e",
+      "5309": "como",
+      "5333": "para",
+      "5354": "e",
+      "5429": "com",
+      "5457": "aprendizado de máquina",
+      "5466": "poder",
+      "5484": "que",
+      "5496": "o que",
+      "5508": "como",
+      "5533": "para"
+    },
+    "ja": {
+      "0": "アルファフォールド",
+      "10": "示す",
+      "17": "あの",
+      "24": "コンピューター",
+      "33": "システム",
+      "40": "できる",
+      "44": "予測する",
+      "52": "多数の",
+      "57": "タンパク質",
+      "65": "3次元",
+      "66": "変える",
+      "68": "構造",
+      "79": "〜とともに、〜を使って",
+      "84": "実験に近い",
+      "102": "精度",
+      "112": "そして",
+      "116": "それ",
+      "119": "変える",
+      "127": "どのように",
+      "131": "生物学者",
+      "142": "得る",
+      "146": "構造の",
+      "157": "情報",
+      "170": "DeepMind（企業名）",
+      "179": "発表する",
+      "189": "重要な",
+      "195": "結果",
+      "203": "〜に",
+      "206": "2020年",
+      "212": "〜の後で",
+      "218": "AlphaFold2（名称）",
+      "229": "勝つ",
+      "237": "CASP14（競技名）",
+      "244": "競技会",
+      "257": "そして",
+      "265": "会社",
+      "273": "そして",
+      "277": "その",
+      "281": "パートナー",
+      "289": "EMBL-EBI（名称）",
+      "298": "公開する",
+      "309": "大規模な",
+      "310": "",
+      "315": "公共の",
+      "322": "データベース",
+      "331": "〜に",
+      "334": "2021年",
+      "340": "これ",
+      "345": "重要である",
+      "353": "なぜなら",
+      "361": "タンパク質",
+      "369": "形状",
+      "375": "強く",
+      "384": "影響する",
+      "392": "機能",
+      "402": "そして",
+      "406": "実験室",
+      "410": "方法",
+      "418": "例えば",
+      "423": "～のように",
+      "426": "X線結晶構造解析",
+      "432": "X線結晶構造解析法",
+      "448": "そして",
+      "452": "クライオ電子顕微鏡法",
+      "466": "クライオ電子顕微鏡法",
+      "477": "できる",
+      "481": "である",
+      "484": "遅い",
+      "490": "高価な",
+      "501": "または",
+      "504": "困難な",
+      "514": "〜にとって",
+      "518": "特定の",
+      "526": "タンパク質",
+      "541": "科学的な",
+      "552": "問題",
+      "560": "AlphaFold",
+      "570": "対象とした",
+      "579": "である",
+      "586": "タンパク質",
+      "594": "折りたたみ",
+      "602": "問題",
+      "611": "与えられた",
+      "617": "一つの",
+      "620": "アミノ酸",
+      "631": "配列",
+      "641": "予測する",
+      "653": "最終的な",
+      "659": "3D（立体的な）",
+      "660": "タンパク質の折りたたみ問題",
+      "662": "配列",
+      "674": "の",
+      "677": "原子",
+      "686": "タンパク質",
+      "694": "である",
+      "699": "鎖",
+      "705": "の",
+      "708": "20",
+      "711": "一般的な",
+      "718": "アミノ酸",
+      "724": "アミノ酸",
+      "731": "そして",
+      "735": "その",
+      "739": "配列",
+      "748": "である",
+      "751": "コードする",
+      "759": "〜に",
+      "762": "DNA",
+      "771": "鎖",
+      "777": "折りたたむ",
+      "783": "なぜなら",
+      "791": "の",
+      "794": "物理的な",
+      "803": "力",
+      "810": "例えば",
+      "815": "例えば",
+      "818": "疎水性相互作用",
+      "830": "疎水性相互作用",
+      "847": "水素結合",
+      "878": "制約",
+      "897": "主鎖",
+      "906": "幾何学",
+      "916": "予測する",
+      "931": "折りたたみ",
+      "939": "難しい",
+      "954": "鎖",
+      "964": "多くの",
+      "969": "可能な",
+      "978": "立体構造",
+      "1005": "タンパク質",
+      "1014": "しばしば",
+      "1020": "持っている",
+      "1025": "柔軟な",
+      "1034": "部分",
+      "1041": "信頼できる",
+      "1050": "構造",
+      "1060": "予測",
+      "1071": "助ける",
+      "1077": "研究者",
+      "1089": "推測する",
+      "1095": "活性の",
+      "1102": "部位",
+      "1109": "結合の",
+      "1117": "ポケット",
+      "1134": "変異",
+      "1144": "変える",
+      "1151": "安定性",
+      "1165": "主な",
+      "1169": "理由",
+      "1176": "AlphaFold",
+      "1186": "うまくいく",
+      "1204": "組み合わせる",
+      "1213": "2つの",
+      "1217": "強力な",
+      "1224": "情報源",
+      "1235": "情報",
+      "1248": "進化の",
+      "1261": "パターン",
+      "1274": "構造の",
+      "1285": "ジオメトリー",
+      "1299": "システム",
+      "1306": "使用する",
+      "1311": "複数の",
+      "1320": "配列アラインメント",
+      "1351": "集まり",
+      "1366": "関連する",
+      "1374": "タンパク質",
+      "1382": "配列",
+      "1401": "データベース",
+      "1421": "残基",
+      "1430": "変異する",
+      "1437": "一緒に",
+      "1453": "進化",
+      "1473": "示す",
+      "1497": "近い",
+      "1506": "3D（立体）",
+      "1509": "空間",
+      "1524": "接触",
+      "1532": "助ける",
+      "1538": "維持する",
+      "1547": "機能",
+      "1557": "以前の",
+      "1565": "方法",
+      "1573": "使う",
+      "1584": "共進化",
+      "1607": "AlphaFold",
+      "1617": "結びつける",
+      "1630": "密接に",
+      "1643": "神経の",
+      "1650": "ネットワーク",
+      "1663": "推論する",
+      "1671": "直接に",
+      "1686": "距離",
+      "1700": "角度",
+      "1708": "変換する",
+      "1716": "統計の",
+      "1728": "信号",
+      "1743": "一貫した",
+      "1754": "3D",
+      "1757": "モデル",
+      "1765": "AlphaFold2（固有名詞）",
+      "1778": "構造",
+      "1791": "導入した",
+      "1804": "方法",
+      "1811": "更新する",
+      "1823": "配列レベルの特徴",
+      "1851": "ペアワイズ残基関係",
+      "1882": "繰り返し",
+      "1901": "モデル",
+      "1911": "洗練する",
+      "1922": "自分自身の",
+      "1926": "理解",
+      "1941": "DeepMind",
+      "1950": "説明する",
+      "1964": "Evoformer",
+      "1975": "モジュール",
+      "1987": "通す",
+      "1994": "情報",
+      "2016": "表現",
+      "2038": "アライメント",
+      "2054": "表現",
+      "2072": "残基間",
+      "2088": "対",
+      "2109": "構造",
+      "2119": "モジュール",
+      "2126": "生成する",
+      "2136": "３D",
+      "2139": "座標",
+      "2160": "リサイクルする",
+      "2173": "出力",
+      "2194": "ネットワーク",
+      "2214": "改善",
+      "2232": "リサイクル",
+      "2245": "重要な",
+      "2263": "構造予測",
+      "2289": "グローバルな",
+      "2296": "制約",
+      "2307": "問題",
+      "2318": "局所的な",
+      "2324": "選択",
+      "2339": "ヘリックス",
+      "2345": "位置",
+      "2355": "影響を与える",
+      "2363": "長距離の",
+      "2374": "接触",
+      "2394": "全体の",
+      "2401": "タンパク質",
+      "2411": "トレーニング",
+      "2420": "も",
+      "2425": "重要である",
+      "2447": "モデル",
+      "2453": "学ぶ",
+      "2466": "数十年",
+      "2477": "実験的な",
+      "2490": "構造",
+      "2502": "公共の",
+      "2509": "資源",
+      "2528": "タンパク質データバンク",
+      "2553": "設立された",
+      "2564": "1971年",
+      "2570": "含む",
+      "2578": "実験的に",
+      "2593": "決定された",
+      "2604": "構造",
+      "2620": "手法",
+      "2639": "X線結晶解析",
+      "2662": "NMR",
+      "2666": "分光法",
+      "2684": "クライオ電子顕微鏡法",
+      "2693": "AlphaFold（固有名詞）",
+      "2703": "学ぶ",
+      "2711": "パターン",
+      "2725": "つなぐ",
+      "2733": "配列",
+      "2745": "幾何学",
+      "2763": "典型的な",
+      "2771": "結合",
+      "2776": "長さ",
+      "2785": "角度",
+      "2797": "一般的な",
+      "2804": "二次的な",
+      "2814": "構造",
+      "2830": "アルファヘリックス",
+      "2848": "ベータシート",
+      "2861": "DeepMind（企業名）",
+      "2870": "報告する",
+      "2888": "2020年",
+      "2893": "システム",
+      "2900": "達する",
+      "2908": "精度",
+      "2917": "レベル",
+      "2927": "CASP14（コンテスト名）",
+      "2944": "近い",
+      "2953": "実験的な",
+      "2966": "結果",
+      "2978": "多数の",
+      "2983": "ターゲット",
+      "2992": "測定する",
+      "3004": "確立する",
+      "3016": "指標",
+      "3036": "競技",
+      "3050": "AlphaFold（固有名詞）",
+      "3062": "影響",
+      "3072": "生物医学の",
+      "3083": "研究",
+      "3092": "現れる",
+      "3097": "迅速に",
+      "3113": "アクセス",
+      "3124": "広範な",
+      "3138": "出力",
+      "3146": "含む",
+      "3155": "信頼度",
+      "3166": "推定値",
+      "3181": "AlphaFold（固有名詞）",
+      "3191": "タンパク質",
+      "3199": "構造",
+      "3209": "データベース",
+      "3219": "公開した",
+      "3231": "2021年",
+      "3239": "DeepMind（固有名詞）",
+      "3252": "EMBL-EBI（固有名詞）",
+      "3262": "提供した",
+      "3271": "予測した",
+      "3281": "構造",
+      "3296": "大きな",
+      "3302": "部分",
+      "3315": "ヒトの",
+      "3321": "プロテオーム",
+      "3334": "多くの",
+      "3339": "モデル生物",
+      "3356": "研究者",
+      "3374": "ダウンロードする",
+      "3383": "構造",
+      "3395": "可視化する",
+      "3405": "可能性の高い",
+      "3412": "ドメイン",
+      "3425": "集中する",
+      "3431": "実験",
+      "3455": "不確かな",
+      "3465": "領域",
+      "3478": "モデル",
+      "3486": "各残基ごとの",
+      "3498": "信頼度",
+      "3509": "スコア",
+      "3522": "議論される",
+      "3535": "pLDDT",
+      "3542": "助ける",
+      "3548": "ユーザー",
+      "3554": "判断する",
+      "3560": "どこで",
+      "3570": "予測",
+      "3584": "強い",
+      "3601": "柔軟な",
+      "3610": "ループ",
+      "3619": "無秩序な",
+      "3630": "領域",
+      "3647": "単一の",
+      "3654": "構造",
+      "3664": "より少ない",
+      "3669": "信頼できる",
+      "3684": "技術",
+      "3700": "変える",
+      "3712": "実験室",
+      "3717": "計画する",
+      "3722": "実験",
+      "3738": "解釈する",
+      "3748": "病気",
+      "3756": "変異",
+      "3767": "構造の",
+      "3778": "予測",
+      "3794": "導く",
+      "3800": "変異導入",
+      "3812": "実験",
+      "3827": "示唆する",
+      "3844": "残基",
+      "3853": "形成する",
+      "3861": "活性の",
+      "3868": "部位",
+      "3878": "結合の",
+      "3886": "インターフェース",
+      "3900": "医学の",
+      "3908": "遺伝学",
+      "3920": "変異",
+      "3934": "破壊する",
+      "3945": "緻密に詰まった",
+      "3960": "コア",
+      "3970": "触媒の",
+      "3980": "残基",
+      "3996": "〜しそうな",
+      "4006": "影響を及ぼす",
+      "4013": "機能",
+      "4036": "柔軟な",
+      "4045": "表面",
+      "4053": "ループ",
+      "4063": "予測する",
+      "4073": "構造",
+      "4099": "推論",
+      "4114": "具体的な",
+      "4124": "AlphaFold（タンパク質構造予測プログラム）",
+      "4134": "モデル",
+      "4146": "助ける",
+      "4154": "薬物",
+      "4159": "発見",
+      "4176": "タンパク質",
+      "4184": "構造",
+      "4197": "欠けている",
+      "4215": "本当の",
+      "4220": "薬物",
+      "4225": "設計",
+      "4238": "依存する",
+      "4249": "詳細",
+      "4262": "リガンド誘導の",
+      "4277": "立体構造変化",
+      "4304": "水",
+      "4310": "分子",
+      "4340": "捉える",
+      "4356": "実験",
+      "4370": "AlphaFold（固有名詞）",
+      "4389": "完全な",
+      "4398": "解決策",
+      "4410": "構造の",
+      "4421": "生物学",
+      "4438": "限界",
+      "4449": "重要な",
+      "4463": "責任ある",
+      "4475": "使用",
+      "4480": "多くの",
+      "4485": "タンパク質",
+      "4494": "作用する",
+      "4501": "複合体",
+      "4512": "結合する",
+      "4517": "DNA（デオキシリボ核酸）",
+      "4524": "RNA（リボ核酸）",
+      "4532": "変える",
+      "4539": "形状",
+      "4555": "結合する",
+      "4560": "パートナー",
+      "4574": "一本鎖の",
+      "4587": "予測",
+      "4602": "〜ない",
+      "4606": "自動的に",
+      "4620": "提供する",
+      "4634": "状態",
+      "4647": "地域",
+      "4659": "本質的に",
+      "4673": "無秩序な",
+      "4704": "安定した",
+      "4711": "構造",
+      "4722": "翻訳後修飾",
+      "4756": "補因子",
+      "4771": "膜",
+      "4790": "影響を与える",
+      "4800": "形状",
+      "4813": "限界",
+      "4820": "重要である",
+      "4840": "定義する",
+      "4853": "実験",
+      "4865": "残る",
+      "4872": "必要不可欠な",
+      "4892": "計算の",
+      "4906": "予測",
+      "4917": "扱われるべきである",
+      "4942": "強力な一例",
+      "4958": "証拠",
+      "4976": "最終の",
+      "4982": "答え",
+      "4991": "AlphaFold",
+      "5003": "より広い",
+      "5011": "意義",
+      "5035": "圧縮した",
+      "5050": "時間",
+      "5060": "遺伝子",
+      "5065": "配列",
+      "5077": "構造の",
+      "5088": "仮説",
+      "5104": "数ヶ月",
+      "5114": "数年",
+      "5123": "数時間",
+      "5132": "数日",
+      "5144": "促進する",
+      "5153": "より速い",
+      "5160": "サイクル",
+      "5170": "研究",
+      "5193": "タンパク質",
+      "5201": "構造",
+      "5218": "日常的な",
+      "5226": "入力",
+      "5236": "分野",
+      "5248": "微生物学",
+      "5262": "酵素工学",
+      "5286": "ヒト疾患生物学",
+      "5312": "新しい",
+      "5318": "方法",
+      "5326": "拡大する",
+      "5336": "タンパク質",
+      "5344": "複合体",
+      "5358": "動態",
+      "5372": "主な",
+      "5377": "教訓",
+      "5384": "残る",
+      "5393": "組み合わせること",
+      "5403": "大規模な",
+      "5409": "生物学的な",
+      "5420": "データセット",
+      "5434": "幾何学に対応した",
+      "5449": "機械学習",
+      "5470": "生み出す",
+      "5478": "ツール",
+      "5489": "変える",
+      "5496": "何を",
+      "5501": "重要視される",
+      "5512": "利用可能な",
+      "5522": "知識",
+      "5537": "日常の",
+      "5546": "科学",
+      "843": "そして",
+      "856": "水素結合",
+      "863": "そして",
+      "867": "なぜなら",
+      "875": "の",
+      "890": "〜に",
+      "936": "である",
+      "944": "なぜなら",
+      "960": "持つ",
+      "993": "そして",
+      "997": "なぜなら",
+      "1126": "そして",
+      "1130": "どのように",
+      "1193": "である",
+      "1196": "あの",
+      "1201": "それ",
+      "1232": "の",
+      "1270": "そして",
+      "1329": "配列アラインメント",
+      "1341": "どの",
+      "1347": "である",
+      "1363": "の",
+      "1392": "見つける",
+      "1398": "〜に",
+      "1412": "〜するとき",
+      "1417": "二つの",
+      "1446": "～を横切って",
+      "1464": "それ",
+      "1467": "しばしば",
+      "1483": "あの",
+      "1488": "彼ら",
+      "1493": "である",
+      "1503": "〜に",
+      "1507": "D",
+      "1516": "なぜなら",
+      "1578": "これ",
+      "1597": "考え",
+      "1603": "しかし",
+      "1627": "それ",
+      "1638": "～に変わる",
+      "1658": "あの",
+      "1680": "について推論する",
+      "1696": "そして",
+      "1736": "〜に変わる",
+      "1755": "～に変わる",
+      "1776": "ペアワイズ残基関係",
+      "1808": "～に変わる",
+      "1818": "両方",
+      "1838": "特徴",
+      "1847": "そして",
+      "1860": "残基",
+      "1868": "関係",
+      "1894": "だから",
+      "1907": "〜できる",
+      "1918": "その",
+      "1960": "一つの",
+      "1982": "あの",
+      "2006": "〜の間に",
+      "2031": "の",
+      "2048": "そして",
+      "2069": "の",
+      "2095": "〜の後で",
+      "2101": "あの",
+      "2137": "再利用する",
+      "2151": "そして",
+      "2155": "その後",
+      "2169": "その",
+      "2180": "再利用する",
+      "2185": "〜に変わる",
+      "2202": "〜にとって",
+      "2206": "さらに",
+      "2227": "これ",
+      "2242": "である",
+      "2255": "なぜなら",
+      "2273": "予測",
+      "2284": "である",
+      "2332": "のような",
+      "2383": "～を横切って",
+      "2435": "なぜなら",
+      "2461": "〜から学ぶ",
+      "2474": "の",
+      "2519": "のような",
+      "2536": "データ",
+      "2541": "タンパク質データバンク",
+      "2547": "タンパク質データバンク",
+      "2561": "〜に",
+      "2615": "〜から学ぶ",
+      "2631": "例えば",
+      "2636": "として",
+      "2645": "結晶学",
+      "2680": "そして",
+      "2720": "あの",
+      "2742": "～に変わる",
+      "2755": "例えば",
+      "2760": "として",
+      "2793": "そして",
+      "2825": "のような",
+      "2836": "アルファヘリックス",
+      "2844": "そして",
+      "2853": "ベータシート",
+      "2879": "あの",
+      "2924": "〜に",
+      "2934": "あの",
+      "2939": "である",
+      "2950": "～に変わる",
+      "2974": "〜にとって",
+      "3001": "〜によって測定する",
+      "3024": "使用する",
+      "3029": "〜に",
+      "3060": "アルファフォールドの",
+      "3069": "～に対する影響",
+      "3105": "なぜなら",
+      "3120": "である",
+      "3130": "そして",
+      "3228": "〜に",
+      "3236": "〜によって測定する",
+      "3248": "そして",
+      "3292": "〜にとって",
+      "3308": "の",
+      "3330": "そして",
+      "3345": "生物",
+      "3368": "〜かもしれない",
+      "3421": "そして",
+      "3443": "～に対する影響",
+      "3450": "最も",
+      "3484": "モデルの",
+      "3516": "しばしば",
+      "3532": "として",
+      "3581": "である",
+      "3591": "そして",
+      "3595": "どこで",
+      "3616": "または",
+      "3638": "作る",
+      "3643": "どの〜でも",
+      "3695": "も",
+      "3708": "どのように",
+      "3734": "そして",
+      "3790": "〜できる",
+      "3824": "〜によって測定する",
+      "3838": "どの",
+      "3858": "一つの",
+      "3873": "または",
+      "3897": "〜に",
+      "3929": "あの",
+      "3953": "ぎっしり詰まった",
+      "3965": "または",
+      "3988": "である",
+      "3991": "より多く",
+      "4003": "～に変わる",
+      "4022": "～よりも",
+      "4027": "もの",
+      "4031": "～に対する影響",
+      "4059": "そして",
+      "4084": "助ける",
+      "4089": "作る",
+      "4094": "あの",
+      "4109": "より",
+      "4141": "も",
+      "4151": "〜に",
+      "4169": "〜するとき",
+      "4194": "である",
+      "4206": "〜だけれども",
+      "4232": "依然として",
+      "4246": "～に対する影響",
+      "4257": "〜のような",
+      "4292": "変化",
+      "4300": "そして",
+      "4320": "あの",
+      "4325": "〜できる",
+      "4329": "である",
+      "4332": "難しい",
+      "4337": "～に変わる",
+      "4348": "〜なしで",
+      "4380": "である",
+      "4383": "〜ない",
+      "4407": "～に変わる",
+      "4430": "そして",
+      "4434": "その",
+      "4445": "である",
+      "4459": "〜にとって",
+      "4498": "として",
+      "4521": "または",
+      "4529": "または",
+      "4545": "〜するとき",
+      "4550": "彼ら",
+      "4570": "そして",
+      "4599": "自動的に提供しない",
+      "4628": "それらの",
+      "4642": "いくつかの",
+      "4655": "である",
+      "4684": "そして",
+      "4688": "持っていない",
+      "4691": "〜ない",
+      "4695": "持つ",
+      "4700": "一つ",
+      "4741": "翻訳後修飾",
+      "4767": "そして",
+      "4781": "〜できる",
+      "4785": "も",
+      "4807": "これらの",
+      "4827": "なぜなら",
+      "4835": "彼ら",
+      "4847": "どこで",
+      "4882": "そして",
+      "4886": "どこで",
+      "4924": "である",
+      "4927": "扱う",
+      "4935": "として",
+      "4938": "ひとつの",
+      "4949": "一つの部分",
+      "4955": "の",
+      "4968": "〜ない",
+      "5001": "アルファフォールド",
+      "5024": "である",
+      "5027": "あの",
+      "5032": "それ",
+      "5055": "〜から学ぶ",
+      "5074": "～に変わる",
+      "5099": "〜から学ぶ",
+      "5111": "または",
+      "5120": "～に変わる",
+      "5129": "または",
+      "5138": "どの",
+      "5167": "の",
+      "5180": "それ",
+      "5183": "も",
+      "5188": "作る",
+      "5213": "より多くの",
+      "5232": "〜にとって",
+      "5243": "のような",
+      "5269": "工学",
+      "5282": "そして",
+      "5292": "病気",
+      "5300": "生物学",
+      "5309": "として",
+      "5333": "～に変わる",
+      "5354": "そして",
+      "5429": "〜とともに、〜を使って",
+      "5457": "機械学習",
+      "5466": "〜できる",
+      "5484": "あの",
+      "5508": "として",
+      "5533": "〜にとって"
+    },
+    "vi": {
+      "0": "AlphaFold",
+      "10": "cho thấy",
+      "17": "đó",
+      "24": "máy tính",
+      "33": "hệ thống",
+      "40": "có thể",
+      "44": "dự đoán",
+      "52": "nhiều",
+      "57": "protein",
+      "66": "cấu trúc D",
+      "68": "cấu trúc",
+      "79": "với",
+      "102": "độ chính xác",
+      "112": "và",
+      "116": "nó",
+      "119": "thay đổi",
+      "127": "thay đổi cách",
+      "131": "nhà sinh học",
+      "142": "lấy",
+      "146": "thuộc cấu trúc",
+      "157": "thông tin",
+      "170": "DeepMind",
+      "179": "trình bày",
+      "189": "lớn, quan trọng",
+      "195": "kết quả",
+      "203": "trong",
+      "206": "năm 2020",
+      "212": "sau khi",
+      "218": "AlphaFold2",
+      "229": "thắng",
+      "237": "CASP14",
+      "244": "cuộc thi",
+      "257": "và",
+      "265": "công ty",
+      "273": "và",
+      "277": "của nó",
+      "281": "đối tác",
+      "289": "EMBL-EBI",
+      "298": "phát hành",
+      "309": "lớn",
+      "315": "công cộng",
+      "322": "cơ sở dữ liệu",
+      "331": "trong",
+      "334": "năm 2021",
+      "340": "điều này",
+      "345": "quan trọng",
+      "353": "bởi vì",
+      "361": "protein",
+      "369": "hình dạng",
+      "375": "mạnh mẽ",
+      "384": "ảnh hưởng",
+      "392": "chức năng",
+      "402": "và",
+      "406": "phòng thí nghiệm",
+      "410": "phương pháp",
+      "418": "chẳng hạn như",
+      "423": "như",
+      "426": "tinh thể học tia X",
+      "432": "tinh thể học",
+      "448": "và",
+      "452": "kính hiển vi điện tử lạnh",
+      "466": "kính hiển vi điện tử đông lạnh",
+      "477": "có thể",
+      "481": "là",
+      "484": "chậm",
+      "490": "tốn kém",
+      "501": "hoặc",
+      "504": "khó khăn",
+      "514": "cho",
+      "518": "nhất định",
+      "526": "protein",
+      "541": "thuộc khoa học",
+      "552": "vấn đề",
+      "560": "AlphaFold",
+      "570": "nhắm tới",
+      "579": "là",
+      "586": "protein",
+      "594": "gấp",
+      "602": "vấn đề",
+      "611": "cho",
+      "617": "một",
+      "620": "axit amino",
+      "631": "chuỗi",
+      "641": "dự đoán",
+      "653": "cuối cùng",
+      "659": "3D",
+      "660": "vấn đề gập protein",
+      "662": "sự sắp xếp",
+      "674": "của",
+      "677": "nguyên tử",
+      "686": "protein",
+      "694": "là",
+      "699": "chuỗi",
+      "705": "của",
+      "708": "20",
+      "711": "phổ biến",
+      "718": "axit amin",
+      "724": "axit amin",
+      "731": "và",
+      "735": "của nó",
+      "739": "trình tự",
+      "748": "là",
+      "751": "mã hóa",
+      "759": "trong",
+      "762": "DNA",
+      "771": "chuỗi",
+      "777": "gập lại",
+      "783": "bởi vì",
+      "791": "của",
+      "794": "vật lý",
+      "803": "lực",
+      "810": "như là",
+      "815": "như",
+      "818": "tương tác kỵ nước",
+      "830": "tương tác",
+      "847": "liên kết hydro",
+      "878": "ràng buộc",
+      "897": "phần xương sống",
+      "906": "hình học",
+      "916": "dự đoán",
+      "931": "nếp gấp",
+      "939": "khó",
+      "954": "chuỗi",
+      "964": "nhiều",
+      "969": "khả thi",
+      "978": "cấu hình",
+      "1005": "protein",
+      "1014": "thường",
+      "1020": "có",
+      "1025": "linh hoạt",
+      "1034": "phần",
+      "1041": "đáng tin cậy",
+      "1050": "cấu trúc",
+      "1060": "dự đoán",
+      "1071": "giúp",
+      "1077": "nhà nghiên cứu",
+      "1089": "suy ra",
+      "1095": "hoạt động",
+      "1102": "vị trí",
+      "1109": "liên kết",
+      "1117": "túi",
+      "1134": "đột biến",
+      "1144": "thay đổi",
+      "1151": "tính ổn định",
+      "1165": "chính, then chốt",
+      "1169": "lý do",
+      "1176": "AlphaFold",
+      "1186": "hoạt động, thành công",
+      "1204": "kết hợp",
+      "1213": "hai",
+      "1217": "mạnh mẽ",
+      "1224": "nguồn",
+      "1235": "thông tin",
+      "1248": "tiến hóa",
+      "1261": "mẫu",
+      "1274": "cấu trúc",
+      "1285": "hình học",
+      "1299": "hệ thống",
+      "1306": "sử dụng",
+      "1311": "nhiều",
+      "1320": "căn chỉnh chuỗi",
+      "1351": "tập hợp",
+      "1366": "liên quan",
+      "1374": "protein",
+      "1382": "chuỗi",
+      "1401": "cơ sở dữ liệu",
+      "1417": "hai",
+      "1421": "dư lượng",
+      "1430": "đột biến",
+      "1437": "cùng nhau",
+      "1446": "qua",
+      "1453": "tiến hóa",
+      "1467": "thường",
+      "1473": "cho thấy",
+      "1497": "gần",
+      "1506": "3 chiều",
+      "1509": "không gian",
+      "1524": "tiếp xúc",
+      "1532": "giúp",
+      "1538": "duy trì",
+      "1547": "chức năng",
+      "1557": "trước đây",
+      "1565": "phương pháp",
+      "1573": "sử dụng",
+      "1578": "này",
+      "1583": "hợp tiến hóa",
+      "1607": "AlphaFold",
+      "1617": "kết nối",
+      "1630": "chặt chẽ",
+      "1638": "",
+      "1641": "thuộc thần kinh",
+      "1650": "mạng",
+      "1658": "",
+      "1663": "suy luận",
+      "1671": "trực tiếp",
+      "1680": "",
+      "1686": "khoảng cách",
+      "1700": "góc",
+      "1708": "biến",
+      "1716": "thống kê",
+      "1728": "tín hiệu",
+      "1732": "",
+      "1736": "",
+      "1743": "nhất quán",
+      "1754": "3D",
+      "1757": "mô hình",
+      "1765": "AlphaFold2",
+      "1778": "kiến trúc",
+      "1791": "giới thiệu",
+      "1804": "cách",
+      "1811": "cập nhật",
+      "1823": "cấp trình tự",
+      "1838": "đặc trưng",
+      "1851": "theo cặp",
+      "1860": "residue",
+      "1868": "mối quan hệ",
+      "1882": "lặp đi lặp lại",
+      "1901": "mô hình",
+      "1911": "tinh chỉnh",
+      "1926": "sự hiểu biết",
+      "1941": "DeepMind",
+      "1950": "mô tả",
+      "1964": "Evoformer",
+      "1975": "mô-đun",
+      "1987": "truyền",
+      "1994": "thông tin",
+      "2016": "biểu diễn",
+      "2038": "sự căn chỉnh",
+      "2054": "biểu diễn",
+      "2072": "cặp dư lượng-dư lượng",
+      "2109": "cấu trúc",
+      "2119": "mô-đun",
+      "2126": "tạo ra",
+      "2136": "3D",
+      "2139": "tọa độ",
+      "2160": "tái sử dụng",
+      "2173": "đầu ra",
+      "2194": "mạng",
+      "2214": "cải thiện",
+      "2232": "tái chế",
+      "2245": "quan trọng",
+      "2263": "dự đoán cấu trúc",
+      "2289": "tổng thể",
+      "2296": "ràng buộc",
+      "2307": "bài toán",
+      "2318": "cục bộ",
+      "2324": "lựa chọn",
+      "2339": "xoắn alpha",
+      "2345": "vị trí",
+      "2355": "ảnh hưởng",
+      "2363": "dài hạn",
+      "2374": "liên hệ",
+      "2394": "toàn bộ",
+      "2401": "protein",
+      "2411": "việc đào tạo",
+      "2425": "quan trọng",
+      "2447": "mô hình",
+      "2453": "học",
+      "2466": "nhiều thập kỷ",
+      "2477": "thử nghiệm",
+      "2490": "cấu trúc",
+      "2502": "công cộng",
+      "2509": "nguồn tài nguyên",
+      "2528": "Protein Data Bank",
+      "2547": "PDB",
+      "2553": "thành lập",
+      "2570": "chứa",
+      "2578": "thử nghiệm",
+      "2593": "xác định",
+      "2604": "cấu trúc",
+      "2620": "kỹ thuật",
+      "2639": "tinh thể học tia X",
+      "2662": "phổ NMR",
+      "2684": "kính hiển vi điện tử đông lạnh",
+      "2693": "AlphaFold",
+      "2703": "học",
+      "2711": "mẫu",
+      "2725": "kết nối",
+      "2733": "chuỗi",
+      "2745": "hình học",
+      "2763": "độ dài liên kết điển hình",
+      "2785": "góc",
+      "2797": "cấu trúc thứ cấp phổ biến",
+      "2830": "xoắn alpha",
+      "2848": "tấm beta",
+      "2861": "DeepMind",
+      "2870": "báo cáo",
+      "2888": "năm 2020",
+      "2893": "hệ thống",
+      "2900": "đạt độ chính xác",
+      "2917": "mức độ",
+      "2927": "CASP14",
+      "2944": "gần",
+      "2953": "thực nghiệm",
+      "2966": "kết quả",
+      "2983": "mục tiêu",
+      "2992": "đo",
+      "3004": "được thiết lập",
+      "3016": "chỉ số",
+      "3036": "cuộc thi",
+      "3050": "AlphaFold",
+      "3062": "tác động",
+      "3072": "y sinh học",
+      "3083": "nghiên cứu",
+      "3092": "đến",
+      "3097": "nhanh chóng",
+      "3113": "quyền truy cập",
+      "3124": "rộng rãi",
+      "3138": "kết quả đầu ra",
+      "3146": "bao gồm",
+      "3155": "ước lượng độ tin cậy",
+      "3181": "AlphaFold",
+      "3191": "protein",
+      "3199": "cấu trúc",
+      "3209": "cơ sở dữ liệu",
+      "3219": "phát hành",
+      "3239": "DeepMind",
+      "3252": "EMBL-EBI",
+      "3262": "cung cấp",
+      "3271": "dự đoán",
+      "3281": "cấu trúc",
+      "3296": "lớn",
+      "3302": "phần",
+      "3315": "con người",
+      "3321": "bộ proteome",
+      "3334": "nhiều",
+      "3339": "mô hình",
+      "3345": "sinh vật",
+      "3356": "nhà nghiên cứu",
+      "3374": "tải xuống",
+      "3383": "cấu trúc",
+      "3395": "hình dung",
+      "3405": "có khả năng",
+      "3412": "miền",
+      "3425": "tập trung",
+      "3431": "thí nghiệm",
+      "3455": "không chắc chắn",
+      "3465": "vùng",
+      "3478": "mô hình",
+      "3486": "từng residue",
+      "3498": "độ tin cậy",
+      "3509": "điểm số",
+      "3522": "thảo luận",
+      "3542": "giúp",
+      "3548": "người dùng",
+      "3554": "đánh giá",
+      "3560": "chỗ nào",
+      "3570": "dự đoán",
+      "3584": "mạnh mẽ",
+      "3601": "linh hoạt",
+      "3610": "vòng lặp",
+      "3619": "rối loạn",
+      "3630": "vùng",
+      "3647": "đơn lẻ",
+      "3654": "cấu trúc",
+      "3664": "kém",
+      "3669": "đáng tin cậy",
+      "3684": "công nghệ",
+      "3695": "cũng",
+      "3700": "thay đổi",
+      "3712": "phòng thí nghiệm",
+      "3717": "lên kế hoạch",
+      "3722": "thí nghiệm",
+      "3738": "giải thích",
+      "3748": "bệnh",
+      "3756": "biến đổi",
+      "3767": "thuộc về cấu trúc",
+      "3778": "dự đoán",
+      "3794": "hướng dẫn",
+      "3800": "đột biến gen",
+      "3812": "thí nghiệm",
+      "3827": "gợi ý",
+      "3844": "vị trí tích tụ",
+      "3853": "hình thành",
+      "3858": "",
+      "3861": "vị trí hoạt động",
+      "3873": "",
+      "3878": "giao diện liên kết",
+      "3900": "y khoa",
+      "3908": "di truyền học",
+      "3920": "đột biến",
+      "3934": "làm gián đoạn",
+      "3945": "đóng chặt",
+      "3960": "lõi",
+      "3970": "xúc tác",
+      "3980": "gốc",
+      "3996": "có khả năng",
+      "4006": "ảnh hưởng",
+      "4013": "chức năng",
+      "4036": "linh hoạt",
+      "4045": "bề mặt",
+      "4053": "vòng",
+      "4063": "dự đoán",
+      "4073": "cấu trúc",
+      "4084": "giúp",
+      "4099": "lập luận",
+      "4114": "cụ thể",
+      "4124": "AlphaFold",
+      "4134": "mô hình",
+      "4141": "cũng",
+      "4146": "giúp",
+      "4159": "khám phá",
+      "4176": "protein",
+      "4184": "cấu trúc",
+      "4197": "thiếu",
+      "4206": "mặc dù",
+      "4215": "thực sự",
+      "4220": "thuốc",
+      "4225": "thiết kế",
+      "4232": "vẫn",
+      "4238": "phụ thuộc",
+      "4249": "chi tiết",
+      "4262": "ligand",
+      "4269": "gây ra",
+      "4277": "thay đổi cấu hình",
+      "4304": "nước",
+      "4310": "phân tử",
+      "4340": "nắm bắt",
+      "4356": "thí nghiệm",
+      "4370": "AlphaFold",
+      "4389": "hoàn chỉnh",
+      "4398": "giải pháp",
+      "4410": "cấu trúc",
+      "4421": "sinh học",
+      "4438": "giới hạn",
+      "4449": "quan trọng",
+      "4463": "việc sử dụng có trách nhiệm",
+      "4480": "nhiều",
+      "4485": "protein",
+      "4494": "hoạt động",
+      "4501": "phức hợp",
+      "4512": "liên kết",
+      "4517": "DNA",
+      "4521": "hoặc",
+      "4524": "RNA",
+      "4529": "hoặc",
+      "4532": "thay đổi",
+      "4539": "hình dạng",
+      "4550": "chúng",
+      "4555": "liên kết",
+      "4560": "đối tác",
+      "4574": "chuỗi đơn",
+      "4587": "dự đoán",
+      "4602": "không",
+      "4606": "tự động",
+      "4620": "cung cấp",
+      "4634": "trạng thái",
+      "4647": "vùng",
+      "4659": "vốn dĩ",
+      "4673": "bị rối loạn",
+      "4695": "có",
+      "4704": "ổn định",
+      "4711": "cấu trúc",
+      "4722": "biến đổi sau dịch mã",
+      "4756": "yếu tố hỗ trợ",
+      "4771": "màng",
+      "4790": "ảnh hưởng",
+      "4800": "hình dạng",
+      "4807": "những",
+      "4813": "giới hạn",
+      "4820": "quan trọng",
+      "4835": "chúng",
+      "4840": "xác định",
+      "4847": "nơi",
+      "4853": "thí nghiệm",
+      "4865": "vẫn",
+      "4872": "cần thiết",
+      "4892": "tính toán",
+      "4906": "dự đoán",
+      "4917": "nên",
+      "4927": "được coi là",
+      "4935": "như",
+      "4938": "một",
+      "4942": "mạnh",
+      "4949": "bằng chứng",
+      "4976": "cuối cùng",
+      "4982": "câu trả lời",
+      "4991": "AlphaFold",
+      "5003": "rộng hơn",
+      "5011": "ý nghĩa, tầm quan trọng",
+      "5035": "nén, rút ngắn",
+      "5050": "thời gian",
+      "5060": "gen",
+      "5065": "chuỗi",
+      "5077": "cấu trúc",
+      "5088": "giả thuyết",
+      "5104": "tháng",
+      "5114": "năm",
+      "5123": "giờ",
+      "5132": "ngày",
+      "5144": "hỗ trợ",
+      "5153": "nhanh hơn",
+      "5160": "chu kỳ",
+      "5170": "nghiên cứu",
+      "5188": "khiến",
+      "5193": "protein",
+      "5201": "cấu trúc",
+      "5218": "thường xuyên",
+      "5226": "đầu vào",
+      "5236": "lĩnh vực",
+      "5248": "vi sinh học",
+      "5262": "kỹ thuật enzyme",
+      "5286": "sinh học bệnh học con người",
+      "5312": "mới hơn",
+      "5318": "phương pháp",
+      "5326": "mở rộng",
+      "5336": "protein",
+      "5344": "phức hợp",
+      "5358": "động học",
+      "5372": "chính",
+      "5377": "bài học",
+      "5384": "vẫn còn",
+      "5393": "kết hợp",
+      "5403": "lớn",
+      "5409": "sinh học",
+      "5420": "bộ dữ liệu",
+      "5429": "với",
+      "5434": "nhận thức về hình học",
+      "5449": "học máy",
+      "5466": "có thể",
+      "5470": "tạo ra",
+      "5478": "công cụ",
+      "5489": "thay đổi",
+      "5496": "cái gì",
+      "5501": "được tính là",
+      "5512": "có sẵn",
+      "5522": "kiến thức",
+      "5537": "hàng ngày",
+      "5546": "khoa học",
+      "843": "và",
+      "856": "liên kết hiđrô",
+      "863": "và",
+      "867": "bởi vì",
+      "875": "của",
+      "890": "trong",
+      "936": "là",
+      "944": "bởi vì",
+      "960": "có",
+      "993": "và",
+      "997": "bởi vì",
+      "1126": "và",
+      "1130": "như thế nào",
+      "1193": "là",
+      "1196": "đó",
+      "1201": "nó",
+      "1232": "của",
+      "1270": "và",
+      "1329": "căn chỉnh chuỗi",
+      "1341": "đó",
+      "1347": "là / thì",
+      "1363": "của",
+      "1392": "tìm thấy",
+      "1398": "trong",
+      "1412": "khi",
+      "1464": "nó",
+      "1483": "đó",
+      "1488": "họ",
+      "1493": "là / thì",
+      "1503": "trong",
+      "1507": "đột biến",
+      "1516": "bởi vì",
+      "1584": "đồng tiến hóa",
+      "1597": "ý tưởng",
+      "1603": "nhưng",
+      "1627": "nó",
+      "1643": "mạng nơ-ron",
+      "1696": "và",
+      "1755": "chuyển thành",
+      "1776": "các đặc điểm cấp trình tự",
+      "1808": "để",
+      "1818": "cả hai",
+      "1847": "và",
+      "1894": "vì vậy",
+      "1907": "có thể",
+      "1918": "của nó",
+      "1922": "của chính mình",
+      "1960": "một",
+      "1982": "đó",
+      "2006": "giữa",
+      "2031": "của",
+      "2048": "và",
+      "2069": "của",
+      "2088": "cặp",
+      "2095": "sau khi",
+      "2101": "đó",
+      "2137": "tái sử dụng",
+      "2151": "và",
+      "2155": "rồi",
+      "2169": "của nó",
+      "2180": "tái sử dụng trở lại",
+      "2185": "tái sử dụng trở lại",
+      "2202": "cho",
+      "2206": "thêm nữa",
+      "2227": "điều này",
+      "2242": "là",
+      "2255": "bởi vì",
+      "2273": "dự đoán cấu trúc",
+      "2284": "là",
+      "2332": "như",
+      "2383": "khắp",
+      "2420": "cũng",
+      "2435": "bởi vì",
+      "2461": "học từ",
+      "2474": "của",
+      "2519": "như",
+      "2536": "dữ liệu",
+      "2541": "Ngân hàng Dữ liệu Protein",
+      "2561": "trong",
+      "2615": "học từ",
+      "2631": "chẳng hạn như",
+      "2636": "như",
+      "2645": "tinh thể học",
+      "2666": "quang phổ học",
+      "2680": "và",
+      "2720": "đó",
+      "2742": "để",
+      "2755": "chẳng hạn như",
+      "2760": "như",
+      "2771": "liên kết",
+      "2776": "độ dài",
+      "2793": "và",
+      "2804": "cấu trúc bậc hai",
+      "2814": "cấu trúc thứ cấp",
+      "2825": "như",
+      "2836": "chuỗi xoắn alpha",
+      "2844": "và",
+      "2853": "tấm beta",
+      "2879": "đó",
+      "2908": "độ chính xác",
+      "2924": "trong",
+      "2934": "đó",
+      "2939": "là",
+      "2950": "để",
+      "2974": "cho",
+      "2978": "nhiều",
+      "3001": "được đo bằng",
+      "3024": "sử dụng",
+      "3029": "trong",
+      "3060": "tiếp cận",
+      "3069": "ảnh hưởng đến",
+      "3105": "bởi vì",
+      "3120": "là",
+      "3130": "và",
+      "3166": "dự đoán",
+      "3228": "trong",
+      "3236": "được đo bằng",
+      "3248": "và",
+      "3292": "cho",
+      "3308": "của",
+      "3330": "và",
+      "3368": "có thể",
+      "3421": "và",
+      "3443": "ảnh hưởng đến",
+      "3450": "hầu hết; nhất",
+      "3484": "của mô hình",
+      "3516": "thường",
+      "3532": "như",
+      "3535": "điểm pLDDT",
+      "3581": "là",
+      "3591": "và",
+      "3595": "nơi mà",
+      "3616": "hoặc",
+      "3638": "làm",
+      "3643": "bất kỳ",
+      "3708": "như thế nào",
+      "3734": "và",
+      "3790": "có thể",
+      "3824": "được đo bằng",
+      "3838": "đó",
+      "3868": "vị trí hoạt động",
+      "3886": "giao diện",
+      "3897": "trong",
+      "3929": "đó",
+      "3953": "chật chội",
+      "3965": "hoặc",
+      "3988": "là",
+      "3991": "hơn",
+      "4003": "để",
+      "4022": "hơn",
+      "4027": "một",
+      "4031": "ảnh hưởng đến",
+      "4059": "và",
+      "4089": "làm",
+      "4094": "đó",
+      "4109": "hơn",
+      "4151": "trong",
+      "4154": "khám phá thuốc",
+      "4169": "khi",
+      "4194": "là",
+      "4246": "ảnh hưởng đến",
+      "4257": "như",
+      "4292": "thay đổi",
+      "4300": "và",
+      "4320": "đó",
+      "4325": "có thể",
+      "4329": "là",
+      "4332": "khó",
+      "4337": "để",
+      "4348": "mà không có",
+      "4380": "là",
+      "4383": "không",
+      "4407": "để",
+      "4430": "và",
+      "4434": "của nó",
+      "4445": "là / thì",
+      "4459": "cho",
+      "4475": "việc sử dụng",
+      "4498": "như",
+      "4545": "khi",
+      "4570": "và",
+      "4599": "làm",
+      "4628": "những",
+      "4642": "một số",
+      "4655": "là / thì",
+      "4684": "và",
+      "4688": "không có",
+      "4691": "không",
+      "4700": "một",
+      "4741": "sự chỉnh sửa",
+      "4767": "và",
+      "4781": "có thể",
+      "4785": "cũng",
+      "4827": "bởi vì",
+      "4882": "và",
+      "4886": "nơi mà",
+      "4924": "là",
+      "4955": "của",
+      "4958": "bằng chứng",
+      "4968": "không",
+      "5001": "AlphaFold",
+      "5024": "là",
+      "5027": "đó",
+      "5032": "nó",
+      "5055": "học từ",
+      "5074": "để",
+      "5099": "học từ",
+      "5111": "hoặc",
+      "5120": "để",
+      "5129": "hoặc",
+      "5138": "đó",
+      "5167": "của",
+      "5180": "nó",
+      "5183": "cũng",
+      "5213": "hơn",
+      "5232": "cho",
+      "5243": "như",
+      "5269": "kỹ thuật",
+      "5282": "và",
+      "5292": "bệnh",
+      "5300": "sinh học",
+      "5309": "như",
+      "5333": "để",
+      "5354": "và",
+      "5457": "học máy",
+      "5484": "đó",
+      "5508": "như",
+      "5533": "cho"
+    },
+    "zh": {
+      "0": "AlphaFold（专有名词）",
+      "10": "显示",
+      "17": "那个",
+      "24": "电脑",
+      "33": "系统",
+      "40": "能",
+      "44": "预测",
+      "52": "许多",
+      "57": "蛋白质",
+      "65": "三维的",
+      "66": "预测",
+      "68": "结构",
+      "79": "和，具有",
+      "84": "接近实验的",
+      "102": "精度",
+      "112": "和",
+      "116": "它",
+      "119": "改变",
+      "127": "改变……的方式",
+      "131": "生物学家",
+      "142": "获得",
+      "146": "结构的",
+      "157": "信息",
+      "170": "DeepMind（公司名）",
+      "179": "提出",
+      "189": "重要的",
+      "195": "成果",
+      "203": "在",
+      "206": "2020年",
+      "212": "在…之后",
+      "218": "AlphaFold2（项目名）",
+      "229": "赢得",
+      "237": "CASP14竞赛",
+      "244": "比赛",
+      "257": "和",
+      "265": "公司",
+      "273": "和",
+      "277": "它的",
+      "281": "合作伙伴EMBL-EBI",
+      "289": "欧洲分子生物学实验室欧洲生物信息学研究所",
+      "298": "发布",
+      "309": "大型的",
+      "315": "公共的",
+      "322": "数据库",
+      "331": "在",
+      "334": "2021年",
+      "340": "这个",
+      "345": "重要",
+      "353": "因为",
+      "361": "蛋白质",
+      "369": "形状",
+      "375": "强烈地",
+      "384": "影响",
+      "392": "功能",
+      "402": "和",
+      "406": "实验室",
+      "410": "方法",
+      "418": "例如",
+      "423": "作为",
+      "426": "X射线晶体学",
+      "432": "X射线晶体学",
+      "448": "和",
+      "452": "冷冻电子显微镜",
+      "466": "冷冻电子显微镜",
+      "477": "能够",
+      "481": "是",
+      "484": "缓慢的",
+      "490": "昂贵的",
+      "501": "或者",
+      "504": "困难的",
+      "514": "为了",
+      "518": "某些",
+      "526": "蛋白质",
+      "541": "科学的",
+      "552": "问题",
+      "560": "AlphaFold",
+      "570": "瞄准",
+      "579": "是",
+      "586": "蛋白质",
+      "594": "折叠",
+      "602": "问题",
+      "611": "假设",
+      "617": "一个",
+      "620": "氨基酸",
+      "631": "序列",
+      "641": "预测",
+      "653": "最终的",
+      "659": "三维",
+      "660": "D",
+      "662": "排列",
+      "674": "的",
+      "677": "原子",
+      "686": "蛋白质",
+      "694": "是",
+      "699": "链",
+      "705": "的",
+      "708": "20",
+      "711": "常见的",
+      "718": "氨基酸",
+      "724": "氨基酸",
+      "731": "和",
+      "735": "它的",
+      "739": "序列",
+      "748": "是",
+      "751": "编码",
+      "759": "在",
+      "762": "DNA",
+      "771": "链条",
+      "777": "折叠",
+      "783": "因为",
+      "791": "的",
+      "794": "物理的",
+      "803": "力",
+      "810": "比如",
+      "815": "作为；像",
+      "818": "疏水相互作用",
+      "847": "氢键",
+      "878": "限制",
+      "897": "骨架",
+      "906": "几何结构",
+      "916": "预测",
+      "931": "折叠",
+      "939": "困难的",
+      "954": "链",
+      "964": "许多",
+      "969": "可能的",
+      "978": "构象",
+      "1005": "蛋白质",
+      "1025": "灵活的",
+      "1034": "部分",
+      "1041": "可靠的",
+      "1050": "结构",
+      "1060": "预测",
+      "1071": "帮助",
+      "1077": "研究人员",
+      "1089": "推断",
+      "1095": "活跃的",
+      "1102": "位点",
+      "1109": "结合",
+      "1117": "口袋",
+      "1134": "突变",
+      "1144": "改变",
+      "1151": "稳定性",
+      "1165": "关键的",
+      "1169": "原因",
+      "1176": "AlphaFold",
+      "1186": "工作；起作用",
+      "1204": "结合",
+      "1213": "两个",
+      "1217": "强壮的；强有力的",
+      "1224": "来源",
+      "1235": "信息",
+      "1248": "进化的",
+      "1261": "模式",
+      "1274": "结构的",
+      "1285": "几何",
+      "1299": "系统",
+      "1306": "使用",
+      "1311": "多个的",
+      "1320": "序列比对",
+      "1351": "集合",
+      "1366": "相关的",
+      "1374": "蛋白质",
+      "1382": "序列",
+      "1401": "数据库",
+      "1421": "残基",
+      "1430": "突变",
+      "1437": "一起",
+      "1453": "进化",
+      "1467": "经常",
+      "1473": "表明",
+      "1483": "（指示代词）那个",
+      "1497": "接近的",
+      "1506": "三维",
+      "1509": "空间",
+      "1524": "接触",
+      "1532": "帮助",
+      "1538": "维持",
+      "1547": "功能",
+      "1557": "早期的",
+      "1565": "方法",
+      "1573": "使用",
+      "1584": "共同进化",
+      "1607": "AlphaFold",
+      "1617": "连接",
+      "1630": "紧密地",
+      "1638": "",
+      "1641": "",
+      "1643": "神经网络",
+      "1658": "",
+      "1663": "推理",
+      "1671": "直接地",
+      "1680": "",
+      "1686": "距离",
+      "1700": "角度",
+      "1708": "转化",
+      "1716": "统计的",
+      "1728": "信号",
+      "1732": "",
+      "1743": "一致的",
+      "1754": "三维",
+      "1757": "模型",
+      "1765": "AlphaFold2",
+      "1778": "架构",
+      "1791": "引入",
+      "1804": "方法",
+      "1811": "更新",
+      "1823": "序列级特征",
+      "1851": "成对残基关系",
+      "1882": "反复地",
+      "1901": "模型",
+      "1911": "改进",
+      "1926": "理解",
+      "1941": "DeepMind（公司名）",
+      "1950": "描述",
+      "1964": "Evoformer（模块名）",
+      "1975": "模块",
+      "1987": "传递",
+      "1994": "信息",
+      "2016": "表示",
+      "2038": "对齐",
+      "2054": "表示",
+      "2072": "残基-残基对",
+      "2109": "结构",
+      "2119": "模块",
+      "2126": "生成",
+      "2136": "三维",
+      "2139": "坐标",
+      "2160": "回收利用",
+      "2173": "输出",
+      "2180": "回",
+      "2194": "网络",
+      "2206": "进一步",
+      "2214": "改进",
+      "2232": "回收",
+      "2244": "重要的",
+      "2263": "结构",
+      "2273": "预测",
+      "2289": "全局的",
+      "2296": "约束",
+      "2307": "问题",
+      "2318": "局部的",
+      "2324": "选择",
+      "2339": "螺旋",
+      "2345": "位置",
+      "2355": "影响",
+      "2363": "远距离的",
+      "2374": "接触",
+      "2394": "整个",
+      "2401": "蛋白质",
+      "2411": "训练",
+      "2420": "也",
+      "2425": "重要",
+      "2447": "模型",
+      "2453": "学习",
+      "2466": "几十年",
+      "2477": "实验的",
+      "2490": "结构",
+      "2502": "公共的",
+      "2509": "资源",
+      "2528": "蛋白质数据银行",
+      "2553": "成立",
+      "2564": "1971年",
+      "2570": "包含",
+      "2578": "实验确定的",
+      "2604": "结构",
+      "2620": "技术",
+      "2639": "X射线晶体学",
+      "2662": "核磁共振光谱学",
+      "2684": "冷冻电子显微镜",
+      "2693": "AlphaFold",
+      "2703": "学习",
+      "2711": "模式",
+      "2725": "连接",
+      "2733": "序列",
+      "2745": "几何",
+      "2763": "典型的",
+      "2771": "键",
+      "2776": "长度",
+      "2785": "角度",
+      "2797": "常见的二级结构",
+      "2830": "α螺旋",
+      "2848": "β折叠",
+      "2861": "DeepMind（公司名）",
+      "2870": "报告",
+      "2888": "2020 年",
+      "2893": "系统",
+      "2900": "达到",
+      "2908": "准确率",
+      "2917": "水平",
+      "2927": "CASP14（竞赛名称）",
+      "2944": "接近",
+      "2953": "实验的",
+      "2966": "结果",
+      "2983": "目标",
+      "2992": "测量",
+      "3004": "已确定的",
+      "3016": "指标",
+      "3036": "竞赛",
+      "3050": "AlphaFold（专有名词）",
+      "3062": "影响",
+      "3072": "生物医学的",
+      "3083": "研究",
+      "3092": "出现",
+      "3097": "迅速地",
+      "3113": "访问权限",
+      "3124": "广泛的",
+      "3138": "产出",
+      "3146": "包括",
+      "3155": "置信度",
+      "3166": "估计",
+      "3181": "AlphaFold",
+      "3191": "蛋白质",
+      "3199": "结构",
+      "3209": "数据库",
+      "3219": "发布",
+      "3231": "2021年",
+      "3239": "DeepMind",
+      "3252": "EMBL-EBI",
+      "3262": "提供",
+      "3271": "预测的",
+      "3281": "结构",
+      "3296": "大的",
+      "3302": "部分",
+      "3315": "人类的",
+      "3321": "蛋白质组",
+      "3334": "许多",
+      "3339": "模式",
+      "3345": "生物体",
+      "3356": "研究人员",
+      "3374": "下载",
+      "3383": "结构",
+      "3395": "直观显示",
+      "3405": "可能的",
+      "3412": "领域",
+      "3425": "专注",
+      "3431": "实验",
+      "3455": "不确定的",
+      "3465": "区域",
+      "3478": "模型",
+      "3486": "每个残基的",
+      "3498": "置信度",
+      "3509": "得分",
+      "3516": "经常",
+      "3522": "讨论",
+      "3535": "pLDDT",
+      "3542": "帮助",
+      "3548": "用户",
+      "3554": "判断",
+      "3560": "哪里",
+      "3584": "强的",
+      "3601": "灵活的",
+      "3610": "环",
+      "3619": "无序的",
+      "3630": "区域",
+      "3647": "单个的",
+      "3654": "结构",
+      "3664": "不那么可靠",
+      "3684": "技术",
+      "3695": "也",
+      "3700": "改变",
+      "3712": "实验室",
+      "3717": "规划",
+      "3722": "实验",
+      "3738": "解释",
+      "3748": "疾病",
+      "3756": "突变",
+      "3767": "结构的",
+      "3778": "预测",
+      "3794": "指导",
+      "3800": "诱变",
+      "3812": "实验",
+      "3827": "建议",
+      "3844": "残基",
+      "3853": "形成",
+      "3861": "活性",
+      "3868": "位点",
+      "3878": "结合",
+      "3886": "界面",
+      "3900": "医学的",
+      "3908": "遗传学",
+      "3920": "突变",
+      "3934": "破坏",
+      "3945": "紧密堆积的",
+      "3960": "核心",
+      "3970": "催化的",
+      "3980": "残基",
+      "3996": "可能的",
+      "4006": "影响",
+      "4013": "功能",
+      "4036": "灵活的",
+      "4045": "表面",
+      "4053": "环",
+      "4063": "预测的",
+      "4073": "结构",
+      "4084": "帮助",
+      "4089": "使",
+      "4094": "那个",
+      "4099": "推理",
+      "4109": "更",
+      "4114": "具体的",
+      "4124": "AlphaFold（蛋白质结构预测工具名）",
+      "4134": "模型",
+      "4146": "帮助",
+      "4154": "药物发现",
+      "4176": "蛋白质",
+      "4184": "结构",
+      "4197": "缺失的",
+      "4215": "真实的",
+      "4220": "药物设计",
+      "4238": "依赖",
+      "4249": "细节",
+      "4262": "配体诱导的",
+      "4277": "构象变化",
+      "4304": "水",
+      "4310": "分子",
+      "4332": "难以",
+      "4340": "捕捉",
+      "4356": "实验",
+      "4370": "AlphaFold",
+      "4389": "完整的",
+      "4398": "解决方案",
+      "4410": "结构生物学",
+      "4438": "限制",
+      "4449": "重要的",
+      "4463": "负责任的",
+      "4475": "使用",
+      "4480": "许多",
+      "4485": "蛋白质",
+      "4494": "起作用",
+      "4501": "复合体",
+      "4512": "结合",
+      "4517": "DNA",
+      "4524": "RNA",
+      "4532": "改变",
+      "4539": "形状",
+      "4555": "结合",
+      "4560": "伙伴",
+      "4574": "单链",
+      "4587": "预测",
+      "4602": "不",
+      "4606": "自动地",
+      "4620": "提供",
+      "4634": "状态",
+      "4647": "地区",
+      "4659": "本质上",
+      "4673": "无序的",
+      "4695": "有",
+      "4704": "稳定的",
+      "4711": "结构",
+      "4722": "翻译后修饰",
+      "4756": "辅助因子",
+      "4771": "膜",
+      "4790": "影响",
+      "4800": "形状",
+      "4813": "界限",
+      "4820": "重要",
+      "4840": "定义",
+      "4853": "实验",
+      "4872": "必不可少",
+      "4892": "计算的",
+      "4906": "预测",
+      "4927": "对待",
+      "4938": "有力证据",
+      "4976": "最终答案",
+      "4991": "AlphaFold",
+      "5003": "更广泛的",
+      "5011": "重要性",
+      "5035": "压缩",
+      "5050": "时间",
+      "5060": "基因",
+      "5065": "序列",
+      "5077": "结构的",
+      "5088": "假设",
+      "5104": "几个月",
+      "5114": "几年",
+      "5123": "几小时",
+      "5132": "几天",
+      "5144": "支持",
+      "5153": "更快的",
+      "5160": "周期",
+      "5170": "研究",
+      "5183": "也",
+      "5188": "使",
+      "5193": "蛋白质",
+      "5201": "结构",
+      "5218": "常规的",
+      "5226": "输入",
+      "5236": "领域",
+      "5248": "微生物学",
+      "5262": "酶工程",
+      "5286": "人类疾病生物学",
+      "5312": "更新的",
+      "5318": "方法",
+      "5326": "扩展",
+      "5336": "蛋白质",
+      "5344": "复合物",
+      "5358": "动力学",
+      "5372": "主要的",
+      "5377": "经验教训",
+      "5393": "结合",
+      "5403": "大型的",
+      "5409": "生物的",
+      "5420": "数据集",
+      "5434": "几何感知的",
+      "5449": "机器学习",
+      "5470": "产生",
+      "5478": "工具",
+      "5489": "改变",
+      "5496": "什么",
+      "5501": "被算作",
+      "5512": "可用的",
+      "5522": "知识",
+      "5537": "日常的",
+      "5546": "科学",
+      "830": "疏水相互作用",
+      "843": "和",
+      "856": "氢键",
+      "863": "和",
+      "867": "因为",
+      "875": "的",
+      "890": "在",
+      "936": "是",
+      "944": "因为",
+      "960": "有",
+      "993": "和",
+      "997": "因为",
+      "1014": "经常",
+      "1020": "有",
+      "1126": "和",
+      "1130": "如何",
+      "1193": "是",
+      "1196": "那个",
+      "1201": "它",
+      "1232": "的",
+      "1270": "和",
+      "1329": "多重序列比对",
+      "1341": "哪个; 哪些",
+      "1347": "是",
+      "1363": "的",
+      "1392": "发现",
+      "1398": "在",
+      "1412": "当",
+      "1417": "两个",
+      "1446": "穿越，横跨",
+      "1464": "它",
+      "1488": "他们",
+      "1493": "是",
+      "1503": "在",
+      "1507": "D",
+      "1516": "因为",
+      "1578": "这个",
+      "1597": "想法",
+      "1603": "但是",
+      "1627": "它",
+      "1650": "网络",
+      "1696": "和",
+      "1736": "变成",
+      "1755": "使变成",
+      "1776": "序列级特征",
+      "1808": "到，向",
+      "1818": "两者都",
+      "1838": "特征",
+      "1847": "和",
+      "1860": "氨基酸残基",
+      "1868": "关系",
+      "1894": "因此",
+      "1907": "能够",
+      "1918": "它的",
+      "1922": "自己的",
+      "1960": "一个",
+      "1982": "那个",
+      "2006": "在……之间",
+      "2031": "的",
+      "2048": "和",
+      "2069": "的",
+      "2088": "对",
+      "2095": "在…之后",
+      "2101": "那个",
+      "2137": "循环利用",
+      "2151": "和",
+      "2155": "然后",
+      "2169": "它的",
+      "2185": "变成",
+      "2202": "为了",
+      "2227": "这个",
+      "2242": "是",
+      "2245": "重要的",
+      "2255": "因为",
+      "2284": "是",
+      "2332": "像",
+      "2383": "穿越，横跨",
+      "2435": "因为",
+      "2461": "从……学习",
+      "2474": "的",
+      "2519": "像，诸如",
+      "2536": "数据",
+      "2541": "蛋白质数据银行",
+      "2547": "蛋白质数据银行",
+      "2561": "在",
+      "2593": "确定的",
+      "2615": "从……学习",
+      "2631": "例如",
+      "2636": "作为",
+      "2645": "晶体学",
+      "2666": "光谱学",
+      "2680": "和",
+      "2720": "那个",
+      "2742": "到，向",
+      "2755": "例如",
+      "2760": "作为",
+      "2793": "和",
+      "2804": "二级结构",
+      "2814": "二级结构",
+      "2825": "像，类似",
+      "2836": "α-螺旋",
+      "2844": "和",
+      "2853": "β-折叠",
+      "2879": "那个",
+      "2924": "在",
+      "2934": "那个",
+      "2939": "是",
+      "2950": "到，向",
+      "2974": "为了",
+      "2978": "许多",
+      "3001": "由",
+      "3024": "使用",
+      "3029": "在",
+      "3060": "访问",
+      "3069": "对……的影响",
+      "3105": "因为",
+      "3120": "是",
+      "3130": "和",
+      "3228": "在",
+      "3236": "由",
+      "3248": "和",
+      "3292": "为了",
+      "3308": "的",
+      "3330": "和",
+      "3368": "能/可能",
+      "3421": "和",
+      "3443": "对……的影响",
+      "3450": "最",
+      "3484": "模型的",
+      "3532": "作为",
+      "3570": "预测",
+      "3581": "是",
+      "3591": "和",
+      "3595": "哪里",
+      "3616": "或者",
+      "3638": "使",
+      "3643": "任何",
+      "3669": "可靠的",
+      "3708": "如何",
+      "3734": "和",
+      "3790": "能够",
+      "3824": "由",
+      "3838": "哪个; 哪些",
+      "3858": "一个",
+      "3873": "或者",
+      "3897": "在",
+      "3929": "那个",
+      "3953": "紧密包裹的",
+      "3965": "或者",
+      "3988": "是",
+      "3991": "更",
+      "4003": "到，向",
+      "4022": "比",
+      "4027": "一个",
+      "4031": "对……的影响",
+      "4059": "和",
+      "4141": "也",
+      "4151": "在",
+      "4159": "发现",
+      "4169": "当",
+      "4194": "是",
+      "4206": "虽然",
+      "4225": "设计",
+      "4232": "仍然",
+      "4246": "对……的影响",
+      "4257": "像，诸如此类的",
+      "4292": "变化",
+      "4300": "和",
+      "4320": "那个",
+      "4325": "能够",
+      "4329": "是",
+      "4337": "到，向",
+      "4348": "没有",
+      "4380": "是",
+      "4383": "不",
+      "4407": "到，向",
+      "4421": "结构生物学",
+      "4430": "和",
+      "4434": "它的",
+      "4445": "是",
+      "4459": "为了",
+      "4498": "作为",
+      "4521": "或者",
+      "4529": "或者",
+      "4545": "当",
+      "4550": "他们",
+      "4570": "和",
+      "4599": "做",
+      "4628": "那些",
+      "4642": "一些",
+      "4655": "是",
+      "4684": "和",
+      "4688": "没有",
+      "4691": "不",
+      "4700": "一个",
+      "4741": "修饰",
+      "4767": "和",
+      "4781": "能够",
+      "4785": "也",
+      "4807": "这些",
+      "4827": "因为",
+      "4835": "他们",
+      "4847": "哪里",
+      "4865": "保持，仍然是",
+      "4882": "和",
+      "4886": "哪里",
+      "4917": "应该",
+      "4924": "是",
+      "4935": "作为",
+      "4942": "强的",
+      "4949": "证据的一部分",
+      "4955": "的",
+      "4958": "证据的一部分",
+      "4968": "不",
+      "4982": "答案",
+      "5001": "支持",
+      "5024": "是",
+      "5027": "那个",
+      "5032": "它",
+      "5055": "从……学习",
+      "5074": "到，向",
+      "5099": "从……学习",
+      "5111": "或者",
+      "5120": "到，向",
+      "5129": "或者",
+      "5138": "哪个; 哪些",
+      "5167": "的",
+      "5180": "它",
+      "5213": "更多",
+      "5232": "为了",
+      "5243": "像，类似于",
+      "5269": "工程学",
+      "5282": "和",
+      "5292": "疾病",
+      "5300": "生物学",
+      "5309": "作为",
+      "5333": "到，向",
+      "5354": "和",
+      "5384": "保持",
+      "5429": "和，具有",
+      "5457": "机器学习",
+      "5466": "能够",
+      "5484": "那个",
+      "5508": "作为",
+      "5533": "为了"
+    }
+  },
+  "tags": [
+    "science-technology"
+  ],
+  "cardDescription": "How DeepMind's AI system solved the protein folding problem and transformed structural biology with machine learning."
+}
