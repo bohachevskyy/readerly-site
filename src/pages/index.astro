@@ -1,108 +1,113 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+
+const scrollTopics = [
+  "Volcanoes", "K-Pop", "Renaissance Art", "Coffee Culture", "Formula 1",
+  "Neural Networks", "Greek Myths", "Street Food", "Black Holes", "Jazz History",
+  "Cryptocurrency", "Marine Biology", "Film Noir", "Yoga Philosophy", "Robotics",
+  "Volcanoes", "K-Pop", "Renaissance Art", "Coffee Culture", "Formula 1",
+  "Neural Networks", "Greek Myths", "Street Food", "Black Holes", "Jazz History",
+  "Cryptocurrency", "Marine Biology", "Film Noir", "Yoga Philosophy", "Robotics",
+];
 ---
 <BaseLayout
   title="Readerly — Discover Stories in Any Language"
-  description="200 categories. Thousands of stories. 20+ languages. Readerly is the easiest way to find fascinating content at your reading level."
+  description="200 categories. Thousands of stories. 20+ languages. Readerly is the world's largest library built for language learners."
 >
   <!-- Nav -->
   <header class="fixed top-0 left-0 right-0 z-50 bg-[#0B1120]/80 backdrop-blur-xl">
     <nav class="container flex items-center justify-between py-4">
-      <div class="flex items-center gap-3 text-lg font-semibold text-white">
-        <span class="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-emerald-400 to-teal-500 text-white font-bold">
-          R
-        </span>
-        Readerly
+      <div class="flex items-center gap-8">
+        <a href="/" class="flex items-center gap-3 text-lg font-semibold text-white">
+          <span class="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-emerald-400 to-teal-500 text-white font-bold">
+            R
+          </span>
+          Readerly
+        </a>
+        <div class="hidden sm:flex items-center gap-6 text-sm text-[#8B95A8]">
+          <a href="/read/" class="transition hover:text-white">Browse</a>
+          <a href="#how-it-works" class="transition hover:text-white">How It Works</a>
+          <a href="https://blog.readerly.ai" target="_blank" rel="noopener" class="transition hover:text-white">Blog</a>
+        </div>
       </div>
       <a
-        class="rounded-full bg-[#1C2537] border border-[#2A3548] px-5 py-2 text-sm font-semibold text-white transition hover:border-[#3A4558]"
+        class="rounded-full bg-[#2DD4A8] px-5 py-2 text-sm font-bold text-[#0B1120] transition hover:bg-[#25B892]"
         href="https://app.readerly.ai"
         target="_blank"
         rel="noopener"
       >
-        Open App
+        Download
       </a>
     </nav>
   </header>
 
   <main class="pt-[72px]">
     <!-- Hero -->
-    <section class="relative overflow-hidden py-24 lg:py-32">
-      <!-- Subtle radial teal glow -->
+    <section class="relative overflow-hidden py-28 lg:py-36" style="background: radial-gradient(ellipse at 50% 0%, #1a2332 0%, #0f1724 60%, #0a1018 100%);">
       <div class="absolute inset-0 pointer-events-none flex items-center justify-center">
         <div class="w-[600px] h-[600px] rounded-full bg-[#2DD4A8]/8 blur-[150px]"></div>
       </div>
 
       <div class="container relative text-center max-w-2xl mx-auto space-y-8">
-        <p class="text-xs font-semibold uppercase tracking-[0.25em] text-[#2DD4A8]">
-          READ WHAT YOU LOVE. LEARN ENGLISH ALONG THE WAY.
-        </p>
-        <h1 class="text-4xl font-bold leading-tight text-white sm:text-5xl">
-          What are you curious about today?
+        <h1 class="font-bold text-white" style="font-size: 3.2rem; line-height: 1.15;">
+          Curiosity is the best teacher.
         </h1>
-        <p class="text-base text-[#8B95A8] max-w-[480px] mx-auto leading-relaxed">
-          200 categories. Thousands of stories. 20+ languages. Readerly is the easiest way to find fascinating content at your reading level. No boring textbooks. Just stories you actually want to read.
+        <p class="text-[#2DD4A8] font-semibold text-lg">Find your perfect story in seconds.</p>
+        <p class="text-[#8B95A8] mx-auto leading-relaxed" style="max-width: 500px; font-size: 1.05rem;">
+          200 categories. Thousands of stories. 20+ languages supported. Readerly is the world's largest library built for language learners — and it starts with what you want to read.
         </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <div class="flex flex-col sm:flex-row justify-center" style="gap: 16px;">
           <a
-            class="inline-flex items-center justify-center rounded-full bg-[#2DD4A8] px-8 py-3.5 text-sm font-bold text-[#0B1120] transition hover:bg-[#25B892]"
+            class="inline-flex items-center justify-center rounded-full bg-[#2DD4A8] font-bold text-[#0B1120] transition hover:bg-[#25B892]"
+            style="padding: 14px 28px; font-size: 0.95rem;"
             href="https://app.readerly.ai"
             target="_blank"
             rel="noopener"
           >
-            Explore Stories
+            Discover Stories
           </a>
           <a
-            class="inline-flex items-center justify-center rounded-full bg-[#1C2537] border border-[#2A3548] px-8 py-3.5 text-sm font-semibold text-white transition hover:border-[#3A4558]"
+            class="inline-flex items-center justify-center rounded-full bg-[#1C2537] border border-[#2A3548] font-semibold text-white transition hover:border-[#3A4558]"
+            style="padding: 14px 28px; font-size: 0.95rem;"
             href="https://blog.readerly.ai"
             target="_blank"
             rel="noopener"
           >
-            Read Our Blog →
+            Visit the Blog →
           </a>
         </div>
       </div>
     </section>
 
-    <!-- Categories -->
-    <section class="py-16">
-      <div class="container text-center">
-        <p class="text-xs font-semibold uppercase tracking-[0.25em] text-[#2DD4A8] mb-8">
-          16 CATEGORIES AND COUNTING
+    <!-- Scrolling Topic Strip -->
+    <section class="py-20 overflow-hidden">
+      <div class="container text-center mb-8">
+        <p class="text-xs font-semibold uppercase tracking-[0.25em] text-[#2DD4A8]">
+          WHAT WILL YOU READ NEXT?
         </p>
-        <div class="flex flex-wrap justify-center gap-3 max-w-3xl mx-auto">
-          {[
-            { emoji: "💼", label: "Business" },
-            { emoji: "🔬", label: "Science" },
-            { emoji: "🎨", label: "Art & Culture" },
-            { emoji: "🌍", label: "World" },
-            { emoji: "🧠", label: "Psychology" },
-            { emoji: "💼", label: "Career" },
-            { emoji: "💚", label: "Health" },
-            { emoji: "📖", label: "Literature" },
-            { emoji: "🎬", label: "Film & Media" },
-            { emoji: "⚽", label: "Sports" },
-            { emoji: "🍔", label: "Food" },
-            { emoji: "🌿", label: "Nature" },
-          ].map((cat) => (
-            <span class="inline-flex items-center gap-2 rounded-full bg-[#151E2E] border border-[#242E40] px-4 py-2 text-[13px] text-[#C0C8D8]">
-              <span>{cat.emoji}</span>
-              <span>{cat.label}</span>
+      </div>
+      <div class="relative">
+        <div class="absolute left-0 top-0 bottom-0 w-24 z-10" style="background: linear-gradient(to right, #0B1120, transparent);"></div>
+        <div class="absolute right-0 top-0 bottom-0 w-24 z-10" style="background: linear-gradient(to left, #0B1120, transparent);"></div>
+        <div class="topic-scroll flex whitespace-nowrap" style="gap: 12px; animation: scroll-topics 30s linear infinite;">
+          {scrollTopics.map((topic) => (
+            <span class="inline-flex shrink-0 items-center rounded-full bg-[#151E2E] border border-[#242E40] text-[#C0C8D8]" style="padding: 6px 14px; font-size: 12px;">
+              {topic}
             </span>
           ))}
         </div>
       </div>
     </section>
 
-    <!-- Feature 1: Your Interests = Your Lessons -->
+    <!-- Feature 1: Every Interest Has a Story -->
     <section class="py-24">
       <div class="container grid gap-16 lg:grid-cols-2 items-center">
         <div class="space-y-6">
           <h2 class="text-[32px] font-bold text-white">
-            Your Interests = Your Lessons
+            Every Interest Has a Story
           </h2>
           <p class="text-[#8B95A8] leading-relaxed">
-            Imagine learning a language by reading about the things you'd Google at 2 AM anyway. That's Readerly. We match your curiosity with stories written for language learners — clear enough to understand, interesting enough to finish.
+            Language learning shouldn't feel like homework. On Readerly, you choose what to read — from quantum physics to Korean street food — and the app handles the rest. Tap any word for instant translation. Stories adapt to your level. And you never run out of things to read.
           </p>
           <ul class="space-y-5">
             <li class="flex items-start gap-3">
@@ -146,12 +151,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       </div>
     </section>
 
-    <!-- Feature 2: Words stick without effort -->
-    <section class="py-24">
+    <!-- Three Taps to Learning -->
+    <section id="how-it-works" class="py-24">
       <div class="container grid gap-16 lg:grid-cols-2 items-center">
         <!-- SRS card mockup -->
         <div class="flex justify-center order-2 lg:order-1">
-          <div class="w-[340px] rounded-2xl bg-[#141C2C] border border-[#1E2A3C] p-8 space-y-6 text-center">
+          <div class="bg-[#141C2C] border border-[#1E2A3C] space-y-6 text-center" style="min-width: 280px; padding: 32px; border-radius: 20px;">
             <div>
               <p class="text-3xl font-bold text-white">breakthrough</p>
               <p class="text-sm text-[#8B95A8] italic mt-2">...the real breakthrough</p>
@@ -161,40 +166,37 @@ import BaseLayout from "../layouts/BaseLayout.astro";
               <p class="text-white/80 text-xs mt-1">a sudden important discovery</p>
             </div>
             <div class="flex justify-center gap-3">
-              <button class="rounded-full bg-[#E8604C]/20 text-[#E8604C] px-5 py-2 text-sm font-semibold">Again</button>
-              <button class="rounded-full bg-[#2DD4A8]/20 text-[#2DD4A8] px-5 py-2 text-sm font-semibold">Good</button>
-              <button class="rounded-full bg-[#4ADE80]/20 text-[#4ADE80] px-5 py-2 text-sm font-semibold">Easy</button>
+              <button class="rounded-full bg-[#E8604C]/20 text-[#E8604C] font-semibold" style="padding: 8px 20px; font-size: 0.85rem;">Again</button>
+              <button class="rounded-full bg-[#2DD4A8]/20 text-[#2DD4A8] font-semibold" style="padding: 8px 20px; font-size: 0.85rem;">Good</button>
+              <button class="rounded-full bg-[#4ADE80]/20 text-[#4ADE80] font-semibold" style="padding: 8px 20px; font-size: 0.85rem;">Easy</button>
             </div>
           </div>
         </div>
 
         <div class="space-y-6 order-1 lg:order-2">
           <h2 class="text-[32px] font-bold text-white">
-            Words stick without effort
+            Three Taps to Learning
           </h2>
-          <p class="text-[#8B95A8] leading-relaxed">
-            Every word you save is scheduled for review at the perfect moment — right before you'd forget it. Spaced repetition, built in.
-          </p>
-          <ul class="space-y-5">
-            <li class="flex items-start gap-3">
-              <span class="text-xl mt-0.5">🧠</span>
+          <ul class="space-y-6">
+            <li class="flex items-start gap-4">
+              <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#2DD4A8]/20 text-[#2DD4A8] font-bold text-sm">1</span>
               <div>
-                <p class="font-semibold text-white">Learns how you learn</p>
-                <p class="text-sm text-[#8B95A8]">The system tracks which words come easily and which need more practice.</p>
+                <p class="font-semibold text-white">Search or browse</p>
+                <p class="text-sm text-[#8B95A8]">200 categories, always growing.</p>
               </div>
             </li>
-            <li class="flex items-start gap-3">
-              <span class="text-xl mt-0.5">⏱</span>
+            <li class="flex items-start gap-4">
+              <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#2DD4A8]/20 text-[#2DD4A8] font-bold text-sm">2</span>
               <div>
-                <p class="font-semibold text-white">5 minutes a day</p>
-                <p class="text-sm text-[#8B95A8]">Quick review sessions that fit into any schedule.</p>
+                <p class="font-semibold text-white">Read what grabs you</p>
+                <p class="text-sm text-[#8B95A8]">Stories matched to your level.</p>
               </div>
             </li>
-            <li class="flex items-start gap-3">
-              <span class="text-xl mt-0.5">📋</span>
+            <li class="flex items-start gap-4">
+              <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#2DD4A8]/20 text-[#2DD4A8] font-bold text-sm">3</span>
               <div>
-                <p class="font-semibold text-white">Context, not flashcards</p>
-                <p class="text-sm text-[#8B95A8]">Every word is linked back to the story where you found it.</p>
+                <p class="font-semibold text-white">Learn without trying</p>
+                <p class="text-sm text-[#8B95A8]">Words stick when they come from stories you care about.</p>
               </div>
             </li>
           </ul>
@@ -203,24 +205,24 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     </section>
 
     <!-- Stats Bar -->
-    <section class="py-16">
+    <section class="py-20">
       <div class="container">
         <div class="flex flex-wrap justify-center gap-12 sm:gap-20">
           <div class="text-center">
-            <p class="text-3xl font-bold text-[#2DD4A8]">16</p>
-            <p class="text-sm text-[#8B95A8] mt-1">Topic categories</p>
+            <p class="font-bold text-[#2DD4A8]" style="font-size: 2.5rem;">200</p>
+            <p class="text-sm text-[#8B95A8] mt-1">Categories</p>
           </div>
           <div class="text-center">
-            <p class="text-3xl font-bold text-[#2DD4A8]">100+</p>
-            <p class="text-sm text-[#8B95A8] mt-1">Stories and growing</p>
+            <p class="font-bold text-[#2DD4A8]" style="font-size: 2.5rem;">1000s</p>
+            <p class="text-sm text-[#8B95A8] mt-1">of Stories</p>
           </div>
           <div class="text-center">
-            <p class="text-3xl font-bold text-[#2DD4A8]">5</p>
-            <p class="text-sm text-[#8B95A8] mt-1">Levels (A1–C1)</p>
+            <p class="font-bold text-[#2DD4A8]" style="font-size: 2.5rem;">20+</p>
+            <p class="text-sm text-[#8B95A8] mt-1">Languages</p>
           </div>
           <div class="text-center">
-            <p class="text-3xl font-bold text-[#2DD4A8]">Free</p>
-            <p class="text-sm text-[#8B95A8] mt-1">No subscriptions</p>
+            <p class="font-bold text-[#2DD4A8]" style="font-size: 2.5rem;">∞</p>
+            <p class="text-sm text-[#8B95A8] mt-1">Curiosity</p>
           </div>
         </div>
       </div>
@@ -231,15 +233,15 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <div class="container">
         <h2 class="text-[32px] font-bold text-white text-center mb-12">Learners love it</h2>
         <div class="grid gap-6 md:grid-cols-3">
-          <div class="rounded-2xl bg-[#141C2C] border border-[#1E2A3C] p-6">
+          <div class="rounded-2xl p-6" style="border: 1px solid rgba(45, 212, 160, 0.12); background: rgba(255,255,255,0.03);">
             <p class="text-[#C0C8D8] leading-relaxed mb-4">"I just tap and keep reading — finally finished my first English novel last month."</p>
             <p class="text-sm text-[#8B95A8]">— Maria from Madrid</p>
           </div>
-          <div class="rounded-2xl bg-[#141C2C] border border-[#1E2A3C] p-6">
+          <div class="rounded-2xl p-6" style="border: 1px solid rgba(45, 212, 160, 0.12); background: rgba(255,255,255,0.03);">
             <p class="text-[#C0C8D8] leading-relaxed mb-4">"The business stories helped me understand terms I kept hearing in meetings."</p>
             <p class="text-sm text-[#8B95A8]">— Kenji, PM in Berlin</p>
           </div>
-          <div class="rounded-2xl bg-[#141C2C] border border-[#1E2A3C] p-6">
+          <div class="rounded-2xl p-6" style="border: 1px solid rgba(45, 212, 160, 0.12); background: rgba(255,255,255,0.03);">
             <p class="text-[#C0C8D8] leading-relaxed mb-4">"5 minutes on the train each morning. After 3 months, comfortably reading The Economist."</p>
             <p class="text-sm text-[#8B95A8]">— Sophie from Lyon</p>
           </div>
@@ -250,17 +252,24 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <!-- Blog Section -->
     <section class="py-24">
       <div class="container text-center max-w-2xl mx-auto">
-        <h2 class="text-3xl font-bold text-white mb-6">On the Blog</h2>
-        <p class="text-[#8B95A8] text-lg leading-relaxed mb-8">
-          Free guides, reading strategies, and hand-picked story collections for every level.
+        <h2 class="text-3xl font-bold text-white mb-6">Learn More on Our Blog</h2>
+        <p class="text-[#8B95A8] text-lg leading-relaxed mb-6">
+          Our blog is packed with free guides, reading strategies, and hand-picked story collections for every level.
         </p>
+        <div class="flex flex-wrap justify-center mb-8" style="gap: 8px;">
+          {["New posts weekly", "Reading tips", "Category deep-dives", "Learner interviews"].map((tag) => (
+            <span class="inline-flex items-center rounded-full bg-[#151E2E] border border-[#242E40] text-[#C0C8D8]" style="padding: 6px 14px; font-size: 12px;">
+              {tag}
+            </span>
+          ))}
+        </div>
         <a
           class="inline-flex items-center justify-center rounded-full bg-[#2DD4A8] px-8 py-3.5 text-sm font-bold text-[#0B1120] transition hover:bg-[#25B892]"
           href="https://blog.readerly.ai"
           target="_blank"
           rel="noopener"
         >
-          Visit the Blog →
+          Explore the Blog →
         </a>
       </div>
     </section>
@@ -268,9 +277,9 @@ import BaseLayout from "../layouts/BaseLayout.astro";
     <!-- Bottom CTA -->
     <section class="py-24">
       <div class="container text-center max-w-2xl mx-auto">
-        <h2 class="text-4xl font-bold text-white mb-6">Stop studying. Start reading.</h2>
+        <h2 class="font-bold text-white mb-6" style="font-size: 2.2rem;">The best way to learn a language? Read what you love.</h2>
         <p class="text-[#8B95A8] text-lg mb-10">
-          The stories are waiting. Your level doesn't matter — your curiosity does.
+          Thousands of stories. Hundreds of topics. Your level.
         </p>
         <a
           class="inline-flex items-center justify-center rounded-full bg-[#2DD4A8] px-10 py-4 text-base font-bold text-[#0B1120] transition hover:bg-[#25B892]"
@@ -278,7 +287,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
           target="_blank"
           rel="noopener"
         >
-          Get Started Free
+          Start Exploring — Free
         </a>
       </div>
     </section>
@@ -289,4 +298,11 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <p>© 2026 Readerly · hello@readerly.ai</p>
     </div>
   </footer>
+
+  <style>
+    @keyframes scroll-topics {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+  </style>
 </BaseLayout>

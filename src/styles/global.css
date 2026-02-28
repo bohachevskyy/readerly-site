@@ -8,8 +8,11 @@ html {
 
 body {
   @apply bg-surface text-ink antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
-  @apply mx-auto w-full max-w-6xl px-6;
+  @apply mx-auto w-full px-6;
+  max-width: 1100px;
 }
