@@ -5,11 +5,11 @@ export default {
     extend: {
       colors: {
         ink: "#f0f0f5",
-        muted: "#9ca3af",
-        accent: "hsl(145 66% 58%)",
-        surface: "#0a0a0f",
-        soft: "#13131a",
-        "card-border": "#1e1e2a",
+        muted: "#8B95A8",
+        accent: "#2DD4A8",
+        surface: "#0B1120",
+        soft: "#141C2C",
+        "card-border": "#1E2A3C",
       },
       fontFamily: {
         sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
@@ -17,16 +17,7 @@ export default {
       },
       boxShadow: {
         soft: "0 12px 40px -24px rgba(0, 0, 0, 0.6)",
-        glow: "0 0 40px -10px rgba(52, 211, 153, 0.3)",
-      },
-      animation: {
-        "scroll-strip": "scroll-strip 30s linear infinite",
-      },
-      keyframes: {
-        "scroll-strip": {
-          "0%": { transform: "translateX(0)" },
-          "100%": { transform: "translateX(-50%)" },
-        },
+        glow: "0 0 40px -10px rgba(45, 212, 168, 0.3)",
       },
     },
   },
