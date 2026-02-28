@@ -151,9 +151,9 @@ const scrollTopics = [
           </ul>
         </div>
 
-        <!-- Article card mockup -->
-        <div class="flex justify-center">
-          <div class="w-[340px] rounded-2xl bg-[#141C2C] border border-[#1E2A3C] p-6 space-y-4">
+        <!-- Article card mockups — one shown randomly via client JS -->
+        <div class="flex justify-center" id="story-cards">
+          <div class="story-card hidden w-[340px] rounded-2xl bg-[#141C2C] border border-[#1E2A3C] p-6 space-y-4">
             <p class="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#2DD4A8]">TECHNOLOGY · 01</p>
             <h3 class="text-[20px] font-bold text-white leading-snug">How Slack Was Born from a Failed Video Game</h3>
             <p class="text-sm text-[#8B95A8] leading-relaxed">
@@ -164,7 +164,63 @@ const scrollTopics = [
               <p class="text-white/80 text-xs">relating to the inside of something</p>
             </div>
           </div>
+
+          <div class="story-card hidden w-[340px] rounded-2xl bg-[#141C2C] border border-[#1E2A3C] p-6 space-y-4">
+            <p class="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#2DD4A8]">HISTORY · 03</p>
+            <h3 class="text-[20px] font-bold text-white leading-snug">The Real Story Behind the Trojan Horse</h3>
+            <p class="text-sm text-[#8B95A8] leading-relaxed">
+              After ten long years of <span class="bg-[#2DD4A8]/20 px-1 rounded">siege</span>, the Greek army appeared to sail away, leaving behind an enormous wooden horse. The Trojans, believing it a gift from the gods, wheeled it inside their walls. But hidden within were elite soldiers — a <span class="bg-[#2DD4A8]/20 px-1 rounded">cunning</span> deception that would bring the mighty city of Troy to its knees in a single night.
+            </p>
+            <div class="rounded-xl bg-[#1A8A70] p-4 space-y-1">
+              <p class="text-white font-semibold text-sm">siege → 包囲</p>
+              <p class="text-white/80 text-xs">surrounding a place to force surrender</p>
+            </div>
+          </div>
+
+          <div class="story-card hidden w-[340px] rounded-2xl bg-[#141C2C] border border-[#1E2A3C] p-6 space-y-4">
+            <p class="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#2DD4A8]">SCIENCE · 07</p>
+            <h3 class="text-[20px] font-bold text-white leading-snug">Why Octopuses Have Three Hearts</h3>
+            <p class="text-sm text-[#8B95A8] leading-relaxed">
+              Each <span class="bg-[#2DD4A8]/20 px-1 rounded">tentacle</span> of an octopus contains its own cluster of neurons, essentially giving it a mind of its own. But perhaps more <span class="bg-[#2DD4A8]/20 px-1 rounded">remarkable</span> is the circulatory system: two hearts pump blood to the gills, while a third sends it to the rest of the body. When an octopus swims, the main heart actually stops beating.
+            </p>
+            <div class="rounded-xl bg-[#1A8A70] p-4 space-y-1">
+              <p class="text-white font-semibold text-sm">remarkable → 驚くべき</p>
+              <p class="text-white/80 text-xs">worthy of attention or notice</p>
+            </div>
+          </div>
+
+          <div class="story-card hidden w-[340px] rounded-2xl bg-[#141C2C] border border-[#1E2A3C] p-6 space-y-4">
+            <p class="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#2DD4A8]">BUSINESS · 12</p>
+            <h3 class="text-[20px] font-bold text-white leading-snug">How a Coffee Shop Became Starbucks</h3>
+            <p class="text-sm text-[#8B95A8] leading-relaxed">
+              Howard Schultz was an <span class="bg-[#2DD4A8]/20 px-1 rounded">ambitious</span> salesman when he first walked into a small Seattle coffee bean shop in 1981. Inspired by Italian espresso bars, he envisioned something bigger. Within a decade, Starbucks grew from a single storefront into a global chain generating billions in <span class="bg-[#2DD4A8]/20 px-1 rounded">revenue</span> — transforming how the world drinks coffee.
+            </p>
+            <div class="rounded-xl bg-[#1A8A70] p-4 space-y-1">
+              <p class="text-white font-semibold text-sm">ambitious → 野心的な</p>
+              <p class="text-white/80 text-xs">having a strong desire for success</p>
+            </div>
+          </div>
+
+          <div class="story-card hidden w-[340px] rounded-2xl bg-[#141C2C] border border-[#1E2A3C] p-6 space-y-4">
+            <p class="text-[11px] font-semibold uppercase tracking-[0.2em] text-[#2DD4A8]">PSYCHOLOGY · 05</p>
+            <h3 class="text-[20px] font-bold text-white leading-snug">The Science of First Impressions</h3>
+            <p class="text-sm text-[#8B95A8] leading-relaxed">
+              Within just seven seconds of meeting someone, your brain has already made a dozen judgments — most of them <span class="bg-[#2DD4A8]/20 px-1 rounded">subconscious</span>. Researchers at Princeton found that facial features alone shape our <span class="bg-[#2DD4A8]/20 px-1 rounded">perception</span> of trustworthiness and competence. The surprising part? These snap decisions are remarkably hard to override, even with contradicting evidence.
+            </p>
+            <div class="rounded-xl bg-[#1A8A70] p-4 space-y-1">
+              <p class="text-white font-semibold text-sm">perception → 知覚</p>
+              <p class="text-white/80 text-xs">the way you notice things through your senses</p>
+            </div>
+          </div>
         </div>
+
+        <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            const cards = document.querySelectorAll('.story-card');
+            const index = Math.floor(Math.random() * cards.length);
+            cards[index].classList.remove('hidden');
+          });
+        </script>
       </div>
     </section>
 
