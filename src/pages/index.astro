@@ -4,351 +4,360 @@ import { Image } from "astro:assets";
 import step1Categories from "../assets/screenshots/step-1-categories.png";
 import step2Reading from "../assets/screenshots/step-2-reading.png";
 import step3Practice from "../assets/screenshots/step-3-practice.png";
+
+const topics = [
+  "Volcanoes", "K-Pop", "Renaissance Art", "Coffee Culture", "Formula 1",
+  "Neural Networks", "Greek Myths", "Street Food", "Space Exploration",
+  "Jazz History", "Quantum Physics", "Marine Biology", "Film Noir",
+  "Cryptography", "Samurai Culture", "Climate Science", "Hip-Hop",
+  "Architecture", "Game Theory", "Mythology"
+];
 ---
 <BaseLayout
-  title="Readerly — Unlimited English Stories for Every Topic and Level"
-  description="Read unlimited stories on technology, history, business, science and more — from beginner to professional. Build vocabulary naturally with Readerly, free for everyone."
+  title="Readerly — Discover Stories in Any Language"
+  description="200 categories. Thousands of stories. 20+ languages. Readerly is the world's largest library built for language learners."
 >
-  <header class="border-b border-emerald-100 bg-white">
-    <nav class="container flex items-center justify-between py-6">
+  <!-- Nav -->
+  <header class="fixed top-0 left-0 right-0 z-50 border-b border-card-border/50 bg-surface/80 backdrop-blur-xl">
+    <nav class="container flex items-center justify-between py-4">
       <div class="flex items-center gap-3 text-lg font-semibold text-ink">
-        <span class="flex h-9 w-9 items-center justify-center rounded-full bg-ink text-white">
+        <span class="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-emerald-400 to-teal-500 text-white font-bold">
           R
         </span>
         Readerly
       </div>
-      <div class="flex items-center gap-4">
+      <div class="hidden sm:flex items-center gap-6">
+        <a class="text-sm font-medium text-muted hover:text-ink transition" href="/read/">Browse</a>
+        <a class="text-sm font-medium text-muted hover:text-ink transition" href="#how-it-works">How It Works</a>
+        <a class="text-sm font-medium text-muted hover:text-ink transition" href="https://blog.readerly.ai" target="_blank" rel="noopener">Blog</a>
         <a
-          class="text-sm font-medium text-muted hover:text-ink transition"
-          href="/read/"
-        >
-          Read Stories
-        </a>
-        <a
-          class="rounded-full border border-emerald-200 px-5 py-2 text-sm font-medium text-ink transition hover:border-emerald-400"
+          class="rounded-full bg-gradient-to-r from-emerald-500 to-teal-400 px-5 py-2 text-sm font-semibold text-surface shadow-glow transition hover:shadow-[0_0_50px_-10px_rgba(52,211,153,0.5)]"
           href="https://app.readerly.ai"
           target="_blank"
           rel="noopener"
         >
-          Open Readerly
+          Download
         </a>
       </div>
+      <!-- Mobile menu button -->
+      <button id="mobile-menu-btn" class="sm:hidden text-muted hover:text-ink p-2" aria-label="Menu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
     </nav>
+    <!-- Mobile nav -->
+    <div id="mobile-menu" class="hidden sm:hidden border-t border-card-border/50 bg-surface/95 backdrop-blur-xl">
+      <div class="container flex flex-col gap-4 py-4">
+        <a class="text-sm font-medium text-muted hover:text-ink transition" href="/read/">Browse</a>
+        <a class="text-sm font-medium text-muted hover:text-ink transition" href="#how-it-works">How It Works</a>
+        <a class="text-sm font-medium text-muted hover:text-ink transition" href="https://blog.readerly.ai" target="_blank" rel="noopener">Blog</a>
+        <a
+          class="rounded-full bg-gradient-to-r from-emerald-500 to-teal-400 px-5 py-2 text-sm font-semibold text-surface text-center shadow-glow"
+          href="https://app.readerly.ai"
+          target="_blank"
+          rel="noopener"
+        >
+          Download
+        </a>
+      </div>
+    </div>
   </header>
 
-  <main>
-    <section class="container grid gap-12 pb-20 pt-16 lg:grid-cols-[1.1fr_0.9fr]">
-      <div class="space-y-6">
-        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
-          Unlimited stories, every level
-        </p>
-        <h1 class="text-4xl font-semibold text-ink sm:text-5xl">
-          Endless stories on any topic. From beginner to professional.
-        </h1>
-        <p class="text-lg text-muted">
-          Technology, history, business, science, career growth — Readerly has a story for every interest and level. Tap words to learn them in context and practice with spaced repetition.
-        </p>
-        <div class="flex flex-col gap-4 sm:flex-row">
-          <a
-            class="inline-flex items-center justify-center rounded-full bg-emerald-500 px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:bg-emerald-600"
-            href="https://app.readerly.ai"
-            target="_blank"
-            rel="noopener"
-          >
-            Start free
-          </a>
-          <a
-            class="inline-flex items-center justify-center rounded-full border border-emerald-200 px-6 py-3 text-sm font-semibold text-ink transition hover:border-emerald-400"
-            href="/read"
-          >
-            Try Reading Now
-          </a>
-        </div>
+  <main class="pt-[72px]">
+    <!-- Hero -->
+    <section class="relative overflow-hidden">
+      <!-- Background gradient orbs -->
+      <div class="absolute inset-0 overflow-hidden pointer-events-none">
+        <div class="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-emerald-500/10 blur-[120px]"></div>
+        <div class="absolute -bottom-40 -left-40 w-96 h-96 rounded-full bg-teal-500/8 blur-[120px]"></div>
       </div>
-      <div class="rounded-3xl bg-soft p-8 shadow-soft">
-        <div class="flex flex-col gap-6">
-          <div class="rounded-2xl border border-emerald-100 bg-white p-5">
-            <p class="text-xs font-semibold uppercase tracking-widest text-muted">
-              Unlimited stories
-            </p>
-            <p class="mt-3 text-base font-semibold text-ink">
-              Any topic you can imagine
-            </p>
-            <p class="mt-2 text-sm text-muted">
-              Technology, history, business, science, leadership, career growth — our library keeps growing so you never run out of things to read.
-            </p>
-          </div>
-          <div class="rounded-2xl border border-emerald-100 bg-white p-5">
-            <p class="text-xs font-semibold uppercase tracking-widest text-muted">
-              Every level, A1 to C1
-            </p>
-            <p class="mt-3 text-base font-semibold text-ink">
-              From simple to professional
-            </p>
-            <p class="mt-2 text-sm text-muted">
-              Whether you're just starting out or polishing advanced vocabulary, every story is matched to your level.
-            </p>
-          </div>
-          <div class="rounded-2xl border border-emerald-100 bg-white p-5">
-            <p class="text-xs font-semibold uppercase tracking-widest text-muted">
-              Smart practice
-            </p>
-            <p class="mt-3 text-base font-semibold text-ink">
-              Tap words, learn in context, review with spaced repetition
-            </p>
-            <p class="mt-2 text-sm text-muted">
-              Tap any word to see its meaning, save it, and let the system schedule reviews at the perfect moment — right before you'd forget.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="container pb-16">
-      <div class="space-y-4 text-center max-w-2xl mx-auto mb-12">
-        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
-          Product preview
-        </p>
-        <h2 class="text-3xl font-semibold text-ink">
-          See the reading and practice flow.
-        </h2>
-      </div>
-      <div class="grid gap-6 md:grid-cols-3">
-        <figure class="rounded-3xl border border-emerald-100 bg-white p-4 shadow-soft">
-          <Image
-            src={step1Categories}
-            alt="Category selection showing Nonfiction, Professional, and Fiction topics"
-            width={600}
-            class="w-full rounded-2xl"
-            loading="lazy"
-            decoding="async"
-          />
-          <figcaption class="mt-3 text-sm text-muted">
-            <strong class="text-ink">Pick a topic</strong> — Browse stories in technology, business, history, science, and more.
-          </figcaption>
-        </figure>
-        <figure class="rounded-3xl border border-emerald-100 bg-white p-4 shadow-soft">
-          <Image
-            src={step2Reading}
-            alt="Reading view with word popup showing translation and example"
-            width={600}
-            class="w-full rounded-2xl"
-            loading="lazy"
-            decoding="async"
-          />
-          <figcaption class="mt-3 text-sm text-muted">
-            <strong class="text-ink">Read and tap</strong> — Tap words for instant translations and examples.
-          </figcaption>
-        </figure>
-        <figure class="rounded-3xl border border-emerald-100 bg-white p-4 shadow-soft">
-          <Image
-            src={step3Practice}
-            alt="Practice flashcard with spaced repetition buttons"
-            width={600}
-            class="w-full rounded-2xl"
-            loading="lazy"
-            decoding="async"
-          />
-          <figcaption class="mt-3 text-sm text-muted">
-            <strong class="text-ink">Smart review</strong> — The system adapts to your memory and schedules practice at the right time.
-          </figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section class="bg-surface py-16">
-      <div class="container grid gap-8 lg:grid-cols-4">
-        <div class="rounded-2xl bg-white p-6 shadow-soft">
-          <h2 class="text-lg font-semibold text-ink">Stories on any topic</h2>
-          <p class="mt-3 text-sm text-muted">
-            Technology, history, business, science, leadership, career growth — always something new to read.
+      <div class="container relative grid gap-12 pb-20 pt-20 lg:grid-cols-[1.1fr_0.9fr] lg:pt-28">
+        <div class="space-y-8 flex flex-col justify-center">
+          <p class="text-sm font-semibold uppercase tracking-[0.25em] text-emerald-400">
+            The Discovery Engine
           </p>
-        </div>
-        <div class="rounded-2xl bg-white p-6 shadow-soft">
-          <h2 class="text-lg font-semibold text-ink">Every level, A1 to C1</h2>
-          <p class="mt-3 text-sm text-muted">
-            From simple everyday English to professional-grade vocabulary — grow at your own pace.
+          <h1 class="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl">
+            <span class="bg-gradient-to-r from-white to-white/80 bg-clip-text text-transparent">
+              Curiosity is the best teacher.
+            </span>
+          </h1>
+          <p class="text-xl text-muted sm:text-2xl font-light">
+            Find your perfect story in seconds.
           </p>
-        </div>
-        <div class="rounded-2xl bg-white p-6 shadow-soft">
-          <h2 class="text-lg font-semibold text-ink">Context over flashcards</h2>
-          <p class="mt-3 text-sm text-muted">
-            Words learned inside real stories, not isolated lists — so learning feels natural.
+          <p class="text-base text-muted/80 max-w-lg leading-relaxed">
+            200 categories. Thousands of stories. 20+ languages supported. Readerly is the world's largest library built for language learners — and it starts with what <em class="text-ink not-italic font-medium">you</em> want to read.
           </p>
-        </div>
-        <div class="rounded-2xl bg-white p-6 shadow-soft">
-          <h2 class="text-lg font-semibold text-ink">Spaced repetition built in</h2>
-          <p class="mt-3 text-sm text-muted">
-            Reviews are scheduled automatically based on your progress, so words stick without extra effort.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="how-it-works" class="container py-16">
-      <div class="flex flex-col gap-6">
-        <h2 class="text-3xl font-semibold text-ink">How Readerly works</h2>
-        <div class="grid gap-6 lg:grid-cols-3">
-          <div class="rounded-2xl border border-emerald-100 p-6">
-            <p class="text-xs font-semibold uppercase tracking-widest text-muted">
-              Step 1
-            </p>
-            <h3 class="mt-3 text-lg font-semibold text-ink">Pick a topic</h3>
-            <p class="mt-2 text-sm text-muted">
-              Browse stories across dozens of topics — technology, history, business, science, and more — at the level that fits you.
-            </p>
-          </div>
-          <div class="rounded-2xl border border-emerald-100 p-6">
-            <p class="text-xs font-semibold uppercase tracking-widest text-muted">
-              Step 2
-            </p>
-            <h3 class="mt-3 text-lg font-semibold text-ink">Read & tap words</h3>
-            <p class="mt-2 text-sm text-muted">
-              Tap words to see definitions, translations, and examples.
-            </p>
-          </div>
-          <div class="rounded-2xl border border-emerald-100 p-6">
-            <p class="text-xs font-semibold uppercase tracking-widest text-muted">
-              Step 3
-            </p>
-            <h3 class="mt-3 text-lg font-semibold text-ink">
-              Review that adapts to you
-            </h3>
-            <p class="mt-2 text-sm text-muted">
-              Our system learns which words stick and which need more attention. It schedules reviews at the perfect moment — right before you'd forget.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-surface py-16">
-      <div class="container grid gap-8 lg:grid-cols-[0.8fr_1.2fr]">
-        <div>
-          <p class="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
-            FAQ
-          </p>
-          <h2 class="mt-3 text-3xl font-semibold text-ink">
-            Quick answers before you start.
-          </h2>
-        </div>
-        <div class="space-y-4">
-          <details class="rounded-2xl border border-emerald-100 bg-white p-5">
-            <summary class="cursor-pointer text-base font-semibold text-ink">
-              What level should I start at?
-            </summary>
-            <p class="mt-3 text-sm text-muted">
-              Pick any level from A1 to C1 — stories adjust to match, so you can start wherever feels comfortable and grow from there.
-            </p>
-          </details>
-          <details class="rounded-2xl border border-emerald-100 bg-white p-5">
-            <summary class="cursor-pointer text-base font-semibold text-ink">
-              How do I save new words?
-            </summary>
-            <p class="mt-3 text-sm text-muted">
-              Tap any word while reading to see its translation and add it to your
-              vocabulary list.
-            </p>
-          </details>
-          <details class="rounded-2xl border border-emerald-100 bg-white p-5">
-            <summary class="cursor-pointer text-base font-semibold text-ink">
-              How does practice work?
-            </summary>
-            <p class="mt-3 text-sm text-muted">
-              Our review system learns how you learn. It tracks which words come easily and which need more practice, then adjusts timing automatically. You spend less time reviewing and remember more.
-            </p>
-          </details>
-          <details class="rounded-2xl border border-emerald-100 bg-white p-5">
-            <summary class="cursor-pointer text-base font-semibold text-ink">
-              How much time does it take?
-            </summary>
-            <p class="mt-3 text-sm text-muted">
-              As little or as much as you like. Most sessions take just a few minutes, and you can read or review whenever it fits your day.
-            </p>
-          </details>
-          <details class="rounded-2xl border border-emerald-100 bg-white p-5">
-            <summary class="cursor-pointer text-base font-semibold text-ink">
-              Is Readerly really free?
-            </summary>
-            <p class="mt-3 text-sm text-muted">
-              Yes, completely free. No subscriptions, no hidden fees — just open the app and start learning.
-            </p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <section class="container py-16">
-      <div class="flex flex-col gap-6">
-        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-accent">
-          Social proof
-        </p>
-        <h2 class="text-3xl font-semibold text-ink">What learners love</h2>
-        <div class="grid gap-6 lg:grid-cols-3">
-          <figure class="rounded-3xl border border-emerald-100 bg-white p-6 shadow-soft">
-            <blockquote class="text-base text-ink">
-              "I used to stop every 2 minutes to look up words. Now I just tap and keep reading—finally finished my first English novel last month."
-            </blockquote>
-            <figcaption class="mt-4 text-sm text-muted">
-              — Maria from Madrid
-            </figcaption>
-          </figure>
-          <figure class="rounded-3xl border border-emerald-100 bg-white p-6 shadow-soft">
-            <blockquote class="text-base text-ink">
-              "The business stories helped me understand terms I kept hearing in meetings. My manager noticed I stopped asking what 'stakeholder alignment' means."
-            </blockquote>
-            <figcaption class="mt-4 text-sm text-muted">
-              — Kenji, product manager in Berlin
-            </figcaption>
-          </figure>
-          <figure class="rounded-3xl border border-emerald-100 bg-white p-6 shadow-soft">
-            <blockquote class="text-base text-ink">
-              "5 minutes on the train each morning. That's it. After 3 months I went from struggling with articles to comfortably reading The Economist. Didn't expect that."
-            </blockquote>
-            <figcaption class="mt-4 text-sm text-muted">
-              — Sophie from Lyon
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <section class="container pb-20">
-      <div class="rounded-3xl bg-emerald-950 px-8 py-12 text-white lg:px-12">
-        <div class="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
-          <div>
-            <h2 class="text-3xl font-semibold">
-              A story for every interest. A level for every learner.
-            </h2>
-            <p class="mt-4 text-base text-slate-200">
-              Explore unlimited stories on topics you care about — completely free.
-            </p>
-          </div>
-          <div class="flex flex-col items-start justify-center gap-4 lg:items-end">
+          <div class="flex flex-col gap-4 sm:flex-row">
             <a
-              class="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-emerald-950"
+              class="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-emerald-500 to-teal-400 px-8 py-3.5 text-sm font-bold text-surface shadow-glow transition hover:shadow-[0_0_60px_-10px_rgba(52,211,153,0.5)] hover:scale-105"
               href="https://app.readerly.ai"
               target="_blank"
               rel="noopener"
             >
-              Start free
+              Discover Stories
             </a>
-            <p class="text-xs text-slate-300">
-              Free at <span class="font-semibold">app.readerly.ai</span>
+            <a
+              class="inline-flex items-center justify-center rounded-full border border-card-border px-8 py-3.5 text-sm font-semibold text-ink transition hover:border-emerald-500/50 hover:text-emerald-400"
+              href="https://blog.readerly.ai"
+              target="_blank"
+              rel="noopener"
+            >
+              Visit the Blog →
+            </a>
+          </div>
+        </div>
+
+        <!-- Phone mockup -->
+        <div class="flex items-center justify-center">
+          <div class="relative">
+            <!-- Phone frame -->
+            <div class="w-[280px] sm:w-[300px] rounded-[2.5rem] border-2 border-card-border bg-soft p-3 shadow-glow">
+              <div class="rounded-[2rem] overflow-hidden bg-surface">
+                <Image
+                  src={step2Reading}
+                  alt="Readerly reading view showing story with word tap translation"
+                  width={600}
+                  class="w-full"
+                  loading="eager"
+                  decoding="async"
+                />
+              </div>
+            </div>
+            <!-- Glow behind phone -->
+            <div class="absolute inset-0 -z-10 rounded-[3rem] bg-emerald-500/20 blur-[60px]"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scrolling Topic Strip -->
+    <section class="relative py-6 overflow-hidden border-y border-card-border/50">
+      <!-- Gradient overlays for fade effect -->
+      <div class="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-surface to-transparent z-10"></div>
+      <div class="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-surface to-transparent z-10"></div>
+
+      <div class="flex animate-scroll-strip whitespace-nowrap">
+        {[...topics, ...topics].map((topic) => (
+          <span class="inline-flex items-center gap-3 px-3 text-sm font-medium">
+            <span class="bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">{topic}</span>
+            <span class="text-card-border">→</span>
+          </span>
+        ))}
+      </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="py-12 border-b border-card-border/50">
+      <div class="container">
+        <div class="flex flex-wrap justify-center gap-8 sm:gap-16">
+          <div class="text-center">
+            <p class="text-3xl font-bold bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">200</p>
+            <p class="text-sm text-muted mt-1">Categories</p>
+          </div>
+          <div class="text-center">
+            <p class="text-3xl font-bold bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">1000s</p>
+            <p class="text-sm text-muted mt-1">Stories</p>
+          </div>
+          <div class="text-center">
+            <p class="text-3xl font-bold bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">20+</p>
+            <p class="text-sm text-muted mt-1">Languages</p>
+          </div>
+          <div class="text-center">
+            <p class="text-3xl font-bold bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">∞</p>
+            <p class="text-sm text-muted mt-1">Curiosity</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Every Interest Has a Story -->
+    <section class="py-24">
+      <div class="container grid gap-16 lg:grid-cols-[1fr_1fr] items-center">
+        <div class="space-y-6">
+          <h2 class="text-3xl font-bold sm:text-4xl">
+            Every Interest Has a Story
+          </h2>
+          <p class="text-muted leading-relaxed text-lg">
+            Language learning shouldn't feel like homework. On Readerly, you choose what to read — from quantum physics to Korean street food — and the app handles the rest.
+          </p>
+          <ul class="space-y-4 text-muted">
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 text-xs">✓</span>
+              <span>Tap any word for instant translation</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 text-xs">✓</span>
+              <span>Stories adapt to your level</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 text-xs">✓</span>
+              <span>You never run out of things to read</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Phone mockups trio -->
+        <div class="flex items-center justify-center gap-4">
+          <div class="w-[140px] sm:w-[160px] rounded-[1.5rem] border border-card-border bg-soft p-2 -rotate-3 opacity-80">
+            <div class="rounded-[1.2rem] overflow-hidden">
+              <Image
+                src={step1Categories}
+                alt="Story category grid"
+                width={300}
+                class="w-full"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          </div>
+          <div class="w-[160px] sm:w-[180px] rounded-[1.5rem] border border-card-border bg-soft p-2 shadow-glow z-10">
+            <div class="rounded-[1.2rem] overflow-hidden">
+              <Image
+                src={step2Reading}
+                alt="Reading view with word tap"
+                width={300}
+                class="w-full"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          </div>
+          <div class="w-[140px] sm:w-[160px] rounded-[1.5rem] border border-card-border bg-soft p-2 rotate-3 opacity-80">
+            <div class="rounded-[1.2rem] overflow-hidden">
+              <Image
+                src={step3Practice}
+                alt="Word tap popup translation"
+                width={300}
+                class="w-full"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Three Taps to Learning -->
+    <section id="how-it-works" class="py-24 bg-soft/50">
+      <div class="container">
+        <div class="text-center mb-16">
+          <p class="text-sm font-semibold uppercase tracking-[0.25em] text-emerald-400 mb-4">How it works</p>
+          <h2 class="text-3xl font-bold sm:text-4xl">Three Taps to Learning</h2>
+        </div>
+
+        <div class="grid gap-8 md:grid-cols-3">
+          <div class="group rounded-2xl border border-card-border bg-surface p-8 transition hover:border-emerald-500/30 hover:shadow-glow">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 text-emerald-400 font-bold text-xl mb-6">
+              1
+            </div>
+            <h3 class="text-lg font-bold mb-3">Search or browse</h3>
+            <p class="text-muted text-sm leading-relaxed">
+              200 categories, always growing. Find stories on any topic that sparks your curiosity.
             </p>
+          </div>
+
+          <div class="group rounded-2xl border border-card-border bg-surface p-8 transition hover:border-emerald-500/30 hover:shadow-glow">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 text-emerald-400 font-bold text-xl mb-6">
+              2
+            </div>
+            <h3 class="text-lg font-bold mb-3">Read what grabs you</h3>
+            <p class="text-muted text-sm leading-relaxed">
+              Stories matched to your level. Tap any word for instant translation — no dictionary needed.
+            </p>
+          </div>
+
+          <div class="group rounded-2xl border border-card-border bg-surface p-8 transition hover:border-emerald-500/30 hover:shadow-glow">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 text-emerald-400 font-bold text-xl mb-6">
+              3
+            </div>
+            <h3 class="text-lg font-bold mb-3">Learn without trying</h3>
+            <p class="text-muted text-sm leading-relaxed">
+              Words stick when they come from stories you care about. Spaced repetition handles the rest.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="py-24">
+      <div class="container">
+        <div class="rounded-3xl border border-card-border bg-soft p-10 sm:p-16 text-center">
+          <p class="text-sm font-semibold uppercase tracking-[0.25em] text-emerald-400 mb-4">Learn More</p>
+          <h2 class="text-3xl font-bold sm:text-4xl mb-6">Learn More on Our Blog</h2>
+          <p class="text-muted max-w-2xl mx-auto text-lg leading-relaxed mb-8">
+            Our blog is packed with free guides, reading strategies, and hand-picked story collections for every level.
+          </p>
+          <a
+            class="inline-flex items-center justify-center rounded-full border border-emerald-500/50 px-8 py-3.5 text-sm font-semibold text-emerald-400 transition hover:bg-emerald-500/10 hover:border-emerald-400"
+            href="https://blog.readerly.ai"
+            target="_blank"
+            rel="noopener"
+          >
+            Explore the Blog →
+          </a>
+          <div class="flex flex-wrap justify-center gap-6 mt-10 text-sm text-muted">
+            <span>New posts weekly</span>
+            <span class="text-card-border">·</span>
+            <span>Reading tips</span>
+            <span class="text-card-border">·</span>
+            <span>Category deep-dives</span>
+            <span class="text-card-border">·</span>
+            <span>Learner interviews</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-24">
+      <div class="container">
+        <div class="relative rounded-3xl overflow-hidden px-8 py-16 sm:px-16 text-center">
+          <!-- Background gradient -->
+          <div class="absolute inset-0 bg-gradient-to-br from-emerald-900/40 via-surface to-teal-900/30"></div>
+          <div class="absolute inset-0 border border-emerald-500/20 rounded-3xl"></div>
+          <!-- Glow -->
+          <div class="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-40 bg-emerald-500/15 blur-[100px]"></div>
+
+          <div class="relative">
+            <h2 class="text-3xl font-bold sm:text-4xl lg:text-5xl mb-6">
+              The best way to learn a language?<br/>
+              <span class="bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">Read what you love.</span>
+            </h2>
+            <p class="text-muted text-lg mb-10 max-w-xl mx-auto">
+              Thousands of stories. Hundreds of topics. Your level.
+            </p>
+            <a
+              class="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-emerald-500 to-teal-400 px-10 py-4 text-base font-bold text-surface shadow-glow transition hover:shadow-[0_0_60px_-10px_rgba(52,211,153,0.5)] hover:scale-105"
+              href="https://app.readerly.ai"
+              target="_blank"
+              rel="noopener"
+            >
+              Start Exploring — Free
+            </a>
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="border-t border-emerald-100 bg-white">
-      <div class="container flex flex-col items-start justify-between gap-4 py-8 text-sm text-muted sm:flex-row sm:items-center">
+  <footer class="border-t border-card-border/50 bg-surface">
+    <div class="container flex flex-col items-start justify-between gap-4 py-8 text-sm text-muted sm:flex-row sm:items-center">
       <p>© {new Date().getFullYear()} Readerly</p>
       <div class="flex gap-4">
-        <a class="hover:text-ink" href="mailto:hello@readerly.ai">Contact</a>
-        <span>Privacy available on request</span>
+        <a class="hover:text-ink transition" href="mailto:hello@readerly.ai">Contact</a>
+        <a class="hover:text-ink transition" href="https://blog.readerly.ai" target="_blank" rel="noopener">Blog</a>
       </div>
     </div>
   </footer>
+
+  <!-- Mobile menu toggle -->
+  <script is:inline>
+    document.getElementById('mobile-menu-btn')?.addEventListener('click', () => {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+  </script>
 </BaseLayout>
