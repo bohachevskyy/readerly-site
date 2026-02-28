@@ -15,12 +15,17 @@ export interface Story {
   text: string;
   words?: Record<string, WordInfo>;
   translations: Record<string, Record<string, string>>;
+  createdAt?: string;
 }
 
 const storyModules = import.meta.glob<Story>("./*.json", { eager: true, import: "default" });
 
 function allStories(): Story[] {
-  return Object.values(storyModules);
+  return Object.values(storyModules).sort((a, b) => {
+    const dateA = a.createdAt ?? "";
+    const dateB = b.createdAt ?? "";
+    return dateB.localeCompare(dateA); // newest first
+  });
 }
 
 function getStoryBySlug(slug: string): Story | undefined {
