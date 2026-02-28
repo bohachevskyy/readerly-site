@@ -2,12 +2,27 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const scrollTopics = [
-  "Volcanoes", "K-Pop", "Renaissance Art", "Coffee Culture", "Formula 1",
-  "Neural Networks", "Greek Myths", "Street Food", "Black Holes", "Jazz History",
-  "Cryptocurrency", "Marine Biology", "Film Noir", "Yoga Philosophy", "Robotics",
-  "Volcanoes", "K-Pop", "Renaissance Art", "Coffee Culture", "Formula 1",
-  "Neural Networks", "Greek Myths", "Street Food", "Black Holes", "Jazz History",
-  "Cryptocurrency", "Marine Biology", "Film Noir", "Yoga Philosophy", "Robotics",
+  "🌋 Volcanoes", "🎤 K-Pop", "🎨 Renaissance Art", "☕ Coffee Culture", "🏎️ Formula 1",
+  "🧠 Neural Networks", "🏛️ Greek Myths", "🍜 Street Food", "🕳️ Black Holes", "🎷 Jazz History",
+  "💰 Cryptocurrency", "🐙 Marine Biology", "🎬 Film Noir", "🧘 Yoga Philosophy", "🤖 Robotics",
+  "⚽ World Cup", "🏯 Japanese Castles", "🧬 DNA", "🎮 Esports", "🌸 Cherry Blossoms",
+  "🏔️ Mount Everest", "🎭 Shakespeare", "🍷 Wine Culture", "🚀 SpaceX", "🧊 Arctic Exploration",
+  "🎹 Classical Piano", "🏰 Medieval Knights", "🌊 Surfing", "💎 Gemstones", "🎪 Circus History",
+  "🦕 Dinosaurs", "🏋️ CrossFit", "🎯 Archery", "🌌 Dark Matter", "🍣 Sushi",
+  "🏺 Ancient Egypt", "🎸 Rock Legends", "🧪 Chemistry", "🐉 Dragons", "🏄 Surfing Culture",
+  "📸 Photography", "🦈 Sharks", "🎻 Vivaldi", "🌺 Tropical Plants", "🏟️ Olympic History",
+  "🍕 Pizza Origins", "🔭 Telescopes", "🎤 Stand-Up Comedy", "🐘 African Safari", "🏗️ Skyscrapers",
+  // duplicate for seamless scroll
+  "🌋 Volcanoes", "🎤 K-Pop", "🎨 Renaissance Art", "☕ Coffee Culture", "🏎️ Formula 1",
+  "🧠 Neural Networks", "🏛️ Greek Myths", "🍜 Street Food", "🕳️ Black Holes", "🎷 Jazz History",
+  "💰 Cryptocurrency", "🐙 Marine Biology", "🎬 Film Noir", "🧘 Yoga Philosophy", "🤖 Robotics",
+  "⚽ World Cup", "🏯 Japanese Castles", "🧬 DNA", "🎮 Esports", "🌸 Cherry Blossoms",
+  "🏔️ Mount Everest", "🎭 Shakespeare", "🍷 Wine Culture", "🚀 SpaceX", "🧊 Arctic Exploration",
+  "🎹 Classical Piano", "🏰 Medieval Knights", "🌊 Surfing", "💎 Gemstones", "🎪 Circus History",
+  "🦕 Dinosaurs", "🏋️ CrossFit", "🎯 Archery", "🌌 Dark Matter", "🍣 Sushi",
+  "🏺 Ancient Egypt", "🎸 Rock Legends", "🧪 Chemistry", "🐉 Dragons", "🏄 Surfing Culture",
+  "📸 Photography", "🦈 Sharks", "🎻 Vivaldi", "🌺 Tropical Plants", "🏟️ Olympic History",
+  "🍕 Pizza Origins", "🔭 Telescopes", "🎤 Stand-Up Comedy", "🐘 African Safari", "🏗️ Skyscrapers",
 ];
 ---
 <BaseLayout
@@ -27,16 +42,16 @@ const scrollTopics = [
         <div class="hidden sm:flex items-center gap-6 text-sm text-[#8B95A8]">
           <a href="/read/" class="transition hover:text-white">Browse</a>
           <a href="#how-it-works" class="transition hover:text-white">How It Works</a>
-          <a href="https://blog.readerly.ai" target="_blank" rel="noopener" class="transition hover:text-white">Blog</a>
+          <a href="/read/" class="transition hover:text-white">Blog</a>
         </div>
       </div>
       <a
-        class="rounded-full bg-[#2DD4A8] px-5 py-2 text-sm font-bold text-[#0B1120] transition hover:bg-[#25B892]"
+        class="rounded-full bg-[#1C2537] border border-[#2A3548] px-5 py-2 text-sm font-bold text-white transition hover:border-[#3A4558]"
         href="https://app.readerly.ai"
         target="_blank"
         rel="noopener"
       >
-        Download
+        Open App
       </a>
     </nav>
   </header>
@@ -70,9 +85,7 @@ const scrollTopics = [
           <a
             class="inline-flex items-center justify-center rounded-full bg-[#1C2537] border border-[#2A3548] font-semibold text-white transition hover:border-[#3A4558]"
             style="padding: 14px 28px; font-size: 0.95rem;"
-            href="https://blog.readerly.ai"
-            target="_blank"
-            rel="noopener"
+            href="/read/"
           >
             Visit the Blog →
           </a>
@@ -108,7 +121,10 @@ const scrollTopics = [
             Every Interest Has a Story
           </h2>
           <p class="text-[#8B95A8] leading-relaxed">
-            Language learning shouldn't feel like homework. On Readerly, you choose what to read — from quantum physics to Korean street food — and the app handles the rest. Tap any word for instant translation. Stories adapt to your level. And you never run out of things to read.
+            Imagine learning a language by reading about the things you'd Google at 2 AM anyway. That's Readerly. We match your curiosity with stories written for language learners — clear enough to understand, interesting enough to finish.
+          </p>
+          <p class="text-[#8B95A8] leading-relaxed text-sm">
+            You choose what to read — from quantum physics to Korean street food — and the app handles the rest. Tap any word for instant translation. Stories adapt to your level. And you never run out of things to read.
           </p>
           <ul class="space-y-5">
             <li class="flex items-start gap-3">
@@ -145,7 +161,7 @@ const scrollTopics = [
             </p>
             <div class="rounded-xl bg-[#1A8A70] p-4 space-y-1">
               <p class="text-white font-semibold text-sm">internal → 内部の</p>
-              <p class="text-white/80 text-xs">relating to the inside of something · <span class="text-[#2DD4A8]">+ Save word</span></p>
+              <p class="text-white/80 text-xs">relating to the inside of something</p>
             </div>
           </div>
         </div>
@@ -239,9 +255,7 @@ const scrollTopics = [
         </div>
         <a
           class="inline-flex items-center justify-center rounded-full bg-[#2DD4A8] px-8 py-3.5 text-sm font-bold text-[#0B1120] transition hover:bg-[#25B892]"
-          href="https://blog.readerly.ai"
-          target="_blank"
-          rel="noopener"
+          href="/read/"
         >
           Explore the Blog →
         </a>
