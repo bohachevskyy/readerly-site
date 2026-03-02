@@ -22,8 +22,8 @@ const storyModules = import.meta.glob<Story>("./*.json", { eager: true, import: 
 
 function allStories(): Story[] {
   return Object.values(storyModules).sort((a, b) => {
-    const dateA = a.createdAt ?? "";
-    const dateB = b.createdAt ?? "";
+    const dateA = a.createdAt ?? "9999-12-31";
+    const dateB = b.createdAt ?? "9999-12-31";
     return dateB.localeCompare(dateA); // newest first
   });
 }
