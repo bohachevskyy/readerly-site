@@ -32,4 +32,24 @@ function getStoryBySlug(slug: string): Story | undefined {
   return allStories().find((s) => s.slug === slug);
 }
 
-export { allStories, getStoryBySlug };
+const BLOG_TAGS = new Set([
+  "language-learning",
+  "professional",
+  "communication",
+  "career",
+  "business-english",
+]);
+
+function isBlogStory(story: Story): boolean {
+  return (story.tags ?? []).some((tag) => BLOG_TAGS.has(tag));
+}
+
+function blogStories(): Story[] {
+  return allStories().filter(isBlogStory);
+}
+
+function browseStories(): Story[] {
+  return allStories().filter((s) => !isBlogStory(s));
+}
+
+export { allStories, getStoryBySlug, blogStories, browseStories, isBlogStory };

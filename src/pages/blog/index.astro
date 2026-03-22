@@ -1,30 +1,13 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { browseStories } from "../../data/stories";
+import { blogStories } from "../../data/stories";
 
-const stories = browseStories();
-
-const LANGUAGE_LABELS: Record<string, string> = {
-  es: "Español",
-  uk: "Українська",
-  fr: "Français",
-  de: "Deutsch",
-  pt: "Português",
-  it: "Italiano",
-  pl: "Polski",
-  ja: "日本語",
-  ko: "한국어",
-  zh: "中文",
-};
-
-function getLanguageLabel(code: string): string {
-  return LANGUAGE_LABELS[code] ?? code.toUpperCase();
-}
+const stories = blogStories();
 ---
 
 <BaseLayout
-  title="Read Stories — Readerly"
-  description="Browse short English stories with instant word translations. Click any word to see its meaning in your language."
+  title="Blog — Readerly"
+  description="Educational articles about learning English — practical tips, conversation guides, and professional English strategies."
 >
   <!-- Nav -->
   <header class="fixed top-0 left-0 right-0 z-50 bg-[#0B1120]/80 backdrop-blur-xl">
@@ -37,8 +20,8 @@ function getLanguageLabel(code: string): string {
           Readerly
         </a>
         <div class="hidden sm:flex items-center gap-6 text-sm text-[#8B95A8]">
-          <a href="/read/" class="text-white font-medium">Browse Stories</a>
-          <a href="/blog/" class="transition hover:text-white">Blog</a>
+          <a href="/read/" class="transition hover:text-white">Browse Stories</a>
+          <a href="/blog/" class="text-white font-medium">Blog</a>
         </div>
       </div>
       <a
@@ -56,24 +39,24 @@ function getLanguageLabel(code: string): string {
     <section class="container py-16">
       <div class="max-w-2xl mx-auto text-center mb-12">
         <p class="text-sm font-semibold uppercase tracking-[0.2em] text-[#2DD4A8]">
-          Try it now
+          Blog
         </p>
         <h1 class="mt-3 text-4xl font-semibold text-white">
-          Read a story
+          Learn English Smarter
         </h1>
         <p class="mt-4 text-lg text-[#8B95A8]">
-          Pick a story and click on any word to see its translation. A taste of the Readerly experience, right in your browser.
+          Practical guides, conversation tips, and professional English strategies — with built-in word translations.
         </p>
       </div>
 
       {stories.length === 0 ? (
-        <p class="text-center text-[#8B95A8]">No stories available yet. Check back soon!</p>
+        <p class="text-center text-[#8B95A8]">No articles available yet. Check back soon!</p>
       ) : (
-        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
+        <div class="max-w-3xl mx-auto space-y-6">
           {stories.map((story) => (
             <a
               href={`/read/${story.slug}/`}
-              class="group rounded-2xl bg-[#141C2C] border border-[#1E2A3C] p-6 transition hover:border-[#2DD4A8]/30 hover:shadow-glow"
+              class="group block rounded-2xl bg-[#141C2C] border border-[#1E2A3C] p-6 transition hover:border-[#2DD4A8]/30 hover:shadow-glow"
             >
               <div class="flex items-center gap-2 mb-3">
                 {story.level && (
@@ -81,47 +64,24 @@ function getLanguageLabel(code: string): string {
                     {story.level}
                   </span>
                 )}
-                <div class="flex gap-1 flex-wrap">
-                  {(() => {
-                    const langs = Object.keys(story.translations);
-                    const maxVisible = 4;
-                    const visibleLangs = langs.slice(0, maxVisible);
-                    const remainingCount = langs.length - maxVisible;
-
-                    return (
-                      <>
-                        {visibleLangs.map((lang) => (
-                          <span class="rounded-full bg-[#1C2537] border border-[#2A3548] px-2 py-0.5 text-[10px] font-medium text-[#8B95A8] uppercase">
-                            {lang}
-                          </span>
-                        ))}
-                        {remainingCount > 0 && (
-                          <span class="rounded-full bg-[#1C2537] border border-[#2A3548] px-2 py-0.5 text-[10px] font-medium text-[#8B95A8]">
-                            +{remainingCount}
-                          </span>
-                        )}
-                      </>
-                    );
-                  })()}
-                </div>
+                {story.tags && story.tags.length > 0 && (
+                  <div class="flex flex-wrap gap-1.5">
+                    {story.tags.map((tag) => (
+                      <span class="inline-flex items-center rounded-full bg-[#151E2E] border border-[#242E40] px-2.5 py-0.5 text-xs font-medium text-[#C0C8D8]">
+                        {tag.replace(/-/g, ' ')}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
-              <h2 class="text-lg font-semibold text-white group-hover:text-[#2DD4A8] transition-colors">
+              <h2 class="text-xl font-semibold text-white group-hover:text-[#2DD4A8] transition-colors">
                 {story.title}
               </h2>
-              <p class="mt-2 text-sm text-[#8B95A8] leading-relaxed">
+              <p class="mt-2 text-[#8B95A8] leading-relaxed">
                 {story.cardDescription ?? story.description}
               </p>
-              {story.tags && story.tags.length > 0 && (
-                <div class="mt-3 flex flex-wrap gap-1.5">
-                  {story.tags.map((tag) => (
-                    <span class="inline-flex items-center rounded-full bg-[#151E2E] border border-[#242E40] px-2.5 py-0.5 text-xs font-medium text-[#C0C8D8]">
-                      {tag.replace(/-/g, ' ')}
-                    </span>
-                  ))}
-                </div>
-              )}
               <p class="mt-4 text-sm font-medium text-[#2DD4A8] group-hover:text-[#25B892] transition-colors inline-flex items-center gap-1">
-                Start reading
+                Read article
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
                 </svg>
