@@ -1,0 +1,4104 @@
+{
+  "title": "Why You Can Read English But Can't Understand Movies",
+  "slug": "why-you-can-read-english-but-cant-understand-movies",
+  "description": "Why can reading English feel easy while movies and podcasts still sound like noise? Learn how connected speech, reductions, speed, slang, and culture create the listening gap — and how to train your ear with practical listening routines.",
+  "level": "B2",
+  "appUrl": "https://app.readerly.ai/story/482ce54a-f028-47ed-a9e1-1f1fd83556c8?utm_source=blog&utm_medium=word-banner&utm_campaign=why-you-can-read-english-but-cant-understand-movies",
+  "text": "Many English learners have a confusing experience: they can read articles, messages, and even books in English, but a movie or podcast still feels like noise. This does not mean their English is bad. It means reading and listening are different skills.\n\nWhen you read, the words stay on the page. You can stop, go back, check spelling, and use punctuation to understand the structure. Listening is different. The sound arrives once, at the speaker’s speed. Your brain must catch the sounds, divide them into words, remember the sentence, and understand the meaning before the next sentence arrives.\n\nNatural spoken English also does not sound like dictionary English. Speakers connect words together. “Want to” becomes “wanna.” “Going to” becomes “gonna.” “Did you” can sound like “didja.” Small words such as “to,” “of,” “have,” and “can” often become very weak. You may know all these words on paper, but miss them in speech because they are shorter, softer, or joined to other words.\n\nSpeed is another problem. In movies and podcasts, people interrupt each other, change pace, speak with emotion, or talk over background music. English rhythm makes this harder because stressed words are strong, while unstressed words are squeezed between them. Learners often try to hear every word equally, but native speakers do not say every word equally.\n\nSlang and culture add one more layer. A written article is usually edited and organized. A movie scene may include jokes, unfinished sentences, idioms, sarcasm, accents, and references that are not explained. Podcasts can be even harder because there is no visual support. You cannot see the speaker’s face, gestures, or situation.\n\nThe good news is that this gap can be trained. The best practice is not simply “watch more movies.” Passive watching helps a little, but active listening helps much more.\n\nTry short-loop listening. Choose twenty to forty seconds of audio. Listen once without subtitles. Then read the transcript and mark where the sound surprised you. Did “going to” sound like “gonna”? Did two words become one sound? Then listen again without the transcript. This trains your ear to connect real sound with words you already know.\n\nShadowing is also useful. Pick one sentence and repeat it after the speaker. Do not only copy the individual words. Copy the rhythm, stress, and reductions. For example, “What are you going to do?” may sound like “Whaddaya gonna do?” Saying the reduced version helps you recognize it later.\n\nLearn chunks, not only single words. Save phrases such as “I was supposed to,” “kind of like,” “you know what I mean,” and “at the end of the day.” These common chunks often appear in movies and podcasts, and speakers pronounce them as one sound group.\n\nIt is also fine to slow audio down. Listening at 0.8x speed or using subtitles after a first attempt is not cheating. The key is to return to the original speed later. Support is useful when it helps you train, not when it replaces listening.\n\nA simple weekly routine works well: choose one short scene or podcast segment, listen actively for ten minutes, compare it with the transcript, shadow three useful sentences, and save five chunks. This is better than watching two hours passively. Over time, spoken English becomes less like noise and more like language.",
+  "words": {
+    "0": {
+      "word": "many",
+      "pos": "determiner",
+      "example": "Many people like to read books."
+    },
+    "5": {
+      "word": "English",
+      "pos": "proper noun",
+      "example": "She speaks English very well."
+    },
+    "13": {
+      "word": "learner",
+      "pos": "plural noun",
+      "example": "The learner studies English every day."
+    },
+    "22": {
+      "word": "have",
+      "pos": "present tense verb",
+      "example": "I have a new idea for the project."
+    },
+    "29": {
+      "word": "confusing",
+      "pos": "present participle adjective",
+      "example": "This puzzle is very confusing."
+    },
+    "39": {
+      "word": "experience",
+      "pos": "singular noun",
+      "example": "She has a lot of work experience."
+    },
+    "51": {
+      "word": "they",
+      "pos": "third person plural pronoun",
+      "example": "They are going to the park today."
+    },
+    "56": {
+      "word": "can",
+      "pos": "modal verb, base form",
+      "example": "I can swim very well."
+    },
+    "60": {
+      "word": "read",
+      "pos": "base form verb",
+      "example": "I read books every day."
+    },
+    "65": {
+      "word": "articles",
+      "pos": "plural noun",
+      "example": "She reads articles every morning."
+    },
+    "75": {
+      "word": "message",
+      "pos": "plural noun",
+      "example": "I sent you a message yesterday."
+    },
+    "85": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "89": {
+      "word": "even if",
+      "pos": "conjunction phrase",
+      "example": "Even if it rains, we will go."
+    },
+    "94": {
+      "word": "book",
+      "pos": "plural noun",
+      "example": "I borrowed a book from the library."
+    },
+    "100": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "She is in the room."
+    },
+    "103": {
+      "word": "English",
+      "pos": "proper noun, singular",
+      "example": "I am learning English at school."
+    },
+    "112": {
+      "word": "but",
+      "pos": "coordinating conjunction",
+      "example": "I want to go, but I am tired."
+    },
+    "118": {
+      "word": "movie",
+      "pos": "singular noun",
+      "example": "I watch a movie every weekend."
+    },
+    "124": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "Would you like tea or coffee?"
+    },
+    "127": {
+      "word": "podcast",
+      "pos": "singular noun",
+      "example": "I listen to a podcast every morning."
+    },
+    "135": {
+      "word": "still",
+      "pos": "adverb",
+      "example": "She is still waiting for the bus."
+    },
+    "141": {
+      "word": "feel like",
+      "pos": "third person singular present verb",
+      "example": "This movie feels like a dream."
+    },
+    "147": {
+      "word": "feel like",
+      "pos": "present tense verb phrase",
+      "example": "I feel like going to the park."
+    },
+    "152": {
+      "word": "noise",
+      "pos": "singular noun",
+      "example": "The noise outside is very loud."
+    },
+    "159": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is my favorite book."
+    },
+    "164": {
+      "word": "do",
+      "pos": "present tense verb, 3rd person singular",
+      "example": "I do my homework every day."
+    },
+    "169": {
+      "word": "not only",
+      "pos": "adverb + adverb",
+      "example": "She is not only smart but also kind."
+    },
+    "173": {
+      "word": "mean",
+      "pos": "base form verb",
+      "example": "I mean what I say."
+    },
+    "178": {
+      "word": "their",
+      "pos": "possessive determiner",
+      "example": "Their house is near the park."
+    },
+    "184": {
+      "word": "English",
+      "pos": "proper noun",
+      "example": "English is spoken worldwide."
+    },
+    "192": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "He is a good friend."
+    },
+    "195": {
+      "word": "bad",
+      "pos": "adjective",
+      "example": "That is a bad idea."
+    },
+    "200": {
+      "word": "it",
+      "pos": "personal pronoun",
+      "example": "It is raining today."
+    },
+    "203": {
+      "word": "mean",
+      "pos": "third person singular present tense verb",
+      "example": "What does this word mean?"
+    },
+    "209": {
+      "word": "reading",
+      "pos": "gerund form",
+      "example": "Reading helps improve your vocabulary."
+    },
+    "217": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "221": {
+      "word": "listening",
+      "pos": "gerund form",
+      "example": "Listening helps improve your language skills."
+    },
+    "231": {
+      "word": "be",
+      "pos": "present tense auxiliary verb",
+      "example": "They are happy with the results."
+    },
+    "235": {
+      "word": "different",
+      "pos": "adjective",
+      "example": "They have different opinions on the topic."
+    },
+    "245": {
+      "word": "skill",
+      "pos": "plural noun",
+      "example": "She has great skill in painting."
+    },
+    "254": {
+      "word": "when",
+      "pos": "subordinating conjunction",
+      "example": "Call me when you arrive."
+    },
+    "259": {
+      "word": "you",
+      "pos": "personal pronoun",
+      "example": "You are my best friend."
+    },
+    "263": {
+      "word": "read",
+      "pos": "base form verb",
+      "example": "I read a book every night."
+    },
+    "273": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "I write a new word every day."
+    },
+    "279": {
+      "word": "stay",
+      "pos": "base form verb",
+      "example": "I stay at home on weekends."
+    },
+    "284": {
+      "word": "draw on",
+      "pos": "present tense verb + preposition",
+      "example": "Writers often draw on personal experiences."
+    },
+    "291": {
+      "word": "page",
+      "pos": "singular noun",
+      "example": "Turn the page to continue reading."
+    },
+    "297": {
+      "word": "you",
+      "pos": "personal pronoun",
+      "example": "You are my best friend."
+    },
+    "301": {
+      "word": "can",
+      "pos": "modal verb, base form",
+      "example": "I can swim very well."
+    },
+    "305": {
+      "word": "stop",
+      "pos": "base form verb",
+      "example": "Please stop when the light turns red."
+    },
+    "314": {
+      "word": "go back",
+      "pos": "base form verb + adverb",
+      "example": "I need to go back to the store."
+    },
+    "320": {
+      "word": "check",
+      "pos": "base form verb",
+      "example": "I always check my work carefully."
+    },
+    "326": {
+      "word": "spelling",
+      "pos": "gerund/noun form",
+      "example": "Good spelling helps people read clearly."
+    },
+    "336": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "340": {
+      "word": "use",
+      "pos": "base form verb",
+      "example": "I use a pen to write."
+    },
+    "344": {
+      "word": "punctuation",
+      "pos": "singular noun",
+      "example": "Correct punctuation helps readers understand sentences."
+    },
+    "356": {
+      "word": "complain to",
+      "pos": "infinitive particle",
+      "example": "They complain to the manager about noise."
+    },
+    "359": {
+      "word": "understand",
+      "pos": "base form verb",
+      "example": "I understand the lesson clearly."
+    },
+    "374": {
+      "word": "structure",
+      "pos": "singular noun",
+      "example": "The structure of the building is strong."
+    },
+    "385": {
+      "word": "listening",
+      "pos": "gerund form",
+      "example": "Listening helps improve your language skills."
+    },
+    "395": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "He is a good friend."
+    },
+    "398": {
+      "word": "different",
+      "pos": "adjective",
+      "example": "This book is different from that one."
+    },
+    "413": {
+      "word": "sound",
+      "pos": "singular noun",
+      "example": "The sound is very loud."
+    },
+    "419": {
+      "word": "arrive",
+      "pos": "third person singular present verb",
+      "example": "He arrives early every day."
+    },
+    "427": {
+      "word": "once",
+      "pos": "adverb",
+      "example": "I visited Paris once last year."
+    },
+    "433": {
+      "word": "at",
+      "pos": "preposition",
+      "example": "She is at home now."
+    },
+    "440": {
+      "word": "speaker",
+      "pos": "singular noun",
+      "example": "The speaker is very loud."
+    },
+    "450": {
+      "word": "speed",
+      "pos": "singular noun",
+      "example": "The car can reach high speed quickly."
+    },
+    "457": {
+      "word": "your",
+      "pos": "possessive determiner",
+      "example": "Is this your book?"
+    },
+    "462": {
+      "word": "brain",
+      "pos": "singular noun",
+      "example": "The brain controls all body functions."
+    },
+    "468": {
+      "word": "must",
+      "pos": "modal verb, present",
+      "example": "You must finish your homework."
+    },
+    "473": {
+      "word": "catch",
+      "pos": "base form verb",
+      "example": "I catch the ball quickly."
+    },
+    "483": {
+      "word": "sound",
+      "pos": "plural noun",
+      "example": "The sound of birds wakes me up."
+    },
+    "491": {
+      "word": "divide",
+      "pos": "base form verb",
+      "example": "We divide the cake into equal parts."
+    },
+    "498": {
+      "word": "them",
+      "pos": "personal pronoun, plural",
+      "example": "I saw them at the park yesterday."
+    },
+    "503": {
+      "word": "move into",
+      "pos": "present tense verb + preposition",
+      "example": "The sun moves into the horizon."
+    },
+    "508": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "I write each word carefully."
+    },
+    "515": {
+      "word": "remember",
+      "pos": "base form verb",
+      "example": "I remember my first day at school."
+    },
+    "528": {
+      "word": "sentence",
+      "pos": "singular noun",
+      "example": "This is a long sentence."
+    },
+    "538": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "542": {
+      "word": "understand",
+      "pos": "base form verb",
+      "example": "I understand the instructions clearly."
+    },
+    "557": {
+      "word": "meaning",
+      "pos": "singular noun",
+      "example": "The meaning of this word is unclear."
+    },
+    "565": {
+      "word": "before",
+      "pos": "preposition",
+      "example": "She finishes her work before lunch."
+    },
+    "576": {
+      "word": "next",
+      "pos": "adjective",
+      "example": "I will read the next chapter."
+    },
+    "581": {
+      "word": "sentence",
+      "pos": "singular noun",
+      "example": "She wrote a long sentence in her essay."
+    },
+    "590": {
+      "word": "arrive",
+      "pos": "third person singular present verb",
+      "example": "She will arrive at noon."
+    },
+    "600": {
+      "word": "natural",
+      "pos": "adjective, singular",
+      "example": "She has a natural talent for music."
+    },
+    "608": {
+      "word": "spoken English",
+      "pos": "past participle adjective",
+      "example": "Spoken English can differ from written English."
+    },
+    "615": {
+      "word": "English",
+      "pos": "proper noun",
+      "example": "She speaks English very well."
+    },
+    "623": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "She also likes to read books."
+    },
+    "628": {
+      "word": "do",
+      "pos": "third person singular present verb",
+      "example": "I do my homework every day."
+    },
+    "633": {
+      "word": "not only",
+      "pos": "adverb + adverb",
+      "example": "She is not only smart but also kind."
+    },
+    "637": {
+      "word": "sound",
+      "pos": "base form verb",
+      "example": "The music sound good."
+    },
+    "643": {
+      "word": "sound like",
+      "pos": "base form verb + preposition",
+      "example": "You sound like you are tired."
+    },
+    "648": {
+      "word": "dictionary English",
+      "pos": "noun phrase",
+      "example": "He studied dictionary English to improve."
+    },
+    "659": {
+      "word": "English",
+      "pos": "proper noun, singular",
+      "example": "I am learning English at school."
+    },
+    "668": {
+      "word": "speaker",
+      "pos": "plural noun",
+      "example": "The speaker produces clear sound."
+    },
+    "677": {
+      "word": "connect",
+      "pos": "base form verb",
+      "example": "I connect the dots slowly."
+    },
+    "685": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "I learned a new word today."
+    },
+    "691": {
+      "word": "connect together",
+      "pos": "adverb",
+      "example": "We connect ideas together easily."
+    },
+    "702": {
+      "word": "want to",
+      "pos": "base form verb + particle",
+      "example": "I want to go home."
+    },
+    "707": {
+      "word": "complain to",
+      "pos": "infinitive particle",
+      "example": "They complain to the manager about noise."
+    },
+    "711": {
+      "word": "become",
+      "pos": "third person singular present verb",
+      "example": "She becomes happy when it rains."
+    },
+    "720": {
+      "word": "want to",
+      "pos": "contracted form of verb + particle",
+      "example": "I want to go to the park."
+    },
+    "729": {
+      "word": "go",
+      "pos": "gerund form",
+      "example": "I am going to the store."
+    },
+    "735": {
+      "word": "complain to",
+      "pos": "infinitive particle",
+      "example": "They complain to the manager about noise."
+    },
+    "739": {
+      "word": "become",
+      "pos": "third person singular present verb",
+      "example": "She becomes happy when she sings."
+    },
+    "748": {
+      "word": "be going to",
+      "pos": "informal contraction, present continuous",
+      "example": "I am going to eat now."
+    },
+    "757": {
+      "word": "did",
+      "pos": "past tense verb",
+      "example": "Did you go to school today?"
+    },
+    "761": {
+      "word": "you",
+      "pos": "personal pronoun",
+      "example": "You are my best friend."
+    },
+    "766": {
+      "word": "can",
+      "pos": "modal verb, base form",
+      "example": "I can swim very well."
+    },
+    "770": {
+      "word": "sound like",
+      "pos": "base form verb + particle",
+      "example": "These words sound like each other."
+    },
+    "776": {
+      "word": "sound like",
+      "pos": "base form verb + preposition",
+      "example": "You sound like a great singer."
+    },
+    "782": {
+      "word": "did you",
+      "pos": "contracted auxiliary + pronoun",
+      "example": "Did you see the movie yesterday?"
+    },
+    "790": {
+      "word": "small",
+      "pos": "adjective, singular",
+      "example": "I have a small dog."
+    },
+    "796": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "I learn a new word every day."
+    },
+    "802": {
+      "word": "such as",
+      "pos": "demonstrative pronoun + preposition",
+      "example": "Cities such as Rome are ancient."
+    },
+    "807": {
+      "word": "as",
+      "pos": "conjunction",
+      "example": "She works as a teacher."
+    },
+    "811": {
+      "word": "complain to",
+      "pos": "infinitive particle",
+      "example": "They complain to the manager about noise."
+    },
+    "817": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The cover of the book is red."
+    },
+    "823": {
+      "word": "have",
+      "pos": "present tense verb",
+      "example": "I have a new idea for the project."
+    },
+    "830": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "835": {
+      "word": "can",
+      "pos": "modal verb, base form",
+      "example": "I can swim very well."
+    },
+    "840": {
+      "word": "often",
+      "pos": "adverb",
+      "example": "She often visits her grandmother."
+    },
+    "846": {
+      "word": "become",
+      "pos": "base form verb",
+      "example": "They become tired after running."
+    },
+    "853": {
+      "word": "very",
+      "pos": "adverb",
+      "example": "She is very happy today."
+    },
+    "858": {
+      "word": "weak",
+      "pos": "adjective",
+      "example": "Her voice sounds weak after the illness."
+    },
+    "864": {
+      "word": "you",
+      "pos": "personal pronoun",
+      "example": "You are my best friend."
+    },
+    "868": {
+      "word": "may",
+      "pos": "modal verb, present tense",
+      "example": "You may leave early today."
+    },
+    "872": {
+      "word": "know",
+      "pos": "base form verb",
+      "example": "I know the answer to your question."
+    },
+    "877": {
+      "word": "all",
+      "pos": "determiner",
+      "example": "All people like music."
+    },
+    "881": {
+      "word": "these",
+      "pos": "demonstrative determiner",
+      "example": "These books are very interesting."
+    },
+    "887": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "I learned a new word today."
+    },
+    "893": {
+      "word": "draw on",
+      "pos": "present tense verb + preposition",
+      "example": "Writers often draw on personal experiences."
+    },
+    "896": {
+      "word": "on paper",
+      "pos": "prepositional phrase",
+      "example": "The plan looks good on paper."
+    },
+    "903": {
+      "word": "but",
+      "pos": "coordinating conjunction",
+      "example": "I want to go, but I am tired."
+    },
+    "907": {
+      "word": "miss",
+      "pos": "base form verb",
+      "example": "I often miss key details in conversations."
+    },
+    "912": {
+      "word": "them",
+      "pos": "personal pronoun, plural",
+      "example": "I saw them at the park yesterday."
+    },
+    "917": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "She is in the room."
+    },
+    "920": {
+      "word": "speech",
+      "pos": "singular noun",
+      "example": "She gave a clear speech yesterday."
+    },
+    "927": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "I stayed inside because it was raining."
+    },
+    "935": {
+      "word": "they",
+      "pos": "third person plural pronoun",
+      "example": "They are going to the park today."
+    },
+    "940": {
+      "word": "be",
+      "pos": "present tense auxiliary verb",
+      "example": "They are happy with the results."
+    },
+    "944": {
+      "word": "short",
+      "pos": "comparative adjective",
+      "example": "This route is shorter than the other."
+    },
+    "953": {
+      "word": "softer",
+      "pos": "comparative adjective",
+      "example": "This pillow is softer than that one."
+    },
+    "961": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "Would you like tea or coffee?"
+    },
+    "964": {
+      "word": "join",
+      "pos": "past tense verb",
+      "example": "I join the club today."
+    },
+    "971": {
+      "word": "complain to",
+      "pos": "infinitive particle",
+      "example": "They complain to the manager about noise."
+    },
+    "974": {
+      "word": "other",
+      "pos": "adjective",
+      "example": "I have two books; I prefer the other."
+    },
+    "980": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "I learned a new word today."
+    },
+    "988": {
+      "word": "speed",
+      "pos": "singular noun",
+      "example": "The car can reach high speed."
+    },
+    "994": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "He is a good friend."
+    },
+    "997": {
+      "word": "another",
+      "pos": "determiner",
+      "example": "I need another cup of coffee."
+    },
+    "1005": {
+      "word": "problem",
+      "pos": "singular noun",
+      "example": "This is a big problem."
+    },
+    "1014": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "She is in the room."
+    },
+    "1017": {
+      "word": "movie",
+      "pos": "plural noun",
+      "example": "I like to watch a movie on weekends."
+    },
+    "1024": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "1028": {
+      "word": "podcast",
+      "pos": "plural noun",
+      "example": "I listen to a podcast every morning."
+    },
+    "1038": {
+      "word": "people",
+      "pos": "plural noun",
+      "example": "People often enjoy listening to music."
+    },
+    "1045": {
+      "word": "interrupt",
+      "pos": "base form verb",
+      "example": "Please do not interrupt me while speaking."
+    },
+    "1055": {
+      "word": "each",
+      "pos": "determiner",
+      "example": "Each student has a book."
+    },
+    "1060": {
+      "word": "each other",
+      "pos": "reciprocal pronoun",
+      "example": "They respect each other in class."
+    },
+    "1067": {
+      "word": "change pace",
+      "pos": "base form verb + noun",
+      "example": "I often change pace when I run."
+    },
+    "1074": {
+      "word": "change pace",
+      "pos": "base form verb phrase",
+      "example": "Actors often change pace during a play."
+    },
+    "1080": {
+      "word": "speak",
+      "pos": "base form verb",
+      "example": "I speak clearly during presentations."
+    },
+    "1086": {
+      "word": "with",
+      "pos": "preposition",
+      "example": "She walked with her friend to school."
+    },
+    "1091": {
+      "word": "emotion",
+      "pos": "singular noun",
+      "example": "She felt a strong emotion during the movie."
+    },
+    "1100": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "Would you like tea or coffee?"
+    },
+    "1103": {
+      "word": "talk over",
+      "pos": "base form verb + particle",
+      "example": "They talk over the music during the party."
+    },
+    "1108": {
+      "word": "over time",
+      "pos": "preposition",
+      "example": "Plants grow over time."
+    },
+    "1113": {
+      "word": "background music",
+      "pos": "noun phrase",
+      "example": "She played background music during dinner."
+    },
+    "1124": {
+      "word": "background music",
+      "pos": "noun phrase",
+      "example": "She likes to listen to background music."
+    },
+    "1131": {
+      "word": "English",
+      "pos": "proper noun",
+      "example": "I speak English every day."
+    },
+    "1139": {
+      "word": "rhythm",
+      "pos": "singular noun",
+      "example": "Music often follows a steady rhythm."
+    },
+    "1146": {
+      "word": "make",
+      "pos": "third person singular present verb",
+      "example": "She makes a delicious cake."
+    },
+    "1152": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is my favorite book."
+    },
+    "1157": {
+      "word": "harder",
+      "pos": "comparative adjective",
+      "example": "This problem is harder than the last one."
+    },
+    "1164": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "I stayed inside because it was raining."
+    },
+    "1172": {
+      "word": "stressed word",
+      "pos": "past participle adjective",
+      "example": "The stressed word is louder in the sentence."
+    },
+    "1181": {
+      "word": "stressed word",
+      "pos": "plural noun",
+      "example": "The stressed word is louder in the sentence."
+    },
+    "1187": {
+      "word": "be",
+      "pos": "present tense auxiliary verb",
+      "example": "They are happy with the results."
+    },
+    "1191": {
+      "word": "strong",
+      "pos": "adjective",
+      "example": "He has a strong voice."
+    },
+    "1199": {
+      "word": "while",
+      "pos": "conjunction",
+      "example": "I read a book while eating dinner."
+    },
+    "1205": {
+      "word": "unstressed",
+      "pos": "past participle adjective",
+      "example": "The second syllable is unstressed in this word."
+    },
+    "1216": {
+      "word": "stressed word",
+      "pos": "plural noun",
+      "example": "Stressed words carry the main emphasis."
+    },
+    "1222": {
+      "word": "be",
+      "pos": "present tense auxiliary verb",
+      "example": "They are happy with the results."
+    },
+    "1226": {
+      "word": "squeeze",
+      "pos": "past tense verb",
+      "example": "Please squeeze the lemon to get juice."
+    },
+    "1235": {
+      "word": "read between the lines",
+      "pos": "preposition in fixed idiom",
+      "example": "You need to read between the lines to understand."
+    },
+    "1243": {
+      "word": "them",
+      "pos": "personal pronoun, plural",
+      "example": "I saw them at the park yesterday."
+    },
+    "1249": {
+      "word": "learner",
+      "pos": "plural noun",
+      "example": "A learner studies new languages every day."
+    },
+    "1258": {
+      "word": "often",
+      "pos": "adverb",
+      "example": "She often visits her grandmother."
+    },
+    "1264": {
+      "word": "try",
+      "pos": "base form verb",
+      "example": "I try to learn new words every day."
+    },
+    "1268": {
+      "word": "complain to",
+      "pos": "infinitive particle",
+      "example": "They complain to the manager about noise."
+    },
+    "1271": {
+      "word": "hear",
+      "pos": "base form verb",
+      "example": "I can hear the music clearly."
+    },
+    "1276": {
+      "word": "every",
+      "pos": "determiner",
+      "example": "Every student should study hard."
+    },
+    "1282": {
+      "word": "word",
+      "pos": "singular noun",
+      "example": "Please write the word clearly."
+    },
+    "1287": {
+      "word": "equally",
+      "pos": "adverb",
+      "example": "They share the cake equally."
+    },
+    "1296": {
+      "word": "but",
+      "pos": "coordinating conjunction",
+      "example": "I want to go, but I am tired."
+    },
+    "1300": {
+      "word": "native speaker",
+      "pos": "adjective + noun",
+      "example": "She is a native speaker of Spanish."
+    },
+    "1307": {
+      "word": "native speaker",
+      "pos": "plural noun",
+      "example": "She is a native speaker of Spanish."
+    },
+    "1319": {
+      "word": "not only",
+      "pos": "adverb + adverb",
+      "example": "She is not only smart but also kind."
+    },
+    "1323": {
+      "word": "say",
+      "pos": "base form verb",
+      "example": "I say hello to my friends every day."
+    },
+    "1327": {
+      "word": "every",
+      "pos": "determiner",
+      "example": "Every student should study hard."
+    },
+    "1333": {
+      "word": "word",
+      "pos": "singular noun",
+      "example": "Please say the word clearly."
+    },
+    "1338": {
+      "word": "equally",
+      "pos": "adverb",
+      "example": "They share the money equally."
+    },
+    "1348": {
+      "word": "slang",
+      "pos": "singular noun",
+      "example": "Slang is common among teenagers."
+    },
+    "1354": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "1358": {
+      "word": "culture",
+      "pos": "singular noun",
+      "example": "Culture shapes how people behave."
+    },
+    "1366": {
+      "word": "add",
+      "pos": "base form verb",
+      "example": "Please add sugar to the recipe."
+    },
+    "1370": {
+      "word": "one",
+      "pos": "indefinite pronoun",
+      "example": "One should always be careful."
+    },
+    "1374": {
+      "word": "more",
+      "pos": "comparative adverb",
+      "example": "She wants more cake."
+    },
+    "1379": {
+      "word": "layer",
+      "pos": "singular noun",
+      "example": "Add a layer of paint to the wall."
+    },
+    "1388": {
+      "word": "written",
+      "pos": "past participle adjective",
+      "example": "She has written many books."
+    },
+    "1396": {
+      "word": "article",
+      "pos": "singular noun",
+      "example": "She wrote an interesting article."
+    },
+    "1404": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "He is a good friend."
+    },
+    "1407": {
+      "word": "usually",
+      "pos": "adverb",
+      "example": "I usually walk to work."
+    },
+    "1415": {
+      "word": "edit",
+      "pos": "past participle verb",
+      "example": "I edit articles every day."
+    },
+    "1422": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "1426": {
+      "word": "organize",
+      "pos": "past tense verb",
+      "example": "I organize my desk every week."
+    },
+    "1439": {
+      "word": "movie",
+      "pos": "singular noun",
+      "example": "I watched a movie last night."
+    },
+    "1445": {
+      "word": "scene",
+      "pos": "singular noun",
+      "example": "The movie has a funny scene."
+    },
+    "1451": {
+      "word": "may",
+      "pos": "modal verb present tense",
+      "example": "You may leave early today."
+    },
+    "1455": {
+      "word": "include",
+      "pos": "base form verb",
+      "example": "The list includes many famous artists."
+    },
+    "1463": {
+      "word": "joke",
+      "pos": "plural noun",
+      "example": "He tells a funny joke every day."
+    },
+    "1470": {
+      "word": "unfinished",
+      "pos": "past participle adjective",
+      "example": "The project is unfinished and needs work."
+    },
+    "1481": {
+      "word": "sentence",
+      "pos": "plural noun",
+      "example": "The sentence is easy to understand."
+    },
+    "1492": {
+      "word": "idiom",
+      "pos": "plural noun",
+      "example": "She learned a new idiom today."
+    },
+    "1500": {
+      "word": "sarcasm",
+      "pos": "singular noun",
+      "example": "He often uses sarcasm to make his point."
+    },
+    "1509": {
+      "word": "accents",
+      "pos": "plural noun",
+      "example": "She has a strong French accent."
+    },
+    "1518": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "1522": {
+      "word": "reference",
+      "pos": "plural noun",
+      "example": "The book has many historical references."
+    },
+    "1533": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is my book on the table."
+    },
+    "1538": {
+      "word": "be",
+      "pos": "present tense auxiliary verb",
+      "example": "They are happy with the results."
+    },
+    "1542": {
+      "word": "not only",
+      "pos": "adverb + adverb",
+      "example": "She is not only smart but also kind."
+    },
+    "1546": {
+      "word": "explain",
+      "pos": "past tense verb",
+      "example": "Please explain the rules clearly."
+    },
+    "1557": {
+      "word": "podcast",
+      "pos": "plural noun",
+      "example": "I listen to a podcast every morning."
+    },
+    "1566": {
+      "word": "can",
+      "pos": "modal verb, base form",
+      "example": "I can swim very well."
+    },
+    "1570": {
+      "word": "must be restrained",
+      "pos": "modal verb + base verb (passive)",
+      "example": "The dog must be restrained in public."
+    },
+    "1573": {
+      "word": "even if",
+      "pos": "conjunction phrase",
+      "example": "Even if it rains, we will go."
+    },
+    "1578": {
+      "word": "hard",
+      "pos": "comparative adjective",
+      "example": "This test is hard for everyone."
+    },
+    "1585": {
+      "word": "because",
+      "pos": "subordinating conjunction",
+      "example": "I stayed inside because it was raining."
+    },
+    "1593": {
+      "word": "there",
+      "pos": "adverb",
+      "example": "There is a book on the table."
+    },
+    "1599": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "He is a good friend."
+    },
+    "1602": {
+      "word": "no",
+      "pos": "adverb",
+      "example": "There is no water in the bottle."
+    },
+    "1605": {
+      "word": "visual support",
+      "pos": "adjective + noun",
+      "example": "Visual support helps with understanding."
+    },
+    "1612": {
+      "word": "visual support",
+      "pos": "noun phrase",
+      "example": "The teacher provided visual support in the lesson."
+    },
+    "1621": {
+      "word": "you",
+      "pos": "personal pronoun",
+      "example": "You are my best friend."
+    },
+    "1625": {
+      "word": "cannot be negotiated away",
+      "pos": "modal verb + base verb",
+      "example": "You cannot be late to the meeting."
+    },
+    "1632": {
+      "word": "see",
+      "pos": "base form verb",
+      "example": "I see the stars in the sky."
+    },
+    "1640": {
+      "word": "speaker",
+      "pos": "singular noun",
+      "example": "The speaker gave an interesting speech."
+    },
+    "1650": {
+      "word": "face",
+      "pos": "singular noun",
+      "example": "She washed her face in the morning."
+    },
+    "1656": {
+      "word": "gesture",
+      "pos": "plural noun",
+      "example": "She makes a friendly gesture."
+    },
+    "1666": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "Would you like tea or coffee?"
+    },
+    "1669": {
+      "word": "situation",
+      "pos": "singular noun",
+      "example": "The situation is under control."
+    },
+    "1685": {
+      "word": "good news",
+      "pos": "adjective + noun",
+      "example": "I have good news for you."
+    },
+    "1690": {
+      "word": "good news",
+      "pos": "plural noun",
+      "example": "Good news always makes me smile."
+    },
+    "1695": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "He is a good friend."
+    },
+    "1698": {
+      "word": "that",
+      "pos": "demonstrative pronoun",
+      "example": "That is my book on the table."
+    },
+    "1703": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is my favorite book."
+    },
+    "1708": {
+      "word": "gap",
+      "pos": "singular noun",
+      "example": "There is a gap between the buildings."
+    },
+    "1712": {
+      "word": "can",
+      "pos": "modal verb, base form",
+      "example": "I can swim very well."
+    },
+    "1716": {
+      "word": "must be restrained",
+      "pos": "modal verb + base verb (passive)",
+      "example": "The dog must be restrained in public."
+    },
+    "1719": {
+      "word": "train",
+      "pos": "past participle verb",
+      "example": "She trains every day to improve."
+    },
+    "1732": {
+      "word": "best practice",
+      "pos": "superlative adjective",
+      "example": "Following best practice improves results."
+    },
+    "1737": {
+      "word": "practice",
+      "pos": "singular noun",
+      "example": "Practice makes perfect."
+    },
+    "1746": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "He is a good friend."
+    },
+    "1749": {
+      "word": "not only",
+      "pos": "adverb + adverb",
+      "example": "She is not only smart but also kind."
+    },
+    "1753": {
+      "word": "simply",
+      "pos": "adverb",
+      "example": "She simply does not agree with that."
+    },
+    "1761": {
+      "word": "watch",
+      "pos": "base form verb",
+      "example": "I like to watch movies on weekends."
+    },
+    "1767": {
+      "word": "more",
+      "pos": "comparative adverb",
+      "example": "I want to read more books."
+    },
+    "1772": {
+      "word": "movie",
+      "pos": "plural noun",
+      "example": "I watch a movie every weekend."
+    },
+    "1781": {
+      "word": "passive",
+      "pos": "adjective",
+      "example": "She has a passive attitude towards problems."
+    },
+    "1789": {
+      "word": "watch",
+      "pos": "gerund form",
+      "example": "I watch movies every weekend."
+    },
+    "1798": {
+      "word": "help",
+      "pos": "third person singular present verb",
+      "example": "She helps her friend with homework."
+    },
+    "1806": {
+      "word": "little",
+      "pos": "adjective",
+      "example": "I have little time today."
+    },
+    "1814": {
+      "word": "but",
+      "pos": "coordinating conjunction",
+      "example": "I want to go, but I am tired."
+    },
+    "1818": {
+      "word": "active listening",
+      "pos": "adjective modifying noun",
+      "example": "Active listening improves communication."
+    },
+    "1825": {
+      "word": "listen",
+      "pos": "gerund form",
+      "example": "I like to listen to music every day."
+    },
+    "1835": {
+      "word": "help",
+      "pos": "third person singular present verb",
+      "example": "She helps her friends every day."
+    },
+    "1841": {
+      "word": "much",
+      "pos": "adjective",
+      "example": "She has much experience in racing."
+    },
+    "1846": {
+      "word": "more",
+      "pos": "comparative adverb",
+      "example": "I want more coffee, please."
+    },
+    "1853": {
+      "word": "try",
+      "pos": "base form verb",
+      "example": "Try to finish your homework."
+    },
+    "1857": {
+      "word": "short-loop",
+      "pos": "compound adjective",
+      "example": "Use a short-loop to practice listening."
+    },
+    "1868": {
+      "word": "listening",
+      "pos": "gerund form",
+      "example": "Listening to music helps me relax."
+    },
+    "1879": {
+      "word": "choose",
+      "pos": "base form verb",
+      "example": "Choose the best option available."
+    },
+    "1886": {
+      "word": "twenty",
+      "pos": "cardinal number",
+      "example": "I have twenty apples in my basket."
+    },
+    "1893": {
+      "word": "complain to",
+      "pos": "infinitive particle",
+      "example": "They complain to the manager about noise."
+    },
+    "1896": {
+      "word": "forty",
+      "pos": "cardinal number",
+      "example": "There are forty students in the classroom."
+    },
+    "1902": {
+      "word": "second",
+      "pos": "plural noun",
+      "example": "Wait for a few seconds."
+    },
+    "1910": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The cover of the book is red."
+    },
+    "1913": {
+      "word": "audio",
+      "pos": "singular noun",
+      "example": "The audio quality is very clear."
+    },
+    "1920": {
+      "word": "listen",
+      "pos": "imperative verb",
+      "example": "Please listen carefully to the instructions."
+    },
+    "1927": {
+      "word": "once",
+      "pos": "adverb",
+      "example": "I have been there once."
+    },
+    "1932": {
+      "word": "without",
+      "pos": "preposition",
+      "example": "She went outside without a coat."
+    },
+    "1940": {
+      "word": "subtitle",
+      "pos": "plural noun",
+      "example": "The movie has English subtitles."
+    },
+    "1951": {
+      "word": "then",
+      "pos": "adverb",
+      "example": "She was younger then."
+    },
+    "1956": {
+      "word": "read",
+      "pos": "base form verb",
+      "example": "I like to read before bed."
+    },
+    "1965": {
+      "word": "transcript",
+      "pos": "singular noun",
+      "example": "She read the transcript carefully."
+    },
+    "1976": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "1980": {
+      "word": "mark",
+      "pos": "base form verb",
+      "example": "Please mark the answers on the sheet."
+    },
+    "1985": {
+      "word": "where",
+      "pos": "relative adverb",
+      "example": "This is the place where we met."
+    },
+    "1995": {
+      "word": "sound",
+      "pos": "singular noun",
+      "example": "The sound of the bell was loud."
+    },
+    "2001": {
+      "word": "surprise",
+      "pos": "past tense verb",
+      "example": "The news always surprise me."
+    },
+    "2011": {
+      "word": "you",
+      "pos": "personal pronoun",
+      "example": "You are my best friend."
+    },
+    "2016": {
+      "word": "do",
+      "pos": "past tense auxiliary verb",
+      "example": "Did you finish your homework?"
+    },
+    "2021": {
+      "word": "be going to",
+      "pos": "present participle verb",
+      "example": "I am going to eat dinner now."
+    },
+    "2027": {
+      "word": "complain to",
+      "pos": "infinitive particle",
+      "example": "They complain to the manager about noise."
+    },
+    "2031": {
+      "word": "sound like",
+      "pos": "past tense verb + particle",
+      "example": "Does it sound like rain today?"
+    },
+    "2037": {
+      "word": "sound like",
+      "pos": "base verb + preposition",
+      "example": "You sound like your brother."
+    },
+    "2043": {
+      "word": "going to",
+      "pos": "contracted form of going to",
+      "example": "I am going to study tonight."
+    },
+    "2051": {
+      "word": "do",
+      "pos": "past tense auxiliary verb",
+      "example": "Do you like ice cream?"
+    },
+    "2055": {
+      "word": "two",
+      "pos": "cardinal number",
+      "example": "I have two apples."
+    },
+    "2059": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "This word is easy to pronounce."
+    },
+    "2065": {
+      "word": "become",
+      "pos": "base form verb",
+      "example": "They become friends quickly."
+    },
+    "2072": {
+      "word": "one",
+      "pos": "singular numeral",
+      "example": "One apple is enough for me."
+    },
+    "2076": {
+      "word": "sound",
+      "pos": "singular noun",
+      "example": "The bell makes a loud sound."
+    },
+    "2083": {
+      "word": "then",
+      "pos": "adverb",
+      "example": "She was younger then."
+    },
+    "2088": {
+      "word": "listen",
+      "pos": "base form verb",
+      "example": "Please listen carefully to the instructions."
+    },
+    "2095": {
+      "word": "again",
+      "pos": "adverb",
+      "example": "He tried again and succeeded."
+    },
+    "2101": {
+      "word": "without",
+      "pos": "preposition",
+      "example": "She went outside without a coat."
+    },
+    "2113": {
+      "word": "transcript",
+      "pos": "singular noun",
+      "example": "The transcript of the interview is complete."
+    },
+    "2125": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is my favorite book."
+    },
+    "2130": {
+      "word": "train",
+      "pos": "third person singular verb",
+      "example": "She trains dogs to follow commands."
+    },
+    "2137": {
+      "word": "your",
+      "pos": "possessive determiner",
+      "example": "Is this your book?"
+    },
+    "2142": {
+      "word": "train your ear",
+      "pos": "base form verb phrase",
+      "example": "You should train your ear to understand accents."
+    },
+    "2146": {
+      "word": "complain to",
+      "pos": "infinitive particle",
+      "example": "They complain to the manager about noise."
+    },
+    "2149": {
+      "word": "connect",
+      "pos": "base form verb",
+      "example": "I connect my phone to the Wi-Fi."
+    },
+    "2157": {
+      "word": "real",
+      "pos": "adjective",
+      "example": "This is a real problem."
+    },
+    "2162": {
+      "word": "sound",
+      "pos": "singular noun",
+      "example": "The sound of the rain is relaxing."
+    },
+    "2168": {
+      "word": "with",
+      "pos": "preposition",
+      "example": "She walked with her friend to school."
+    },
+    "2173": {
+      "word": "words",
+      "pos": "plural noun",
+      "example": "She reads many words every day."
+    },
+    "2179": {
+      "word": "you",
+      "pos": "personal pronoun",
+      "example": "You are my best friend."
+    },
+    "2183": {
+      "word": "already",
+      "pos": "adverb",
+      "example": "I have already finished my homework."
+    },
+    "2191": {
+      "word": "know",
+      "pos": "base form verb",
+      "example": "I know the answer to the question."
+    },
+    "2198": {
+      "word": "shadowing",
+      "pos": "gerund form",
+      "example": "Shadowing helps improve language skills."
+    },
+    "2208": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "He is a good friend."
+    },
+    "2211": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "She also likes to read books."
+    },
+    "2216": {
+      "word": "useful",
+      "pos": "adjective",
+      "example": "This tool is very useful."
+    },
+    "2224": {
+      "word": "pick",
+      "pos": "base form verb",
+      "example": "I pick the red apple."
+    },
+    "2229": {
+      "word": "one",
+      "pos": "singular pronoun",
+      "example": "Pick one book from the shelf."
+    },
+    "2233": {
+      "word": "sentence",
+      "pos": "singular noun",
+      "example": "This sentence is easy to understand."
+    },
+    "2242": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "2246": {
+      "word": "repeat",
+      "pos": "base form verb",
+      "example": "Please repeat the question clearly."
+    },
+    "2253": {
+      "word": "it",
+      "pos": "personal pronoun",
+      "example": "It is raining today."
+    },
+    "2256": {
+      "word": "after",
+      "pos": "preposition",
+      "example": "We went home after the movie."
+    },
+    "2266": {
+      "word": "speaker",
+      "pos": "singular noun",
+      "example": "The speaker is very clear."
+    },
+    "2278": {
+      "word": "not only",
+      "pos": "adverb + adverb",
+      "example": "She is not only smart but also kind."
+    },
+    "2282": {
+      "word": "only",
+      "pos": "adverb",
+      "example": "She is the only person here."
+    },
+    "2287": {
+      "word": "copy",
+      "pos": "base form verb",
+      "example": "Please copy this text carefully."
+    },
+    "2296": {
+      "word": "individual",
+      "pos": "singular adjective",
+      "example": "Each individual word matters."
+    },
+    "2307": {
+      "word": "word",
+      "pos": "plural noun",
+      "example": "I learned a new word today."
+    },
+    "2314": {
+      "word": "copy",
+      "pos": "imperative verb",
+      "example": "Please copy the text carefully."
+    },
+    "2323": {
+      "word": "rhythm",
+      "pos": "singular noun",
+      "example": "The rhythm of the song is catchy."
+    },
+    "2331": {
+      "word": "stress",
+      "pos": "singular noun",
+      "example": "The stress is on the first syllable."
+    },
+    "2339": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "2343": {
+      "word": "reduction",
+      "pos": "plural noun",
+      "example": "The reduction of waste helps the environment."
+    },
+    "2355": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This gift is for you."
+    },
+    "2359": {
+      "word": "example",
+      "pos": "noun",
+      "example": "This is a good example."
+    },
+    "2369": {
+      "word": "what",
+      "pos": "pronoun",
+      "example": "What do you want to eat?"
+    },
+    "2374": {
+      "word": "be",
+      "pos": "present tense auxiliary verb",
+      "example": "They are happy with the results."
+    },
+    "2378": {
+      "word": "you",
+      "pos": "personal pronoun",
+      "example": "You are my best friend."
+    },
+    "2382": {
+      "word": "be going to",
+      "pos": "present continuous verb",
+      "example": "I am going to study tomorrow."
+    },
+    "2388": {
+      "word": "complain to",
+      "pos": "infinitive particle",
+      "example": "They complain to the manager about noise."
+    },
+    "2396": {
+      "word": "may",
+      "pos": "modal verb, present tense",
+      "example": "I may go to the party tonight."
+    },
+    "2400": {
+      "word": "sound like",
+      "pos": "base form verb + particle",
+      "example": "You sound like you are tired."
+    },
+    "2406": {
+      "word": "sound like",
+      "pos": "base form verb + preposition",
+      "example": "You sound like a professional singer."
+    },
+    "2412": {
+      "word": "what do you",
+      "pos": "contracted interrogative phrase",
+      "example": "What do you want to eat?"
+    },
+    "2421": {
+      "word": "going to",
+      "pos": "informal contraction",
+      "example": "I am going to eat dinner soon."
+    },
+    "2432": {
+      "word": "say",
+      "pos": "gerund form",
+      "example": "I like to say thank you."
+    },
+    "2443": {
+      "word": "reduce",
+      "pos": "past tense verb",
+      "example": "I reduce my expenses every month."
+    },
+    "2451": {
+      "word": "version",
+      "pos": "singular noun",
+      "example": "This is a new version of the software."
+    },
+    "2459": {
+      "word": "help",
+      "pos": "third-person singular present verb",
+      "example": "She helps her friends with homework."
+    },
+    "2465": {
+      "word": "you",
+      "pos": "personal pronoun",
+      "example": "You are my best friend."
+    },
+    "2469": {
+      "word": "recognize",
+      "pos": "base form verb",
+      "example": "I recognize that song from the radio."
+    },
+    "2479": {
+      "word": "it",
+      "pos": "personal pronoun",
+      "example": "It is raining today."
+    },
+    "2482": {
+      "word": "later",
+      "pos": "adverb",
+      "example": "I will call you later today."
+    },
+    "2490": {
+      "word": "learn",
+      "pos": "base form verb",
+      "example": "I learn new words every day."
+    },
+    "2496": {
+      "word": "chunk",
+      "pos": "plural noun",
+      "example": "She cut the cake into chunks."
+    },
+    "2504": {
+      "word": "not only",
+      "pos": "adverb + adverb",
+      "example": "She is not only smart but also kind."
+    },
+    "2508": {
+      "word": "only",
+      "pos": "adverb",
+      "example": "She is the only person here."
+    },
+    "2513": {
+      "word": "single",
+      "pos": "adjective",
+      "example": "She has a single reason to stay."
+    },
+    "2520": {
+      "word": "words",
+      "pos": "plural noun",
+      "example": "She writes many words every day."
+    },
+    "2527": {
+      "word": "save",
+      "pos": "base form verb",
+      "example": "Save your work before closing the program."
+    },
+    "2532": {
+      "word": "phrase",
+      "pos": "plural noun",
+      "example": "This phrase is very common."
+    },
+    "2540": {
+      "word": "such as",
+      "pos": "demonstrative pronoun + preposition",
+      "example": "Cities such as Rome are ancient."
+    },
+    "2545": {
+      "word": "as",
+      "pos": "conjunction",
+      "example": "She works as a teacher."
+    },
+    "2549": {
+      "word": "I",
+      "pos": "first person singular pronoun",
+      "example": "I am learning Spanish."
+    },
+    "2551": {
+      "word": "be",
+      "pos": "past tense verb",
+      "example": "She is happy today."
+    },
+    "2555": {
+      "word": "be supposed to",
+      "pos": "past tense verb",
+      "example": "I am supposed to finish my work."
+    },
+    "2564": {
+      "word": "complain to",
+      "pos": "infinitive particle",
+      "example": "They complain to the manager about noise."
+    },
+    "2570": {
+      "word": "kind of",
+      "pos": "noun + preposition",
+      "example": "He is kind of tired today."
+    },
+    "2575": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The cover of the book is red."
+    },
+    "2578": {
+      "word": "kind of like",
+      "pos": "phrase with preposition and adverb",
+      "example": "It is kind of like magic."
+    },
+    "2586": {
+      "word": "you",
+      "pos": "personal pronoun",
+      "example": "You are my best friend."
+    },
+    "2590": {
+      "word": "know what I mean",
+      "pos": "bare infinitive verb",
+      "example": "Do you know what I mean?"
+    },
+    "2595": {
+      "word": "what",
+      "pos": "pronoun",
+      "example": "What do you want to eat?"
+    },
+    "2600": {
+      "word": "I",
+      "pos": "first person singular pronoun",
+      "example": "I am learning Spanish."
+    },
+    "2602": {
+      "word": "know what I mean",
+      "pos": "base verb phrase",
+      "example": "Do you know what I mean?"
+    },
+    "2609": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "2614": {
+      "word": "at",
+      "pos": "preposition",
+      "example": "She is at home now."
+    },
+    "2621": {
+      "word": "at the end of the day",
+      "pos": "noun phrase",
+      "example": "At the end of the day, we decide."
+    },
+    "2625": {
+      "word": "of",
+      "pos": "preposition",
+      "example": "The cover of the book is red."
+    },
+    "2632": {
+      "word": "at the end of the day",
+      "pos": "noun phrase",
+      "example": "At the end of the day, family matters most."
+    },
+    "2638": {
+      "word": "these",
+      "pos": "demonstrative determiner",
+      "example": "These books are very interesting."
+    },
+    "2644": {
+      "word": "common",
+      "pos": "adjective, base form",
+      "example": "This is a common problem."
+    },
+    "2651": {
+      "word": "chunk",
+      "pos": "plural noun",
+      "example": "She cut the bread into chunks."
+    },
+    "2658": {
+      "word": "often",
+      "pos": "adverb",
+      "example": "She often visits her grandmother."
+    },
+    "2664": {
+      "word": "appear",
+      "pos": "base form verb",
+      "example": "Many stars appear in the sky at night."
+    },
+    "2671": {
+      "word": "in",
+      "pos": "preposition",
+      "example": "She is in the room."
+    },
+    "2674": {
+      "word": "movie",
+      "pos": "plural noun",
+      "example": "I like to watch a movie on weekends."
+    },
+    "2681": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "2685": {
+      "word": "podcast",
+      "pos": "plural noun",
+      "example": "I listen to a podcast every morning."
+    },
+    "2695": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "2699": {
+      "word": "speaker",
+      "pos": "plural noun",
+      "example": "The speaker gave a clear presentation."
+    },
+    "2708": {
+      "word": "pronounce",
+      "pos": "present tense verb",
+      "example": "People pronounce this word differently."
+    },
+    "2718": {
+      "word": "them",
+      "pos": "personal pronoun, plural",
+      "example": "I saw them at the park yesterday."
+    },
+    "2723": {
+      "word": "as",
+      "pos": "conjunction",
+      "example": "She works as a teacher."
+    },
+    "2726": {
+      "word": "one",
+      "pos": "indefinite pronoun",
+      "example": "One is greater than zero."
+    },
+    "2730": {
+      "word": "sound group",
+      "pos": "noun phrase",
+      "example": "The choir sang as one sound group."
+    },
+    "2736": {
+      "word": "sound group",
+      "pos": "singular noun",
+      "example": "A sound group helps with pronunciation."
+    },
+    "2744": {
+      "word": "it",
+      "pos": "personal pronoun",
+      "example": "It is raining today."
+    },
+    "2747": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "He is a good friend."
+    },
+    "2750": {
+      "word": "also",
+      "pos": "adverb",
+      "example": "She also likes to read books."
+    },
+    "2755": {
+      "word": "fine",
+      "pos": "adjective",
+      "example": "It is fine to ask questions."
+    },
+    "2760": {
+      "word": "complain to",
+      "pos": "infinitive particle",
+      "example": "They complain to the manager about noise."
+    },
+    "2763": {
+      "word": "slow down",
+      "pos": "base form verb + particle",
+      "example": "Please slow down the music."
+    },
+    "2768": {
+      "word": "audio",
+      "pos": "singular noun",
+      "example": "The audio is very clear."
+    },
+    "2774": {
+      "word": "slow down",
+      "pos": "particle in phrasal verb",
+      "example": "Please slow down when you speak."
+    },
+    "2780": {
+      "word": "listen",
+      "pos": "gerund form",
+      "example": "I listen to music every day."
+    },
+    "2790": {
+      "word": "at",
+      "pos": "preposition",
+      "example": "She is at home now."
+    },
+    "2798": {
+      "word": "speed",
+      "pos": "noun, singular",
+      "example": "She drives at a high speed."
+    },
+    "2804": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "Would you like tea or coffee?"
+    },
+    "2807": {
+      "word": "use",
+      "pos": "gerund form",
+      "example": "I use subtitles to understand the movie."
+    },
+    "2813": {
+      "word": "subtitle",
+      "pos": "plural noun",
+      "example": "I watch movies with subtitles in Spanish."
+    },
+    "2823": {
+      "word": "after",
+      "pos": "preposition",
+      "example": "We went home after the movie."
+    },
+    "2831": {
+      "word": "first attempt",
+      "pos": "ordinal adjective + noun",
+      "example": "She succeeded on her first attempt."
+    },
+    "2837": {
+      "word": "attempt",
+      "pos": "singular noun",
+      "example": "She made an attempt to solve the puzzle."
+    },
+    "2845": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "He is a good friend."
+    },
+    "2848": {
+      "word": "not only",
+      "pos": "adverb + adverb",
+      "example": "She is not only smart but also kind."
+    },
+    "2852": {
+      "word": "cheat",
+      "pos": "gerund form",
+      "example": "Students should never cheat on exams."
+    },
+    "2866": {
+      "word": "the key is to",
+      "pos": "singular noun",
+      "example": "The key is to practice every day."
+    },
+    "2870": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "He is a good friend."
+    },
+    "2873": {
+      "word": "complain to",
+      "pos": "infinitive particle",
+      "example": "They complain to the manager about noise."
+    },
+    "2876": {
+      "word": "return",
+      "pos": "base form verb",
+      "example": "We return home after work."
+    },
+    "2883": {
+      "word": "complain to",
+      "pos": "infinitive particle",
+      "example": "They complain to the manager about noise."
+    },
+    "2890": {
+      "word": "original",
+      "pos": "adjective",
+      "example": "The original version is better."
+    },
+    "2899": {
+      "word": "speed",
+      "pos": "singular noun",
+      "example": "The car can reach great speed."
+    },
+    "2905": {
+      "word": "later",
+      "pos": "adverb",
+      "example": "I will call you later today."
+    },
+    "2912": {
+      "word": "support",
+      "pos": "singular noun",
+      "example": "He needs support to finish the project."
+    },
+    "2920": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "He is a good friend."
+    },
+    "2923": {
+      "word": "useful",
+      "pos": "adjective",
+      "example": "A dictionary is useful for learning new words."
+    },
+    "2930": {
+      "word": "when",
+      "pos": "subordinating conjunction",
+      "example": "Call me when you arrive."
+    },
+    "2935": {
+      "word": "it",
+      "pos": "personal pronoun",
+      "example": "It is raining today."
+    },
+    "2938": {
+      "word": "help",
+      "pos": "third person singular present verb",
+      "example": "She helps her friend with homework."
+    },
+    "2944": {
+      "word": "you",
+      "pos": "personal pronoun",
+      "example": "You are my best friend."
+    },
+    "2948": {
+      "word": "train",
+      "pos": "base form verb",
+      "example": "I train every day to improve."
+    },
+    "2955": {
+      "word": "not only",
+      "pos": "adverb + adverb",
+      "example": "She is not only smart but also kind."
+    },
+    "2959": {
+      "word": "when",
+      "pos": "subordinating conjunction",
+      "example": "Call me when you arrive."
+    },
+    "2964": {
+      "word": "it",
+      "pos": "personal pronoun",
+      "example": "It is raining today."
+    },
+    "2967": {
+      "word": "replace",
+      "pos": "third person singular present verb",
+      "example": "She replaces old batteries with new ones."
+    },
+    "2976": {
+      "word": "listening",
+      "pos": "gerund form",
+      "example": "Listening is important for learning."
+    },
+    "2990": {
+      "word": "simple",
+      "pos": "adjective, base form",
+      "example": "This is a simple task to complete."
+    },
+    "2997": {
+      "word": "weekly",
+      "pos": "adjective",
+      "example": "I have a weekly meeting every Monday."
+    },
+    "3004": {
+      "word": "routine",
+      "pos": "singular noun",
+      "example": "I follow a morning routine every day."
+    },
+    "3012": {
+      "word": "work",
+      "pos": "third person singular present verb",
+      "example": "This method works every time."
+    },
+    "3018": {
+      "word": "work well",
+      "pos": "adverb modifying verb",
+      "example": "This method works well for beginners."
+    },
+    "3024": {
+      "word": "choose",
+      "pos": "base form verb",
+      "example": "I choose the best option every time."
+    },
+    "3031": {
+      "word": "one",
+      "pos": "indefinite pronoun",
+      "example": "Choose one option from the list."
+    },
+    "3035": {
+      "word": "short",
+      "pos": "adjective",
+      "example": "This is a short story."
+    },
+    "3041": {
+      "word": "scene",
+      "pos": "singular noun",
+      "example": "The opening scene was very exciting."
+    },
+    "3047": {
+      "word": "or",
+      "pos": "coordinating conjunction",
+      "example": "Would you like tea or coffee?"
+    },
+    "3050": {
+      "word": "podcast",
+      "pos": "singular noun",
+      "example": "I listen to a podcast every morning."
+    },
+    "3058": {
+      "word": "segment",
+      "pos": "singular noun",
+      "example": "The segment of the video was very interesting."
+    },
+    "3067": {
+      "word": "listen actively",
+      "pos": "base form verb + adverb",
+      "example": "I listen actively to understand better."
+    },
+    "3074": {
+      "word": "actively",
+      "pos": "adverb",
+      "example": "He actively participates in class."
+    },
+    "3083": {
+      "word": "for",
+      "pos": "preposition",
+      "example": "This gift is for you."
+    },
+    "3087": {
+      "word": "ten",
+      "pos": "cardinal number",
+      "example": "I have ten apples in my basket."
+    },
+    "3091": {
+      "word": "minutes",
+      "pos": "plural noun",
+      "example": "The meeting lasts thirty minutes."
+    },
+    "3100": {
+      "word": "compare",
+      "pos": "base form verb",
+      "example": "I compare prices before buying things."
+    },
+    "3108": {
+      "word": "it",
+      "pos": "personal pronoun",
+      "example": "It is raining today."
+    },
+    "3111": {
+      "word": "with",
+      "pos": "preposition",
+      "example": "She walked with her friend to school."
+    },
+    "3120": {
+      "word": "transcript",
+      "pos": "singular noun",
+      "example": "I read the transcript to understand better."
+    },
+    "3132": {
+      "word": "shadow",
+      "pos": "base verb form",
+      "example": "I shadow native speakers to improve pronunciation."
+    },
+    "3139": {
+      "word": "three",
+      "pos": "numeral adjective",
+      "example": "I have three books on the shelf."
+    },
+    "3145": {
+      "word": "useful",
+      "pos": "adjective",
+      "example": "This tool is very useful for cooking."
+    },
+    "3152": {
+      "word": "sentence",
+      "pos": "plural noun",
+      "example": "She writes a long sentence."
+    },
+    "3163": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "3167": {
+      "word": "save",
+      "pos": "base form verb",
+      "example": "I save my work every hour."
+    },
+    "3172": {
+      "word": "five",
+      "pos": "cardinal number",
+      "example": "I have five apples in the basket."
+    },
+    "3177": {
+      "word": "chunk",
+      "pos": "plural noun",
+      "example": "She learned new chunks of language every day."
+    },
+    "3185": {
+      "word": "this",
+      "pos": "demonstrative pronoun",
+      "example": "This is my favorite book."
+    },
+    "3190": {
+      "word": "be",
+      "pos": "present tense verb",
+      "example": "He is a good friend."
+    },
+    "3193": {
+      "word": "better",
+      "pos": "comparative adjective",
+      "example": "This book is better than that one."
+    },
+    "3200": {
+      "word": "than",
+      "pos": "conjunction",
+      "example": "She is taller than her brother."
+    },
+    "3205": {
+      "word": "watch",
+      "pos": "gerund form",
+      "example": "I watch TV every evening."
+    },
+    "3214": {
+      "word": "two",
+      "pos": "cardinal numeral",
+      "example": "I have two cats at home."
+    },
+    "3218": {
+      "word": "hour",
+      "pos": "plural noun",
+      "example": "I work for one hour every day."
+    },
+    "3224": {
+      "word": "passively",
+      "pos": "adverb",
+      "example": "She listens passively during the meeting."
+    },
+    "3235": {
+      "word": "over time",
+      "pos": "preposition",
+      "example": "Plants grow over time."
+    },
+    "3240": {
+      "word": "over time",
+      "pos": "prepositional phrase",
+      "example": "Over time, you will improve your skills."
+    },
+    "3246": {
+      "word": "speak",
+      "pos": "past participle adjective",
+      "example": "I speak English every day."
+    },
+    "3253": {
+      "word": "English",
+      "pos": "proper noun",
+      "example": "English is spoken all over the world."
+    },
+    "3261": {
+      "word": "becomes",
+      "pos": "third person singular verb",
+      "example": "He becomes tired after work."
+    },
+    "3269": {
+      "word": "less",
+      "pos": "comparative adverb",
+      "example": "She eats less sugar than before."
+    },
+    "3274": {
+      "word": "be like",
+      "pos": "base form of verb phrase",
+      "example": "Children often be like their parents."
+    },
+    "3279": {
+      "word": "noise",
+      "pos": "singular noun",
+      "example": "The noise outside disturbed my sleep."
+    },
+    "3285": {
+      "word": "and",
+      "pos": "coordinating conjunction",
+      "example": "I like apples and oranges."
+    },
+    "3289": {
+      "word": "more",
+      "pos": "comparative adverb",
+      "example": "She wants more coffee."
+    },
+    "3294": {
+      "word": "be like",
+      "pos": "base form verb + preposition",
+      "example": "Children like playing outside."
+    },
+    "3299": {
+      "word": "language",
+      "pos": "singular noun",
+      "example": "She speaks a different language fluently."
+    }
+  },
+  "translations": {
+    "es": {
+      "0": "muchos",
+      "5": "inglés",
+      "13": "estudiante",
+      "22": "tener",
+      "29": "confuso",
+      "39": "experiencia",
+      "51": "ellos",
+      "56": "poder",
+      "60": "leer",
+      "65": "artículos",
+      "75": "mensaje",
+      "85": "y",
+      "89": "incluso si",
+      "94": "libro",
+      "100": "en",
+      "103": "inglés",
+      "112": "pero",
+      "118": "película",
+      "124": "o",
+      "127": "podcast",
+      "135": "todavía",
+      "141": "parecer",
+      "147": "parecer",
+      "152": "ruido",
+      "159": "esto",
+      "164": "hacer",
+      "169": "no solo",
+      "173": "significar",
+      "178": "su",
+      "184": "inglés",
+      "192": "ser/estar",
+      "195": "malo",
+      "200": "ello",
+      "203": "significar",
+      "209": "lectura",
+      "217": "y",
+      "221": "escuchar",
+      "231": "ser/estar",
+      "235": "diferentes",
+      "245": "habilidad",
+      "254": "cuando",
+      "259": "tú",
+      "263": "leer",
+      "273": "palabra",
+      "279": "quedarse",
+      "284": "basarse en",
+      "291": "página",
+      "297": "tú",
+      "301": "poder",
+      "305": "detener",
+      "314": "regresar",
+      "320": "revisar",
+      "326": "la ortografía",
+      "336": "y",
+      "340": "usar",
+      "344": "puntuación",
+      "356": "quejarse a",
+      "359": "entender",
+      "374": "estructura",
+      "385": "escuchar",
+      "395": "ser/estar",
+      "398": "diferente",
+      "413": "sonido",
+      "419": "llegar",
+      "427": "una vez",
+      "433": "en",
+      "440": "altavoz",
+      "450": "velocidad",
+      "457": "tu",
+      "462": "cerebro",
+      "468": "deber",
+      "473": "atrapar",
+      "483": "sonido",
+      "491": "dividir",
+      "498": "ellos",
+      "503": "entrar en",
+      "508": "palabra",
+      "515": "recordar",
+      "528": "oración",
+      "538": "y",
+      "542": "entender",
+      "557": "significado",
+      "565": "antes de",
+      "576": "siguiente",
+      "581": "oración",
+      "590": "llegar",
+      "600": "natural",
+      "608": "inglés hablado",
+      "615": "inglés",
+      "623": "también",
+      "628": "hacer",
+      "633": "no solo",
+      "637": "sonar",
+      "643": "parecer",
+      "648": "inglés de diccionario",
+      "659": "inglés",
+      "668": "altavoz",
+      "677": "conectar",
+      "685": "palabra",
+      "691": "conectar juntos",
+      "702": "querer",
+      "707": "quejarse a",
+      "711": "convertirse en",
+      "720": "querer",
+      "729": "ir",
+      "735": "quejarse a",
+      "739": "convertirse en",
+      "748": "ir a",
+      "757": "hiciste",
+      "761": "tú",
+      "766": "poder",
+      "770": "sonar como",
+      "776": "sonar como",
+      "782": "¿hiciste tú?",
+      "790": "pequeño",
+      "796": "palabra",
+      "802": "como",
+      "807": "como",
+      "811": "quejarse a",
+      "817": "de",
+      "823": "tener",
+      "830": "y",
+      "835": "poder",
+      "840": "a menudo",
+      "846": "llegar a ser",
+      "853": "muy",
+      "858": "débil",
+      "864": "tú",
+      "868": "puede",
+      "872": "saber",
+      "877": "todo",
+      "881": "estos",
+      "887": "palabra",
+      "893": "basarse en",
+      "896": "sobre el papel",
+      "903": "pero",
+      "907": "no entender",
+      "912": "ellos",
+      "917": "en",
+      "920": "discurso",
+      "927": "porque",
+      "935": "ellos",
+      "940": "ser/estar",
+      "944": "más corto",
+      "953": "más suave",
+      "961": "o",
+      "964": "unir",
+      "971": "quejarse a",
+      "974": "otro",
+      "980": "palabra",
+      "988": "velocidad",
+      "994": "ser/estar",
+      "997": "otro",
+      "1005": "problema",
+      "1014": "en",
+      "1017": "película",
+      "1024": "y",
+      "1028": "podcast",
+      "1038": "personas",
+      "1045": "interrumpir",
+      "1055": "cada",
+      "1060": "el uno al otro",
+      "1067": "cambiar el ritmo",
+      "1074": "cambiar el ritmo",
+      "1080": "hablar",
+      "1086": "con",
+      "1091": "emoción",
+      "1100": "o",
+      "1103": "hablar sobre / hablar encima de",
+      "1108": "a lo largo del tiempo",
+      "1113": "música de fondo",
+      "1124": "música de fondo",
+      "1131": "inglés",
+      "1139": "ritmo",
+      "1146": "hacer",
+      "1152": "esto",
+      "1157": "más difícil",
+      "1164": "porque",
+      "1172": "palabra acentuada",
+      "1181": "palabra acentuada",
+      "1187": "ser/estar",
+      "1191": "fuerte",
+      "1199": "mientras",
+      "1205": "no acentuado",
+      "1216": "palabra acentuada",
+      "1222": "ser/estar",
+      "1226": "apretar",
+      "1235": "interpretar lo que no se dice claramente",
+      "1243": "ellos",
+      "1249": "aprendiz",
+      "1258": "a menudo",
+      "1264": "intentar",
+      "1268": "quejarse a",
+      "1271": "escuchar",
+      "1276": "cada",
+      "1282": "palabra",
+      "1287": "por igual",
+      "1296": "pero",
+      "1300": "hablante nativo",
+      "1307": "hablante nativo",
+      "1319": "no solo",
+      "1323": "decir",
+      "1327": "cada",
+      "1333": "palabra",
+      "1338": "por igual",
+      "1348": "jerga",
+      "1354": "y",
+      "1358": "cultura",
+      "1366": "añadir",
+      "1370": "uno",
+      "1374": "más",
+      "1379": "capa",
+      "1388": "escrito",
+      "1396": "artículo",
+      "1404": "ser/estar",
+      "1407": "normalmente",
+      "1415": "editar",
+      "1422": "y",
+      "1426": "organizar",
+      "1439": "película",
+      "1445": "escena",
+      "1451": "poder (auxiliar)",
+      "1455": "incluir",
+      "1463": "broma",
+      "1470": "inacabado",
+      "1481": "oración",
+      "1492": "modismo",
+      "1500": "sarcasmo",
+      "1509": "acentos",
+      "1518": "y",
+      "1522": "referencia",
+      "1533": "ese/esa",
+      "1538": "ser/estar",
+      "1542": "no solo",
+      "1546": "explicar",
+      "1557": "podcast",
+      "1566": "poder",
+      "1570": "deben ser restringidos",
+      "1573": "incluso si",
+      "1578": "difícil",
+      "1585": "porque",
+      "1593": "ahí",
+      "1599": "ser/estar",
+      "1602": "no",
+      "1605": "apoyo visual",
+      "1612": "apoyo visual",
+      "1621": "tú",
+      "1625": "no se puede negociar",
+      "1632": "ver",
+      "1640": "orador",
+      "1650": "cara",
+      "1656": "gesto",
+      "1666": "o",
+      "1669": "situación",
+      "1685": "buenas noticias",
+      "1690": "buenas noticias",
+      "1695": "ser/estar",
+      "1698": "ese/esa",
+      "1703": "esto",
+      "1708": "brecha",
+      "1712": "poder",
+      "1716": "deben ser restringidos",
+      "1719": "entrenar",
+      "1732": "mejor práctica",
+      "1737": "práctica",
+      "1746": "ser/estar",
+      "1749": "no solo",
+      "1753": "simplemente",
+      "1761": "ver",
+      "1767": "más",
+      "1772": "película",
+      "1781": "pasivo",
+      "1789": "mirar",
+      "1798": "ayudar",
+      "1806": "poco",
+      "1814": "pero",
+      "1818": "escucha activa",
+      "1825": "escuchar",
+      "1835": "ayudar",
+      "1841": "mucho",
+      "1846": "más",
+      "1853": "intentar",
+      "1857": "bucle corto",
+      "1868": "escuchar",
+      "1879": "elegir",
+      "1886": "veinte",
+      "1893": "quejarse a",
+      "1896": "cuarenta",
+      "1902": "segundo",
+      "1910": "de",
+      "1913": "audio",
+      "1920": "escuchar",
+      "1927": "una vez",
+      "1932": "sin",
+      "1940": "subtítulo",
+      "1951": "entonces",
+      "1956": "leer",
+      "1965": "transcripción",
+      "1976": "y",
+      "1980": "marcar",
+      "1985": "donde",
+      "1995": "sonido",
+      "2001": "sorprender",
+      "2011": "tú",
+      "2016": "hacer",
+      "2021": "ir a (futuro próximo)",
+      "2027": "quejarse a",
+      "2031": "sonar como",
+      "2037": "sonar como",
+      "2043": "ir a",
+      "2051": "hacer",
+      "2055": "dos",
+      "2059": "palabra",
+      "2065": "convertirse",
+      "2072": "uno",
+      "2076": "sonido",
+      "2083": "entonces",
+      "2088": "escuchar",
+      "2095": "de nuevo",
+      "2101": "sin",
+      "2113": "transcripción",
+      "2125": "esto",
+      "2130": "entrenar",
+      "2137": "tu",
+      "2142": "entrenar el oído",
+      "2146": "quejarse a",
+      "2149": "conectar",
+      "2157": "real",
+      "2162": "sonido",
+      "2168": "con",
+      "2173": "palabras",
+      "2179": "tú",
+      "2183": "ya",
+      "2191": "saber",
+      "2198": "sombreado",
+      "2208": "ser/estar",
+      "2211": "también",
+      "2216": "útil",
+      "2224": "escoger",
+      "2229": "uno",
+      "2233": "frase",
+      "2242": "y",
+      "2246": "repetir",
+      "2253": "ello",
+      "2256": "después de",
+      "2266": "altavoz",
+      "2278": "no solo",
+      "2282": "solo",
+      "2287": "copiar",
+      "2296": "individual",
+      "2307": "palabra",
+      "2314": "copiar",
+      "2323": "ritmo",
+      "2331": "énfasis",
+      "2339": "y",
+      "2343": "reducción",
+      "2355": "por",
+      "2359": "ejemplo",
+      "2369": "qué",
+      "2374": "ser/estar",
+      "2378": "tú",
+      "2382": "ir a (futuro próximo)",
+      "2388": "quejarse a",
+      "2396": "puede que",
+      "2400": "parecer",
+      "2406": "parecer",
+      "2412": "¿qué haces?",
+      "2421": "ir a",
+      "2432": "decir",
+      "2443": "reducir",
+      "2451": "versión",
+      "2459": "ayudar",
+      "2465": "tú",
+      "2469": "reconocer",
+      "2479": "ello",
+      "2482": "más tarde",
+      "2490": "aprender",
+      "2496": "trozo",
+      "2504": "no solo",
+      "2508": "solo",
+      "2513": "único",
+      "2520": "palabras",
+      "2527": "excepto",
+      "2532": "frase",
+      "2540": "como",
+      "2545": "como",
+      "2549": "yo",
+      "2551": "ser/estar",
+      "2555": "deber",
+      "2564": "quejarse a",
+      "2570": "algo así como",
+      "2575": "de",
+      "2578": "como una especie de",
+      "2586": "tú",
+      "2590": "¿sabes a qué me refiero?",
+      "2595": "qué",
+      "2600": "yo",
+      "2602": "¿sabes a qué me refiero?",
+      "2609": "y",
+      "2614": "en",
+      "2621": "al final del día",
+      "2625": "de",
+      "2632": "al final del día",
+      "2638": "estos",
+      "2644": "común",
+      "2651": "trozo",
+      "2658": "a menudo",
+      "2664": "aparecer",
+      "2671": "en",
+      "2674": "película",
+      "2681": "y",
+      "2685": "pódcast",
+      "2695": "y",
+      "2699": "hablante",
+      "2708": "pronunciar",
+      "2718": "ellos",
+      "2723": "como",
+      "2726": "uno",
+      "2730": "grupo de sonidos",
+      "2736": "grupo de sonidos",
+      "2744": "ello",
+      "2747": "ser/estar",
+      "2750": "también",
+      "2755": "bien",
+      "2760": "quejarse a",
+      "2763": "reducir la velocidad",
+      "2768": "audio",
+      "2774": "reducir la velocidad",
+      "2780": "escuchar",
+      "2790": "en",
+      "2798": "velocidad",
+      "2804": "o",
+      "2807": "usar",
+      "2813": "subtítulo",
+      "2823": "después de",
+      "2831": "primer intento",
+      "2837": "intento",
+      "2845": "ser/estar",
+      "2848": "no solo",
+      "2852": "hacer trampa",
+      "2866": "la clave es",
+      "2870": "ser/estar",
+      "2873": "quejarse a",
+      "2876": "volver",
+      "2883": "quejarse a",
+      "2890": "original",
+      "2899": "velocidad",
+      "2905": "más tarde",
+      "2912": "apoyo",
+      "2920": "ser/estar",
+      "2923": "útil",
+      "2930": "cuando",
+      "2935": "ello",
+      "2938": "ayudar",
+      "2944": "tú",
+      "2948": "entrenar",
+      "2955": "no solo",
+      "2959": "cuando",
+      "2964": "ello",
+      "2967": "reemplazar",
+      "2976": "escuchar",
+      "2990": "simple",
+      "2997": "semanal",
+      "3004": "rutina",
+      "3012": "funcionar",
+      "3018": "funcionar bien",
+      "3024": "elegir",
+      "3031": "uno",
+      "3035": "corto",
+      "3041": "escena",
+      "3047": "o",
+      "3050": "podcast",
+      "3058": "segmento",
+      "3067": "escuchar activamente",
+      "3074": "de manera activa",
+      "3083": "por",
+      "3087": "diez",
+      "3091": "minutos",
+      "3100": "comparar",
+      "3108": "ello",
+      "3111": "con",
+      "3120": "transcripción",
+      "3132": "repetir imitando",
+      "3139": "tres",
+      "3145": "útil",
+      "3152": "oración",
+      "3163": "y",
+      "3167": "guardar",
+      "3172": "cinco",
+      "3177": "fragmento",
+      "3185": "esto",
+      "3190": "ser/estar",
+      "3193": "mejor",
+      "3200": "que",
+      "3205": "ver",
+      "3214": "dos",
+      "3218": "hora",
+      "3224": "pasivamente",
+      "3235": "a lo largo del tiempo",
+      "3240": "con el tiempo",
+      "3246": "hablar",
+      "3253": "inglés",
+      "3261": "se vuelve",
+      "3269": "menos",
+      "3274": "ser como",
+      "3279": "ruido",
+      "3285": "y",
+      "3289": "más",
+      "3294": "parecerse a",
+      "3299": "lengua"
+    },
+    "pt": {
+      "0": "muitos",
+      "5": "inglês",
+      "13": "aprendiz",
+      "22": "ter",
+      "29": "confuso",
+      "39": "experiência",
+      "51": "eles",
+      "56": "poder",
+      "60": "ler",
+      "65": "artigo",
+      "75": "mensagem",
+      "85": "e",
+      "89": "até",
+      "94": "livro",
+      "100": "em",
+      "103": "inglês",
+      "112": "mas",
+      "118": "filme",
+      "124": "ou",
+      "127": "podcast",
+      "135": "ainda",
+      "141": "sentir",
+      "147": "parecer com",
+      "152": "barulho",
+      "159": "isto",
+      "164": "fazer",
+      "169": "não",
+      "173": "significar",
+      "178": "seu(s), sua(s)",
+      "184": "inglês",
+      "192": "é",
+      "195": "ruim",
+      "200": "ele",
+      "203": "significar",
+      "209": "leitura",
+      "217": "e",
+      "221": "escuta",
+      "231": "ser/estar",
+      "235": "diferente",
+      "245": "habilidade",
+      "254": "quando",
+      "259": "você",
+      "263": "ler",
+      "273": "palavra",
+      "279": "permanecer",
+      "284": "impacto em",
+      "291": "página",
+      "297": "você",
+      "301": "poder",
+      "305": "parar",
+      "314": "voltar",
+      "320": "verificar",
+      "326": "ortografia",
+      "336": "e",
+      "340": "usar",
+      "344": "pontuação",
+      "356": "para",
+      "359": "entender",
+      "374": "estrutura",
+      "385": "escutar",
+      "395": "é",
+      "398": "diferente",
+      "413": "som",
+      "419": "chegar",
+      "427": "uma vez",
+      "433": "em",
+      "440": "alto-falante",
+      "450": "velocidade",
+      "457": "seus",
+      "462": "cérebro",
+      "468": "deve",
+      "473": "pegar",
+      "483": "som",
+      "491": "dividir",
+      "498": "eles",
+      "503": "reintroduzir em",
+      "508": "palavra",
+      "515": "lembrar",
+      "528": "frase",
+      "538": "e",
+      "542": "entender",
+      "557": "significado",
+      "565": "antes de",
+      "576": "próximo",
+      "581": "frase",
+      "590": "chegar",
+      "600": "natural",
+      "608": "falado",
+      "615": "inglês",
+      "623": "também",
+      "628": "fazer",
+      "633": "não",
+      "637": "parecer",
+      "643": "parecer com",
+      "648": "dicionário",
+      "659": "inglês",
+      "668": "alto-falante",
+      "677": "conectar",
+      "685": "palavra",
+      "691": "conectar junto",
+      "702": "querer",
+      "707": "para",
+      "711": "tornar-se",
+      "720": "querer",
+      "729": "ir para (futuro próximo)",
+      "735": "para",
+      "739": "tornar-se",
+      "748": "ir (indica futuro próximo)",
+      "757": "fez",
+      "761": "você",
+      "766": "poder",
+      "770": "soar como",
+      "776": "soar como",
+      "782": "você fez",
+      "790": "pequeno",
+      "796": "palavra pequena",
+      "802": "tais como",
+      "807": "como",
+      "811": "para",
+      "817": "de",
+      "823": "ter",
+      "830": "e",
+      "835": "poder",
+      "840": "frequentemente",
+      "846": "tornar-se",
+      "853": "muito",
+      "858": "fraco",
+      "864": "você",
+      "868": "poder (auxiliar)",
+      "872": "saber, conhecer",
+      "877": "todo",
+      "881": "estes",
+      "887": "palavra",
+      "893": "impacto em",
+      "896": "no papel",
+      "903": "mas",
+      "907": "perder",
+      "912": "eles",
+      "917": "em",
+      "920": "fala",
+      "927": "porque",
+      "935": "eles",
+      "940": "ser/estar",
+      "944": "curto",
+      "953": "mais suave",
+      "961": "ou",
+      "964": "juntar",
+      "971": "para",
+      "974": "outro",
+      "980": "palavras",
+      "988": "velocidade",
+      "994": "é",
+      "997": "outro",
+      "1005": "problema",
+      "1014": "em",
+      "1017": "filme",
+      "1024": "e",
+      "1028": "podcast",
+      "1038": "pessoas",
+      "1045": "interromper",
+      "1055": "cada",
+      "1060": "um ao outro",
+      "1067": "mudar o ritmo",
+      "1074": "mudar o ritmo",
+      "1080": "falar",
+      "1086": "com",
+      "1091": "emoção",
+      "1100": "ou",
+      "1103": "falar por cima de",
+      "1108": "ao longo do tempo",
+      "1113": "música de fundo",
+      "1124": "música de fundo",
+      "1131": "ritmo inglês",
+      "1139": "ritmo",
+      "1146": "fazer",
+      "1152": "isto",
+      "1157": "difícil",
+      "1164": "porque",
+      "1172": "acentuado",
+      "1181": "palavra tônica",
+      "1187": "ser/estar",
+      "1191": "forte",
+      "1199": "enquanto",
+      "1205": "não acentuado",
+      "1216": "palavra tônica",
+      "1222": "ser/estar",
+      "1226": "apertar",
+      "1235": "entre",
+      "1243": "eles",
+      "1249": "aprendiz",
+      "1258": "frequentemente",
+      "1264": "tentar",
+      "1268": "para",
+      "1271": "ouvir",
+      "1276": "cada",
+      "1282": "palavra",
+      "1287": "igualmente",
+      "1296": "mas",
+      "1300": "falante nativo",
+      "1307": "falante nativo",
+      "1319": "não",
+      "1323": "dizer",
+      "1327": "cada",
+      "1333": "palavra",
+      "1338": "igualmente",
+      "1348": "gíria",
+      "1354": "e",
+      "1358": "cultura",
+      "1366": "adicionar",
+      "1370": "um",
+      "1374": "mais",
+      "1379": "camada",
+      "1388": "escrito",
+      "1396": "artigo",
+      "1404": "é",
+      "1407": "normalmente",
+      "1415": "editar",
+      "1422": "e",
+      "1426": "organizar",
+      "1439": "filme",
+      "1445": "cena",
+      "1451": "poder (indicar possibilidade)",
+      "1455": "incluir",
+      "1463": "piada",
+      "1470": "inacabado",
+      "1481": "frase",
+      "1492": "expressão idiomática",
+      "1500": "sarcasmo",
+      "1509": "sotaques",
+      "1518": "e",
+      "1522": "referência",
+      "1533": "que",
+      "1538": "ser/estar",
+      "1542": "não",
+      "1546": "explicar",
+      "1557": "podcast",
+      "1566": "poder",
+      "1570": "ser/estar",
+      "1573": "até",
+      "1578": "difícil",
+      "1585": "porque",
+      "1593": "lá",
+      "1599": "é",
+      "1602": "não",
+      "1605": "visual",
+      "1612": "suporte",
+      "1621": "você",
+      "1625": "não pode ser negociado ou evitado",
+      "1632": "ver",
+      "1640": "orador",
+      "1650": "rosto",
+      "1656": "gesto",
+      "1666": "ou",
+      "1669": "situação",
+      "1685": "boas notícias",
+      "1690": "boas notícias",
+      "1695": "é",
+      "1698": "que",
+      "1703": "isto",
+      "1708": "lacuna",
+      "1712": "poder",
+      "1716": "ser/estar",
+      "1719": "treinar",
+      "1732": "melhor",
+      "1737": "melhor prática",
+      "1746": "é",
+      "1749": "não",
+      "1753": "simplesmente",
+      "1761": "assistir",
+      "1767": "mais",
+      "1772": "filme",
+      "1781": "passivo",
+      "1789": "assistir",
+      "1798": "ajudar",
+      "1806": "pouco",
+      "1814": "mas",
+      "1818": "escuta ativa",
+      "1825": "escuta ativa",
+      "1835": "ajudar",
+      "1841": "muito",
+      "1846": "mais",
+      "1853": "tentar",
+      "1857": "escuta de curto circuito",
+      "1868": "escuta",
+      "1879": "escolher",
+      "1886": "vinte",
+      "1893": "para",
+      "1896": "quarenta",
+      "1902": "segundos",
+      "1910": "de",
+      "1913": "áudio",
+      "1920": "ouvir",
+      "1927": "uma vez",
+      "1932": "sem",
+      "1940": "legenda",
+      "1951": "então",
+      "1956": "ler",
+      "1965": "transcrição",
+      "1976": "e",
+      "1980": "marcar",
+      "1985": "onde",
+      "1995": "som",
+      "2001": "surpreender",
+      "2011": "você",
+      "2016": "fazer",
+      "2021": "ir para (futuro planejado)",
+      "2027": "para",
+      "2031": "soar como",
+      "2037": "soar como",
+      "2043": "ir (futuro próximo)",
+      "2051": "auxiliar (verbo)",
+      "2055": "dois",
+      "2059": "palavra",
+      "2065": "tornar-se",
+      "2072": "um",
+      "2076": "som",
+      "2083": "então",
+      "2088": "escutar",
+      "2095": "novamente",
+      "2101": "sem",
+      "2113": "transcrição",
+      "2125": "isto",
+      "2130": "treinar",
+      "2137": "seus",
+      "2142": "treinar seu ouvido",
+      "2146": "para",
+      "2149": "conectar",
+      "2157": "real",
+      "2162": "som",
+      "2168": "com",
+      "2173": "palavra",
+      "2179": "você",
+      "2183": "já",
+      "2191": "saber",
+      "2198": "sombrear",
+      "2208": "é",
+      "2211": "também",
+      "2216": "útil",
+      "2224": "escolher",
+      "2229": "um",
+      "2233": "frase",
+      "2242": "e",
+      "2246": "repetir",
+      "2253": "ele",
+      "2256": "depois de",
+      "2266": "falante",
+      "2278": "não",
+      "2282": "apenas",
+      "2287": "copiar",
+      "2296": "individual",
+      "2307": "palavra",
+      "2314": "copiar",
+      "2323": "ritmo",
+      "2331": "acento",
+      "2339": "e",
+      "2343": "redução",
+      "2355": "para",
+      "2359": "exemplo",
+      "2369": "o que",
+      "2374": "ser/estar",
+      "2378": "você",
+      "2382": "ir (futuro próximo)",
+      "2388": "para",
+      "2396": "poder (verbo modal)",
+      "2400": "parecer",
+      "2406": "parecer",
+      "2412": "O que você",
+      "2421": "ir (futuro próximo)",
+      "2432": "dizer",
+      "2443": "reduzir",
+      "2451": "versão",
+      "2459": "ajuda",
+      "2465": "você",
+      "2469": "reconhecer",
+      "2479": "ele",
+      "2482": "mais tarde",
+      "2490": "aprender",
+      "2496": "pedaço; porção",
+      "2504": "não",
+      "2508": "apenas",
+      "2513": "único",
+      "2520": "palavra",
+      "2527": "exceto",
+      "2532": "frase",
+      "2540": "tais como",
+      "2545": "como",
+      "2549": "eu",
+      "2551": "ser/estar",
+      "2555": "ser esperado para",
+      "2564": "para",
+      "2570": "tipo de",
+      "2575": "de",
+      "2578": "mais ou menos",
+      "2586": "você",
+      "2590": "você sabe o que eu quero dizer",
+      "2595": "o que",
+      "2600": "eu",
+      "2602": "você sabe o que quero dizer",
+      "2609": "e",
+      "2614": "em",
+      "2621": "no final das contas",
+      "2625": "de",
+      "2632": "no final das contas",
+      "2638": "estes",
+      "2644": "comum",
+      "2651": "pedaço",
+      "2658": "frequentemente",
+      "2664": "aparecer",
+      "2671": "em",
+      "2674": "filme",
+      "2681": "e",
+      "2685": "podcast",
+      "2695": "e",
+      "2699": "falante",
+      "2708": "pronunciar",
+      "2718": "eles",
+      "2723": "como",
+      "2726": "como um só",
+      "2730": "som",
+      "2736": "grupo sonoro",
+      "2744": "ele",
+      "2747": "é",
+      "2750": "também",
+      "2755": "bom",
+      "2760": "para",
+      "2763": "diminuir a velocidade",
+      "2768": "áudio",
+      "2774": "diminuir a velocidade",
+      "2780": "ouvir",
+      "2790": "em",
+      "2798": "velocidade",
+      "2804": "ou",
+      "2807": "usar",
+      "2813": "legenda",
+      "2823": "depois de",
+      "2831": "primeira tentativa",
+      "2837": "tentativa",
+      "2845": "é",
+      "2848": "não",
+      "2852": "trapacear",
+      "2866": "a chave / o segredo",
+      "2870": "é",
+      "2873": "para",
+      "2876": "retornar",
+      "2883": "para",
+      "2890": "original",
+      "2899": "velocidade",
+      "2905": "mais tarde",
+      "2912": "apoio",
+      "2920": "é",
+      "2923": "útil",
+      "2930": "quando",
+      "2935": "ele",
+      "2938": "ajudar",
+      "2944": "você",
+      "2948": "treinar",
+      "2955": "não",
+      "2959": "quando",
+      "2964": "ele",
+      "2967": "substituir",
+      "2976": "escuta",
+      "2990": "simples",
+      "2997": "semanal",
+      "3004": "rotina",
+      "3012": "funcionar",
+      "3018": "funcionar bem",
+      "3024": "escolher",
+      "3031": "um",
+      "3035": "curto",
+      "3041": "cena",
+      "3047": "ou",
+      "3050": "podcast",
+      "3058": "segmento",
+      "3067": "escutar",
+      "3074": "ouvir ativamente",
+      "3083": "para",
+      "3087": "dez",
+      "3091": "minuto",
+      "3100": "comparar",
+      "3108": "ele",
+      "3111": "com",
+      "3120": "transcrição",
+      "3132": "imitar para aprender",
+      "3139": "três",
+      "3145": "útil",
+      "3152": "frase",
+      "3163": "e",
+      "3167": "salvar",
+      "3172": "cinco",
+      "3177": "bloco, pedaço",
+      "3185": "isto",
+      "3190": "é",
+      "3193": "melhor",
+      "3200": "do que",
+      "3205": "assistir",
+      "3214": "dois",
+      "3218": "horas",
+      "3224": "de forma passiva",
+      "3235": "ao longo do tempo",
+      "3240": "com o tempo",
+      "3246": "falado",
+      "3253": "inglês",
+      "3261": "tornar-se",
+      "3269": "menos",
+      "3274": "ser como",
+      "3279": "ruído",
+      "3285": "e",
+      "3289": "mais",
+      "3294": "menos parecido com",
+      "3299": "língua"
+    },
+    "id": {
+      "0": "banyak",
+      "5": "bahasa Inggris",
+      "13": "pelajar",
+      "22": "memiliki",
+      "29": "membingungkan",
+      "39": "pengalaman",
+      "51": "mereka",
+      "56": "dapat",
+      "60": "membaca",
+      "65": "artikel",
+      "75": "pesan",
+      "85": "dan",
+      "89": "bahkan",
+      "94": "buku",
+      "100": "di",
+      "103": "bahasa Inggris",
+      "112": "tetapi",
+      "118": "film",
+      "124": "atau",
+      "127": "podcast",
+      "135": "masih",
+      "141": "terasa seperti",
+      "147": "seperti",
+      "152": "kebisingan",
+      "159": "ini",
+      "164": "melakukan",
+      "169": "tidak hanya",
+      "173": "berarti",
+      "178": "milik mereka",
+      "184": "bahasa Inggris",
+      "192": "adalah",
+      "195": "buruk",
+      "200": "itu",
+      "203": "berarti",
+      "209": "membaca",
+      "217": "dan",
+      "221": "mendengarkan",
+      "231": "adalah",
+      "235": "berbeda",
+      "245": "keterampilan",
+      "254": "ketika",
+      "259": "kamu",
+      "263": "membaca",
+      "273": "kata",
+      "279": "tetap",
+      "284": "memanfaatkan",
+      "291": "halaman",
+      "297": "kamu",
+      "301": "dapat",
+      "305": "berhenti",
+      "314": "kembali",
+      "320": "memeriksa",
+      "326": "ejaan",
+      "336": "dan",
+      "340": "menggunakan",
+      "344": "tanda baca",
+      "356": "mengeluh kepada",
+      "359": "mengerti",
+      "374": "struktur",
+      "385": "mendengarkan",
+      "395": "adalah",
+      "398": "berbeda",
+      "413": "suara",
+      "419": "tiba",
+      "427": "sekali",
+      "433": "di",
+      "440": "pengeras suara",
+      "450": "kecepatan",
+      "457": "milikmu",
+      "462": "otak",
+      "468": "harus",
+      "473": "menangkap",
+      "483": "suara",
+      "491": "membagi",
+      "498": "mereka",
+      "503": "menghubungkan ke dalam",
+      "508": "kata",
+      "515": "mengingat",
+      "528": "kalimat",
+      "538": "dan",
+      "542": "memahami",
+      "557": "makna",
+      "565": "sebelum",
+      "576": "berikutnya",
+      "581": "kalimat",
+      "590": "tiba",
+      "600": "alami",
+      "608": "berbicara",
+      "615": "bahasa Inggris",
+      "623": "juga",
+      "628": "melakukan",
+      "633": "tidak hanya",
+      "637": "terdengar seperti",
+      "643": "terdengar seperti",
+      "648": "kamus",
+      "659": "Bahasa Inggris",
+      "668": "pembicara",
+      "677": "menghubungkan",
+      "685": "menghubungkan kata-kata",
+      "691": "menghubungkan",
+      "702": "ingin",
+      "707": "mengeluh kepada",
+      "711": "menjadi",
+      "720": "ingin",
+      "729": "pergi",
+      "735": "mengeluh kepada",
+      "739": "menjadi",
+      "748": "akan",
+      "757": "melakukan (auxiliary verb)",
+      "761": "kamu",
+      "766": "dapat",
+      "770": "terdengar seperti",
+      "776": "terdengar seperti",
+      "782": "apakah kamu",
+      "790": "kecil",
+      "796": "kata",
+      "802": "seperti",
+      "807": "sebagai",
+      "811": "mengeluh kepada",
+      "817": "dari",
+      "823": "memiliki",
+      "830": "dan",
+      "835": "dapat",
+      "840": "sering",
+      "846": "menjadi",
+      "853": "sangat",
+      "858": "lemah",
+      "864": "kamu",
+      "868": "boleh",
+      "872": "tahu",
+      "877": "semua",
+      "881": "ini",
+      "887": "kata",
+      "893": "memanfaatkan",
+      "896": "secara tertulis",
+      "903": "tetapi",
+      "907": "melewatkan",
+      "912": "mereka",
+      "917": "di",
+      "920": "pidato",
+      "927": "karena",
+      "935": "mereka",
+      "940": "adalah",
+      "944": "lebih pendek",
+      "953": "lebih lembut",
+      "961": "atau",
+      "964": "bergabung dengan",
+      "971": "mengeluh kepada",
+      "974": "lain",
+      "980": "kata",
+      "988": "kecepatan",
+      "994": "adalah",
+      "997": "lainnya",
+      "1005": "masalah",
+      "1014": "di",
+      "1017": "film",
+      "1024": "dan",
+      "1028": "podcast",
+      "1038": "orang-orang",
+      "1045": "menginterupsi",
+      "1055": "setiap",
+      "1060": "lain",
+      "1067": "mengubah irama",
+      "1074": "mengubah kecepatan",
+      "1080": "berbicara dengan",
+      "1086": "dengan",
+      "1091": "emosi",
+      "1100": "atau",
+      "1103": "bicara melebihi",
+      "1108": "di atas",
+      "1113": "musik latar",
+      "1124": "musik",
+      "1131": "bahasa Inggris",
+      "1139": "irama",
+      "1146": "membuat",
+      "1152": "ini",
+      "1157": "lebih sulit",
+      "1164": "karena",
+      "1172": "kata yang ditekankan",
+      "1181": "kata yang ditekankan",
+      "1187": "adalah",
+      "1191": "kuat",
+      "1199": "sementara",
+      "1205": "tidak ditekankan",
+      "1216": "kata yang ditekan",
+      "1222": "adalah",
+      "1226": "memadat",
+      "1235": "membaca makna tersembunyi",
+      "1243": "mereka",
+      "1249": "pelajar",
+      "1258": "sering",
+      "1264": "mencoba",
+      "1268": "mengeluh kepada",
+      "1271": "mendengar",
+      "1276": "setiap",
+      "1282": "kata",
+      "1287": "dengan sama",
+      "1296": "tetapi",
+      "1300": "penutur asli",
+      "1307": "penutur asli",
+      "1319": "tidak hanya",
+      "1323": "mengucapkan",
+      "1327": "setiap",
+      "1333": "kata",
+      "1338": "dengan sama",
+      "1348": "bahasa gaul",
+      "1354": "dan",
+      "1358": "budaya",
+      "1366": "menambahkan",
+      "1370": "satu",
+      "1374": "lebih",
+      "1379": "lapisan",
+      "1388": "tertulis",
+      "1396": "artikel",
+      "1404": "adalah",
+      "1407": "biasanya",
+      "1415": "mengedit",
+      "1422": "dan",
+      "1426": "mengorganisasi",
+      "1439": "film",
+      "1445": "adegan",
+      "1451": "boleh",
+      "1455": "menyertakan",
+      "1463": "lelucon",
+      "1470": "belum selesai",
+      "1481": "kalimat",
+      "1492": "ungkapan idiomatik",
+      "1500": "sarkasme",
+      "1509": "aksen",
+      "1518": "dan",
+      "1522": "referensi",
+      "1533": "itu",
+      "1538": "adalah",
+      "1542": "tidak hanya",
+      "1546": "menjelaskan",
+      "1557": "podcast",
+      "1566": "dapat",
+      "1570": "harus",
+      "1573": "bahkan",
+      "1578": "lebih sulit",
+      "1585": "karena",
+      "1593": "di sana",
+      "1599": "adalah",
+      "1602": "tanpa",
+      "1605": "dukungan visual",
+      "1612": "dukungan",
+      "1621": "kamu",
+      "1625": "tidak bisa dinegosiasikan",
+      "1632": "melihat",
+      "1640": "pembicara",
+      "1650": "wajah",
+      "1656": "isyarat",
+      "1666": "atau",
+      "1669": "situasi",
+      "1685": "berita baik",
+      "1690": "berita baik",
+      "1695": "adalah",
+      "1698": "itu",
+      "1703": "ini",
+      "1708": "kesenjangan",
+      "1712": "dapat",
+      "1716": "harus",
+      "1719": "melatih",
+      "1732": "terbaik",
+      "1737": "praktik terbaik",
+      "1746": "adalah",
+      "1749": "tidak hanya",
+      "1753": "dengan sederhana",
+      "1761": "menonton",
+      "1767": "lebih",
+      "1772": "film",
+      "1781": "pasif",
+      "1789": "menonton",
+      "1798": "membantu",
+      "1806": "sedikit",
+      "1814": "tetapi",
+      "1818": "mendengarkan aktif",
+      "1825": "mendengarkan aktif",
+      "1835": "membantu",
+      "1841": "banyak",
+      "1846": "lebih",
+      "1853": "mencoba",
+      "1857": "mendengarkan siklus pendek",
+      "1868": "mendengarkan",
+      "1879": "memilih",
+      "1886": "dua puluh",
+      "1893": "mengeluh kepada",
+      "1896": "empat puluh",
+      "1902": "detik",
+      "1910": "dari",
+      "1913": "audio",
+      "1920": "mendengarkan",
+      "1927": "sekali",
+      "1932": "tanpa",
+      "1940": "teks terjemahan",
+      "1951": "kemudian",
+      "1956": "membaca",
+      "1965": "transkrip",
+      "1976": "dan",
+      "1980": "menandai",
+      "1985": "di mana",
+      "1995": "suara",
+      "2001": "membuat terkejut",
+      "2011": "kamu",
+      "2016": "melakukan",
+      "2021": "akan",
+      "2027": "mengeluh kepada",
+      "2031": "terdengar seperti",
+      "2037": "terdengar seperti",
+      "2043": "akan",
+      "2051": "melakukan",
+      "2055": "dua",
+      "2059": "kata",
+      "2065": "menjadi",
+      "2072": "satu",
+      "2076": "menjadi satu bunyi",
+      "2083": "kemudian",
+      "2088": "mendengarkan",
+      "2095": "lagi",
+      "2101": "tanpa",
+      "2113": "transkrip",
+      "2125": "ini",
+      "2130": "melatih",
+      "2137": "milikmu",
+      "2142": "telinga",
+      "2146": "mengeluh kepada",
+      "2149": "menghubungkan",
+      "2157": "nyata",
+      "2162": "suara",
+      "2168": "dengan",
+      "2173": "kata-kata",
+      "2179": "kamu",
+      "2183": "sudah",
+      "2191": "tahu",
+      "2198": "menirukan secara langsung",
+      "2208": "adalah",
+      "2211": "juga",
+      "2216": "berguna",
+      "2224": "memilih",
+      "2229": "satu",
+      "2233": "kalimat",
+      "2242": "dan",
+      "2246": "mengulangi",
+      "2253": "itu",
+      "2256": "setelah",
+      "2266": "pembicara",
+      "2278": "tidak hanya",
+      "2282": "saja",
+      "2287": "menyalin",
+      "2296": "individu",
+      "2307": "kata",
+      "2314": "menyalin",
+      "2323": "irama",
+      "2331": "tekanan suara",
+      "2339": "dan",
+      "2343": "pengurangan",
+      "2355": "untuk",
+      "2359": "contoh",
+      "2369": "apa",
+      "2374": "adalah",
+      "2378": "kamu",
+      "2382": "akan",
+      "2388": "mengeluh kepada",
+      "2396": "boleh",
+      "2400": "terdengar seperti",
+      "2406": "terdengar seperti",
+      "2412": "apa yang kamu",
+      "2421": "akan",
+      "2432": "mengatakan",
+      "2443": "mengurangi",
+      "2451": "versi",
+      "2459": "membantu",
+      "2465": "kamu",
+      "2469": "mengenali",
+      "2479": "itu",
+      "2482": "kemudian",
+      "2490": "belajar",
+      "2496": "potongan",
+      "2504": "tidak hanya",
+      "2508": "saja",
+      "2513": "tunggal",
+      "2520": "kata",
+      "2527": "kecuali",
+      "2532": "frasa",
+      "2540": "seperti",
+      "2545": "sebagai",
+      "2549": "saya",
+      "2551": "adalah",
+      "2555": "seharusnya",
+      "2564": "mengeluh kepada",
+      "2570": "agak",
+      "2575": "dari",
+      "2578": "semacam",
+      "2586": "kamu",
+      "2590": "mengerti maksud saya",
+      "2595": "apa",
+      "2600": "saya",
+      "2602": "tahu maksud saya",
+      "2609": "dan",
+      "2614": "di",
+      "2621": "pada akhirnya",
+      "2625": "dari",
+      "2632": "pada akhirnya",
+      "2638": "ini",
+      "2644": "fragmen umum",
+      "2651": "potongan",
+      "2658": "sering",
+      "2664": "muncul",
+      "2671": "di",
+      "2674": "film",
+      "2681": "dan",
+      "2685": "podcast",
+      "2695": "dan",
+      "2699": "pembicara",
+      "2708": "mengucapkan",
+      "2718": "mereka",
+      "2723": "sebagai",
+      "2726": "sebagai satu kelompok suara",
+      "2730": "kelompok bunyi",
+      "2736": "kelompok bunyi",
+      "2744": "itu",
+      "2747": "adalah",
+      "2750": "juga",
+      "2755": "baik",
+      "2760": "mengeluh kepada",
+      "2763": "memperlambat",
+      "2768": "audio",
+      "2774": "memperlambat",
+      "2780": "mendengarkan",
+      "2790": "di",
+      "2798": "kecepatan",
+      "2804": "atau",
+      "2807": "menggunakan",
+      "2813": "teks terjemahan",
+      "2823": "setelah",
+      "2831": "percobaan pertama",
+      "2837": "usaha",
+      "2845": "adalah",
+      "2848": "tidak hanya",
+      "2852": "curang",
+      "2866": "kunci untuk",
+      "2870": "adalah",
+      "2873": "mengeluh kepada",
+      "2876": "kembali",
+      "2883": "mengeluh kepada",
+      "2890": "asli",
+      "2899": "kecepatan",
+      "2905": "kemudian",
+      "2912": "dukungan",
+      "2920": "adalah",
+      "2923": "berguna",
+      "2930": "ketika",
+      "2935": "itu",
+      "2938": "membantu",
+      "2944": "kamu",
+      "2948": "melatih",
+      "2955": "tidak hanya",
+      "2959": "ketika",
+      "2964": "itu",
+      "2967": "menggantikan",
+      "2976": "mendengarkan",
+      "2990": "sederhana",
+      "2997": "mingguan",
+      "3004": "rutinitas",
+      "3012": "berhasil",
+      "3018": "berfungsi dengan baik",
+      "3024": "memilih",
+      "3031": "satu",
+      "3035": "singkat",
+      "3041": "adegan",
+      "3047": "atau",
+      "3050": "podcast",
+      "3058": "segmen",
+      "3067": "mendengarkan dengan saksama",
+      "3074": "secara aktif",
+      "3083": "untuk",
+      "3087": "sepuluh menit",
+      "3091": "menit",
+      "3100": "membandingkan",
+      "3108": "itu",
+      "3111": "dengan",
+      "3120": "transkrip",
+      "3132": "mengikuti atau menirukan secara langsung",
+      "3139": "tiga",
+      "3145": "berguna",
+      "3152": "kalimat",
+      "3163": "dan",
+      "3167": "menyimpan",
+      "3172": "lima",
+      "3177": "potongan",
+      "3185": "ini",
+      "3190": "adalah",
+      "3193": "lebih baik",
+      "3200": "daripada",
+      "3205": "menonton",
+      "3214": "dua",
+      "3218": "jam",
+      "3224": "dengan pasif",
+      "3235": "di atas",
+      "3240": "seiring waktu",
+      "3246": "Bahasa Inggris lisan",
+      "3253": "bahasa Inggris",
+      "3261": "menjadi",
+      "3269": "lebih sedikit",
+      "3274": "mirip dengan",
+      "3279": "kebisingan",
+      "3285": "dan",
+      "3289": "lebih",
+      "3294": "mirip dengan",
+      "3299": "bahasa"
+    }
+  },
+  "cardDescription": "Why movies and podcasts can feel harder than reading — and how to train your ear for real spoken English.",
+  "tags": [
+    "language-learning",
+    "listening"
+  ],
+  "createdAt": "2026-06-28"
+}
